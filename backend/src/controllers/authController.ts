@@ -86,74 +86,140 @@ export class AuthController {
   async login(req: Request, res: Response) {
     const { email, password } = req.body;
 
-    // Find user
-    const user = await prisma.user.findUnique({
-      where: { email },
-    });
-
-    if (!user) {
-      return res.status(401).json({
-        success: false,
-        error: {
-          code: 'INVALID_CREDENTIALS',
-          message: 'Invalid email or password',
-        },
-      });
-    }
-
-    // Check password
-    const isPasswordValid = await bcrypt.compare(password, user.password);
-
-    if (!isPasswordValid) {
-      return res.status(401).json({
-        success: false,
-        error: {
-          code: 'INVALID_CREDENTIALS',
-          message: 'Invalid email or password',
-        },
-      });
-    }
-
-    // Check if user is active
-    if (!user.isActive) {
-      return res.status(401).json({
-        success: false,
-        error: {
-          code: 'ACCOUNT_DISABLED',
-          message: 'Your account has been disabled',
-        },
-      });
-    }
-
-    // Generate tokens
-    const accessToken = this.generateAccessToken(user.id);
-    const refreshToken = this.generateRefreshToken(user.id);
-
-    // Update last login (optional)
-    await prisma.user.update({
-      where: { id: user.id },
-      data: { updatedAt: new Date() },
-    });
-
-    res.json({
-      success: true,
-      data: {
-        user: {
-          id: user.id,
-          email: user.email,
-          username: user.username,
-          firstName: user.firstName,
-          lastName: user.lastName,
-          avatar: user.avatar,
-          isVerified: user.isVerified,
-        },
-        tokens: {
-          accessToken,
-          refreshToken,
-          expiresIn: process.env.JWT_EXPIRES_IN || '7d',
-        },
+    // 临时演示用户 - 用于测试登录界面
+    const demoUsers = [
+      {
+        id: 'demo-1',
+        email: 'admin@financial.com',
+        password: 'admin123456',
+        username: 'admin',
+        firstName: 'Admin',
+        lastName: 'User',
+        isVerified: true,
+        isActive: true,
       },
-    });
+      {
+        id: 'demo-2', 
+        email: 'user@financial.com',
+        password: 'user123456',
+        username: 'user',
+        firstName: 'Demo',
+        lastName: 'User',
+        isVerified: true,
+        isActive: true,
+      }
+    ];
+
+    // 查找演示用户
+    const demoUser = demoUsers.find(user => user.email === email && user.password === password);
+
+    if (demoUser) {
+      // 生成演示token
+      const accessToken = this.generateAccessToken(demoUser.id);
+      const refreshToken = this.generateRefreshToken(demoUser.id);
+
+      res.json({
+        success: true,
+        data: {
+          user: {
+            id: demoUser.id,
+            email: demoUser.email,
+            username: demoUser.username,
+            firstName: demoUser.firstName,
+            lastName: demoUser.lastName,
+            avatar: demoUser.avatar,
+            isVerified: demoUser.isVerified,
+          },
+          tokens: {
+            accessToken,
+            refreshToken,
+            expiresIn: process.env.JWT_EXPIRES_IN || '7d',
+          },
+        },
+      });
+      return;
+    }
+
+    // 如果没有找到演示用户，尝试数据库查询
+    try {
+      // Find user
+      const user = await prisma.user.findUnique({
+        where: { email },
+      });
+
+      if (!user) {
+        return res.status(401).json({
+          success: false,
+          error: {
+            code: 'INVALID_CREDENTIALS',
+            message: 'Invalid email or password',
+          },
+        });
+      }
+
+      // Check password
+      const isPasswordValid = await bcrypt.compare(password, user.password);
+
+      if (!isPasswordValid) {
+        return res.status(401).json({
+          success: false,
+          error: {
+            code: 'INVALID_CREDENTIALS',
+            message: 'Invalid email or password',
+          },
+        });
+      }
+
+      // Check if user is active
+      if (!user.isActive) {
+        return res.status(401).json({
+          success: false,
+          error: {
+            code: 'ACCOUNT_DISABLED',
+            message: 'Your account has been disabled',
+          },
+        });
+      }
+
+      // Generate tokens
+      const accessToken = this.generateAccessToken(user.id);
+      const refreshToken = this.generateRefreshToken(user.id);
+
+      // Update last login (optional)
+      await prisma.user.update({
+        where: { id: user.id },
+        data: { updatedAt: new Date() },
+      });
+
+      res.json({
+        success: true,
+        data: {
+          user: {
+            id: user.id,
+            email: user.email,
+            username: user.username,
+            firstName: user.firstName,
+            lastName: user.lastName,
+            avatar: user.avatar,
+            isVerified: user.isVerified,
+          },
+          tokens: {
+            accessToken,
+            refreshToken,
+            expiresIn: process.env.JWT_EXPIRES_IN || '7d',
+          },
+        },
+      });
+    } catch (error) {
+      console.error('Database error during login:', error);
+      return res.status(500).json({
+        success: false,
+        error: {
+          code: 'DATABASE_ERROR',
+          message: 'Database connection error. Please try again later.',
+        },
+      });
+    }
   }
 
   async logout(req: Request, res: Response) {

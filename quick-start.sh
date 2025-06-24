@@ -5,7 +5,7 @@
 echo "🚀 快速启动智能财务管理系统..."
 
 # 检查环境
-if ! command -v docker &> /dev/null; then
+if ! command -v docker &> /dev/null; thehttp://localhost:3000/auth/loginn
     echo "❌ 需要安装 Docker"
     exit 1
 fi

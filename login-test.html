@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能财务管理系统 - 登录测试</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            width: 100%;
+            max-width: 400px;
+            margin: 20px;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo h1 {
+            color: #1890ff;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .logo p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e8e8e8;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #1890ff;
+        }
+
+        .form-options {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+        }
+
+        .checkbox-group input[type="checkbox"] {
+            width: auto;
+            margin-right: 8px;
+        }
+
+        .forgot-password {
+            color: #1890ff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 12px;
+            background: #1890ff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .login-btn:hover {
+            background: #40a9ff;
+        }
+
+        .login-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .divider {
+            text-align: center;
+            margin: 24px 0;
+            position: relative;
+        }
+
+        .divider::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: #e8e8e8;
+        }
+
+        .divider span {
+            background: white;
+            padding: 0 16px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .register-link {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .register-link a {
+            color: #1890ff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .demo-info {
+            margin-top: 24px;
+            padding: 16px;
+            background: #f6f8fa;
+            border-radius: 6px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .demo-info h4 {
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .demo-info p {
+            margin-bottom: 4px;
+        }
+
+        .alert {
+            padding: 12px 16px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .alert-error {
+            background: #fff2f0;
+            border: 1px solid #ffccc7;
+            color: #cf1322;
+        }
+
+        .alert-success {
+            background: #f6ffed;
+            border: 1px solid #b7eb8f;
+            color: #389e0d;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid #ffffff;
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: spin 1s ease-in-out infinite;
+            margin-right: 8px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">
+            <h1>💰 智能财务管理系统</h1>
+            <p>Professional Financial Management Solution</p>
+        </div>
+
+        <div id="alert" class="alert" style="display: none;"></div>
+
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">邮箱地址</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="请输入邮箱地址"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="password">密码</label>
+                <input 
+                    type="password" 
+                    id="password" 
+                    name="password" 
+                    placeholder="请输入密码"
+                    required
+                >
+            </div>
+
+            <div class="form-options">
+                <div class="checkbox-group">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">记住我</label>
+                </div>
+                <a href="#" class="forgot-password">忘记密码？</a>
+            </div>
+
+            <button type="submit" class="login-btn" id="loginBtn">
+                <span id="loginText">登录</span>
+            </button>
+        </form>
+
+        <div class="divider">
+            <span>或</span>
+        </div>
+
+        <div class="register-link">
+            还没有账户？ <a href="#">立即注册</a>
+        </div>
+
+        <div class="demo-info">
+            <h4>🎯 演示账户</h4>
+            <p><strong>管理员账户:</strong></p>
+            <p>邮箱: admin@financial.com</p>
+            <p>密码: admin123456</p>
+            <br>
+            <p><strong>普通用户账户:</strong></p>
+            <p>邮箱: user@financial.com</p>
+            <p>密码: user123456</p>
+        </div>
+    </div>
+
+    <script>
+        const loginForm = document.getElementById('loginForm');
+        const loginBtn = document.getElementById('loginBtn');
+        const loginText = document.getElementById('loginText');
+        const alertDiv = document.getElementById('alert');
+
+        function showAlert(message, type = 'error') {
+            alertDiv.textContent = message;
+            alertDiv.className = `alert alert-${type}`;
+            alertDiv.style.display = 'block';
+        }
+
+        function hideAlert() {
+            alertDiv.style.display = 'none';
+        }
+
+        function setLoading(loading) {
+            if (loading) {
+                loginBtn.disabled = true;
+                loginText.innerHTML = '<span class="loading"></span>登录中...';
+            } else {
+                loginBtn.disabled = false;
+                loginText.textContent = '登录';
+            }
+        }
+
+        loginForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const formData = new FormData(loginForm);
+            const email = formData.get('email');
+            const password = formData.get('password');
+            const remember = formData.get('remember');
+
+            hideAlert();
+            setLoading(true);
+
+            try {
+                // 模拟API调用
+                console.log('尝试登录:', { email, password, remember });
+                
+                // 模拟网络延迟
+                await new Promise(resolve => setTimeout(resolve, 1500));
+
+                // 检查演示账户
+                const demoUsers = [
+                    { email: 'admin@financial.com', password: 'admin123456', role: '管理员' },
+                    { email: 'user@financial.com', password: 'user123456', role: '普通用户' }
+                ];
+
+                const user = demoUsers.find(u => u.email === email && u.password === password);
+
+                if (user) {
+                    showAlert(`🎉 登录成功！欢迎 ${user.role} ${email}`, 'success');
+                    
+                    // 模拟跳转到仪表板
+                    setTimeout(() => {
+                        showAlert('🚀 正在跳转到仪表板...', 'success');
+                    }, 1000);
+                } else {
+                    showAlert('❌ 邮箱或密码错误，请检查后重试');
+                }
+
+            } catch (error) {
+                console.error('登录失败:', error);
+                showAlert('❌ 登录失败，请检查网络连接后重试');
+            } finally {
+                setLoading(false);
+            }
+        });
+
+        // 自动填充演示账户
+        document.getElementById('email').addEventListener('focus', function() {
+            if (!this.value) {
+                this.placeholder = 'admin@financial.com';
+            }
+        });
+
+        document.getElementById('password').addEventListener('focus', function() {
+            if (!this.value) {
+                this.placeholder = 'admin123456';
+            }
+        });
+
+        // 页面加载完成后的提示
+        window.addEventListener('load', () => {
+            console.log('🎯 登录测试页面已加载');
+            console.log('📝 可以使用演示账户进行测试');
+        });
+    </script>
+</body>
+</html> 
