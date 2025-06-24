@@ -1,23 +1,39 @@
-version: '3.8'
-
 services:
-  # 前端服务
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-    ports:
-      - "3000:3000"
-    volumes:
-      - ./frontend:/app
-      - /app/node_modules
+  # PostgreSQL 数据库 - 使用最新稳定版本
+  postgres:
+    image: postgres:latest
     environment:
-      - REACT_APP_API_URL=http://localhost:8000
-      - REACT_APP_ENV=development
-    depends_on:
-      - backend
+      - POSTGRES_DB=financial_db
+      - POSTGRES_USER=financial_user
+      - POSTGRES_PASSWORD=financial_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
     networks:
       - financial-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U financial_user -d financial_db"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Redis 缓存 - 使用最新稳定版本
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    networks:
+      - financial-net
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
   # 后端服务
   backend:
@@ -36,46 +52,49 @@ services:
       - JWT_SECRET=your-super-secret-jwt-key
       - PORT=8000
     depends_on:
-      - postgres
-      - redis
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
     networks:
       - financial-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
-  # PostgreSQL 数据库 - 使用官方镜像的备用版本
-  postgres:
-    image: postgres:15.3-alpine3.18
+  # 前端服务
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
     environment:
-      - POSTGRES_DB=financial_db
-      - POSTGRES_USER=financial_user
-      - POSTGRES_PASSWORD=financial_password
-    ports:
-      - "5432:5432"
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
-    networks:
-      - financial-net
-
-  # Redis 缓存 - 使用官方镜像的备用版本
-  redis:
-    image: redis:7.0.11-alpine3.18
-    ports:
-      - "6379:6379"
-    volumes:
-      - redis_data:/data
+      - REACT_APP_API_URL=http://localhost:8000
+      - REACT_APP_ENV=development
+    depends_on:
+      backend:
+        condition: service_healthy
     networks:
       - financial-net
 
   # pgAdmin (数据库管理工具)
   pgadmin:
-    image: dpage/pgadmin4:7.3
+    image: dpage/pgadmin4:latest
     environment:
       - PGADMIN_DEFAULT_EMAIL=admin@financial.com
       - PGADMIN_DEFAULT_PASSWORD=admin123
+      - PGADMIN_CONFIG_SERVER_MODE=False
     ports:
       - "5050:80"
     depends_on:
-      - postgres
+      postgres:
+        condition: service_healthy
     networks:
       - financial-net
 
@@ -85,4 +104,4 @@ volumes:
 
 networks:
   financial-net:
-    driver: bridge 
+    driver: bridge

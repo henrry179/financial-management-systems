@@ -1,0 +1,53 @@
+2025-06-25 07:54:49,566 - INFO - 
+╔══════════════════════════════════════════════════════════════╗
+║                🔧 Docker系统修复工具 v1.0                     ║
+║                  Financial System Docker Fixer                ║
+║                     智能诊断与修复系统                          ║
+╚══════════════════════════════════════════════════════════════╝
+
+🕒 修复时间: 2025-06-25 07:54:49
+💻 操作系统: Darwin
+📁 项目路径: /Users/mac/Downloads/WorkFiles/Githubstars/Financialmanagementsystems
+
+2025-06-25 07:54:49,566 - INFO - 🔍 第一阶段：Docker问题诊断...
+2025-06-25 07:54:49,612 - INFO - ✅ Docker 服务正在运行
+2025-06-25 07:54:49,994 - INFO - ❌ 检测到腾讯云镜像源连接问题
+2025-06-25 07:54:50,012 - INFO - ❌ 缺少必需的Docker镜像
+2025-06-25 07:54:50,012 - INFO - 🔍 发现 2 个问题需要修复:
+2025-06-25 07:54:50,012 - INFO -   • 腾讯云镜像源连接问题
+2025-06-25 07:54:50,012 - INFO -   • 缺少必需的Docker镜像
+2025-06-25 07:54:50,012 - INFO - 🔧 第二阶段：修复Docker镜像源...
+2025-06-25 07:54:50,012 - INFO - 📝 配置Docker使用官方镜像源...
+2025-06-25 07:54:50,013 - INFO - ✅ Docker配置文件已更新
+2025-06-25 07:54:50,013 - INFO - 🔄 尝试重新加载Docker配置...
+2025-06-25 07:55:03,206 - INFO - 📦 第三阶段：拉取必需镜像...
+2025-06-25 07:55:03,209 - INFO - 📥 拉取镜像: postgres:15-alpine
+2025-06-25 07:55:08,420 - INFO - ❌ 拉取失败: postgres:15-alpine
+2025-06-25 07:55:08,420 - INFO - 错误信息: Error response from daemon: failed to resolve reference "docker.io/library/postgres:15-alpine": failed to do request: Head "https://registry-1.docker.io/v2/library/postgres/manifests/15-alpine": EOF
+
+2025-06-25 07:55:08,420 - INFO - 🔄 尝试替代镜像: postgres:latest
+2025-06-25 07:55:13,582 - INFO - 📥 拉取镜像: redis:7-alpine
+2025-06-25 07:55:18,721 - INFO - ❌ 拉取失败: redis:7-alpine
+2025-06-25 07:55:18,722 - INFO - 错误信息: Error response from daemon: failed to resolve reference "docker.io/library/redis:7-alpine": failed to do request: Head "https://registry-1.docker.io/v2/library/redis/manifests/7-alpine": EOF
+
+2025-06-25 07:55:18,722 - INFO - 🔄 尝试替代镜像: redis:latest
+2025-06-25 07:55:23,868 - INFO - 📥 拉取镜像: dpage/pgadmin4:latest
+2025-06-25 07:55:29,015 - INFO - ❌ 拉取失败: dpage/pgadmin4:latest
+2025-06-25 07:55:29,015 - INFO - 错误信息: Error response from daemon: failed to resolve reference "docker.io/dpage/pgadmin4:latest": failed to do request: Head "https://registry-1.docker.io/v2/dpage/pgadmin4/manifests/latest": EOF
+
+2025-06-25 07:55:29,015 - INFO - 📥 拉取镜像: node:18-alpine
+2025-06-25 07:55:34,151 - INFO - ❌ 拉取失败: node:18-alpine
+2025-06-25 07:55:34,152 - INFO - 错误信息: Error response from daemon: failed to resolve reference "docker.io/library/node:18-alpine": failed to do request: Head "https://registry-1.docker.io/v2/library/node/manifests/18-alpine": EOF
+
+2025-06-25 07:55:34,152 - INFO - 📊 镜像拉取结果: 0/4 成功
+2025-06-25 07:55:34,152 - INFO - 📝 第四阶段：优化Docker Compose配置...
+2025-06-25 07:55:34,153 - INFO - ✅ Docker Compose配置已优化
+2025-06-25 07:55:34,153 - INFO - 🧪 第五阶段：测试系统启动...
+2025-06-25 07:55:34,153 - INFO - 🔄 清理旧容器...
+2025-06-25 07:55:34,361 - INFO - 🚀 启动数据库服务...
+2025-06-25 07:55:39,514 - INFO - ❌ 系统启动失败: Command '['docker-compose', 'up', '-d', 'postgres', 'redis']' returned non-zero exit status 1.
+2025-06-25 07:55:39,514 - INFO - 📜 创建优化启动脚本...
+2025-06-25 07:55:39,519 - INFO - ✅ 优化启动脚本已创建: /Users/mac/Downloads/WorkFiles/Githubstars/Financialmanagementsystems/start_system_fixed.py
+2025-06-25 07:55:39,520 - INFO - 
+📊 修复完成度: 3/5
+2025-06-25 07:55:39,520 - INFO - ⚠️  部分修复未完成，请检查错误信息
