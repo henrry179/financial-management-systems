@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { authAPI } from '../services/api';
+import { authApi } from '../services/api';
 
 export interface User {
   id: string;
@@ -64,7 +64,7 @@ export const useAuthStore = create<AuthStore>()(
         try {
           set({ isLoading: true, error: null });
           
-          const response = await authAPI.login({ email, password });
+          const response = await authApi.login({ email, password });
           
           if (response.success && response.data) {
             const { user, tokens } = response.data;
@@ -98,7 +98,7 @@ export const useAuthStore = create<AuthStore>()(
         try {
           set({ isLoading: true, error: null });
           
-          const response = await authAPI.register(data);
+          const response = await authApi.register(data);
           
           if (response.success) {
             set({
@@ -132,7 +132,7 @@ export const useAuthStore = create<AuthStore>()(
         });
 
         // Call logout API (optional, for server-side cleanup)
-        authAPI.logout().catch(console.error);
+        authApi.logout().catch(console.error);
       },
 
       refreshToken: async () => {
@@ -143,7 +143,7 @@ export const useAuthStore = create<AuthStore>()(
             throw new Error('No refresh token available');
           }
 
-          const response = await authAPI.refreshToken(tokens.refreshToken);
+          const response = await authApi.refreshToken(tokens.refreshToken);
           
           if (response.success && response.data) {
             const newTokens = {
