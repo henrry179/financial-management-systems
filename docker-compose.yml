@@ -41,9 +41,9 @@ services:
     networks:
       - financial-net
 
-  # PostgreSQL 数据库
+  # PostgreSQL 数据库 - 使用官方镜像的备用版本
   postgres:
-    image: postgres:15-alpine
+    image: postgres:15.3-alpine3.18
     environment:
       - POSTGRES_DB=financial_db
       - POSTGRES_USER=financial_user
@@ -56,9 +56,9 @@ services:
     networks:
       - financial-net
 
-  # Redis 缓存
+  # Redis 缓存 - 使用官方镜像的备用版本
   redis:
-    image: redis:7-alpine
+    image: redis:7.0.11-alpine3.18
     ports:
       - "6379:6379"
     volumes:
@@ -68,7 +68,7 @@ services:
 
   # pgAdmin (数据库管理工具)
   pgadmin:
-    image: dpage/pgadmin4:latest
+    image: dpage/pgadmin4:7.3
     environment:
       - PGADMIN_DEFAULT_EMAIL=admin@financial.com
       - PGADMIN_DEFAULT_PASSWORD=admin123
