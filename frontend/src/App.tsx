@@ -11,20 +11,20 @@ import ResponsiveLayout from './components/common/ResponsiveLayout';
 
 // Auth Pages
 import LoginPage from './pages/auth/LoginPage';
+import RegisterPage from './pages/auth/RegisterPage';
 
 // Business Pages
 import TransactionsPage from './pages/transactions/TransactionsPage';
 import { BIAnalyticsPage } from './pages/bi-analytics';
+import DashboardPage from './pages/DashboardPage';
 
 // Dashboard Pages - Placeholder components
-const DashboardPage = () => <div>仪表板页面</div>;
 const AccountsPage = () => <div>账户管理页面</div>;
 const CategoriesPage = () => <div>分类管理页面</div>;
 const BudgetsPage = () => <div>预算管理页面</div>;
 const ReportsPage = () => <div>报告分析页面</div>;
 const SettingsPage = () => <div>系统设置页面</div>;
 const ProfilePage = () => <div>个人资料页面</div>;
-const RegisterPage = () => <div>注册页面</div>;
 const ForgotPasswordPage = () => <div>忘记密码页面</div>;
 const ResetPasswordPage = () => <div>重置密码页面</div>;
 const VerifyEmailPage = () => <div>邮箱验证页面</div>;
