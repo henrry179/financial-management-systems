@@ -1,0 +1,127 @@
+{
+  "name": "财务管理系统",
+  "short_name": "财务管理",
+  "description": "个人和企业财务管理应用",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#1890ff",
+  "background_color": "#ffffff",
+  "lang": "zh-CN",
+  "scope": "/",
+  "categories": ["finance", "business", "productivity"],
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/mobile-dashboard.png",
+      "sizes": "375x812",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "移动端仪表板界面"
+    },
+    {
+      "src": "/screenshots/mobile-transactions.png",
+      "sizes": "375x812",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "移动端交易记录界面"
+    },
+    {
+      "src": "/screenshots/desktop-dashboard.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "桌面端仪表板界面"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "添加交易",
+      "short_name": "新交易",
+      "description": "快速添加新的交易记录",
+      "url": "/transactions/add",
+      "icons": [
+        {
+          "src": "/icons/shortcut-add.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "查看报表",
+      "short_name": "报表",
+      "description": "查看财务报表和分析",
+      "url": "/reports",
+      "icons": [
+        {
+          "src": "/icons/shortcut-reports.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "file_handlers": [
+    {
+      "action": "/import",
+      "accept": {
+        "text/csv": [".csv"],
+        "application/vnd.ms-excel": [".xls"],
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": [".xlsx"]
+      }
+    }
+  ]
+} 

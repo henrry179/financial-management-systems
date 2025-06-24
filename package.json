@@ -1,0 +1,43 @@
+{
+  "name": "financial-management-system",
+  "version": "1.0.0",
+  "description": "综合智能财务管理解决方案",
+  "main": "index.js",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "test": "npm run test:frontend && npm run test:backend",
+    "test:frontend": "cd frontend && npm run test",
+    "test:backend": "cd backend && npm run test",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "db:migrate": "cd backend && npm run db:migrate",
+    "db:seed": "cd backend && npm run db:seed"
+  },
+  "keywords": [
+    "财务管理",
+    "记账系统",
+    "BI看板",
+    "报告生成",
+    "数据分析"
+  ],
+  "author": "开发团队",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+} 

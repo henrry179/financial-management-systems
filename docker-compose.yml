@@ -1,0 +1,88 @@
+version: '3.8'
+
+services:
+  # 前端服务
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - REACT_APP_API_URL=http://localhost:8000
+      - REACT_APP_ENV=development
+    depends_on:
+      - backend
+    networks:
+      - financial-net
+
+  # 后端服务
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - DATABASE_URL=postgresql://financial_user:financial_password@postgres:5432/financial_db
+      - REDIS_URL=redis://redis:6379
+      - JWT_SECRET=your-super-secret-jwt-key
+      - PORT=8000
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - financial-net
+
+  # PostgreSQL 数据库
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_DB=financial_db
+      - POSTGRES_USER=financial_user
+      - POSTGRES_PASSWORD=financial_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - financial-net
+
+  # Redis 缓存
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - financial-net
+
+  # pgAdmin (数据库管理工具)
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@financial.com
+      - PGADMIN_DEFAULT_PASSWORD=admin123
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    networks:
+      - financial-net
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  financial-net:
+    driver: bridge 
