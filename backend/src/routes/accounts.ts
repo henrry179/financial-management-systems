@@ -92,7 +92,7 @@ router.get(
   '/:id',
   uuidParamValidation,
   validateRequest,
-  asyncHandler(accountController.getAccount.bind(accountController))
+  asyncHandler(accountController.getAccountById.bind(accountController))
 );
 
 router.put(
