@@ -1,0 +1,29 @@
+Docker环境设置报告
+==================
+设置时间: 2025-06-28 22:20:36
+操作系统: macos
+Docker版本: Docker version 28.2.2, build e6534b4
+Docker Compose版本: Docker Compose version v2.37.1-desktop.1
+
+镜像加速器配置:
+- 中科大: https://docker.mirrors.ustc.edu.cn
+- 网易: https://hub-mirror.c.163.com
+- 百度: https://mirror.baidubce.com
+- Docker代理: https://dockerproxy.com
+- 阿里云: https://registry.cn-hangzhou.aliyuncs.com
+
+Docker网络:
+NETWORK ID     NAME      DRIVER    SCOPE
+0523cc5ee65d   bridge    bridge    local
+124269612d70   host      host      local
+7f168219ecc7   none      null      local
+
+可用镜像:
+REPOSITORY   TAG       SIZE
+
+使用建议:
+1. 运行 ./scripts/pull-images.sh 预拉取项目镜像
+2. 使用 docker-compose -f docker-compose.dev.yml up -d 启动开发环境
+3. 使用 docker-compose -f docker-compose.yml up -d 启动生产环境
+4. 定期运行 docker system prune 清理系统
+

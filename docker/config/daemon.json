@@ -1,0 +1,75 @@
+{
+  "registry-mirrors": [
+    "https://docker.mirrors.ustc.edu.cn",
+    "https://hub-mirror.c.163.com",
+    "https://mirror.baidubce.com",
+    "https://dockerproxy.com",
+    "https://registry.cn-hangzhou.aliyuncs.com"
+  ],
+  "log-driver": "json-file",
+  "log-opts": {
+    "max-size": "10m",
+    "max-file": "3"
+  },
+  "storage-driver": "overlay2",
+  "default-ulimits": {
+    "nofile": {
+      "name": "nofile",
+      "hard": 65536,
+      "soft": 1024
+    }
+  },
+  "dns": ["8.8.8.8", "8.8.4.4", "114.114.114.114"],
+  "max-concurrent-downloads": 10,
+  "max-concurrent-uploads": 5,
+  "default-shm-size": "128M",
+  "userland-proxy": false,
+  "experimental": false,
+  "metrics-addr": "0.0.0.0:9323",
+  "iptables": true,
+  "ip-forward": true,
+  "ip-masq": true,
+  "ipv6": false,
+  "fixed-cidr-v6": "",
+  "bridge": "docker0",
+  "bip": "172.17.0.1/16",
+  "default-address-pools": [
+    {
+      "base": "172.20.0.0/16",
+      "size": 24
+    },
+    {
+      "base": "172.21.0.0/16", 
+      "size": 24
+    }
+  ],
+  "live-restore": true,
+  "no-new-privileges": false,
+  "init": false,
+  "debug": false,
+  "hosts": [],
+  "containerd": "/run/containerd/containerd.sock",
+  "runtimes": {
+    "runc": {
+      "path": "runc"
+    }
+  },
+  "default-runtime": "runc",
+  "seccomp-profile": "",
+  "selinux-enabled": false,
+  "storage-opts": [
+    "overlay2.override_kernel_check=true"
+  ],
+  "userns-remap": "",
+  "cgroup-parent": "",
+  "pidfile": "",
+  "raw-logs": false,
+  "allow-nondistributable-artifacts": [],
+  "registry-mirrors-deprecated": false,
+  "shutdown-timeout": 15,
+  "data-root": "",
+  "exec-root": "",
+  "exec-opts": [],
+  "authorization-plugins": [],
+  "features": {}
+} 

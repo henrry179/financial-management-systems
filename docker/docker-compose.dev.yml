@@ -1,0 +1,140 @@
+version: '3.8'
+
+services:
+  # PostgreSQL 数据库 - 开发环境
+  postgres:
+    image: registry.cn-hangzhou.aliyuncs.com/google_containers/postgres:13-alpine
+    container_name: financial-postgres-dev
+    environment:
+      - POSTGRES_DB=financial_dev
+      - POSTGRES_USER=dev_user
+      - POSTGRES_PASSWORD=dev_password
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_dev_data:/var/lib/postgresql/data
+      - ./init-scripts:/docker-entrypoint-initdb.d
+    networks:
+      - financial-dev-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dev_user -d financial_dev"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+
+  # Redis 缓存 - 开发环境
+  redis:
+    image: registry.cn-hangzhou.aliyuncs.com/google_containers/redis:6-alpine
+    container_name: financial-redis-dev
+    ports:
+      - "6380:6379"
+    volumes:
+      - redis_dev_data:/data
+    command: redis-server --appendonly yes --requirepass dev_password
+    networks:
+      - financial-dev-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "auth", "dev_password", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+
+  # 后端服务 - 开发环境（热重载）
+  backend:
+    build:
+      context: ../backend
+      dockerfile: ../docker/dockerfiles/backend.dev.Dockerfile
+    container_name: financial-backend-dev
+    ports:
+      - "8001:8000"
+    volumes:
+      - ../backend:/app
+      - /app/node_modules
+      - backend_logs:/app/logs
+    environment:
+      - NODE_ENV=development
+      - DATABASE_URL=postgresql://dev_user:dev_password@postgres:5432/financial_dev
+      - REDIS_URL=redis://:dev_password@redis:6379/0
+      - JWT_SECRET=dev-jwt-secret-key
+      - PORT=8000
+      - LOG_LEVEL=debug
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - financial-dev-network
+    command: npm run dev
+    restart: unless-stopped
+
+  # 前端服务 - 开发环境（热重载）
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: ../docker/dockerfiles/frontend.dev.Dockerfile
+    container_name: financial-frontend-dev
+    ports:
+      - "3001:3000"
+    volumes:
+      - ../frontend:/app
+      - /app/node_modules
+    environment:
+      - VITE_API_URL=http://localhost:8001
+      - VITE_API_VERSION=v1
+      - VITE_ENV=development
+    depends_on:
+      - backend
+    networks:
+      - financial-dev-network
+    command: npm run dev -- --host 0.0.0.0
+    restart: unless-stopped
+
+  # pgAdmin - 数据库管理工具（仅开发环境）
+  pgadmin:
+    image: registry.cn-hangzhou.aliyuncs.com/google_containers/pgadmin4:latest
+    container_name: financial-pgadmin-dev
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@dev.local
+      - PGADMIN_DEFAULT_PASSWORD=admin123
+      - PGADMIN_CONFIG_SERVER_MODE=False
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - financial-dev-network
+    restart: unless-stopped
+
+  # Maildev - 邮件测试工具（仅开发环境）
+  maildev:
+    image: registry.cn-hangzhou.aliyuncs.com/google_containers/maildev:latest
+    container_name: financial-maildev
+    ports:
+      - "1080:80"   # Web界面
+      - "1025:25"   # SMTP服务器
+    networks:
+      - financial-dev-network
+    restart: unless-stopped
+
+volumes:
+  postgres_dev_data:
+    driver: local
+  redis_dev_data:
+    driver: local
+  pgadmin_data:
+    driver: local
+  backend_logs:
+    driver: local
+
+networks:
+  financial-dev-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.21.0.0/16 
