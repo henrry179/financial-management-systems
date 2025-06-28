@@ -63,7 +63,7 @@ const filterValidation = [
     .withMessage('Limit must be between 1 and 100'),
 ];
 
-// Routes
+// Routes - 只保留 controller 中实际存在的方法
 router.get(
   '/',
   filterValidation,
@@ -78,6 +78,8 @@ router.post(
   asyncHandler(reportController.generateReport.bind(reportController))
 );
 
+// 注释掉不存在的方法
+/*
 router.get(
   '/templates',
   asyncHandler(reportController.getReportTemplates.bind(reportController))
@@ -121,6 +123,7 @@ router.get(
   validateRequest,
   asyncHandler(reportController.generateTrendAnalysis.bind(reportController))
 );
+*/
 
 router.get(
   '/:id',
@@ -136,6 +139,8 @@ router.delete(
   asyncHandler(reportController.deleteReport.bind(reportController))
 );
 
+// 注释掉不存在的方法
+/*
 router.get(
   '/:id/download',
   uuidParamValidation,
@@ -157,5 +162,6 @@ router.post(
   validateRequest,
   asyncHandler(reportController.exportReport.bind(reportController))
 );
+*/
 
 export default router; 

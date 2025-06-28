@@ -6,7 +6,7 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "sqlite"
   url      = env("DATABASE_URL")
 }
 
@@ -126,10 +126,10 @@ model Transaction {
   type          TransactionType
   description   String?
   notes         String?
-  tags          String[]
+  tags          Json?           // 标签数组，存储为 JSON
   date          DateTime
   location      String?
-  attachments   String[]
+  attachments   Json?           // 附件数组，存储为 JSON
   createdAt     DateTime        @default(now())
   updatedAt     DateTime        @updatedAt
 

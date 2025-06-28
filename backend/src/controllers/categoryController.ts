@@ -28,6 +28,144 @@ export class CategoryController {
     }
   }
 
+  async getCategoriesTree(req: AuthRequest, res: Response) {
+    try {
+      const userId = req.user?.id;
+      
+      const categories = await prisma.category.findMany({
+        where: { userId },
+        include: {
+          children: true,
+        },
+        orderBy: { name: 'asc' },
+      });
+
+      // 构建树形结构
+      const buildTree = (items: any[], parentId: string | null = null) => {
+        return items
+          .filter(item => item.parentId === parentId)
+          .map(item => ({
+            ...item,
+            children: buildTree(items, item.id),
+          }));
+      };
+
+      const tree = buildTree(categories);
+
+      res.json({
+        success: true,
+        data: tree,
+      });
+    } catch (error) {
+      console.error('Error fetching categories tree:', error);
+      res.status(500).json({
+        success: false,
+        error: {
+          code: 'FETCH_CATEGORIES_TREE_ERROR',
+          message: 'Failed to fetch categories tree',
+        },
+      });
+    }
+  }
+
+  async createDefaultCategories(req: AuthRequest, res: Response) {
+    try {
+      const userId = req.user?.id;
+      
+      const defaultCategories = [
+        // 收入分类
+        { name: '工资', type: 'INCOME', color: '#52c41a', icon: 'money-collect' },
+        { name: '奖金', type: 'INCOME', color: '#52c41a', icon: 'gift' },
+        { name: '投资收益', type: 'INCOME', color: '#52c41a', icon: 'rise' },
+        { name: '其他收入', type: 'INCOME', color: '#52c41a', icon: 'plus' },
+        
+        // 支出分类
+        { name: '餐饮', type: 'EXPENSE', color: '#ff4d4f', icon: 'coffee' },
+        { name: '交通', type: 'EXPENSE', color: '#ff4d4f', icon: 'car' },
+        { name: '购物', type: 'EXPENSE', color: '#ff4d4f', icon: 'shopping' },
+        { name: '娱乐', type: 'EXPENSE', color: '#ff4d4f', icon: 'play-circle' },
+        { name: '医疗', type: 'EXPENSE', color: '#ff4d4f', icon: 'medicine-box' },
+        { name: '教育', type: 'EXPENSE', color: '#ff4d4f', icon: 'book' },
+        { name: '住房', type: 'EXPENSE', color: '#ff4d4f', icon: 'home' },
+        { name: '其他支出', type: 'EXPENSE', color: '#ff4d4f', icon: 'minus' },
+      ];
+
+      const createdCategories = [];
+      for (const category of defaultCategories) {
+        const existing = await prisma.category.findFirst({
+          where: { userId, name: category.name },
+        });
+        
+        if (!existing) {
+          const created = await prisma.category.create({
+            data: {
+              ...category,
+              userId,
+            },
+          });
+          createdCategories.push(created);
+        }
+      }
+
+      res.json({
+        success: true,
+        data: createdCategories,
+        message: `Created ${createdCategories.length} default categories`,
+      });
+    } catch (error) {
+      console.error('Error creating default categories:', error);
+      res.status(500).json({
+        success: false,
+        error: {
+          code: 'CREATE_DEFAULT_CATEGORIES_ERROR',
+          message: 'Failed to create default categories',
+        },
+      });
+    }
+  }
+
+  async getCategory(req: AuthRequest, res: Response) {
+    try {
+      const userId = req.user?.id;
+      const { id } = req.params;
+
+      const category = await prisma.category.findFirst({
+        where: { id, userId },
+        include: {
+          children: true,
+          transactions: {
+            take: 10,
+            orderBy: { date: 'desc' },
+          },
+        },
+      });
+
+      if (!category) {
+        return res.status(404).json({
+          success: false,
+          error: {
+            code: 'CATEGORY_NOT_FOUND',
+            message: 'Category not found',
+          },
+        });
+      }
+
+      res.json({
+        success: true,
+        data: category,
+      });
+    } catch (error) {
+      console.error('Error fetching category:', error);
+      res.status(500).json({
+        success: false,
+        error: {
+          code: 'FETCH_CATEGORY_ERROR',
+          message: 'Failed to fetch category',
+        },
+      });
+    }
+  }
+
   async createCategory(req: AuthRequest, res: Response) {
     try {
       const userId = req.user?.id;
@@ -113,6 +251,118 @@ export class CategoryController {
         error: {
           code: 'DELETE_CATEGORY_ERROR',
           message: 'Failed to delete category',
+        },
+      });
+    }
+  }
+
+  async getCategoryTransactions(req: AuthRequest, res: Response) {
+    try {
+      const userId = req.user?.id;
+      const { id } = req.params;
+      const { page = 1, limit = 20 } = req.query;
+
+      const skip = (Number(page) - 1) * Number(limit);
+
+      const transactions = await prisma.transaction.findMany({
+        where: { 
+          categoryId: id,
+          userId,
+        },
+        include: {
+          category: true,
+          fromAccount: true,
+          toAccount: true,
+        },
+        orderBy: { date: 'desc' },
+        skip,
+        take: Number(limit),
+      });
+
+      const total = await prisma.transaction.count({
+        where: { 
+          categoryId: id,
+          userId,
+        },
+      });
+
+      res.json({
+        success: true,
+        data: transactions,
+        pagination: {
+          page: Number(page),
+          limit: Number(limit),
+          total,
+          pages: Math.ceil(total / Number(limit)),
+        },
+      });
+    } catch (error) {
+      console.error('Error fetching category transactions:', error);
+      res.status(500).json({
+        success: false,
+        error: {
+          code: 'FETCH_CATEGORY_TRANSACTIONS_ERROR',
+          message: 'Failed to fetch category transactions',
+        },
+      });
+    }
+  }
+
+  async getCategoryStatistics(req: AuthRequest, res: Response) {
+    try {
+      const userId = req.user?.id;
+      const { id } = req.params;
+      const { period = 'month' } = req.query;
+
+      // 计算时间范围
+      const now = new Date();
+      let startDate: Date;
+      
+      switch (period) {
+        case 'week':
+          startDate = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
+          break;
+        case 'month':
+          startDate = new Date(now.getFullYear(), now.getMonth(), 1);
+          break;
+        case 'year':
+          startDate = new Date(now.getFullYear(), 0, 1);
+          break;
+        default:
+          startDate = new Date(now.getFullYear(), now.getMonth(), 1);
+      }
+
+      const transactions = await prisma.transaction.findMany({
+        where: {
+          categoryId: id,
+          userId,
+          date: {
+            gte: startDate,
+            lte: now,
+          },
+        },
+      });
+
+      const totalAmount = transactions.reduce((sum, t) => sum + Number(t.amount), 0);
+      const transactionCount = transactions.length;
+
+      res.json({
+        success: true,
+        data: {
+          totalAmount,
+          transactionCount,
+          period,
+          startDate,
+          endDate: now,
+        },
+      });
+    } catch (error) {
+      console.error('Error fetching category statistics:', error);
+      res.status(500).json({
+        success: false,
+        error: {
+          code: 'FETCH_CATEGORY_STATISTICS_ERROR',
+          message: 'Failed to fetch category statistics',
         },
       });
     }
