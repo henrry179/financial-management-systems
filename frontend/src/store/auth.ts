@@ -191,24 +191,48 @@ export const useAuthStore = create<AuthStore>()(
           
           const token = localStorage.getItem('accessToken');
           
+          // 演示模式：如果没有token，设置为未认证状态但不阻塞应用
           if (!token) {
-            set({ isLoading: false, isAuthenticated: false });
+            console.log('No access token found, setting unauthenticated state');
+            set({ 
+              isLoading: false, 
+              isAuthenticated: false,
+              user: null,
+              tokens: null 
+            });
             return;
           }
 
-          // Verify token with server (optional)
-          // For now, we'll just check if token exists
+          // 如果有token，简单验证
           const { tokens } = get();
           
-          if (tokens?.accessToken) {
-            set({ isAuthenticated: true, isLoading: false });
+          if (tokens?.accessToken === token) {
+            console.log('Token found and valid, setting authenticated state');
+            set({ 
+              isAuthenticated: true, 
+              isLoading: false 
+            });
           } else {
-            set({ isLoading: false, isAuthenticated: false });
+            console.log('Token mismatch, clearing auth state');
+            localStorage.removeItem('accessToken');
+            localStorage.removeItem('refreshToken');
+            set({ 
+              isLoading: false, 
+              isAuthenticated: false,
+              user: null,
+              tokens: null 
+            });
           }
         } catch (error) {
           console.error('Auth check failed:', error);
-          set({ isLoading: false, isAuthenticated: false });
-          get().logout();
+          set({ 
+            isLoading: false, 
+            isAuthenticated: false,
+            user: null,
+            tokens: null 
+          });
+          localStorage.removeItem('accessToken');
+          localStorage.removeItem('refreshToken');
         }
       },
     }),

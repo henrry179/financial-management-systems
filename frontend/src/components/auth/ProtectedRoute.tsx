@@ -8,23 +8,19 @@ interface ProtectedRouteProps {
 }
 
 const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children }) => {
-  const { isAuthenticated, isLoading, checkAuth } = useAuthStore();
+  const { isAuthenticated, isLoading } = useAuthStore();
 
-  useEffect(() => {
-    // Check authentication status on mount
-    if (!isAuthenticated) {
-      checkAuth();
-    }
-  }, [isAuthenticated, checkAuth]);
-
+  // 如果正在加载，显示加载器
   if (isLoading) {
     return <LoadingSpinner tip="验证身份中..." />;
   }
 
+  // 如果未认证，重定向到登录页
   if (!isAuthenticated) {
     return <Navigate to="/auth/login" replace />;
   }
 
+  // 已认证，显示内容
   return <>{children}</>;
 };
 
