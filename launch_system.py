@@ -178,6 +178,38 @@ class FinancialSystemLauncher:
         except Exception as e:
             self.logger.warning(f"深夜模式音乐播放失败: {e}")
 
+    def _play_error_music(self):
+        """播放错误提醒音乐"""
+        self.print_color('red', "🎵 播放30秒错误提醒音乐...")
+        try:
+            if self.os_type == 'Darwin':
+                for i in range(6):
+                    subprocess.run(['afplay', '/System/Library/Sounds/Sosumi.aiff'], 
+                                 check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                    time.sleep(3)
+                    if i == 2:
+                        self._speak("检测到网络连接问题，请运行修复脚本", 'Ting-Ting', 140)
+                    elif i == 4:
+                        self._speak("修复完成后可重新启动系统", 'Ting-Ting', 130)
+        except Exception as e:
+            self.logger.warning(f"错误音乐播放失败: {e}")
+        
+        self.print_color('red', "✅ 30秒错误提醒音乐播放完成")
+
+    def _auto_fix_port_conflicts(self):
+        """自动修复端口冲突"""
+        try:
+            for service_name, config in self.services.items():
+                port = config['port']
+                if self._is_port_in_use(port):
+                    self.print_color('yellow', f"🔧 尝试释放端口 {port}...")
+                    if self._kill_port_process(port):
+                        self.print_color('green', f"✅ 端口 {port} 已释放")
+                    else:
+                        self.print_color('red', f"❌ 无法释放端口 {port}")
+        except Exception as e:
+            self.logger.warning(f"端口修复失败: {e}")
+
     def _speak(self, text: str, voice: str = None, rate: int = 140):
         """语音提醒"""
         try:
@@ -417,12 +449,35 @@ class FinancialSystemLauncher:
     def _run_docker_compose(self, args: List[str]) -> bool:
         """运行docker-compose命令"""
         try:
-            subprocess.run(['docker-compose'] + args, 
+            result = subprocess.run(['docker-compose'] + args, 
                           cwd=self.project_root, check=True,
-                          stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+                          stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             return True
         except subprocess.CalledProcessError as e:
-            self.print_color('red', f"❌ Docker Compose 命令失败: {e}")
+            error_output = e.stderr.decode() if e.stderr else ""
+            
+            # 检查网络连接错误
+            if "failed to resolve reference" in error_output or "EOF" in error_output:
+                self.print_color('red', "❌ Docker镜像拉取失败 - 网络连接问题")
+                self.print_color('yellow', "🔧 建议解决方案：")
+                self.print_color('cyan', "   1️⃣  运行网络修复脚本: ./fix_docker_network.sh")
+                self.print_color('cyan', "   2️⃣  手动重启Docker Desktop")
+                self.print_color('cyan', "   3️⃣  检查网络代理设置")
+                self.print_color('cyan', "   4️⃣  稍后重试启动")
+                
+                # 30秒轻音乐错误提醒
+                self._play_error_music()
+                
+            elif "port is already allocated" in error_output:
+                self.print_color('red', "❌ 端口占用冲突")
+                self.print_color('yellow', "🔧 正在尝试释放占用的端口...")
+                self._auto_fix_port_conflicts()
+                
+            else:
+                self.print_color('red', f"❌ Docker Compose 命令失败: {e}")
+                if error_output:
+                    self.print_color('yellow', f"详细错误: {error_output}")
+            
             return False
 
     def _wait_for_database(self) -> bool:
