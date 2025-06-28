@@ -32,17 +32,18 @@ fi
 cat > "$DAEMON_JSON" << 'EOF'
 {
   "registry-mirrors": [
-    "https://docker.mirrors.ustc.edu.cn",
     "https://hub-mirror.c.163.com",
     "https://mirror.baidubce.com",
-    "https://dockerproxy.com"
+    "https://dockerproxy.com",
+    "https://ccr.ccs.tencentyun.com"
   ],
   "insecure-registries": [],
   "debug": false,
   "experimental": false,
   "features": {
     "buildkit": true
-  }
+  },
+  "dns": ["8.8.8.8", "8.8.4.4", "1.1.1.1"]
 }
 EOF
 

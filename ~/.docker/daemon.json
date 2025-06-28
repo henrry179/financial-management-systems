@@ -1,4 +1,18 @@
 {
+  "debug": false,
+  "dns": [
+    "8.8.8.8",
+    "8.8.4.4",
+    "1.1.1.1"
+  ],
   "experimental": false,
-  "debug": false
+  "features": {
+    "buildkit": true
+  },
+  "insecure-registries": [],
+  "registry-mirrors": [
+    "https://mirror.baidubce.com",
+    "https://ccr.ccs.tencentyun.com",
+    "https://dockerproxy.com"
+  ]
 } 
