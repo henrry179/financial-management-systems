@@ -56,7 +56,7 @@ model Account {
   id            String      @id @default(uuid())
   userId        String
   name          String
-  type          AccountType
+  type          String      // 使用String代替AccountType枚举
   balance       Decimal     @default(0)
   currency      String      @default("CNY")
   description   String?
@@ -75,22 +75,12 @@ model Account {
   @@map("accounts")
 }
 
-// 账户类型枚举
-enum AccountType {
-  CASH        // 现金
-  SAVINGS     // 储蓄账户
-  CHECKING    // 支票账户
-  CREDIT_CARD // 信用卡
-  INVESTMENT  // 投资账户
-  LOAN        // 贷款账户
-}
-
 // 分类表
 model Category {
   id          String       @id @default(uuid())
   userId      String
   name        String
-  type        CategoryType
+  type        String       // 使用String代替CategoryType枚举
   color       String?
   icon        String?
   parentId    String?
@@ -109,12 +99,6 @@ model Category {
   @@map("categories")
 }
 
-// 分类类型枚举
-enum CategoryType {
-  INCOME  // 收入
-  EXPENSE // 支出
-}
-
 // 交易记录表
 model Transaction {
   id          String          @id @default(uuid())
@@ -123,13 +107,13 @@ model Transaction {
   toAccountId   String?
   categoryId    String?
   amount        Decimal
-  type          TransactionType
+  type          String          // 使用String代替TransactionType枚举
   description   String?
   notes         String?
-  tags          Json?           // 标签数组，存储为 JSON
+  tags          String?         // 标签数组，存储为 JSON 字符串
   date          DateTime
   location      String?
-  attachments   Json?           // 附件数组，存储为 JSON
+  attachments   String?         // 附件数组，存储为 JSON 字符串
   createdAt     DateTime        @default(now())
   updatedAt     DateTime        @updatedAt
 
@@ -142,13 +126,6 @@ model Transaction {
   @@map("transactions")
 }
 
-// 交易类型枚举
-enum TransactionType {
-  INCOME   // 收入
-  EXPENSE  // 支出
-  TRANSFER // 转账
-}
-
 // 预算表
 model Budget {
   id          String     @id @default(uuid())
@@ -157,7 +134,7 @@ model Budget {
   name        String
   amount      Decimal
   spent       Decimal    @default(0)
-  period      BudgetPeriod
+  period      String     // 使用String代替BudgetPeriod枚举
   startDate   DateTime
   endDate     DateTime
   isActive    Boolean    @default(true)
@@ -172,23 +149,14 @@ model Budget {
   @@map("budgets")
 }
 
-// 预算周期枚举
-enum BudgetPeriod {
-  DAILY
-  WEEKLY
-  MONTHLY
-  QUARTERLY
-  YEARLY
-}
-
 // 报告表
 model Report {
   id          String     @id @default(uuid())
   userId      String
   title       String
-  type        ReportType
-  parameters  Json       // 报告参数配置
-  data        Json       // 报告数据
+  type        String     // 使用String代替ReportType枚举
+  parameters  String     // 报告参数配置，存储为 JSON 字符串
+  data        String     // 报告数据，存储为 JSON 字符串
   generatedAt DateTime   @default(now())
   period      String     // 报告周期 (如: 2024-01, 2024-Q1)
   format      String     @default("JSON") // JSON, PDF, EXCEL
@@ -201,46 +169,19 @@ model Report {
   @@map("reports")
 }
 
-// 报告类型枚举
-enum ReportType {
-  MONTHLY_SUMMARY    // 月度总结
-  EXPENSE_ANALYSIS   // 支出分析
-  INCOME_ANALYSIS    // 收入分析
-  BUDGET_PERFORMANCE // 预算执行
-  TREND_ANALYSIS     // 趋势分析
-  CUSTOM            // 自定义报告
-}
-
 // 系统通知表
 model Notification {
   id        String           @id @default(uuid())
   userId    String?
   title     String
   content   String
-  type      NotificationType
-  priority  NotificationPriority @default(NORMAL)
+  type      String           // 使用String代替NotificationType枚举
+  priority  String           @default("NORMAL") // 使用String代替NotificationPriority枚举
   isRead    Boolean          @default(false)
-  data      Json?            // 额外数据
+  data      String?          // 额外数据，存储为 JSON 字符串
   createdAt DateTime         @default(now())
 
   @@map("notifications")
-}
-
-// 通知类型枚举
-enum NotificationType {
-  BUDGET_ALERT    // 预算警告
-  PAYMENT_REMINDER // 付款提醒
-  REPORT_READY    // 报告就绪
-  SYSTEM_UPDATE   // 系统更新
-  SECURITY_ALERT  // 安全警告
-}
-
-// 通知优先级枚举
-enum NotificationPriority {
-  LOW
-  NORMAL
-  HIGH
-  URGENT
 }
 
 // 系统配置表
