@@ -27,22 +27,43 @@ import LoadingSpinner from './components/common/LoadingSpinner';
 function App() {
   const { isAuthenticated, isLoading, checkAuth } = useAuthStore();
 
+  // 防止无限加载的安全机制
+  const [maxLoadingReached, setMaxLoadingReached] = React.useState(false);
+
   // 初始化认证状态检查
   useEffect(() => {
     checkAuth();
+    
+    // 设置最大加载时间（10秒）
+    const loadingTimer = setTimeout(() => {
+      console.warn('Maximum loading time reached, forcing app to load');
+      setMaxLoadingReached(true);
+    }, 10000);
+
+    return () => clearTimeout(loadingTimer);
   }, [checkAuth]);
 
-  // 如果正在加载认证状态，显示加载器
-  if (isLoading) {
+  // 如果正在加载认证状态且未超时，显示加载器
+  if (isLoading && !maxLoadingReached) {
     return (
       <div style={{ 
         display: 'flex', 
+        flexDirection: 'column',
         justifyContent: 'center', 
         alignItems: 'center', 
         height: '100vh',
         backgroundColor: '#f0f2f5'
       }}>
         <LoadingSpinner />
+        <div style={{ 
+          marginTop: 16, 
+          fontSize: 14, 
+          color: '#666',
+          textAlign: 'center'
+        }}>
+          正在启动财务管理系统...<br/>
+          <small>如果长时间无响应，请检查网络连接</small>
+        </div>
       </div>
     );
   }
