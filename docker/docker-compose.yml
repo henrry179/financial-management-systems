@@ -1,9 +1,7 @@
-version: '3.8'
-
 services:
-  # PostgreSQL 数据库 - 使用国内镜像源
+  # PostgreSQL 数据库 - 使用官方镜像
   postgres:
-    image: registry.cn-hangzhou.aliyuncs.com/google_containers/postgres:13-alpine
+    image: postgres:13-alpine
     container_name: financial-postgres
     environment:
       - POSTGRES_DB=financial_db
@@ -34,9 +32,9 @@ services:
           cpus: '0.5'
           memory: 512M
 
-  # Redis 缓存 - 使用国内镜像源
+  # Redis 缓存 - 使用官方镜像
   redis:
-    image: registry.cn-hangzhou.aliyuncs.com/google_containers/redis:6-alpine
+    image: redis:6-alpine
     container_name: financial-redis
     ports:
       - "6379:6379"
