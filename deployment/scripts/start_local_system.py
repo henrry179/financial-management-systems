@@ -30,7 +30,8 @@ class LocalFinancialSystemLauncher:
     def __init__(self):
         self.current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         self.os_type = platform.system()
-        self.project_root = Path(__file__).parent
+        # 修复路径：脚本在 deployment/scripts/ 目录，需要向上两级到达项目根目录
+        self.project_root = Path(__file__).parent.parent.parent
         self.processes = []
         self.setup_logging()
         
@@ -224,7 +225,16 @@ class LocalFinancialSystemLauncher:
         
         # 创建SQLite数据库配置
         backend_dir = self.project_root / 'backend'
+        
+        # 确保backend目录存在
+        if not backend_dir.exists():
+            self.print_color(f"❌ 后端目录不存在: {backend_dir}", 'red')
+            return False
+        
         env_file = backend_dir / '.env'
+        
+        # 如果有env.example文件，先从它复制
+        env_example = backend_dir / 'env.example'
         
         if env_file.exists():
             content = env_file.read_text()
@@ -240,6 +250,18 @@ class LocalFinancialSystemLauncher:
             
             env_file.write_text(new_content)
             self.print_color("✅ 数据库配置已更新为SQLite", 'green')
+        elif env_example.exists():
+            # 从example文件复制并修改
+            content = env_example.read_text()
+            new_content = content.replace(
+                'DATABASE_URL=postgresql://financial_user:financial_password@postgres:5432/financial_db',
+                'DATABASE_URL=file:./dev.db'
+            ).replace(
+                'REDIS_URL=redis://redis:6379',
+                'REDIS_URL=redis://localhost:6379'
+            )
+            env_file.write_text(new_content)
+            self.print_color("✅ 从env.example创建本地开发环境配置", 'green')
         else:
             # 创建新的环境文件
             env_content = """NODE_ENV=development
@@ -248,8 +270,12 @@ REDIS_URL=redis://localhost:6379
 JWT_SECRET=your-super-secret-jwt-key-for-local-dev
 PORT=8000
 """
-            env_file.write_text(env_content)
-            self.print_color("✅ 已创建本地开发环境配置", 'green')
+            try:
+                env_file.write_text(env_content)
+                self.print_color("✅ 已创建本地开发环境配置", 'green')
+            except Exception as e:
+                self.print_color(f"❌ 创建环境配置文件失败: {e}", 'red')
+                return False
         
         return True
 
