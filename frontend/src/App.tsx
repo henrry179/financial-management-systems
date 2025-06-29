@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { useAuthStore } from './store/auth';
 
@@ -22,44 +22,62 @@ import SettingsPage from './pages/settings/SettingsPage';
 
 // Components
 import ProtectedRoute from './components/auth/ProtectedRoute';
-import ResponsiveLayout from './components/common/ResponsiveLayout';
+import LoadingSpinner from './components/common/LoadingSpinner';
 
 function App() {
-  const { isAuthenticated } = useAuthStore();
+  const { isAuthenticated, isLoading, checkAuth } = useAuthStore();
+
+  // 初始化认证状态检查
+  useEffect(() => {
+    checkAuth();
+  }, [checkAuth]);
+
+  // 如果正在加载认证状态，显示加载器
+  if (isLoading) {
+    return (
+      <div style={{ 
+        display: 'flex', 
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        height: '100vh',
+        backgroundColor: '#f0f2f5'
+      }}>
+        <LoadingSpinner />
+      </div>
+    );
+  }
 
   return (
-    <ResponsiveLayout>
-      <Routes>
-        {/* Public Routes - Auth */}
-        <Route path="/auth" element={<AuthLayout />}>
-          <Route path="login" element={<LoginPage />} />
-          <Route path="register" element={<RegisterPage />} />
-        </Route>
+    <Routes>
+      {/* Public Routes - Auth */}
+      <Route path="/auth" element={<AuthLayout />}>
+        <Route path="login" element={<LoginPage />} />
+        <Route path="register" element={<RegisterPage />} />
+      </Route>
 
-        {/* Protected Routes - Dashboard */}
-        <Route path="/" element={
-          <ProtectedRoute>
-            <DashboardLayout />
-          </ProtectedRoute>
-        }>
-          <Route index element={<DashboardPage />} />
-          <Route path="transactions" element={<TransactionsPage />} />
-          <Route path="accounts" element={<AccountsPage />} />
-          <Route path="budgets" element={<BudgetsPage />} />
-          <Route path="categories" element={<CategoriesPage />} />
-          <Route path="reports" element={<ReportsPage />} />
-          <Route path="bi-analytics" element={<BIAnalyticsPage />} />
-          <Route path="settings" element={<SettingsPage />} />
-        </Route>
+      {/* Protected Routes - Dashboard */}
+      <Route path="/" element={
+        <ProtectedRoute>
+          <DashboardLayout />
+        </ProtectedRoute>
+      }>
+        <Route index element={<DashboardPage />} />
+        <Route path="transactions" element={<TransactionsPage />} />
+        <Route path="accounts" element={<AccountsPage />} />
+        <Route path="budgets" element={<BudgetsPage />} />
+        <Route path="categories" element={<CategoriesPage />} />
+        <Route path="reports" element={<ReportsPage />} />
+        <Route path="bi-analytics" element={<BIAnalyticsPage />} />
+        <Route path="settings" element={<SettingsPage />} />
+      </Route>
 
-        {/* Root redirect */}
-        <Route path="*" element={
-          isAuthenticated ? 
-            <Navigate to="/" replace /> : 
-            <Navigate to="/auth/login" replace />
-        } />
-      </Routes>
-    </ResponsiveLayout>
+      {/* Root redirect */}
+      <Route path="*" element={
+        isAuthenticated ? 
+          <Navigate to="/" replace /> : 
+          <Navigate to="/auth/login" replace />
+      } />
+    </Routes>
   );
 }
 
