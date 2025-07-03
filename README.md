@@ -126,7 +126,8 @@ python quick_start.py
 
 ### 2.1 **🏗️ 整体架构布局**
 
-**最后整理时间**: 2025-06-28 21:45:00
+**最后整理时间**: 2025-07-03 20:46:34  
+**查看完整项目结构文档**: [docs/PROJECT_STRUCTURE.md](docs/PROJECT_STRUCTURE.md)
 
 </div>
 
