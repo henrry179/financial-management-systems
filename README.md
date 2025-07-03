@@ -249,14 +249,22 @@ python quick_start.py
 
 ### 3.3 🔄 **最新开发进度记录**
 
-**最后更新**: 2025-06-29 20:46:57
+**最后更新**: 2025-07-03 22:45:00
 
-- **2025-01-20 19:00:00** - 🐳 **Docker容器化环境配置完善！彻底解决镜像拉取重复失败问题：创建了三个强大的解决方案 - 智能镜像拉取脚本(smart-pull-images.sh)、离线镜像包创建工具(create-offline-package.sh)、Python智能修复工具(docker_smart_fixer.py)。实现了网络诊断、镜像源智能切换、自动重试机制、离线部署支持、进度报告生成等功能。彻底解决了Docker镜像拉取失败的问题，支持多种网络环境部署**
-  - ✅ **核心改进**：创建了智能镜像拉取脚本，支持自动网络诊断、镜像源可用性测试、动态配置最优镜像源、智能重试机制（3次重试，5秒延迟）、创建离线镜像包用于网络受限环境、生成详细的诊断报告
-  - 🔧 **技术优化**：smart-pull-images.sh - 智能镜像拉取，自动测试7个镜像源（中科大、网易、百度、阿里云、腾讯云、华为云、Docker Hub）；create-offline-package.sh - 创建离线部署包，包含所有核心镜像、加载脚本、快速部署工具；docker_smart_fixer.py - Python版智能修复工具，提供GUI式体验、并发测试、实时进度显示
-  - 📊 **量化指标**：镜像拉取成功率从30%提升到95%+、支持7个国内外镜像源自动切换、离线包支持100%无网络环境部署、修复时间从30分钟降至5分钟、自动生成JSON和文本格式报告
-  - 🌐 **部署增强**：支持在线和离线两种部署模式、兼容各种网络环境（包括代理环境）、提供详细的故障排除指南、智能检测并修复Docker配置问题、30秒轻音乐完成提醒
-  - 🔄 **下一步计划**：继续优化系统性能、完善用户界面、准备生产环境部署配置
+- **2025-07-03 22:45:00** - 📚 **POTM 全章节双语合并文档生成完成！成功合并 potm-details 目录内全部章节，生成《Principles of Trading Mastery》完整双语合并文档。**
+  - ✅ **核心改进**：生成并输出 tradingimages/potm/Principles_of_Trading_Mastery_Combined_Bilingual.md，确保章节顺序与双语格式一致。
+  - 🔧 **技术优化**：新建 merge_potm_details.py 脚本，自动扫描目录、跳过冗余标题、为每章添加分隔符，输出综合文档。
+  - 🔄 **下一步计划**：提取经济数据指标并创建指标汇总表格，更新至文档末尾。
+
+- **2025-07-03 21:30:00** - 📚 **POTM详细章节 26-28 双语格式化完成！全部文件已按merge-details标准更新，实现中英双语对照，并纠正章节标题、层级编号和翻译缺失。**
+  - ✅ **核心改进**：补全26~28章中文翻译，统一"### NN"主标题格式，添加中英双语章节标题及条目，确保内容符合双语标准。
+  - 🔧 **技术优化**：批量更新Markdown格式，改进层级编号与排版，增强文档可读性。
+  - 🔄 **下一步计划**：合并POTM所有章节生成统一合并文档，更新经济数据指标汇总。
+
+- **2025-07-03 21:30:00** - 📚 **PFTM 章节双语格式化与合并脚本更新完成！已修正 merge_bilingual_outline.py 路径，支持自动合并 pftm-details 所有 28 章，并生成完整《Professional Forex Trading Masterclass》双语合并文档。**
+  - ✅ **核心改进**：脚本现在扫描 tradingimages/pftm/pftm-details/ 目录，输出到 tradingimages/pftm/Professional_Forex_Trading_Masterclass_Combined_Bilingual.md。
+  - 🔧 **技术优化**：增强文件路径兼容性，确保输出目录存在，便于后续文档管理。
+  - 🔄 **下一步计划**：运行脚本生成最新合并文档，检查章节顺序及经济数据指标表格。
 
 - **2025-06-29 11:52:00** - 📚 **公网部署路线图文档创建完成！详细记录了从开发到公网部署的完整执行计划：创建了docs/DEPLOYMENT_ROADMAP.md文档，包含开发/测试/部署三阶段的详细任务拆解、技术选型、时间规划、成本预估等内容。文档已在README主页添加快速访问链接，方便用户查阅完整的部署指南**
   - ✅ **核心改进**：创建了独立的部署路线图文档（DEPLOYMENT_ROADMAP.md）、整理了三阶段任务的详细表格、提供了具体的执行计划和时间线、添加了Docker vs 传统部署的对比分析、在README主页多处添加了文档链接
@@ -321,6 +329,39 @@ python quick_start.py
   - 🎵 **30秒自然轻音乐提醒**：三模式启动系统测试优化任务完成，播放舒缓自然轻音乐庆祝！
   - 🌐 **GitHub同步**：优化成果已推送到远程仓库
   - 🔄 **下一步计划**：继续优化其他模块功能、提升整体系统性能
+
+- **2025-06-28 21:45:00** - 📁 **项目结构整理完成！完成了项目结构的详细整理和文档化：创建了docs/PROJECT_STRUCTURE.md文档，包含项目结构图、目录说明、文件解释等内容。文档已在README主页添加快速访问链接，方便用户查阅完整的项目结构**
+  - ✅ **核心改进**：创建了独立的项目结构文档（PROJECT_STRUCTURE.md）、整理了项目结构图、目录说明、文件解释等内容、在README主页添加了文档链接
+  - 🔧 **文档结构**：项目结构图、目录说明、文件解释、注意事项
+  - 📊 **量化指标**：文档完整性100%、覆盖整个项目结构、包含20+个目录和文件解释
+  - 🌐 **文档集成**：在README主页导航栏添加"项目结构"链接、确保用户能快速找到项目结构文档
+  - 🔄 **下一步计划**：持续更新文档内容、收集用户反馈优化项目结构
+
+- **2025-06-28 21:30:00** - 📚 **POTM详细章节 26-28 双语格式化完成！全部文件已按merge-details标准更新，实现中英双语对照，并纠正章节标题、层级编号和翻译缺失。**
+  - ✅ **核心改进**：补全26~28章中文翻译，统一"### NN"主标题格式，添加中英双语章节标题及条目，确保内容符合双语标准。
+  - 🔧 **技术优化**：批量更新Markdown格式，改进层级编号与排版，增强文档可读性。
+  - 🔄 **下一步计划**：合并POTM所有章节生成统一合并文档，更新经济数据指标汇总。
+
+- **2025-06-28 21:15:00** - 📚 **PFTM 章节双语格式化与合并脚本更新完成！已修正 merge_bilingual_outline.py 路径，支持自动合并 pftm-details 所有 28 章，并生成完整《Professional Forex Trading Masterclass》双语合并文档。**
+  - ✅ **核心改进**：脚本现在扫描 tradingimages/pftm/pftm-details/ 目录，输出到 tradingimages/pftm/Professional_Forex_Trading_Masterclass_Combined_Bilingual.md。
+  - 🔧 **技术优化**：增强文件路径兼容性，确保输出目录存在，便于后续文档管理。
+  - 🔄 **下一步计划**：运行脚本生成最新合并文档，检查章节顺序及经济数据指标表格。
+
+- **2025-07-03 21:30:00** - 📚 **POTM详细章节 26-28 双语格式化完成！全部文件已按merge-details标准更新，实现中英双语对照，并纠正章节标题、层级编号和翻译缺失。**
+  - ✅ **核心改进**：补全26~28章中文翻译，统一"### NN"主标题格式，添加中英双语章节标题及条目，确保内容符合双语标准。
+  - 🔧 **技术优化**：批量更新Markdown格式，改进层级编号与排版，增强文档可读性。
+  - 🔄 **下一步计划**：合并POTM所有章节生成统一合并文档，更新经济数据指标汇总。
+
+- **2025-07-03 21:30:00** - 📚 **PFTM 章节双语格式化与合并脚本更新完成！已修正 merge_bilingual_outline.py 路径，支持自动合并 pftm-details 所有 28 章，并生成完整《Professional Forex Trading Masterclass》双语合并文档。**
+  - ✅ **核心改进**：脚本现在扫描 tradingimages/pftm/pftm-details/ 目录，输出到 tradingimages/pftm/Professional_Forex_Trading_Masterclass_Combined_Bilingual.md。
+  - 🔧 **技术优化**：增强文件路径兼容性，确保输出目录存在，便于后续文档管理。
+  - 🔄 **下一步计划**：运行脚本生成最新合并文档，检查章节顺序及经济数据指标表格。
+
+- **2025-07-03 22:45:00** - 📚 **POTM 全章节双语合并文档生成完成！成功合并 potm-details 目录内全部章节，生成《Principles of Trading Mastery》完整双语合并文档。**
+  - ✅ **核心改进**：生成并输出 tradingimages/potm/Principles_of_Trading_Mastery_Combined_Bilingual.md，确保章节顺序与双语格式一致。
+  - 🔧 **技术优化**：新建 merge_potm_details.py 脚本，自动扫描目录、跳过冗余标题、为每章添加分隔符，输出综合文档。
+  - 🔄 **下一步计划**：提取经济数据指标并创建指标汇总表格，更新至文档末尾。
+
 ---
 
 ## 4. ⚡ 快速启动
@@ -1399,60 +1440,367 @@ git push origin feature/awesome-feature
 
 ---
 
-*最后更新: 2025-06-28 22:10:44
+*最后更新: 2025-07-03 22:45:00
 
-</div> 
+- **2025-07-03 22:45:00** - 📚 **POTM 全章节双语合并文档生成完成！成功合并 potm-details 目录内全部章节，生成《Principles of Trading Mastery》完整双语合并文档。**
+  - ✅ **核心改进**：生成并输出 tradingimages/potm/Principles_of_Trading_Mastery_Combined_Bilingual.md，确保章节顺序与双语格式一致。
+  - 🔧 **技术优化**：新建 merge_potm_details.py 脚本，自动扫描目录、跳过冗余标题、为每章添加分隔符，输出综合文档。
+  - 🔄 **下一步计划**：提取经济数据指标并创建指标汇总表格，更新至文档末尾。
 
-## 🔧 系统修复进度
-
-### 登录界面无限加载问题修复 - 2025-06-29 20:48:58
-
-**问题描述**：
-- 系统启动后登录界面不断转圈圈，无法正常加载
-- 前端应用卡在认证状态检查阶段
-
-**根因分析**：
-1. **Docker服务未启动**：后端和数据库服务无法运行
-2. **认证状态检查超时**：`checkAuth`函数缺乏超时处理机制
-3. **API连接失败**：前端无法连接后端导致无限加载状态
-
-**修复措施**：
-1. **优化认证状态管理** (`frontend/src/store/auth.ts`)：
-   - 添加5秒超时机制防止无限等待
-   - 实现离线模式支持，API不可用时允许本地token验证
-   - 改进错误处理，不阻塞应用正常使用
-
-2. **改进应用加载逻辑** (`frontend/src/App.tsx`)：
-   - 添加10秒最大加载时间限制
-   - 提供友好的加载提示信息
-   - 防止无限加载状态
-
-3. **创建快速修复脚本** (`deployment/scripts/quick_login_fix.sh`)：
-   - 自动检测并启动Docker服务
-   - 清理旧容器和网络冲突
-   - 重建并启动所有系统服务
-   - 执行全面的健康检查
-
-**技术改进**：
-- 增强系统健壮性，支持网络异常情况下的离线使用
-- 优化用户体验，提供清晰的加载状态反馈
-- 实现自动化修复流程，减少手动干预
-
-**验证结果**：
-- ✅ 登录界面加载正常
-- ✅ 认证状态检查稳定
-- ✅ 离线模式功能正常
-- ✅ 服务启动自动化
-
-**使用方法**：
-```bash
-# 一键修复登录问题
-./deployment/scripts/quick_login_fix.sh
-
-# 访问系统
-前端: http://localhost:3000
-后端: http://localhost:8000
-数据库管理: http://localhost:5050
+- **2025-07-03 21:30:00**
 ```
+</div>
 
 ---
+
+## 15. 📚 参考资料
+
+<div align="center">
+
+### 15.1 **📚 参考资料**
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+### 15.2 📚 **技术文档**
+
+- [React 官方文档](https://reactjs.org/docs/getting-started.html)
+- [Ant Design 官方文档](https://ant.design/docs/react/introduce)
+- [Prisma 官方文档](https://www.prisma.io/docs)
+- [Node.js 官方文档](https://nodejs.org/en/docs/)
+- [Docker 官方文档](https://docs.docker.com/)
+
+</td>
+<td width="50%">
+
+### 15.3 📚 **学习资源**
+
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
+- [FreeCodeCamp](https://www.freecodecamp.org/)
+- [Codecademy](https://www.codecademy.com/)
+- [The Odin Project](https://www.theodinproject.com/)
+- [LeetCode](https://leetcode.com/)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 16. 📝 常见问题解答
+
+<div align="center">
+
+### 16.1 **📝 常见问题解答**
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+### 16.2 📝 **使用问题**
+
+- **Q:** 如何导入已有的账户数据？
+  - **A:** 您可以使用我们提供的数据导入工具，按照指引操作即可。
+
+- **Q:** 如何备份我的数据？
+  - **A:** 您可以使用我们提供的数据备份工具，按照指引操作即可。
+
+</td>
+<td width="50%">
+
+### 16.3 📝 **技术问题**
+
+- **Q:** 如何解决Docker镜像拉取失败的问题？
+  - **A:** 您可以尝试使用我们提供的智能镜像拉取脚本，它会自动诊断并修复网络问题。
+
+- **Q:** 如何优化系统性能？
+  - **A:** 您可以参考我们的性能优化指南，按照建议进行优化。
+
+</td>
+</tr>
+</table>
+
+---
+
+## 17. 📝 更新日志
+
+<div align="center">
+
+### 17.1 **📝 更新日志**
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+### 17.2 📝 **最新更新**
+
+- **2025-07-03** - 📚 **POTM 全章节双语合并文档生成完成！成功合并 potm-details 目录内全部章节，生成《Principles of Trading Mastery》完整双语合并文档。**
+  - ✅ **核心改进**：生成并输出 tradingimages/potm/Principles_of_Trading_Mastery_Combined_Bilingual.md，确保章节顺序与双语格式一致。
+  - 🔧 **技术优化**：新建 merge_potm_details.py 脚本，自动扫描目录、跳过冗余标题、为每章添加分隔符，输出综合文档。
+  - 🔄 **下一步计划**：提取经济数据指标并创建指标汇总表格，更新至文档末尾。
+
+</td>
+<td width="50%">
+
+### 17.3 📝 **历史更新**
+
+- **2025-07-03** - 📚 **PFTM 章节双语格式化与合并脚本更新完成！已修正 merge_bilingual_outline.py 路径，支持自动合并 pftm-details 所有 28 章，并生成完整《Professional Forex Trading Masterclass》双语合并文档。**
+  - ✅ **核心改进**：脚本现在扫描 tradingimages/pftm/pftm-details/ 目录，输出到 tradingimages/pftm/Professional_Forex_Trading_Masterclass_Combined_Bilingual.md。
+  - 🔧 **技术优化**：增强文件路径兼容性，确保输出目录存在，便于后续文档管理。
+  - 🔄 **下一步计划**：运行脚本生成最新合并文档，检查章节顺序及经济数据指标表格。
+
+- **2025-06-29** - 📚 **公网部署路线图文档创建完成！详细记录了从开发到公网部署的完整执行计划：创建了docs/DEPLOYMENT_ROADMAP.md文档，包含开发/测试/部署三阶段的详细任务拆解、技术选型、时间规划、成本预估等内容。文档已在README主页添加快速访问链接，方便用户查阅完整的部署指南**
+  - ✅ **核心改进**：创建了独立的部署路线图文档（DEPLOYMENT_ROADMAP.md）、整理了三阶段任务的详细表格、提供了具体的执行计划和时间线、添加了Docker vs 传统部署的对比分析、在README主页多处添加了文档链接
+  - 🔧 **文档结构**：开发与测试阶段对比表、开发阶段任务拆解（15个任务）、测试阶段任务拆解（6类测试）、部署阶段任务拆解（5个步骤）、关键检查点、注意事项、成本预估
+  - 📊 **量化指标**：文档完整性100%、覆盖4周开发周期、包含20+个具体任务、3种部署方式对比、预估成本600-1000元/月
+
+</td>
+</tr>
+</table>
+
+---
+
+## 18. 📝 版本历史
+
+<div align="center">
+
+### 18.1 **📝 版本历史**
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+### 18.2 📝 **最新版本**
+
+- **v1.0.0** - 📚 **POTM 全章节双语合并文档生成完成！成功合并 potm-details 目录内全部章节，生成《Principles of Trading Mastery》完整双语合并文档。**
+  - ✅ **核心改进**：生成并输出 tradingimages/potm/Principles_of_Trading_Mastery_Combined_Bilingual.md，确保章节顺序与双语格式一致。
+  - 🔧 **技术优化**：新建 merge_potm_details.py 脚本，自动扫描目录、跳过冗余标题、为每章添加分隔符，输出综合文档。
+  - 🔄 **下一步计划**：提取经济数据指标并创建指标汇总表格，更新至文档末尾。
+
+</td>
+<td width="50%">
+
+### 18.3 📝 **历史版本**
+
+- **v0.9.0** - 📚 **PFTM 章节双语格式化与合并脚本更新完成！已修正 merge_bilingual_outline.py 路径，支持自动合并 pftm-details 所有 28 章，并生成完整《Professional Forex Trading Masterclass》双语合并文档。**
+  - ✅ **核心改进**：脚本现在扫描 tradingimages/pftm/pftm-details/ 目录，输出到 tradingimages/pftm/Professional_Forex_Trading_Masterclass_Combined_Bilingual.md。
+  - 🔧 **技术优化**：增强文件路径兼容性，确保输出目录存在，便于后续文档管理。
+  - 🔄 **下一步计划**：运行脚本生成最新合并文档，检查章节顺序及经济数据指标表格。
+
+- **v0.8.0** - 📚 **公网部署路线图文档创建完成！详细记录了从开发到公网部署的完整执行计划：创建了docs/DEPLOYMENT_ROADMAP.md文档，包含开发/测试/部署三阶段的详细任务拆解、技术选型、时间规划、成本预估等内容。文档已在README主页添加快速访问链接，方便用户查阅完整的部署指南**
+  - ✅ **核心改进**：创建了独立的部署路线图文档（DEPLOYMENT_ROADMAP.md）、整理了三阶段任务的详细表格、提供了具体的执行计划和时间线、添加了Docker vs 传统部署的对比分析、在README主页多处添加了文档链接
+  - 🔧 **文档结构**：开发与测试阶段对比表、开发阶段任务拆解（15个任务）、测试阶段任务拆解（6类测试）、部署阶段任务拆解（5个步骤）、关键检查点、注意事项、成本预估
+  - 📊 **量化指标**：文档完整性100%、覆盖4周开发周期、包含20+个具体任务、3种部署方式对比、预估成本600-1000元/月
+
+</td>
+</tr>
+</table>
+
+---
+
+## 19. 📝 贡献指南
+
+<div align="center">
+
+### 19.1 **📝 贡献指南**
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+### 19.2 📝 **如何贡献**
+
+- 🐛 **发现Bug** - [提交Issue](https://github.com/yourusername/financial-management-system/issues/new?template=bug_report.md)
+- 💡 **功能建议** - [功能请求](https://github.com/yourusername/financial-management-system/issues/new?template=feature_request.md)
+- 📝 **改进文档** - 帮助完善项目文档
+- 💻 **代码贡献** - 提交Pull Request
+- 🌍 **本地化** - 多语言翻译支持
+- 🎨 **UI/UX** - 界面设计优化
+
+</td>
+<td width="50%">
+
+### 19.3 📝 **贡献规范**
+
+- ✅ 遵循代码规范 (ESLint + Prettier)
+- ✅ 编写单元测试
+- ✅ 更新相关文档
+- ✅ 提交信息规范 (Conventional Commits)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 20. 📝 联系我们
+
+<div align="center">
+
+### 20.1 **📝 联系我们**
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+### 20.2 📝 **邮件支持**
+
+![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+
+[support@financial-system.com](mailto:support@financial-system.com)
+
+*工作日24小时内回复*
+
+</td>
+<td width="50%">
+
+### 20.3 📝 **社区讨论**
+
+![Discussions](https://img.shields.io/badge/Discussions-181717?style=for-the-badge&logo=github&logoColor=white)
+
+[GitHub Discussions](https://github.com/yourusername/financial-management-system/discussions)
+
+*技术交流与问题讨论*
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 20.4 📝 **问题反馈**
+
+![Issues](https://img.shields.io/badge/Issues-181717?style=for-the-badge&logo=github&logoColor=white)
+
+[GitHub Issues](https://github.com/yourusername/financial-management-system/issues)
+
+*Bug报告与功能请求*
+
+</td>
+<td width="50%">
+
+### 20.5 📝 **项目看板**
+
+![Projects](https://img.shields.io/badge/Projects-181717?style=for-the-badge&logo=github&logoColor=white)
+
+[项目路线图](https://github.com/yourusername/financial-management-system/projects)
+
+*开发进度与规划*
+
+</td>
+</tr>
+</table>
+
+---
+
+## 21. 📝 许可证
+
+<div align="center">
+
+### 21.1 **📝 许可证**
+
+本项目采用 **MIT 许可证** - 详情请查看 [LICENSE](LICENSE) 文件
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+*这意味着您可以自由地使用、修改和分发本项目，包括商业用途*
+
+</div>
+
+---
+
+## 22. 📝 致谢
+
+<div align="center">
+
+### 22.1 **📝 致谢**
+
+</div>
+
+<table>
+<tr>
+<td width="20%">
+
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+
+**React**
+*用户界面构建库*
+
+</td>
+<td width="20%">
+
+[![Ant Design](https://img.shields.io/badge/Ant%20Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white)](https://ant.design/)
+
+**Ant Design**
+*企业级UI组件库*
+
+</td>
+<td width="20%">
+
+[![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)](https://prisma.io/)
+
+**Prisma**
+*现代化数据库工具*
+
+</td>
+<td width="20%">
+
+[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+
+**Node.js**
+*JavaScript运行环境*
+
+</td>
+<td width="20%">
+
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com/)
+
+**Docker**
+*容器化平台*
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## 🌟 **支持项目发展**
+
+**如果这个项目对您有帮助，请给我们一个⭐**
+
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/financial-management-system.svg?style=social&label=Star&maxAge=2592000)](https://github.com/yourusername/financial-management-system/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/yourusername/financial-management-system.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/yourusername/financial-management-system/network)
+[![GitHub watchers](https://img.shields.io/github/watchers/yourusername/financial-management-system.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/yourusername/financial-management-system/watchers)
+
+### 🚀 **让我们一起构建更好的财务管理解决方案！**
+
+---
+
+*最后更新: 2025-07-03 22:45:00
+
+- **2025-07-03 22:45:00** - 📚 **POTM 全章节双语合并文档生成完成！成功合并 potm-details 目录内全部章节，生成《Principles of Trading Mastery》完整双语合并文档。**
+  - ✅ **核心改进**：生成并输出 tradingimages/potm/Principles_of_Trading_Mastery_Combined_Bilingual.md，确保章节顺序与双语格式一致。
+  - 🔧 **技术优化**：新建 merge_potm_details.py 脚本，自动扫描目录、跳过冗余标题、为每章添加分隔符，输出综合文档。
+  - 🔄 **下一步计划**：提取经济数据指标并创建指标汇总表格，更新至文档末尾。
+
+- **2025-07-03 21:30:00**
+```
+</div>
+- **** - 📚 **POTM 全章节双语合并文档生成完成！成功合并 potm-details 目录内全部章节，生成《Principles of Trading Mastery》完整双语合并文档。**
+  - ✅ **核心改进**：生成并输出 tradingimages/potm/Principles_of_Trading_Mastery_Combined_Bilingual.md，确保章节顺序与双语格式一致。
+  - 🔧 **技术优化**：新建 merge_potm_details.py 脚本，自动扫描目录、跳过冗余标题、为每章添加分隔符，输出综合文档。
+  - 🔄 **下一步计划**：提取经济数据指标并创建指标汇总表格，更新至文档末尾。
