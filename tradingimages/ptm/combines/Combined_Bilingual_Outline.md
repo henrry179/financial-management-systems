@@ -1,0 +1,2318 @@
+# Professional Trading Masterclass – Bilingual Outline
+
+（专业交易大师课 – 双语大纲）
+
+
+---
+
+## Chapter 01 / 第 01 章
+
+- **1. Introduction / 简介**
+    - 1.1 Welcome to the Professional Trading Masterclass video series / 欢迎来到专业交易大师课视频系列
+    - 1.2 Designed for retail traders aiming for professional standards and individuals seeking to become professional traders / 专为追求专业标准的零售交易者和寻求成为专业交易者的个人设计
+    - 1.3 Most comprehensive trading education available / 可获得的最全面的交易教育
+- **2. Key Concepts & Framework / 关键概念与框架**
+    - 2.1 Competency Hierarchy: Unconscious Incompetence → Conscious Incompetence → Conscious Competence → Unconscious Competence / 能力层级：无意识无能 → 有意识无能 → 有意识有能 → 无意识有能
+    - 2.2 Time Horizon: Focus on 20 to 60-day horizon for optimal volatility and opportunity set / 时间范围：专注于20至60天的时间范围，以获得最佳波动性和机会集
+    - 2.3 Volatility: Both risk and opportunity; understanding and exploiting it is crucial / 波动性：既是风险也是机会；理解和利用它至关重要
+    - 2.4 Pro Trader Systematic Framework: Comprehensive approach to trading education / 专业交易者系统框架：交易教育的综合方法
+- **3. Trade Idea Generation Process / 交易想法生成流程**
+    - 3.1 Fundamentally driven trade ideas: Majority of work rooted in quantitative and qualitative fundamentals / 基本面驱动的交易想法：大部分工作根植于定量和定性基本面
+    - 3.2 Timing: Technical analysis and price action for timing fundamentally driven trade ideas / 时机：使用技术分析和价格行为为基本面驱动的交易想法把握时机
+    - 3.3 Catalysts: Events driving stock movements within the 20 to 60-day time horizon / 催化剂：在20至60天时间范围内推动股票走势的事件
+- **4. Trade Structuring & Risk Management / 交易结构与风险管理**
+    - 4.1 Trade Structuring: Optimal trade structures around catalysts, often utilizing options / 交易结构：围绕催化剂的最优交易结构，通常利用期权
+    - 4.2 Risk Management: Preemptive and reactive strategies; reactive risk management requires live positions and mentorship / 风险管理：预防性和反应性策略；反应性风险管理需要实盘仓位和导师指导
+- **5. Educational Content & Evolution / 教育内容与演进**
+    - 5.1 PTM 2.0: Updated version with significantly more educational content, addressing insights gained from interacting with retail traders / PTM 2.0：更新版本，包含显著更多的教育内容，解决了与零售交易者互动中获得的见解
+    - 5.2 Prerequisite Knowledge: Introduction to Professional Level Trading (IPLT) video series recommended for better understanding / 先决知识：建议观看专业级交易入门（IPLT）视频系列以更好地理解
+- **6. Competency Hierarchy & Learning Process / 能力层级与学习过程**
+    - 6.1 Unconscious Incompetence: No awareness of lack of skills / 无意识无能：对缺乏技能没有意识
+    - 6.2 Conscious Incompetence: Awareness of lack of skills; learning phase / 有意识无能：意识到缺乏技能；学习阶段
+    - 6.3 Conscious Competence: Understanding how to do it right; implementation phase with real money / 有意识有能：理解如何正确执行；使用真实资金的实施阶段
+    - 6.4 Unconscious Competence: Mastery; doing it on repeat without much conscious thought / 无意识有能：精通；无需太多有意识思考即可重复执行
+- **7. Framework & Objectives / 框架与目标**
+    - 7.1 Objective: Enable retail traders to emulate consistently profitable professional traders / 目标：使零售交易者能够模仿持续盈利的专业交易者
+    - 7.2 Framework allows for implementation within retail brokerage accounts, fitting into traders' regular lives / 框架允许在零售经纪账户内实施，适合交易者的日常生活
+    - 7.3 Learning Sweet Spot: 20 to 60-day time horizon for best learning and trading opportunities / 学习甜蜜点：20至60天的时间范围提供最佳学习和交易机会
+- **8. Implementation Phase / 实施阶段**
+    - 8.1 Theory vs. Implementation: Moving from learning to trading with real money / 理论与实施：从学习转向使用真实资金交易
+    - 8.2 Implementation can be self-directed or guided through mentoring programs / 实施可以是自主的或通过导师计划指导的
+    - 8.3 Importance of real-time, real-money trading for achieving unconscious competence / 实时、真实资金交易对于达到无意识有能的重要性
+- **9. Trade Idea Generation & Components / 交易想法生成与组成部分**
+    - 9.1 Quantitative Process: Data-driven analysis for generating potential trade ideas / 定量过程：数据驱动的分析用于生成潜在交易想法
+    - 9.2 Qualitative Assessment: Understanding the quality and drivers behind the numbers / 定性评估：理解数字背后的质量和驱动因素
+    - 9.3 Timing: Technical analysis and price action for optimal entry points / 时机：技术分析和价格行为用于寻找最佳入场点
+    - 9.4 Trade Structuring: Building optimal trade structures around catalysts / 交易结构：围绕催化剂构建最优交易结构
+    - 9.5 Risk Management: Plans for managing risk before and during trades / 风险管理：交易前和交易中的风险管理计划
+- **10. Key Principles for Success / 成功的关键原则**
+    - 10.1 Self-Sustainability: Generating own trade ideas, not copying others / 自给自足：生成自己的交易想法，而不是复制他人
+    - 10.2 Work Ethic: Conscientiousness over passion or motivation / 工作伦理：认真负责胜过激情或动机
+    - 10.3 Free Information: Learning from publicly available data before paying for software / 免费信息：在付费购买软件之前从公开可用数据中学习
+    - 10.4 Working Smart, Not Hard: Optimizing time and effort for maximum efficiency / 聪明工作，而非努力工作：优化时间和精力以获得最大效率
+- **11. Conclusion / 结论**
+    - 11.1 Systematic Process: A structured approach to finding trades with higher probability of success than random selection / 系统化过程：一种结构化方法，用于寻找比随机选择具有更高成功概率的交易
+    - 11.2 Adaptability: Framework adaptable to any market with publicly tradable assets / 适应性：框架可适应任何有公开可交易资产的市场
+    - 11.3 Encouragement for Personalization: Adding personal processes to enhance trading odds within the framework spirit / 鼓励个性化：在框架精神内添加个人流程以提高交易胜率
+
+---
+
+## Chapter 02 / 第 02 章
+
+- **1. Framework Overview / 框架概述**
+    - 1.1 Trade Idea Generation Process / 交易想法生成流程
+        - 1.1.1 Fundamentals / 基本面
+        - 1.1.2 Timing / 时机
+        - 1.1.3 Catalysts / 催化剂
+        - 1.1.4 Trade Structure / 交易结构
+    - 1.2 Operational Time Horizon: 20 to 60 days / 操作时间范围：20至60天
+    - 1.3 Live Position Transition / 实盘仓位转换
+        - 1.3.1 From idea to live position with capital commitment / 从想法到承诺资金的实盘仓位
+        - 1.3.2 Subject to risk management practices / 受风险管理实践约束
+    - 1.4 Risk Management / 风险管理
+        - 1.4.1 Preventative Risk Management: Measures before taking a position / 预防性风险管理：建仓前的措施
+        - 1.4.2 Reactive Risk Management: Reacting to stock movements / 反应性风险管理：对股票走势的反应
+- **2. Trade Idea Definition / 交易想法定义**
+    - 2.1 Consists of fundamentals, timing, catalysts, and trade structure / 由基本面、时机、催化剂和交易结构组成
+    - 2.2 Not an investment idea; limited to a specific time frame / 不是投资想法；限于特定时间框架
+- **3. Bull and Bear Markets / 牛市和熊市**
+    - 3.1 Bull Market / 牛市
+        - 3.1.1 Defined by a rise in the index above the previous bear market level / 定义为指数上涨超过前一个熊市水平
+        - 3.1.2 Contrary to media definition of a 20% rise from the low / 与媒体定义的从低点上涨20%相反
+    - 3.2 Bear Market / 熊市
+        - 3.2.1 Defined by a 20% fall in an index from its high / 定义为指数从高点下跌20%
+    - 3.3 Market Definition Importance / 市场定义的重要性
+        - 3.3.1 Allows traders to define their environment and adjust strategies accordingly / 允许交易者定义他们的环境并相应调整策略
+        - 3.3.2 Historical, current, and future perspective is crucial for making informed decisions / 历史、当前和未来的视角对于做出明智决策至关重要
+- **4. Historical Examples / 历史案例**
+    - 4.1 2008-2009 Financial Crisis / 2008-2009年金融危机
+        - 4.1.1 Bear Market Level: 1260.87 (S&P 500) / 熊市水平：1260.87（标普500）
+        - 4.1.2 Bull Market Entry: January 3, 2011 (1271.87) / 进入牛市：2011年1月3日（1271.87）
+    - 4.2 COVID-19 Market Sell-off (2020) / COVID-19市场抛售（2020年）
+        - 4.2.1 Bear Market Level: 2714.20 (S&P 500) / 熊市水平：2714.20（标普500）
+        - 4.2.2 Bull Market Entry: April 8, 2020 (2749.98) / 进入牛市：2020年4月8日（2749.98）
+- **5. Perspective and Analysis / 视角与分析**
+    - 5.1 Importance of Perspective / 视角的重要性
+        - 5.1.1 Understanding historical stock market performance / 理解股市历史表现
+        - 5.1.2 Overlaying parameters onto any moment in history or present / 将参数叠加到历史或当前的任何时刻
+    - 5.2 Downloads and Exercises / 下载和练习
+        - 5.2.1 Spreadsheet analysis of various indices entering bear and bull markets / 各种指数进入熊市和牛市的电子表格分析
+        - 5.2.2 Exercise: Repeat analysis for different equity indices globally / 练习：对全球不同股票指数重复分析
+- **6. Next Steps / 下一步**
+    - 6.1 Predicting Market Trends / 预测市场趋势
+        - 6.1.1 Learning to predict entry into bull or bear markets / 学习预测进入牛市或熊市
+        - 6.1.2 Building portfolios to take advantage of market situations / 构建投资组合以利用市场形势
+    - 6.2 Starting Point: Gross Domestic Product (GDP) analysis / 起点：国内生产总值（GDP）分析
+
+---
+
+## Chapter 03 / 第 03 章
+
+- **1. Definition and Importance / 定义和重要性**
+    - 1.1 GDP: Total income of a country for a given year (Nominal GDP) / GDP：一个国家在给定年份的总收入（名义GDP）
+    - 1.2 Real GDP: Nominal GDP adjusted for inflation level / 实际GDP：根据通货膨胀水平调整后的名义GDP
+    - 1.3 Recession: Two consecutive quarters of negative real GDP growth / 衰退：连续两个季度的实际GDP负增长
+    - 1.4 Top-down Analysis: Looking at the larger economy from a macroeconomic perspective / 自上而下分析：从宏观经济角度看待更大的经济体
+- **2. GDP and Trading/Investing / GDP与交易/投资**
+    - 2.1 Fundamentals: Root of majority of trade idea generation process / 基本面：大多数交易想法生成过程的根源
+    - 2.2 Quantitative Process: Looking at macroeconomic fundamentals to predict GDP / 定量过程：观察宏观经济基本面以预测GDP
+    - 2.3 Predictability: Predicting GDP allows for prediction of stock market returns / 可预测性：预测GDP可以预测股市回报
+- **3. GDP Indicators and Correlation / GDP指标和相关性**
+    - 3.1 Leading Indicator: Moves before the economy moves / 领先指标：在经济变动之前移动
+    - 3.2 Coincident Indicator: Moves at or around the same time as the economy / 同步指标：与经济同时或大约同时移动
+    - 3.3 Lagging Indicator: Moves after the economy moves / 滞后指标：在经济变动之后移动
+    - 3.4 Correlation: Variables moving in the same (positive) or opposite (negative) direction / 相关性：变量朝相同（正）或相反（负）方向移动
+- **4. GDP Reporting and Stock Market Speculation / GDP报告和股市投机**
+    - 4.1 GDP Reporting: Quarterly, lagging indicator / GDP报告：季度性，滞后指标
+    - 4.2 Stock Market: Speculates on future earnings, leading indicator / 股票市场：对未来收益进行投机，领先指标
+    - 4.3 S&P 500 as Proxy: Used to predict earnings and GDP due to historical correlation / 标普500作为代理：由于历史相关性，用于预测收益和GDP
+- **5. Historical Analysis of S&P 500 and GDP / 标普500和GDP的历史分析**
+    - 5.1 Outcomes: Four finite outcomes based on movement of two variables (S&P 500 and GDP) / 结果：基于两个变量（标普500和GDP）移动的四种有限结果
+    - 5.2 Correlation Results: / 相关性结果：
+        - 5.2.1 GDP explains 69.04% of S&P 500 moves when moving in the same direction / 当同向移动时，GDP解释了69.04%的标普500走势
+        - 5.2.2 60.85% of cases both move up / 60.85%的情况下两者都上涨
+        - 5.2.3 8.19% of cases both move down / 8.19%的情况下两者都下跌
+        - 5.2.4 25.62% of cases S&P 500 goes down while GDP remains up (profit taking scenario) / 25.62%的情况下标普500下跌而GDP保持上涨（获利了结情景）
+    - 5.3 Implications for Traders: Predicting GDP and taking profits at the right time can result in high probability of correct market direction prediction / 对交易者的启示：预测GDP并在正确时机获利了结可以导致高概率的正确市场方向预测
+- **6. Global GDP and Stock Markets / 全球GDP和股票市场**
+    - 6.1 US GDP: Drives global GDP, most important to predict / 美国GDP：推动全球GDP，最重要的预测对象
+    - 6.2 EuroZone GDP: Significant, along with US GDP, for building a global macro view / 欧元区GDP：与美国GDP一样重要，用于构建全球宏观视野
+    - 6.3 China GDP: Difficult to predict due to government influence and data manipulation / 中国GDP：由于政府影响和数据操纵而难以预测
+- **7. Predicting GDP Direction / 预测GDP方向**
+    - 7.1 Tools: Macro economics as a tool to forecast stock market direction / 工具：宏观经济学作为预测股市方向的工具
+    - 7.2 Indicators: Leading indicators to predict GDP and stock market direction / 指标：预测GDP和股市方向的领先指标
+    - 7.3 Bond Markets: Deep dive into sovereign bonds (real interest rates, yield curve), corporate bonds, and credit spreads for liquidity gauge and economic growth prediction / 债券市场：深入研究主权债券（实际利率、收益率曲线）、公司债券和信用利差，以衡量流动性和预测经济增长
+- **8. Conclusion / 结论**
+    - 8.1 Forecasting GDP Direction: Exposes traders to potential outsized, consistent returns / 预测GDP方向：使交易者面临潜在的超额、持续回报
+    - 8.2 Next Steps: Detailed analysis of bond markets (sovereign and corporate) to understand liquidity and predict economic growth direction and stock market potential returns. / 下一步：详细分析债券市场（主权和公司）以了解流动性并预测经济增长方向和股市潜在回报。
+
+---
+
+## Chapter 04 / 第 04 章
+
+- **1. Introduction to PTM Video Series / PTM视频系列介绍**
+    - 1.1 Focus on predicting economic growth and leading indicators / 专注于预测经济增长和领先指标
+    - 1.2 Importance of concentration and detailed understanding / 专注和详细理解的重要性
+    - 1.3 Resources: PDF download, Excel files, spreadsheet files / 资源：PDF下载、Excel文件、电子表格文件
+    - 1.4 Understanding bond markets and interest rates / 理解债券市场和利率
+- **2. Importance of Liquidity and Growth / 流动性和增长的重要性**
+    - 2.1 GDP analysis and forecasting company earnings and stock market direction / GDP分析和预测公司收益及股市方向
+    - 2.2 Viewing economic conditions through growth and liquidity lenses / 通过增长和流动性视角观察经济状况
+    - 2.3 PE ratio (Price-Earnings Ratio) and its significance in stock markets / 市盈率（价格收益比）及其在股市中的重要性
+    - 2.4 Economic growth drives earnings (E in PE ratio); liquidity drives prices (P) / 经济增长推动收益（市盈率中的E）；流动性推动价格（P）
+    - 2.5 Abundant liquidity drives asset prices higher; scarce liquidity puts downward pressure / 充裕的流动性推动资产价格上涨；稀缺的流动性造成下行压力
+- **3. Bonds and Interest Rates / 债券和利率**
+    - 3.1 Essential knowledge for equity traders and portfolio managers / 股票交易者和投资组合经理的必备知识
+    - 3.2 Retail and professional traders' lack of attention to bond markets / 零售和专业交易者对债券市场缺乏关注
+    - 3.3 Understanding the price or cost of money (interest rates) / 理解货币的价格或成本（利率）
+    - 3.4 Central banks' role in adjusting interest rates for economic stimulation or moderation / 中央银行在调整利率以刺激或调节经济中的作用
+    - 3.5 Official rates (Fed funds rate, MRO, base rate) and market rates / 官方利率（联邦基金利率、主要再融资操作利率、基准利率）和市场利率
+    - 3.6 US 10-year Treasury note as a benchmark rate / 美国10年期国债作为基准利率
+    - 3.7 Eurodollar market and LIBOR (London Interbank Offered Rate) / 欧洲美元市场和LIBOR（伦敦银行同业拆借利率）
+    - 3.8 Global dependence on US dollar liquidity and health of US Treasury market / 全球对美元流动性和美国国债市场健康状况的依赖
+- **4. Real Interest Rates and Yield Curve Analysis / 实际利率和收益率曲线分析**
+    - 4.1 Nominal vs. real interest rates / 名义利率与实际利率
+    - 4.2 Real interest rate = nominal interest rate - inflation / 实际利率 = 名义利率 - 通货膨胀率
+    - 4.3 Importance of real interest rates for asset allocation and investment decisions / 实际利率对资产配置和投资决策的重要性
+    - 4.4 Relationship between real interest rates, stock market levels, and valuations / 实际利率、股市水平和估值之间的关系
+    - 4.5 Yield curve dynamics: normal, flat, inverted yield curves / 收益率曲线动态：正常、平坦、倒挂收益率曲线
+    - 4.6 Yield curve as a leading indicator for economic expansion, contraction, and potential recession / 收益率曲线作为经济扩张、收缩和潜在衰退的领先指标
+    - 4.7 Fed's actions in response to yield curve signals and market expectations / 美联储对收益率曲线信号和市场预期的响应行动
+- **5. Bond Market Analysis / 债券市场分析**
+    - 5.1 Demand and supply dynamics affecting bond prices and yields / 影响债券价格和收益率的需求和供给动态
+    - 5.2 Yield curve plotting and its interpretation / 收益率曲线绘制及其解释
+    - 5.3 Normal yield curve: longer-term rates higher than shorter-term rates / 正常收益率曲线：长期利率高于短期利率
+    - 5.4 Flat yield curve: transitioning period between expansion and contraction / 平坦收益率曲线：扩张和收缩之间的过渡期
+    - 5.5 Inverted yield curve: short-term rates higher than long-term rates; signals economic stress and potential slowdown / 倒挂收益率曲线：短期利率高于长期利率；预示经济压力和潜在放缓
+    - 5.6 Fed's policy responses to yield curve transitions / 美联储对收益率曲线转换的政策响应
+    - 5.7 Real interest rates and yield curve as leading indicators for GDP, earnings, stock market direction, and liquidity / 实际利率和收益率曲线作为GDP、收益、股市方向和流动性的领先指标
+- **6. Bond Products for Retail Traders / 零售交易者的债券产品**
+    - 6.1 Limited availability of treasury bond products for speculation / 用于投机的国债产品可用性有限
+    - 6.2 Using bond products as indicators or turbo hedges for portfolio protection or short-term directional bets / 使用债券产品作为指标或涡轮对冲以保护投资组合或进行短期方向性押注
+    - 6.3 Government bond ETFs (SHV, SHY, TLT) for short-term maturity, medium-term, and 20+ year maturity / 政府债券ETF（SHV、SHY、TLT）用于短期、中期和20年以上期限
+- **7. Conclusion / 结论**
+    - 7.1 Recap of the importance of real rates and yield curve analysis / 回顾实际利率和收益率曲线分析的重要性
+    - 7.2 Resources for updating benchmark yields and yield curve data / 更新基准收益率和收益率曲线数据的资源
+    - 7.3 Caveat regarding Fed's policy actions and market dynamics / 关于美联储政策行动和市场动态的注意事项
+    - 7.4 Upcoming video focus on corporate bond market and credit spreads / 即将发布的视频聚焦于公司债券市场和信用利差
+
+---
+
+## Chapter 05 / 第 05 章
+
+- **1. Building Knowledge in Bond Markets / 构建债券市场知识**
+    - 1.1 Real Interest Rates & Yield Curve / 实际利率与收益率曲线
+        - 1.1.1 Leading indicators to economy and stock market / 经济和股市的领先指标
+        - 1.1.2 Reflects market expectations of short-term vs. long-term risk / 反映市场对短期与长期风险的预期
+    - 1.2 Corporate Bonds and Credit Spreads / 公司债券和信用利差
+        - 1.2.1 Focus on corporate bond market and credit spreads over benchmarks / 聚焦公司债券市场和相对基准的信用利差
+        - 1.2.2 Download: Corporate Bond Indices Excel File / 下载：公司债券指数Excel文件
+- **2. Understanding Corporate Bonds / 理解公司债券**
+    - 2.1 Definition / 定义
+        - 2.1.1 Debt issued by companies to raise capital / 公司为筹集资本而发行的债务
+        - 2.1.2 Yields typically higher than government debt due to default risk / 由于违约风险，收益率通常高于政府债券
+    - 2.2 Functionality / 功能
+        - 2.2.1 Similar to government bonds, with issuers being corporations / 类似于政府债券，发行人为公司
+        - 2.2.2 Investors lend money (principal) and receive interest payments (coupons) / 投资者借出资金（本金）并收到利息支付（票息）
+- **3. Corporate Bond Market Dynamics / 公司债券市场动态**
+    - 3.1 Primary vs. Secondary Market / 一级市场与二级市场
+        - 3.1.1 Primary: Issuance of bonds / 一级市场：债券发行
+        - 3.1.2 Secondary: Trading of bonds, where yield is determined by the market / 二级市场：债券交易，收益率由市场决定
+    - 3.2 Factors Influencing Yield / 影响收益率的因素
+        - 3.2.1 Macroeconomic conditions / 宏观经济状况
+        - 3.2.2 Business performance / 业务表现
+        - 3.2.3 Sector situations / 行业情况
+        - 3.2.4 Benchmark rates and liquidity / 基准利率和流动性
+- **4. Credit Spreads and Ratings / 信用利差和评级**
+    - 4.1 Credit Spread / 信用利差
+        - 4.1.1 Premium of corporate bond yield over benchmark (10-year Treasury) / 公司债券收益率相对基准（10年期国债）的溢价
+        - 4.1.2 Leading indicator for risk sentiment and future market expectations / 风险情绪和未来市场预期的领先指标
+    - 4.2 Credit Ratings / 信用评级
+        - 4.2.1 Issued by agencies like Moody's, S&P, Fitch / 由穆迪、标普、惠誉等机构发布
+        - 4.2.2 Ranges from AAA (highest creditworthiness) to CCC (junk) / 范围从AAA（最高信用度）到CCC（垃圾级）
+        - 4.2.3 Investment Grade vs. Non-Investment Grade (Junk Bonds) / 投资级与非投资级（垃圾债券）
+- **5. Aggregate Corporate Bond Indices / 综合公司债券指数**
+    - 5.1 Function / 功能
+        - 5.1.1 Aggregates yields of widely traded credits / 汇总广泛交易的信贷收益率
+        - 5.1.2 Split by sector or credit quality / 按行业或信用质量划分
+    - 5.2 Examples / 示例
+        - 5.2.1 CSIACTEX (US Corporate Bonds Spread over 10Y Treasury) / CSIACTEX（美国公司债券相对10年期国债利差）
+        - 5.2.2 Ice Bank of America AA/BBB US Corporate Indices / 美国银行美林AA/BBB美国公司指数
+    - 5.3 Importance / 重要性
+        - 5.3.1 Leading indicators to risk assets, GDP growth, and liquidity / 风险资产、GDP增长和流动性的领先指标
+- **6. Impact on Markets and Economy / 对市场和经济的影响**
+    - 6.1 Cost of Money for Corporates / 公司的资金成本
+        - 6.1.1 Affects capital structure and GDP growth through defaults / 通过违约影响资本结构和GDP增长
+    - 6.2 Discounted Cash Flow Analysis / 贴现现金流分析
+        - 6.2.1 Higher debt costs reduce expected future cash flows / 更高的债务成本减少预期未来现金流
+    - 6.3 Expansionary vs. Contractionary Dynamics / 扩张性与收缩性动态
+        - 6.3.1 Cheaper money encourages borrowing; expensive money discourages it / 便宜的资金鼓励借贷；昂贵的资金阻碍借贷
+- **7. Central Banks and Market Manipulation / 中央银行和市场操纵**
+    - 7.1 Federal Reserve Actions / 美联储行动
+        - 7.1.1 Manipulates supply of funds via official interest rates and bond market interventions / 通过官方利率和债券市场干预操纵资金供应
+    - 7.2 Leading Indicator Limitations / 领先指标的局限性
+        - 7.2.1 Fed's reaction speed and market expectations management / 美联储的反应速度和市场预期管理
+- **8. Retail Trading of Corporate Bond Products / 公司债券产品的零售交易**
+    - **8.1 Tradable Products / 可交易产品**
+        - 8.1.1 LQD, VCIT, VCLT, HYG, JNK / LQD、VCIT、VCLT、HYG、JNK
+    - 8.2 Considerations / 考虑因素
+        - 8.2.1 Liquidity, tradability, and active options market / 流动性、可交易性和活跃的期权市场
+- **9. Macro View and Portfolio Bias / 宏观视角和投资组合偏向**
+    - 9.1 Objective / 目标
+        - 9.1.1 Predict GDP, earnings, and S&P 500 returns / 预测GDP、收益和标普500回报
+        - 9.1.2 Position portfolios based on macroeconomic view (long, short, neutral) / 基于宏观经济观点定位投资组合（做多、做空、中性）
+    - 9.2 Caveats / 注意事项
+        - 9.2.1 Fed's potential intervention and market expectations / 美联储的潜在干预和市场预期
+- **10. PTM Video Series Framework / PTM视频系列框架**
+    - 10.1 Adaptability and Timelessness / 适应性和永恒性
+        - 10.1.1 Framework adaptable to any market and timeless / 框架可适应任何市场且永不过时
+    - 10.2 Input Customization / 输入定制
+        - 10.2.1 Add personal processes and inputs to the framework / 向框架添加个人流程和输入
+    - 10.3 IPM Principles / IPM原则
+        - 10.3.1 Self-sustainability, work ethic, free information, working smart / 自给自足、工作伦理、免费信息、聪明工作
+- **11. Conclusion / 结论**
+    - 11.1 Recap / 回顾
+        - 11.1.1 Real rates, yield curve, corporate bonds, and credit spreads as leading indicators / 实际利率、收益率曲线、公司债券和信用利差作为领先指标
+        - 11.1.2 Importance of regular updates to accompanying Excel downloads / 定期更新配套Excel下载的重要性
+    - 11.2 Next Steps / 下一步
+        - 11.2.1 Video 6: M2 Money Supply and spreadsheet lesson by Christopher Quill / 第6集：M2货币供应量和Christopher Quill的电子表格课程
+
+---
+
+## Chapter 06 / 第 06 章
+
+- **1. Introduction to Money Supply Analysis / 货币供应量分析介绍**
+    - 1.1 Overview / 概述
+        - 1.1.1 Video focuses on introducing money supply analysis as an accessory to previously covered bond market leading indicators / 视频专注于介绍货币供应量分析，作为之前涵盖的债券市场领先指标的辅助工具
+        - 1.1.2 Emphasizes the importance of understanding how everything fits together in the analysis framework / 强调理解分析框架中各要素如何结合的重要性
+- **2. Recap of Previous Videos / 前期视频回顾**
+    - 2.1 Covered Topics / 涵盖主题
+        - 2.1.1 Government and sovereign bond markets / 政府和主权债券市场
+        - 2.1.2 Corporate bond markets / 公司债券市场
+        - 2.1.3 Leading indicators for predicting dynamics in bond markets, stock market liquidity, volatility, direction, and possible returns / 预测债券市场动态、股市流动性、波动性、方向和可能回报的领先指标
+    - 2.2 Dynamics Prediction / 动态预测
+        - 2.2.1 Aimed at predicting corporate earnings growth and leading economic growth (GDP) / 旨在预测公司收益增长和领先经济增长（GDP）
+        - 2.2.2 Portfolio bias formation based on macroeconomic views / 基于宏观经济观点的投资组合偏向形成
+- **3. Money Supply as a Leading Indicator / 货币供应量作为领先指标**
+    - 3.1 Role of Money Supply / 货币供应量的作用
+        - 3.1.1 Defined as a conventional monetary policy tool used by the Federal Reserve / 定义为美联储使用的传统货币政策工具
+        - 3.1.2 Serves as an accessory leading indicator alongside real interest rates, yield curves, and investment grade/high yield spreads / 作为实际利率、收益率曲线和投资级/高收益利差的辅助领先指标
+    - 3.2 M2 Money Supply Growth / M2货币供应量增长
+        - 3.2.1 Focuses on M2, a broader measure of money supply including M1 (cash and checking deposits) and near money / 专注于M2，这是一个更广泛的货币供应量衡量标准，包括M1（现金和支票存款）和准货币
+        - 3.2.2 Used to predict future inflation and liquidity in the economy / 用于预测未来通胀和经济中的流动性
+    - 3.3 Analysis Method / 分析方法
+        - 3.3.1 Distribution of returns analysis applied to M2 money supply growth data / 对M2货币供应量增长数据应用回报分布分析
+        - 3.3.2 Aimed at understanding normal and abnormal growth patterns / 旨在理解正常和异常的增长模式
+- **4. Federal Reserve Policy and Outlook / 美联储政策和前景**
+    - 4.1 Fed's Role / 美联储的作用
+        - 4.1.1 Monitors indicators for expected economic growth and adjusts policy accordingly / 监控经济增长预期指标并相应调整政策
+        - 4.1.2 Uses conventional (interest rates, money supply) and unconventional (asset purchase programs) tools / 使用传统工具（利率、货币供应量）和非传统工具（资产购买计划）
+    - 4.2 Policy Impact / 政策影响
+        - 4.2.1 Fed policy can preemptively or reactively change leading indicators and dynamics predictors / 美联储政策可以预防性或反应性地改变领先指标和动态预测指标
+        - 4.2.2 Traders and portfolio managers must stay informed about Fed policy and outlook / 交易者和投资组合经理必须了解美联储政策和前景
+- **5. Practical Analysis of M2 Money Supply / M2货币供应量实际分析**
+    - 5.1 Data Gathering / 数据收集
+        - 5.1.1 Source: Federal Reserve Economic Database (FRED) / 来源：美联储经济数据库（FRED）
+        - 5.1.2 Data downloaded in Excel format for analysis / 数据以Excel格式下载用于分析
+    - 5.2 Analysis Steps / 分析步骤
+        - 5.2.1 Calculating monthly and yearly percentage rates of change for M2 / 计算M2的月度和年度百分比变化率
+        - 5.2.2 Descriptive statistics calculation using Excel's Data Analysis tool / 使用Excel数据分析工具计算描述性统计
+        - 5.2.3 Histogram creation to visualize distribution of month-on-month percentage changes / 创建直方图以可视化月环比百分比变化的分布
+    - 5.3 Standard Deviation Analysis / 标准差分析
+        - 5.3.1 Identification of upper and lower bounds for 1, 2, and 3 standard deviations from the mean / 识别均值的1、2和3个标准差的上下界
+        - 5.3.2 Comparison of actual counts within these bounds to expected counts in a normal distribution / 将这些界限内的实际计数与正态分布中的预期计数进行比较
+    - 5.4 Frequency Adjusted Mean / 频率调整均值
+        - 5.4.1 Calculation of weighted mean for positive, negative, and zero data groups / 计算正、负和零数据组的加权均值
+        - 5.4.2 Provides insight into expected values and occurrence probabilities / 提供对预期值和发生概率的洞察
+- **6. Conclusion / 结论**
+    - 6.1 Understanding Abnormal Prints / 理解异常数据
+        - 6.1.1 Analysis enables identification of abnormal M2 money supply growth prints, particularly on the upside / 分析能够识别异常的M2货币供应量增长数据，特别是上行方面
+        - 6.1.2 Prompts questions regarding alignment with market expectations and Fed actions / 引发关于与市场预期和美联储行动一致性的问题
+    - 6.2 Template Spreadsheet / 模板电子表格
+        - 6.2.1 Provided for regular updates and analysis of M2 money supply data / 为M2货币供应量数据的定期更新和分析提供模板
+        - 6.2.2 Facilitates quicker and more efficient analysis over time with practice / 通过练习促进更快、更有效的分析
+
+---
+
+## Chapter 07 / 第 07 章
+
+- **1. Leading Indicators & Money Markets / 领先指标与货币市场**
+    - 1.1 Real Interest Rates / 实际利率
+    - 1.2 Yield Curve / 收益率曲线
+    - 1.3 Corporate Credit Spreads / 公司信用利差
+    - 1.4 M2 Money Supply Growth / M2货币供应量增长
+    - 1.5 Federal Reserve Monitoring / 美联储监控
+        - 1.5.1 Manipulates indicators to achieve dual mandate (inflation, unemployment, GDP growth) / 操纵指标以实现双重使命（通胀、失业、GDP增长）
+- **2. Business & Consumer Impact / 商业和消费者影响**
+    - 2.1 Businesses affected by / 企业受以下因素影响：
+        - 2.1.1 Cost of borrowing (short-term, long-term) / 借贷成本（短期、长期）
+        - 2.1.2 Risk across asset classes (debt vs. equity) / 跨资产类别的风险（债务与股权）
+    - 2.2 Consumers influenced by / 消费者受以下因素影响：
+        - 2.2.1 Long-term vs. short-term cost of money / 长期与短期资金成本
+- **3. ISM Manufacturing Report on Business / ISM制造业商业报告**
+    - 3.1 Significance / 重要性
+        - 3.1.1 Reflects physical goods bought and sold in the U.S. economy / 反映美国经济中买卖的实物商品
+        - 3.1.2 Historical data since 1947, providing higher statistical significance / 自1947年以来的历史数据，提供更高的统计意义
+        - 3.1.3 More important than services report due to tangible goods focus / 由于专注于有形商品，比服务报告更重要
+    - 3.2 Compilation & Methodology / 编制与方法论
+        - 3.2.1 Questionnaire sent to top 300 U.S. manufacturing companies / 向美国排名前300的制造业公司发送问卷
+        - 3.2.2 Covers new orders, production, employment, deliveries, and inventories / 涵盖新订单、生产、就业、交付和库存
+        - 3.2.3 Diffusion index calculation / 扩散指数计算：
+            - 3.2.3.1 Measures degree of change dispersion / 衡量变化分散程度
+            - 3.2.3.2 Index above 50 indicates positive change, below 50 indicates negative change / 指数高于50表示正面变化，低于50表示负面变化
+    - 3.3 Components & Importance / 组成部分与重要性
+        - 3.3.1 New Orders: Reflects level of new orders from customers / 新订单：反映客户新订单水平
+        - 3.3.2 Production: Rate and direction of change in production / 生产：生产变化的速度和方向
+        - 3.3.3 Employment: Rate of increase or decrease in employment / 就业：就业增加或减少的速度
+        - 3.3.4 Supplier Deliveries: Speed and efficiency of supply chain / 供应商交付：供应链的速度和效率
+        - 3.3.5 Inventories: Increases or decreases in inventory levels / 库存：库存水平的增加或减少
+    - 3.4 Relationship with GDP & S&P 500 / 与GDP和标普500的关系
+        - 3.4.1 Predicts GDP growth direction (~80% accuracy) / 预测GDP增长方向（~80%准确率）
+        - 3.4.2 Closely correlates with S&P 500 annual percentage change / 与标普500年度百分比变化密切相关
+        - 3.4.3 Peaks and troughs in ISM index align with S&P 500 performance / ISM指数的峰值和谷值与标普500表现一致
+- **4. Practical Application for Traders & Portfolio Managers / 交易者和投资组合经理的实际应用**
+    - 4.1 Helps predict GDP growth, stock market direction, and potential returns / 帮助预测GDP增长、股市方向和潜在回报
+        - 4.1.1 Influences portfolio bias (long, short, neutral) / 影响投资组合偏向（做多、做空、中性）
+        - 4.1.2 Provides insights into potential trade ideas within sectors / 提供行业内潜在交易想法的洞察
+        - 4.1.3 Assists in understanding Federal Reserve policy responses / 协助理解美联储政策反应
+- **5. Monthly Process & Analysis / 月度流程与分析**
+    - 5.1 Quantitative & qualitative assessment of ISM data / ISM数据的定量和定性评估
+        - 5.1.1 Heat map visualization for growth and slowdown / 增长和放缓的热图可视化
+        - 5.1.2 Review of industry comments for turning points and trends / 审查行业评论以寻找转折点和趋势
+        - 5.1.3 Sectoral analysis for potential trade ideas / 潜在交易想法的行业分析
+- **6. Summary / 总结**
+    - 6.1 ISM Manufacturing Report on Business: Vital leading indicator for GDP, stock market, and Fed policy / ISM制造业商业报告：GDP、股市和美联储政策的重要领先指标
+        - 6.1.1 Combined with money market indicators, offers comprehensive macroeconomic perspective / 与货币市场指标结合，提供全面的宏观经济视角
+        - 6.1.2 Enables traders and portfolio managers to predict economic conditions and adjust portfolio strategies accordingly / 使交易者和投资组合经理能够预测经济状况并相应调整投资组合策略
+
+---
+
+## Chapter 08 / 第 08 章
+
+- **1. Overview / 概述**
+    - 1.1 Purpose: Predicting stock market direction & GDP growth; Identifying trade ideas across sectors / 目的：预测股市方向和GDP增长；识别各行业的交易想法
+    - 1.2 Focus Areas: Portfolio bias & trade ideas generation / 重点领域：投资组合偏向和交易想法生成
+- **2. ISM Non-Manufacturing Index (NMI) / ISM非制造业指数（NMI）**
+    - 2.1 Components / 组成部分
+        - 2.1.1 Business Activity / 商业活动
+        - 2.1.2 New Orders / 新订单
+        - 2.1.3 Employment / 就业
+        - 2.1.4 Deliveries / 交付
+    - 2.2 Importance / 重要性
+        - 2.2.1 Services sector represents 80% of the US economy / 服务业占美国经济的80%
+        - 2.2.2 Historical data since 2008 for composite index, 1997 for components / 综合指数的历史数据始于2008年，组成部分始于1997年
+    - 2.3 Reading the Index / 指数解读
+        - 2.3.1 Above 50: Expansion / 高于50：扩张
+        - 2.3.2 Below 50: Contraction / 低于50：收缩
+        - 2.3.3 50: No change / 50：无变化
+- **3. Leading Indicator Utility / 领先指标效用**
+    - 3.1 Predicts US & global GDP growth / 预测美国和全球GDP增长
+        - 3.1.1 Guides stock market direction & potential returns / 指导股市方向和潜在回报
+        - 3.1.2 Influences Federal Reserve policy expectations / 影响美联储政策预期
+        - 3.1.3 Determines portfolio bias (long, short, neutral) / 决定投资组合偏向（做多、做空、中性）
+        - 3.1.4 Provides quantitative & qualitative industry insights for trade ideas / 为交易想法提供定量和定性的行业洞察
+- **4. Survey Design / 调查设计**
+    - 4.1 Diffusion index calculated from responses on business activity, new orders, employment, and deliveries / 根据商业活动、新订单、就业和交付的回答计算扩散指数
+        - 4.1.1 Business Activity & New Orders: Most important components for leading indicators / 商业活动和新订单：领先指标的最重要组成部分
+        - 4.1.2 Employment & Deliveries: Lagging components within the index / 就业和交付：指数中的滞后组成部分
+- **5. Historical Data Analysis / 历史数据分析**
+    - 5.1 NMI composite data since 2008 shows correlation with GDP growth & S&P 500 returns / 自2008年以来的NMI综合数据显示与GDP增长和标普500回报的相关性
+        - 5.1.1 Peak levels around 60; trough levels around 40-45 / 峰值水平约为60；谷值水平约为40-45
+        - 5.1.2 Correlation between NMI slowdowns and GDP growth deceleration / NMI放缓与GDP增长减速之间的相关性
+- **6. Comparative Analysis / 比较分析**
+    - 6.1 NMI vs. ISM Manufacturing Index / NMI与ISM制造业指数对比：
+        - 6.1.1 Business Activity & New Orders lead composite index movements / 商业活动和新订单引领综合指数走势
+            - 6.1.1.1 NMI rebounded faster than ISM Manufacturing during Covid-19 recovery / 在新冠疫情恢复期间，NMI的反弹速度快于ISM制造业指数
+        - 6.1.2 Yield Curve / 收益率曲线：
+            - 6.1.2.1 Historical behavior during economic shocks (Covid-19, 2020) / 经济冲击期间的历史表现（新冠疫情，2020年）
+            - 6.1.2.2 Indication of Fed actions and market expectations / 美联储行动和市场预期的指示
+- **7. Qualitative Assessment / 定性评估**
+    - 7.1 Industry-specific comments provide insights into sector performance / 特定行业评论为行业表现提供洞察
+        - 7.1.1 Examples: Agriculture, forestry, fishing, and hunting vs. Accommodation and food services / 示例：农业、林业、渔业和狩猎业对比住宿和餐饮服务业
+        - 7.1.2 Potential trade ideas: Yeti (outdoor recreation), QSR (restaurant brands) / 潜在交易想法：Yeti（户外娱乐）、QSR（餐厅品牌）
+- **8. Trade Idea Generation / 交易想法生成**
+    - 8.1 Use quantitative data & qualitative statements for clues on sector trends / 使用定量数据和定性陈述寻找行业趋势线索
+        - 8.1.1 Rank and color-code sectors for heat map analysis / 对行业进行排名和颜色编码进行热图分析
+        - 8.1.2 Do not rely solely on ISM & NMI for trade ideas; integrate with other market insights / 不要仅依赖ISM和NMI生成交易想法；要与其他市场洞察相结合
+- **9. Summary / 总结**
+    - 9.1 NMI is crucial for predicting economic conditions and portfolio direction / NMI对预测经济状况和投资组合方向至关重要
+        - 9.1.1 Equal importance given to NMI and ISM Manufacturing Index / NMI和ISM制造业指数被给予同等重要性
+        - 9.1.2 Combined with money market indicators & other surveys for comprehensive macroeconomic analysis / 与货币市场指标和其他调查相结合，进行全面的宏观经济分析
+        - 9.1.3 Aids in generating sector-specific trade ideas and portfolio bias decisions / 有助于生成特定行业的交易想法和投资组合偏向决策
+
+---
+
+## Chapter 09 / 第 09 章
+
+- **1. Overview / 概述**
+    - 1.1 Fifth Leading Indicator / 第五个领先指标
+    - 1.2 Monthly Survey / 月度调查
+        - 1.2.1 Gauges consumer sentiment in the U.S. economy / 衡量美国经济中的消费者情绪
+        - 1.2.2 Determines if consumers are bullish or bearish on their future / 确定消费者对其未来是看涨还是看跌
+    - 1.3 Impact on Economy / 对经济的影响
+        - 1.3.1 High sentiment: Increased spending, economic expansion / 高情绪：增加支出，经济扩张
+        - 1.3.2 Low sentiment: Decreased spending, economic contraction / 低情绪：减少支出，经济收缩
+- **2. Components / 组成部分**
+    - 2.1 Aggregate Consumer Sentiment Index (ACSI) / 综合消费者情绪指数（ACSI）
+        - 2.1.1 50% Index of Current Conditions (ICC) / 50%当前状况指数（ICC）
+        - 2.1.2 50% Index of Consumer Expectations (ICE) / 50%消费者预期指数（ICE）
+    - 2.2 Survey Questions / 调查问题
+        - 2.2.1 Personal finances / 个人财务
+        - 2.2.2 Business conditions / 商业状况
+        - 2.2.3 Future financial expectations / 未来财务预期
+- **3. Economic Theory: Paradox of Thrift / 经济理论：节俭悖论**
+    - 3.1 Concept / 概念
+        - 3.1.1 Individuals cut consumption and increase savings during economic contraction / 个人在经济收缩期间减少消费并增加储蓄
+    - 3.2 Outcome / 结果
+        - 3.2.1 Leads to further economic contraction / 导致进一步的经济收缩
+    - 3.3 Rational vs. Irrational Behavior / 理性与非理性行为
+        - 3.3.1 Rational: Spending during expansion for higher living standards / 理性：在扩张期间消费以提高生活水平
+        - 3.3.2 Irrational: Saving during contraction, exacerbating the downturn / 非理性：在收缩期间储蓄，加剧衰退
+- **4. Consumer Behavior Dynamics / 消费者行为动态**
+    - 4.1 Finite Resources / 有限资源
+        - 4.1.1 Limitations on consumer purchases / 消费者购买的限制
+    - 4.2 Influences / 影响因素
+        - 4.2.1 Real interest rates / 实际利率
+        - 4.2.2 Money supply / 货币供应量
+    - 4.3 Connection to Business Cycle / 与商业周期的联系
+        - 4.3.1 Consumer spending and business activity move in tandem / 消费者支出和商业活动同步变动
+- **5. Critiques of Paradox of Thrift / 对节俭悖论的批评**
+    - 5.1 Counterarguments / 反驳论点
+        - 5.1.1 Increased savings allow banks to lend more / 增加储蓄使银行能够放贷更多
+        - 5.1.2 Self-correcting nature of the business cycle / 商业周期的自我纠正性质
+    - 5.2 Reality Check / 现实检验
+        - 5.2.1 Complexity of economic dynamics / 经济动态的复杂性
+        - 5.2.2 No definitive rules for economic behavior / 经济行为没有确定的规则
+- **6. Using UMCSI as a Leading Indicator / 使用UMCSI作为领先指标**
+    - 6.1 Historical Cycles / 历史周期
+        - 6.1.1 Peaks and troughs correlate with GDP growth and stock market direction / 峰值和谷值与GDP增长和股市方向相关
+    - 6.2 Zonal Approach / 区域方法
+        - 6.2.1 Above 80: Bullish consumers, strong GDP growth / 高于80：看涨消费者，强劲GDP增长
+        - 6.2.2 70-80: Benign consumers, moderate GDP growth / 70-80：温和消费者，适度GDP增长
+        - 6.2.3 Below 70: Bearish consumers, weak or negative GDP growth / 低于70：看跌消费者，疲弱或负GDP增长
+    - 6.3 Expectations Index / 预期指数
+        - 6.3.1 Most important component for predicting future sentiment / 预测未来情绪的最重要组成部分
+- **7. Capacity Issues for Consumers / 消费者能力问题**
+    - 7.1 Household Debt to GDP / 家庭债务与GDP比率
+        - 7.1.1 Tracks debt levels relative to economic output / 追踪相对于经济产出的债务水平
+    - 7.2 Debt Service Payments / 债务偿还支付
+        - 7.2.1 Percentage of disposable income used for debt repayment / 用于债务偿还的可支配收入百分比
+    - 7.3 Residential Mortgage Liability / 住宅抵押贷款负债
+        - 7.3.1 Total debt load for one-to-four family residences / 一到四户家庭住宅的总债务负担
+- **8. Summary / 总结**
+    - 8.1 Importance of Consumer Spending / 消费者支出的重要性
+        - 8.1.1 Dominates U.S. economy (67%) / 主导美国经济（67%）
+    - 8.2 UMCSI as a Leading Indicator / UMCSI作为领先指标
+        - 8.2.1 Predicts GDP growth, stock market direction, and potential returns / 预测GDP增长、股市方向和潜在回报
+    - 8.3 Interpreting Consumer Sentiment / 解读消费者情绪
+        - 8.3.1 Consider money market indicators and other macroeconomic factors / 考虑货币市场指标和其他宏观经济因素
+    - 8.4 Fed Policy Consideration / 美联储政策考虑
+        - 8.4.1 Fed's response to consumer sentiment impacts economic policy / 美联储对消费者情绪的反应影响经济政策
+- **9. Next Steps / 下一步**
+    - 9.1 Building Permits / 建筑许可
+        - 9.1.1 Next leading indicator to explore / 下一个要探索的领先指标
+        - 9.1.2 Reveals insights into various economic sectors / 揭示各经济部门的洞察
+
+---
+
+## Chapter 10 / 第 10 章
+
+- **1. Building Permits as a Leading Indicator / 建筑许可作为领先指标**
+    - 1.1 Definition / 定义
+        - 1.1.1 Authorization by local state planning department for housing starts / 当地州规划部门对住房开工的授权
+    - 1.2 Importance / 重要性
+        - 1.2.1 Predicts GDP growth and S&P 500 direction / 预测GDP增长和标普500方向
+        - 1.2.2 Reflects developer sentiment and consumer demand / 反映开发商情绪和消费者需求
+        - 1.2.3 Indicates liquidity and health of US credit market / 表明美国信贷市场的流动性和健康状况
+    - 1.3 Time Lag / 时间滞后
+        - 1.3.1 Leads housing starts by 3-4 months / 领先住房开工3-4个月
+        - 1.3.2 Leads completions by 8-16 months / 领先竣工8-16个月
+- **2. Data Access and Interpretation / 数据获取和解释**
+    - 2.1 Source / 来源
+        - 2.1.1 Census Bureau's Monthly Report on Building Permits / 人口普查局的建筑许可月度报告
+        - 2.1.2 Census.gov/construction/NRC/index / Census.gov/construction/NRC/index
+    - 2.2 Understanding the Report / 理解报告
+        - 2.2.1 Building permits, housing starts, housing completions / 建筑许可、住房开工、住房竣工
+        - 2.2.2 Leading, coincident, and lagging indicators / 领先、同步和滞后指标
+    - 2.3 Survey Design / 调查设计
+        - 2.3.1 Voluntary mail survey to local building permit officials / 向当地建筑许可官员的自愿邮件调查
+        - 2.3.2 Form C-404 for new privately owned housing units / 新私人拥有住房单位的C-404表格
+- **3. Historical Context and Analysis / 历史背景和分析**
+    - 3.1 Global Financial Crisis (2008-2009) / 全球金融危机（2008-2009）
+        - 3.1.1 Permits troughed at 521,000 in April 2009 / 许可在2009年4月触底521,000套
+        - 3.1.2 Recovery began around February 2012 / 恢复始于2012年2月左右
+    - 3.2 Recent History (2018-2020) / 近期历史（2018-2020）
+        - 3.2.1 Flat growth during August 2018 to July 2019 / 2018年8月至2019年7月期间平缓增长
+        - 3.2.2 Surge post-Fed rate cuts in July 2019 / 2019年7月美联储降息后激增
+        - 3.2.3 Impact of Covid-19 lockdowns and recovery / 新冠疫情封锁和恢复的影响
+    - 3.3 Long-term Trends / 长期趋势
+        - 3.3.1 Peaks above 2 million permits / 峰值超过200万套许可
+        - 3.3.2 Troughs between 700,000-800,000 permits / 谷值在70万-80万套许可之间
+        - 3.3.3 Long-term average trend line: 1.3-1.4 million / 长期平均趋势线：130-140万套
+- **4. Comparison with Other Indicators / 与其他指标的比较**
+    - 4.1 GDP Growth / GDP增长
+        - 4.1.1 Year-on-year percentage change correlation / 同比百分比变化相关性
+    - 4.2 S&P 500 / 标普500
+        - 4.2.1 12-month moving average comparison / 12个月移动平均线比较
+    - 4.3 Consumer Sentiment (UMCSI) / 消费者情绪（UMCSI）
+        - 4.3.1 Parallel recovery in 2012 / 2012年的平行恢复
+- **5. Practical Application / 实际应用**
+    - 5.1 Monthly Analysis / 月度分析
+        - 5.1.1 Consistent data collection and investigation / 持续的数据收集和调查
+        - 5.1.2 Interpretation in context of other indicators / 在其他指标背景下的解释
+    - 5.2 Portfolio Management / 投资组合管理
+        - 5.2.1 Directional bias and stock selection / 方向性偏向和股票选择
+    - 5.3 Federal Reserve Policy / 美联储政策
+        - 5.3.1 Anticipating likely policy responses / 预期可能的政策回应
+- **6. Conclusion / 结论**
+    - 6.1 Self-starter Mentality / 自主性心态
+        - 6.1.1 Regular analysis of business cycles / 定期分析商业周期
+        - 6.1.2 Proficiency in data collection and interpretation / 数据收集和解释的熟练程度
+    - 6.2 Professional Trader Principles / 专业交易者原则
+        - 6.2.1 Self-sustainability, work ethic, free information, work smart / 自给自足、工作伦理、免费信息、聪明工作
+    - 6.3 Objective / 目标
+        - 6.3.1 Consistent profitability through informed decision-making / 通过明智决策实现持续盈利
+
+---
+
+## Chapter 11 / 第 11 章
+
+- **1. Overview / 概述**
+    - 1.1 Leading Indicator for US Economy / 美国经济的领先指标
+    - 1.2 Provides insights into GDP growth, stock market direction, and portfolio bias / 提供对GDP增长、股市方向和投资组合偏向的洞察
+    - 1.3 Reflects the health of the small business sector, a significant part of the US economy / 反映小企业部门的健康状况，这是美国经济的重要组成部分
+- **2. Importance of Small Businesses in the US Economy / 小企业在美国经济中的重要性**
+    - 2.1 Account for roughly 50% of Gross Domestic Product (GDP) / 约占国内生产总值（GDP）的50%
+    - 2.2 50% of all private sector employees work for small businesses (defined as having 500 employees or less) / 50%的私营部门员工在小企业工作（定义为拥有500名员工或更少）
+    - 2.3 29 million registered firms in the US, over 99% are small businesses / 美国有2900万注册公司，超过99%是小企业
+- **3. NFIB Small Business Optimism Index Details / NFIB小企业乐观指数详情**
+    - 3.1 Definition / 定义
+        - 3.1.1 Compiled by the National Federation of Independent Business (NFIB), the largest small business trade association in the US / 由美国最大的小企业贸易协会全国独立企业联合会（NFIB）编制
+        - 3.1.2 Monthly assessment of US small business activity and near-term prospects / 对美国小企业活动和近期前景的月度评估
+        - 3.1.3 Data collected through mail surveys from random samples of NFIB membership / 通过向NFIB会员随机样本进行邮件调查收集数据
+    - 3.2 Components / 组成部分
+        - 3.2.1 Composite of 10 small business economic trends indicators / 10个小企业经济趋势指标的综合体
+        - 3.2.2 Aggregate index classified as a coincident indicator by economists / 总指数被经济学家归类为同步指标
+        - 3.2.3 However, contains leading indicators within its 10 sub-components / 然而，在其10个子组成部分中包含领先指标
+- **4. Leading vs. Coincident Components / 领先与同步组成部分**
+    - 4.1 Leading Components / 领先组成部分：
+        - 4.1.1 Plans to increase employment / 增加就业计划
+            - 4.1.1.1 Expansion plans / 扩张计划
+            - 4.1.1.2 Plans to increase inventories / 增加库存计划
+            - 4.1.1.3 Expectation for the economy to improve / 对经济改善的预期
+            - 4.1.1.4 Expected real sales to go higher / 预期实际销售上升
+        - 4.1.2 Coincident Components / 同步组成部分：
+            - 4.1.2.1 Current inventory levels / 当前库存水平
+            - 4.1.2.2 Current job openings / 当前职位空缺
+            - 4.1.2.3 Earnings trends / 收益趋势
+            - 4.1.2.4 Expected credit conditions / 预期信贷条件
+            - 4.1.2.5 Plans to make capital outlays / 资本支出计划
+- **5. Creating a Bespoke Leading Index / 创建定制领先指数**
+    - 5.1 Isolate the five leading components / 分离五个领先组成部分
+        - 5.1.1 Assign each component a 20% weighting / 为每个组成部分分配20%权重
+        - 5.1.2 Create a bespoke leading index for predicting GDP growth and S&P 500 direction / 创建用于预测GDP增长和标普500方向的定制领先指数
+- **6. Regional and Industry Data / 区域和行业数据**
+    - 6.1 Regional data highlights trends in major contributors to US GDP (California, Texas, New York) / 区域数据突出美国GDP主要贡献者的趋势（加利福尼亚、德克萨斯、纽约）
+        - 6.1.1 Industry data useful for identifying sector-specific trends and single stock trade ideas / 行业数据有助于识别特定行业趋势和单一股票交易想法
+        - 6.1.2 Manual calculation of industry trend in months required / 需要手动计算行业趋势月数
+- **7. Historical Context / 历史背景**
+    - 7.1 Significant increase in small business optimism following Trump's election win in 2016 / 2016年特朗普选举获胜后小企业乐观情绪显著增加
+        - 7.1.1 Peaked in August 2018, coinciding with corporate tax cuts / 在2018年8月达到峰值，与企业减税同时发生
+        - 7.1.2 Period of economic stress (August 2018 to August 2019) attributed more to global manufacturing and trade slowdowns rather than US small business sector / 经济压力期（2018年8月至2019年8月）更多归因于全球制造业和贸易放缓，而非美国小企业部门
+- **8. Summary / 总结**
+    - 8.1 NFIB Small Business Optimism Index is crucial for understanding future expectations of GDP growth, S&P 500 direction, and portfolio bias / NFIB小企业乐观指数对于理解GDP增长、标普500方向和投资组合偏向的未来预期至关重要
+        - 8.1.1 Sub-components, especially leading indicators, are essential for predicting turning points in the business cycle and guiding portfolio bias / 子组成部分，特别是领先指标，对于预测商业周期转折点和指导投资组合偏向至关重要
+        - 8.1.2 Regional and industry data offer deeper insights into specific economic segments / 区域和行业数据为特定经济部门提供更深入的洞察
+        - 8.1.3 Historical analysis provides context for interpreting current data trends / 历史分析为解释当前数据趋势提供背景
+
+---
+
+## Chapter 12 / 第 12 章
+
+- **1. Leading Indicator Analysis: Cyclists, Commodity Prices, and Inflation / 领先指标分析：周期性指标、商品价格和通胀**
+    - 1.1 Inflation Overview / 通胀概述
+        - 1.1.1 Importance of Stable Inflation / 稳定通胀的重要性
+            - 1.1.1.1 Essential for healthy capitalist system / 对健康的资本主义体系至关重要
+            - 1.1.1.2 Provides foundation for stable GDP growth and employment / 为稳定的GDP增长和就业提供基础
+        - 1.1.2 Ideal Situation / 理想情况
+            - 1.1.2.1 Good level of nominal GDP growth / 良好的名义GDP增长水平
+            - 1.1.2.2 Stable, positive inflation rate lower than nominal GDP growth / 稳定、正的通胀率低于名义GDP增长
+        - 1.1.3 Non-Ideal Conditions / 非理想条件
+            - 1.1.3.1 High levels of positive or negative price changes / 价格正向或负向的大幅变化
+            - 1.1.3.2 Inflation volatility / 通胀波动性
+    - 1.2 Measuring Inflation / 衡量通胀
+        - 1.2.1 Consumer Price Index (CPI) / 消费者价格指数（CPI）
+            - 1.2.1.1 Includes food and energy / 包括食品和能源
+            - 1.2.1.2 Excludes food and energy (Core CPI) / 排除食品和能源（核心CPI）
+            - 1.2.1.3 Monthly release by Bureau of Labor Statistics / 由劳工统计局月度发布
+        - 1.2.2 Producer Price Index (PPI) / 生产者价格指数（PPI）
+            - 1.2.2.1 Measures input costs for businesses / 衡量企业的投入成本
+            - 1.2.2.2 Data goes back to 1913 / 数据可追溯至1913年
+        - 1.2.3 Statistical Analysis / 统计分析
+            - 1.2.3.1 Distribution of returns analysis / 收益分布分析
+            - 1.2.3.2 Normal vs. abnormal moves in inflation / 通胀的正常与异常变动
+    - 1.3 Commodity Prices as Leading Indicators / 商品价格作为领先指标
+        - 1.3.1 Cyclist Commodities / 周期性商品
+            - 1.3.1.1 Oil, Copper, Lumber, Iron Ore / 石油、铜、木材、铁矿石
+            - 1.3.1.2 Lead inflation and GDP indicators / 领先通胀和GDP指标
+        - 1.3.2 Demand and Supply Dynamics / 需求和供应动态
+            - 1.3.2.1 Inventory levels indicate demand / 库存水平表明需求
+            - 1.3.2.2 Rising inventories = Rising demand / 库存上升 = 需求上升
+            - 1.3.2.3 Falling inventories = Falling demand / 库存下降 = 需求下降
+        - 1.3.3 Analysis Tools / 分析工具
+            - 1.3.3.1 Commitment of Traders (COT) reports / 交易员持仓报告（COT）
+            - 1.3.3.2 US Dollar Trade Weighted Indices (TWI) / 美元贸易加权指数（TWI）
+    - 1.4 Commitment of Traders Reports / 交易员持仓报告
+        - 1.4.1 Non-Commercial Transactions Data / 非商业交易数据
+            - 1.4.1.1 Sentiment gauge of future inflation and GDP growth / 未来通胀和GDP增长的情绪指标
+        - 1.4.2 Flip Indicator / 翻转指标
+            - 1.4.2.1 Turning points in professional money manager positioning / 专业资金管理者持仓的转折点
+        - 1.4.3 Extreme Positions / 极端持仓
+            - 1.4.3.1 Warning signs of potential turning points / 潜在转折点的警告信号
+    - 1.5 US Dollar Trade Weighted Indices / 美元贸易加权指数
+        - 1.5.1 Influence on Commodity Prices / 对商品价格的影响
+            - 1.5.1.1 Falling USD = Inflationary (Higher commodity prices) / 美元下跌 = 通胀性（商品价格上涨）
+            - 1.5.1.2 Rising USD = Deflationary (Lower commodity prices) / 美元上涨 = 通缩性（商品价格下跌）
+        - 1.5.2 Indices Analyzed / 分析的指数
+            - 1.5.2.1 Broad Index for Goods and Services / 商品和服务广义指数
+            - 1.5.2.2 Advanced Foreign Economies Index / 发达外国经济体指数
+            - 1.5.2.3 Emerging Markets Economies Index / 新兴市场经济体指数
+    - 1.6 Summary / 总结
+        - 1.6.1 Cyclist Commodities / 周期性商品
+            - 1.6.1.1 Leading indicators for inflation, GDP growth, and stock market direction / 通胀、GDP增长和股市方向的领先指标
+        - 1.6.2 Inflation Data / 通胀数据
+            - 1.6.2.1 Coincident indicator for confirmation / 确认的同步指标
+        - 1.6.3 COT Reports and TWI / COT报告和TWI
+            - 1.6.3.1 Additional leading indicators for market sentiment and macroeconomic conditions / 市场情绪和宏观经济状况的额外领先指标
+        - 1.6.4 Educational Progression / 教育进展
+            - 1.6.4.1 Understanding inflation and supply side factors / 理解通胀和供应侧因素
+            - 1.6.4.2 Transition to international surveys (Europe and China) / 转向国际调查（欧洲和中国）
+
+---
+
+## Chapter 13 / 第 13 章
+
+- **1. Overview / 概述**
+    - 1.1 Leaving the United States to explore international indicators / 离开美国探索国际指标
+    - 1.2 Focusing on Europe and the 9th leading indicator: ESI / 专注于欧洲和第9个领先指标：ESI
+    - 1.3 Building a comprehensive leading indicator dashboard for both US and international economies / 为美国和国际经济建立综合领先指标仪表板
+- **2. Leading Indicators Dashboard / 领先指标仪表板**
+    - 2.1 US Leading Indicators / 美国领先指标
+        - 2.1.1 Money Markets Indicators / 货币市场指标
+        - 2.1.2 Surveys / 调查
+        - 2.1.3 Cyclical Commodity Prices / 周期性商品价格
+    - 2.2 International Leading Indicators / 国际领先指标
+        - 2.2.1 Money Markets (Interest rate data & analysis for Japan, UK, Germany, Italy, China) / 货币市场（日本、英国、德国、意大利、中国的利率数据和分析）
+        - 2.2.2 Surveys (China Manufacturing PMI, Market PMIs for various countries) / 调查（中国制造业PMI，各国市场PMI）
+        - 2.2.3 Cyclical Commodity Prices (International front month futures contracts) / 周期性商品价格（国际近月期货合约）
+- **3. Understanding Europe / 理解欧洲**
+    - 3.1 Distinction between European Union and EuroZone / 欧盟和欧元区的区别
+        - 3.1.1 EuroZone comprises 19 member states using the euro as common currency / 欧元区包括19个使用欧元作为共同货币的成员国
+        - 3.1.2 EuroZone GDP size: 62.2% of US GDP, 90% of China's GDP / 欧元区GDP规模：美国GDP的62.2%，中国GDP的90%
+        - 3.1.3 Importance of predicting EuroZone GDP growth for global macroeconomic view / 预测欧元区GDP增长对全球宏观经济视角的重要性
+- **4. EuroZone GDP vs. Stock 600 / 欧元区GDP与欧洲斯托克600对比**
+    - 4.1 Analysis of EuroStocks 600 direction leading EuroZone GDP growth / 欧洲斯托克600方向领先欧元区GDP增长的分析
+        - 4.1.1 Quad nomial analysis showing historical correlation between stock index and GDP direction / 四项式分析显示股票指数与GDP方向的历史相关性
+        - 4.1.2 Majority of cases show index and GDP moving in the same direction (63.37% for 1,1; 22.77% for 0,1; 5.44% for 0,0) / 大多数情况显示指数和GDP朝相同方向移动（1,1为63.37%；0,1为22.77%；0,0为5.44%）
+- **5. European Economic Sentiment Indicator (ESI) / 欧洲经济情绪指标（ESI）**
+    - 5.1 Published monthly by the European Commission / 由欧盟委员会月度发布
+        - 5.1.1 Timely leading indicator for forecasting European GDP growth / 预测欧洲GDP增长的及时领先指标
+        - 5.1.2 Consists of five component surveys / 由五个组成调查构成：
+            - 5.1.2.1 Industrial Confidence Indicator (40%) / 工业信心指标（40%）
+            - 5.1.2.2 Services Confidence Indicator (30%) / 服务业信心指标（30%）
+            - 5.1.2.3 Consumer Confidence Indicator (20%) / 消费者信心指标（20%）
+            - 5.1.2.4 Retail Trade Confidence Indicator (5%) / 零售贸易信心指标（5%）
+            - 5.1.2.5 Construction Confidence Indicator (5%) / 建筑业信心指标（5%）
+        - 5.1.3 Values above 100 indicate above-average economic sentiment; below 100 indicates below-average sentiment / 高于100的值表示高于平均的经济情绪；低于100表示低于平均的情绪
+- **6. ESI Analysis / ESI分析**
+    - 6.1 Historical trends and peaks/troughs in sentiment / 情绪的历史趋势和峰值/谷值
+        - 6.1.1 Subcomponent contributions during different economic cycles / 不同经济周期中子组成部分的贡献
+        - 6.1.2 Comparison of manufacturing, services, consumer, retail, and construction sectors' sentiment / 制造业、服务业、消费者、零售和建筑业情绪的比较
+        - 6.1.3 Focus on larger economies (Germany, France, Italy) for understanding EuroZone expectations / 关注较大经济体（德国、法国、意大利）以理解欧元区预期
+- **7. Trade Ideas and ETFs / 交易想法和ETF**
+    - 7.1 Utilizing ESI data to generate country ETF and single-stock trade ideas / 利用ESI数据生成国家ETF和单一股票交易想法
+        - 7.1.1 Caution against misinterpreting ESI as instant trade ideas; requires thorough trade idea generation process / 谨防将ESI误解为即时交易想法；需要彻底的交易想法生成过程
+        - 7.1.2 Opportunity set expansion through trading European ADRs listed on US exchanges / 通过交易在美国交易所上市的欧洲ADR扩大机会集
+- **8. Conclusion / 结论**
+    - 8.1 ESI aids in determining global GDP growth, identifying growth sources, and generating potential trade ideas / ESI有助于确定全球GDP增长、识别增长来源和生成潜在交易想法
+        - 8.1.1 Focus on trading US-denominated stocks for consistent returns and increased opportunity set / 专注于交易以美元计价的股票以获得一致回报和增加机会集
+        - 8.1.2 Next focus: China's leading indicators with caution due to data reliability concerns / 下一个焦点：由于数据可靠性担忧，谨慎关注中国的领先指标
+
+---
+
+## Chapter 14 / 第 14 章
+
+- **1. China Manufacturing PMIs / 中国制造业PMI**
+    - 1.1 Official PMI / 官方PMI
+        - 1.1.1 Compiled by National Bureau of Statistics (Government) / 由国家统计局（政府）编制
+        - 1.1.2 Peaks historically in high 50s; recent decade capped around 52 / 历史峰值在50年代后期；近十年上限约为52
+        - 1.1.3 Relationship with nominal and real GDP growth / 与名义和实际GDP增长的关系
+    - 1.2 Caixin PMI / 财新PMI
+        - 1.2.1 Compiled by IHS Markit, sponsored by Caixin / 由IHS Markit编制，财新赞助
+        - 1.2.2 Surveys 500 private and state-owned manufacturers / 调查500家私营和国有制造商
+        - 1.2.3 More reliable than official data; shows realistic outlook / 比官方数据更可靠；显示现实前景
+        - 1.2.4 Differences with official PMI reveal potential government manipulation / 与官方PMI的差异揭示潜在的政府操纵
+- **2. Real Interest Rates / 实际利率**
+    - 2.1 Second largest government bond market globally / 全球第二大政府债券市场
+    - 2.2 98.5% onshore, denominated in RMB, no international investor access / 98.5%在岸，以人民币计价，国际投资者无法进入
+    - 2.3 Real rates calculated using 10-year benchmark rate minus CPI / 使用10年期基准利率减去CPI计算实际利率
+    - 2.4 Tight relationship with US real 10-year rates / 与美国实际10年期利率关系密切
+    - 2.5 Potential manipulation suspicions due to recent discrepancies / 由于最近的差异引起潜在操纵怀疑
+- **3. GDP Growth and Challenges / GDP增长和挑战**
+    - 3.1 Slowed from 10.5% in 2010 to around 8% in 2021 / 从2010年的10.5%放缓至2021年的约8%
+    - 3.2 GDP figures heavily manipulated; weak correlation with stock markets / GDP数据严重被操纵；与股市相关性弱
+    - 3.3 Demographics, lack of pension infrastructure, and export dependence impact GDP reliability / 人口结构、缺乏养老金基础设施和出口依赖影响GDP可靠性
+    - 3.4 Middle class dynamics and wealth polarization affect consumer spending / 中产阶级动态和财富两极分化影响消费者支出
+- **4. Stock Market Correlation / 股市相关性**
+    - 4.1 Chinese indices (Shanghai Composite, Shenzhen Component, Hang Seng) have low correlation with GDP / 中国指数（上证综指、深证成指、恒生指数）与GDP相关性低
+    - 4.2 Rules and regulations limit foreign purchases and domestic participation / 规则和法规限制外国购买和国内参与
+    - 4.3 No guaranteed monthly buyers due to absence of pension infrastructure / 由于缺乏养老金基础设施，没有保证的月度买家
+    - 4.4 Population growth stagnation creates consumer headwinds / 人口增长停滞造成消费者阻力
+- **5. Forecasting and Trading Implications / 预测和交易影响**
+    - 5.1 Use Caixin PMI and real interest rates for a more accurate GDP growth outlook / 使用财新PMI和实际利率获得更准确的GDP增长前景
+    - 5.2 Caixin PMI differences with official data indicate potential government lies / 财新PMI与官方数据的差异表明潜在的政府谎言
+    - 5.3 Real rates help understand expansion/contraction prospects but cannot predict equity market direction / 实际利率有助于理解扩张/收缩前景，但无法预测股市方向
+    - 5.4 Potential trade ideas in Chinese ADRs listed on US exchanges, especially those with high revenue exposure in China / 在美国交易所上市的中国ADR中的潜在交易想法，特别是在中国收入敞口高的公司
+    - 5.5 Short positions in ADRs when government manipulation is suspected or accounting fraud is detected / 当怀疑政府操纵或发现会计欺诈时对ADR做空
+    - 5.6 Caution advised due to accounting fraud prevalence in Chinese companies / 由于中国公司会计欺诈普遍存在，建议谨慎
+- **6. Global Macro View / 全球宏观视角**
+    - 6.1 Chinese PMIs and real rates contribute to a global macro perspective / 中国PMI和实际利率有助于全球宏观视角
+    - 6.2 Impact on sectors reliant on Chinese demand (mining, metals, autos, chemicals, construction, energy) / 对依赖中国需求的行业的影响（矿业、金属、汽车、化学品、建筑、能源）
+    - 6.3 Slowdowns in US and EU PMIs may precede Chinese PMI contractions / 美国和欧盟PMI放缓可能先于中国PMI收缩
+    - 6.4 Analyzing manipulation patterns can inform trading strategies in Chinese ADRs / 分析操纵模式可以为中国ADR的交易策略提供信息
+
+---
+
+## Chapter 15 / 第 15 章
+
+- **1. Leading Indicators Overview / 领先指标概述**
+    - 1.1 Money Markets Indicators: Covering both US and international markets, focusing on surveys, cyclicality, commodity prices, and real interest rates / 货币市场指标：涵盖美国和国际市场，专注于调查、周期性、商品价格和实际利率
+    - 1.2 Surveys: Highlighted examples include the European Economic Sentiment Indicator and the China Manufacturing PMI (official vs. Caixin) / 调查：重点例子包括欧洲经济情绪指标和中国制造业PMI（官方与财新）
+    - 1.3 Commodities: Emphasis on international front-month futures contracts, such as Brent oil, LME copper, and Shanghai copper / 商品：强调国际近月期货合约，如布伦特原油、伦敦金属交易所铜和上海铜
+    - 1.4 Stock Markets and Forex: The US Dollar Trade-Weighted Index and the S&P 500 as primary indicators, alongside international stock markets / 股市和外汇：美元贸易加权指数和标普500作为主要指标，以及国际股市
+- **2. Recap and Big Picture Map / 回顾和大图景地图**
+    - 2.1 Leading Indicators lead into Monthly Coincident Indicators, which in turn lead into Quarterly Lagging Indicators / 领先指标引领月度同步指标，进而引领季度滞后指标
+    - 2.2 Leading Indicators include Money Markets, Surveys, Commodities, Stock Markets, and Forex / 领先指标包括货币市场、调查、商品、股市和外汇
+    - 2.3 Coincident Indicators: Inflation (CPI, PPI), Employment Situation Report (ESR), Non-Farm Payrolls, Unemployment Rate, Initial and Continuing Jobless Claims, Durable Goods, Shipments, and Industrial Production / 同步指标：通胀（CPI、PPI）、就业状况报告（ESR）、非农就业、失业率、初次和持续失业救济申请、耐用品、出货量和工业生产
+    - 2.4 Lagging Indicators: Company Earnings and Gross Domestic Product (GDP) Growth / 滞后指标：公司收益和国内生产总值（GDP）增长
+- **3. Understanding the Interplay of Indicators / 理解指标的相互作用**
+    - 3.1 Prices in money markets, commodities, stocks, and forex act as leading indicators, pricing in expectations of risk based on forward-looking projections of earnings and GDP growth / 货币市场、商品、股票和外汇价格作为领先指标，基于对收益和GDP增长的前瞻性预测定价风险预期
+    - 3.2 Coincident Indicators confirm the predictions made by leading indicators, while Lagging Indicators report on past performance, confirming or denying previous forecasts / 同步指标确认领先指标的预测，而滞后指标报告过去的表现，确认或否认以前的预测
+    - 3.3 Prices lead reports, with profit-taking occurring once reports confirm expectations, reflecting market sentiment / 价格领先报告，一旦报告确认预期就会发生获利了结，反映市场情绪
+- **4. Time Horizon and Volatility / 时间范围和波动性**
+    - 4.1 Traders and portfolio managers operate within a 20 to 60-day time horizon, aiming to predict and capitalize on movements in pricing based on expectations for the next 20 to 60 days / 交易者和投资组合经理在20至60天的时间范围内运作，旨在基于对未来20至60天的预期预测和利用价格变动
+    - 4.2 The goal is to avoid the gray area between 60 to 120 days, where trades can slowly turn into investments, and focus on taking advantage of 1 to 3-month volatility / 目标是避免60至120天的灰色区域，在这个区域交易可能慢慢转为投资，而是专注于利用1至3个月的波动性
+- **5. Pro Trader Systematic Framework / 专业交易者系统框架**
+    - 5.1 Theory and Implementation: Focus on quantitative macroeconomic processes as the foundation for generating trade ideas / 理论和实施：专注于定量宏观经济过程作为生成交易想法的基础
+    - 5.2 The IPT video series statistically identifies the optimal time horizon for maximizing opportunity set and consistency in returns (1 to 3 months) / IPT视频系列统计识别最大化机会集和回报一致性的最佳时间范围（1至3个月）
+    - 5.3 Top-down macroeconomic analysis combined with bottom-up fundamentals to generate long and short biases for stock market sectors and individual stocks / 自上而下的宏观经济分析与自下而上的基本面相结合，为股市行业和个股生成做多和做空偏向
+- **6. Macro View and Portfolio Management / 宏观视角和投资组合管理**
+    - 6.1 Use macroeconomic fundamentals to obtain a global macro view of the stock market, geographical dispersion, and expectations / 使用宏观经济基本面获得股市、地理分散和预期的全球宏观视角
+    - 6.2 Questions to consider: Will global stock markets rise or fall? Will specific regions outperform or underperform others? / 需要考虑的问题：全球股市会上涨还是下跌？特定地区会跑赢还是跑输其他地区？
+    - 6.3 Understanding macroeconomic factors allows for adjusting portfolio bias and composition in response to changing expectations, ensuring risk management and capitalizing on market movements / 理解宏观经济因素允许根据变化的预期调整投资组合偏向和构成，确保风险管理并利用市场变动
+- **7. Conclusion and Next Steps / 结论和下一步**
+    - 7.1 The objective is to provide a framework for retail traders to emulate consistently profitable professional traders, focusing on a systematic approach to trade idea generation and portfolio management / 目标是为零售交易者提供一个框架来模仿持续盈利的专业交易者，专注于交易想法生成和投资组合管理的系统方法
+    - 7.2 The PTM video series will delve into the foundations of portfolio management and the microeconomic quantitative and qualitative processes required for generating trade ideas / PTM视频系列将深入研究投资组合管理的基础以及生成交易想法所需的微观经济定量和定性过程
+    - 7.3 Emphasis on falling in love with the process rather than fantasizing about high returns, aiming for consistency in returns through a repeatable and robust process / 强调热爱过程而不是幻想高回报，通过可重复和强健的过程追求回报的一致性
+
+---
+
+## Chapter 16 / 第 16 章
+
+- **1. Foundations of Long Short Portfolio Management / 多空投资组合管理基础**
+    - 1.1 Trade Idea Generation Process / 交易想法生成流程
+        - 1.1.1 Drilling down into industry sectors / 深入研究行业板块
+        - 1.1.2 Locating stocks as trade ideas / 定位股票作为交易想法
+    - 1.2 Choosing Risk in Portfolio / 投资组合风险选择
+        - 1.2.1 Practical application of risk selection / 风险选择的实际应用
+    - 1.3 Portfolio Modeling / 投资组合建模
+        - 1.3.1 Quantitative and qualitative processes / 定量和定性流程
+        - 1.3.2 Fundamental trade ideas for stocks / 股票的基本面交易想法
+- **2. Pro Trader Systematic Framework / 专业交易者系统框架**
+    - 2.1 Theory vs. Implementation / 理论与实施
+        - 2.1.1 Fundamentals (80-90%) / 基本面（80-90%）
+            - 2.1.1.1 Quantitative and qualitative work / 定量和定性工作
+        - 2.1.2 Timing and trade structure selection / 时机和交易结构选择
+    - 2.2 Portfolio Lifecycle / 投资组合生命周期
+        - 2.2.1 Generation of trade idea to position / 从交易想法到建仓
+        - 2.2.2 Risk management and position management / 风险管理和仓位管理
+        - 2.2.3 Completion of positions and track record updating / 完成仓位和历史记录更新
+- **3. Quantitative Processes & Leading Indicators / 定量流程与领先指标**
+    - 3.1 Macro-economic Top Down Analysis / 宏观经济自上而下分析
+        - 3.1.1 Forecasting portfolio bias (long, short, neutral) / 预测投资组合偏向（做多、做空、中性）
+        - 3.1.2 Identifying sectors to lean towards based on business cycle / 基于商业周期识别倾向的行业
+    - 3.2 Growth Trends and Qualitative Statements / 增长趋势和定性陈述
+        - 3.2.1 Insights from reports (ISM, European Sentiment Indicator) / 来自报告的洞察（ISM、欧洲情绪指标）
+    - 3.3 Sector Bias Determination / 行业偏向确定
+        - 3.3.1 Forecasted GDP growth and stock market returns / 预测GDP增长和股市回报
+- **4. Cyclist vs. Defensive Sectors / 周期性与防御性行业**
+    - 4.1 Cyclist Sectors / 周期性行业
+        - 4.1.1 Revenue and earnings highly correlated to business cycle / 收入和盈利与商业周期高度相关
+    - 4.2 Defensive Sectors / 防御性行业
+        - 4.2.1 Revenue and earnings not correlated or lowly correlated to business cycle / 收入和盈利与商业周期无关或低相关
+    - 4.3 Portfolio Bias Maneuvers / 投资组合偏向操作
+        - 4.3.1 Adjusting long/short bias based on economic forecasts / 基于经济预测调整多空偏向
+        - 4.3.2 Avoiding "rule book" mentality; flexibility is key / 避免"规则手册"思维；灵活性是关键
+- **5. Trade Idea Generation & Optimization / 交易想法生成与优化**
+    - 5.1 Performance Objectives / 表现目标
+        - 5.1.1 Absolute return mandate / 绝对回报任务
+        - 5.1.2 Outperforming market and sector in positive GDP environment / 在正GDP环境中跑赢市场和行业
+        - 5.1.3 Underperforming sector and market in negative GDP environment / 在负GDP环境中跑输行业和市场
+    - 5.2 Optimizing Returns / 优化回报
+        - 5.2.1 Being long stocks that outperform market, sector, and peers / 做多跑赢市场、行业和同行的股票
+        - 5.2.2 Being short stocks that underperform sector and market / 做空跑输行业和市场的股票
+- **6. Sector Classification & Analysis / 行业分类与分析**
+    - 6.1 Global Industry Classification Standard (GICS) / 全球行业分类标准（GICS）
+        - 6.1.1 Classification of sectors, industry groups, sub-industries / 行业、行业组、子行业的分类
+    - 6.2 Categorizing Sectors / 行业分类
+        - 6.2.1 Cyclist, defensive, or both / 周期性、防御性或两者兼有
+    - 6.3 Process / 流程
+        - 6.3.1 Drilling down from top sectors to sub-industries / 从顶级行业深入到子行业
+        - 6.3.2 Discovery phase for potential long and short ideas / 潜在多空想法的发现阶段
+- **7. Spread and Ratio Trades / 价差和比率交易**
+    - 7.1 Definitions / 定义
+        - 7.1.1 Spread Trade (minus calculation) / 价差交易（减法计算）
+        - 7.1.2 Ratio Trade (division calculation) / 比率交易（除法计算）
+    - 7.2 Calculating Performance / 计算表现
+        - 7.2.1 Outperformance versus underperformance / 超额表现与不足表现
+    - 7.3 Types of Spread Trades / 价差交易类型
+        - 7.3.1 Cross sector / 跨行业
+        - 7.3.2 Cross sector constituent / 跨行业成分
+        - 7.3.3 Intra sector constituent / 行业内成分
+    - 7.4 Risk and Return / 风险与回报
+        - 7.4.1 Choosing level of risk in portfolio / 选择投资组合风险水平
+        - 7.4.2 Accepting risk for outsized returns / 为超额回报承担风险
+        - 7.4.3 Balancing market, sector, and stock risks / 平衡市场、行业和股票风险
+- **8. Portfolio Modeling / 投资组合建模**
+    - 8.1 Portfolio Returns Modeling / 投资组合回报建模
+        - 8.1.1 Using spread trade methodologies / 使用价差交易方法
+    - 8.2 Risk Management / 风险管理
+        - 8.2.1 Preemptive risk management parameters / 预防性风险管理参数
+        - 8.2.2 Walking the tightrope of risk and return / 在风险和回报之间走钢丝
+- **9. Next Steps in PTM Video Series / PTM视频系列的下一步**
+    - 9.1 Foundations of Portfolio Management / 投资组合管理基础
+        - 9.1.1 Portfolio modeling / 投资组合建模
+        - 9.1.2 Portfolio volatility / 投资组合波动性
+        - 9.1.3 Portfolio correlation / 投资组合相关性
+        - 9.1.4 Portfolio beta / 投资组合贝塔
+    - 9.2 Chris Quill's Spreadsheet Work / Chris Quill的电子表格工作
+        - 9.2.1 Modeling portfolio returns / 建模投资组合回报
+        - 9.2.2 Understanding risk and return dynamics / 理解风险和回报动态
+- **10. Conclusion / 结论**
+    - 10.1 Approach for Risk and Return / 风险和回报的方法
+        - 10.1.1 Seeking great longs and terrible shorts / 寻找优秀的多头和糟糕的空头
+        - 10.1.2 Accepting sensible levels of risk / 接受合理的风险水平
+        - 10.1.3 Balancing portfolio volatility and correlation / 平衡投资组合波动性和相关性
+    - 10.2 Trade Idea Generation / 交易想法生成
+        - 10.2.1 Focus on generating own ideas, not copying examples / 专注于生成自己的想法，而不是复制例子
+        - 10.2.2 Continuous learning and adaptation to market dynamics / 持续学习和适应市场动态
+
+---
+
+## Chapter 17 / 第 17 章
+
+- **1. Data Acquisition and Analysis / 数据获取与分析**
+    - 1.1 Downloading Stock Price Data / 下载股价数据
+        - 1.1.1 Source: Yahoo Finance / 来源：雅虎财经
+        - 1.1.2 Process / 流程：
+            - 1.1.2.1 Navigate to Yahoo Finance / 导航到雅虎财经
+            - 1.1.2.2 Search for stock ticker / 搜索股票代码
+            - 1.1.2.3 Select Historical Data tab / 选择历史数据标签
+            - 1.1.2.4 Choose time period and frequency / 选择时间段和频率
+            - 1.1.2.5 Download data / 下载数据
+            - 1.1.2.6 Import into Excel / 导入Excel
+        - 1.1.3 Data Columns / 数据列：
+            - 1.1.3.1 Open, High, Low, Close, Adjusted Close, Volume / 开盘价、最高价、最低价、收盘价、调整收盘价、成交量
+            - 1.1.3.2 Close vs. Adjusted Close / 收盘价与调整收盘价
+                - 1.1.3.2.1 Adjustments for stock splits and dividends / 股票分拆和股息的调整
+    - 1.2 Creating Charts in Excel / 在Excel中创建图表
+        - 1.2.1 Steps / 步骤：
+            - 1.2.1.1 Import data into Excel / 将数据导入Excel
+            - 1.2.1.2 Format dates / 格式化日期
+            - 1.2.1.3 Insert line chart / 插入折线图
+            - 1.2.1.4 Add series (Adjusted Close) / 添加数据系列（调整收盘价）
+            - 1.2.1.5 Set horizontal axis labels (dates) / 设置水平轴标签（日期）
+            - 1.2.1.6 Customize chart aesthetics / 自定义图表美学
+                - 1.2.1.6.1 Dynamic title / 动态标题
+                - 1.2.1.6.2 Rotate date labels / 旋转日期标签
+                - 1.2.1.6.3 Adjust line style / 调整线条样式
+    - 1.3 Updating Data / 更新数据
+        - 1.3.1 Copy and paste new price data over old data / 复制粘贴新价格数据覆盖旧数据
+        - 1.3.2 Ensure data is from the same source and format / 确保数据来自相同来源和格式
+- **2. Performance Analysis Techniques / 表现分析技术**
+    - 2.1 Spread and Ratio Calculations / 价差和比率计算
+        - 2.1.1 Spread: Difference between prices of two stocks / 价差：两只股票价格的差异
+        - 2.1.2 Ratio: Price of one stock divided by another / 比率：一只股票价格除以另一只
+        - 2.1.3 Use for quick comparison of performance / 用于快速比较表现
+        - 2.1.4 Limitations / 局限性：
+            - 2.1.4.1 Spread: Performance in dollar per share terms / 价差：以每股美元计的表现
+            - 2.1.4.2 Ratio: Indication of outperformance, not precise returns / 比率：超额表现的指示，而非精确回报
+    - 2.2 Constant Equal Weighting (CEW) / 固定等权重（CEW）
+        - 2.2.1 Calculate daily returns for each stock / 计算每只股票的日回报率
+        - 2.2.2 Combine returns by applying equal weights / 通过应用等权重组合回报
+        - 2.2.3 Create an index starting from a base value (e.g., 100) / 从基值（如100）开始创建指数
+        - 2.2.4 Fair assessment of relative performance / 相对表现的公平评估
+        - 2.2.5 Practical challenges / 实际挑战：
+            - 2.2.5.1 Rebalancing required to maintain equal weights / 需要再平衡以维持等权重
+            - 2.2.5.2 High transaction costs / 高交易成本
+    - 2.3 Non-Rebalanced Performance / 非再平衡表现
+        - 2.3.1 Buy and hold strategy for longs, short and hold for shorts / 多头的买入持有策略，空头的卖空持有策略
+        - 2.3.2 Starting with equal capital commitment / 以等额资本承诺开始
+        - 2.3.3 Weightings change over time / 权重随时间变化
+        - 2.3.4 Useful for modeling historical scenarios / 对建模历史情景有用
+        - 2.3.5 Limitations / 局限性：
+            - 2.3.5.1 Cannot determine outperformance at any specific time window / 无法确定任何特定时间窗口的超额表现
+    - 2.4 Portfolio Returns Calculation / 投资组合回报计算
+        - 2.4.1 Add up all weighted returns of positions / 加总所有仓位的加权回报
+        - 2.4.2 Decision on rebalancing / 再平衡决策：
+            - 2.4.2.1 Non-rebalanced: Trade and hold strategy / 非再平衡：交易和持有策略
+            - 2.4.2.2 Rebalanced: Constant weight assumption / 再平衡：固定权重假设
+        - 2.4.3 Non-rebalanced Portfolio / 非再平衡投资组合：
+            - 2.4.3.1 Define tickers, number of shares, and positions (long/short) / 定义股票代码、股数和仓位（多头/空头）
+            - 2.4.3.2 Calculate portfolio returns and value / 计算投资组合回报和价值
+            - 2.4.3.3 Dynamic price retrieval using VLOOKUP and INDIRECT functions / 使用VLOOKUP和INDIRECT函数动态检索价格
+        - 2.4.4 Constantly Weighted Portfolio / 固定权重投资组合：
+            - 2.4.4.1 Apply gross weightings to each stock / 对每只股票应用总权重
+            - 2.4.4.2 Calculate returns instead of prices / 计算回报而非价格
+            - 2.4.4.3 Compute weighted sum of individual returns / 计算个股回报的加权总和
+            - 2.4.4.4 Create portfolio index / 创建投资组合指数
+- **3. Conclusion / 结论**
+    - 3.1 Comparing Performance Measures / 比较表现指标
+        - 3.1.1 Different methodologies yield varying results / 不同方法产生不同结果
+        - 3.1.2 Ratio index vs. CEW index: Correlation but scaling issue / 比率指数与CEW指数：相关但有规模问题
+        - 3.1.3 Non-rebalanced vs. Constant Equal Weighting / 非再平衡与固定等权重：
+            - 3.1.3.1 Non-rebalanced: Holding period returns, realistic measure / 非再平衡：持有期回报，现实测量
+            - 3.1.3.2 Constant Equal Weighting: Understand outperformance at any point / 固定等权重：理解任何时点的超额表现
+    - 3.2 Portfolio Modeling / 投资组合建模
+        - 3.2.1 Non-rebalanced Portfolio / 非再平衡投资组合：
+            - 3.2.1.1 Easy to model historical scenarios / 易于建模历史情景
+            - 3.2.1.2 Practical for traders / 对交易者实用
+        - 3.2.2 Constantly Weighted Portfolio / 固定权重投资组合：
+            - 3.2.2.1 Fair assessment of outperformance / 超额表现的公平评估
+            - 3.2.2.2 Not always practical due to rebalancing / 由于再平衡并非总是实用
+    - 3.3 Building Successful Portfolios / 建立成功的投资组合
+        - 3.3.1 Seek awesome longs that go up and awesome shorts that go down / 寻找上涨的优秀多头和下跌的优秀空头
+        - 3.3.2 Mix of stocks and appropriate volatility levels / 股票组合和适当的波动性水平
+        - 3.3.3 Magnify returns with leverage products (e.g., options) / 用杠杆产品（如期权）放大回报
+
+---
+
+## Chapter 18 / 第 18 章
+
+- **1. Understanding Volatility / 理解波动性**
+    - 1.1 Definition: Fluctuation in asset prices or returns / 定义：资产价格或回报的波动
+    - 1.2 Importance: Represents both risk and opportunity / 重要性：既代表风险也代表机会
+    - 1.3 Misconception: Often misunderstood as solely risk, ignoring its representation of profit potential / 误解：常被误解为仅是风险，忽略了其代表的盈利潜力
+- **2. Measuring Volatility / 衡量波动性**
+    - 2.1 Standard Deviation / 标准差
+        - 2.1.1 Industry-standard methodology / 行业标准方法
+        - 2.1.2 Calculation process / 计算过程：
+            - 2.1.2.1 Calculate average of series / 计算序列平均值
+            - 2.1.2.2 Determine differences between each data point and the mean / 确定每个数据点与均值的差异
+            - 2.1.2.3 Square differences to eliminate negative values / 对差异平方以消除负值
+            - 2.1.2.4 Average squared differences / 对平方差异求平均
+            - 2.1.2.5 Square root the average to obtain standard deviation / 对平均值开方得到标准差
+        - 2.1.3 Excel functions: "STDEV.P" (population standard deviation), "STDEV.S" (sample standard deviation) / Excel函数："STDEV.P"（总体标准差）、"STDEV.S"（样本标准差）
+- **3. Portfolio Volatility Analysis / 投资组合波动性分析**
+    - 3.1 Realized Volatility / 已实现波动性
+        - 3.1.1 Examines historical performance of a portfolio / 检验投资组合的历史表现
+        - 3.1.2 Techniques: Distribution of Returns Analysis / 技术：回报分布分析
+            - 3.1.2.1 Calculates and analyzes returns, focusing on empirical probability distribution / 计算和分析回报，专注于经验概率分布
+            - 3.1.2.2 Helps understand portfolio behavior and compare portfolios based on risk and returns / 帮助理解投资组合行为并基于风险和回报比较投资组合
+    - 3.2 Expected Portfolio Volatility / 预期投资组合波动性
+        - 3.2.1 Models future volatility based on current portfolio structure / 基于当前投资组合结构建模未来波动性
+        - 3.2.2 Inputs / 输入：
+            - 3.2.2.1 Weightings of individual assets / 个别资产的权重
+            - 3.2.2.2 Variance of assets (measure of volatility, equal to standard deviation squared) / 资产方差（波动性测量，等于标准差的平方）
+            - 3.2.2.3 Covariances between assets (measure of linear relationship) / 资产间协方差（线性关系测量）
+        - 3.2.3 Portfolio Volatility Equation / 投资组合波动性方程
+            - 3.2.3.1 Depends on weightings, variances, and covariances / 取决于权重、方差和协方差
+            - 3.2.3.2 Covariances play a crucial role in determining overall portfolio volatility / 协方差在确定整体投资组合波动性中起关键作用
+- **4. Portfolio Theory / 投资组合理论**
+    - 4.1 Diversification and Correlation / 分散化和相关性
+        - 4.1.1 Importance of understanding relationships between assets / 理解资产间关系的重要性
+            - 4.1.1.1 Covariances and correlations affect portfolio volatility significantly / 协方差和相关性显著影响投资组合波动性
+            - 4.1.1.2 Diversification benefits taper off as more assets are added due to changing correlations and difficulty in finding low correlation ideas / 随着资产增加，由于相关性变化和难以找到低相关性想法，分散化收益递减
+- **5. Scenario Analysis / 情景分析**
+    - 5.1 Examines how volatility changes across different portfolio compositions / 检验不同投资组合构成中波动性如何变化
+        - 5.1.1 Examples / 示例：
+            - 5.1.1.1 Long-only mega-cap portfolio / 仅做多的大盘股投资组合
+            - 5.1.1.2 Long-only large and mid-cap portfolio / 仅做多的大盘和中盘股投资组合
+            - 5.1.1.3 Long-short mid and large-cap portfolio / 中盘和大盘股多空投资组合
+        - 5.1.2 Observations / 观察：
+            - 5.1.2.1 Higher volatility in mid-cap portfolios compared to mega-caps / 中盘股投资组合比大盘股具有更高波动性
+            - 5.1.2.2 Lower volatility in long-short portfolios due to negative correlations / 由于负相关性，多空投资组合波动性较低
+- **6. Practical Portfolio Volatility Analysis / 实际投资组合波动性分析**
+    - 6.1 Using the spreadsheet model for scenario analysis / 使用电子表格模型进行情景分析
+        - 6.1.1 Changing weightings and portfolio structure / 改变权重和投资组合结构
+        - 6.1.2 Updating underlying data for personal portfolios / 为个人投资组合更新基础数据
+        - 6.1.3 Downloading and manipulating historical price data from Yahoo Finance / 从雅虎财经下载和处理历史价格数据
+- **7. Concluding Remarks / 结论性说明**
+    - 7.1 Volatility reframed as both risk and opportunity / 将波动性重新定义为风险和机会
+        - 7.1.1 Standard deviation as a measure of volatility / 标准差作为波动性测量
+        - 7.1.2 Portfolio volatility as a function of variances, covariances, and weightings / 投资组合波动性作为方差、协方差和权重的函数
+        - 7.1.3 Importance of understanding correlations and avoiding over-diversification / 理解相关性和避免过度分散的重要性
+        - 7.1.4 Leveraging options for enhanced risk-reward dynamics / 利用期权增强风险回报动态
+        - 7.1.5 Practical application of the portfolio volatility model for informed decision-making / 投资组合波动性模型在明智决策中的实际应用
+
+---
+
+## Chapter 19 / 第 19 章
+
+- **1. Understanding Correlation / 理解相关性**
+    - 1.1 Definition: Statistical measure quantifying the extent to which two variables fluctuate together / 定义：量化两个变量共同波动程度的统计指标
+    - 1.2 Pearson Coefficient: Measures linear relationship between two variables / 皮尔逊系数：测量两个变量间的线性关系
+    - 1.3 Interpretation / 解释：
+        - 1.3.1 Positive correlation (1 to 100%): Variables move in the same direction / 正相关（1到100%）：变量朝相同方向移动
+        - 1.3.2 Negative correlation (-1 to -100%): Variables move in opposite directions / 负相关（-1到-100%）：变量朝相反方向移动
+        - 1.3.3 Zero correlation: No linear relationship / 零相关：无线性关系
+- **2. Importance of Correlation in Portfolio Management / 相关性在投资组合管理中的重要性**
+    - 2.1 Market Analysis: Monitoring economic relationships to understand market trends and opportunities / 市场分析：监控经济关系以理解市场趋势和机会
+    - 2.2 Hedging: Reducing exposure through calculated relationships between assets / 对冲：通过资产间的计算关系减少敞口
+    - 2.3 Diversification and Risk: Core use of correlation analysis for efficient portfolio construction / 分散化和风险：相关性分析在高效投资组合构建中的核心用途
+- **3. Portfolio Diversification / 投资组合分散化**
+    - 3.1 Efficient Diversification: Pooling assets with diverse drivers to reduce portfolio risk / 有效分散化：汇集具有不同驱动因素的资产以降低投资组合风险
+    - 3.2 Impact of Correlation: Lower correlations lead to faster risk reduction in portfolios / 相关性的影响：较低的相关性导致投资组合风险更快降低
+    - 3.3 Optimal Portfolio Size: Balancing risk reduction with expected returns; typically 8-12 positions / 最优投资组合规模：平衡风险降低与预期回报；通常为8-12个仓位
+- **4. Pitfalls of Correlation Analysis / 相关性分析的陷阱**
+    - 4.1 Over-Diversification: Diminishing returns and reduced portfolio performance / 过度分散化：收益递减和投资组合表现下降
+    - 4.2 Correlation vs. Causation: Correlation does not imply causation; uncertainty in constant correlation / 相关性与因果关系：相关性不意味着因果关系；相关性持续存在的不确定性
+    - 4.3 Data Set Dependence: Correlation values vary with different samples and time periods / 数据集依赖性：相关性值随不同样本和时间段而变化
+    - 4.4 Interpretation Limitations: Correlation is a specific measure; deeper analysis required for full understanding / 解释局限性：相关性是特定指标；需要更深入分析才能完全理解
+- **5. Practical Application / 实际应用**
+    - 5.1 Excel Correlation Function: Calculating correlation using historical data for analysis / Excel相关性函数：使用历史数据计算相关性进行分析
+    - 5.2 Portfolio Volatility and Correlation Models: Utilizing spreadsheet models to assess and manage portfolio risks / 投资组合波动性和相关性模型：利用电子表格模型评估和管理投资组合风险
+    - 5.3 Scenario Analysis: Modeling the effects of adding or changing positions in the portfolio based on correlation and volatility estimates / 情景分析：基于相关性和波动性估计建模增加或改变投资组合仓位的影响
+- **6. Portfolio Construction Considerations / 投资组合构建考虑因素**
+    - 6.1 Long-Short Strategies: Incorporating both long and short positions to achieve lower correlations and efficient diversification / 多空策略：结合多头和空头仓位以实现较低相关性和有效分散化
+    - 6.2 Mid-Cap Stocks: Offer higher volatility for potential returns and lower average correlations for better diversification / 中盘股：为潜在回报提供更高波动性，为更好分散化提供较低平均相关性
+    - 6.3 Leverage Products: Structuring trades with options to increase upside potential while managing risk / 杠杆产品：用期权构建交易以在管理风险的同时增加上行潜力
+- **7. Conclusion / 结论**
+    - 7.1 Regular Analysis: Regularly using portfolio volatility and correlation models to understand portfolio risks and make informed decisions / 定期分析：定期使用投资组合波动性和相关性模型来理解投资组合风险并做出明智决策
+    - 7.2 Comprehensive Approach: Understanding correlation alongside fundamental analysis for successful portfolio management / 综合方法：将相关性理解与基本面分析相结合以实现成功的投资组合管理
+    - 7.3 Limitations Awareness: Recognizing the pitfalls and limitations of correlation analysis to avoid over-reliance on statistical measures / 局限性意识：认识相关性分析的陷阱和局限性，避免过度依赖统计指标
+
+---
+
+## Chapter 20 / 第 20 章
+
+- **1. Definition and Understanding Beta / 定义和理解贝塔**
+    - 1.1 Beta as Sensitivity Measure / 贝塔作为敏感性指标
+        - 1.1.1 Estimates economic sensitivity of a stock or portfolio to the overall market / 估计股票或投资组合对整体市场的经济敏感性
+        - 1.1.2 Market defined as having a beta value of one / 市场定义为贝塔值为1
+        - 1.1.3 Beta > 1: More economically sensitive than the market (Cyclical stocks) / 贝塔 > 1：比市场更经济敏感（周期性股票）
+        - 1.1.4 Beta < 1: Less economically sensitive than the market (Defensive stocks) / 贝塔 < 1：比市场更少经济敏感（防御性股票）
+    - 1.2 Beta Calculation / 贝塔计算
+        - 1.2.1 Through a simple linear regression model using historical returns data / 通过使用历史回报数据的简单线性回归模型
+        - 1.2.2 Slope of the regression line represents beta / 回归线的斜率代表贝塔
+    - 1.3 Beta Examples / 贝塔示例
+        - 1.3.1 Sanderson Farms: Beta of 0.5656 (Less sensitive) / 桑德森农场：贝塔为0.5656（较少敏感）
+        - 1.3.2 Floor Corporation: Beta of 1.4 (More sensitive) / 地板公司：贝塔为1.4（更敏感）
+- **2. Calculating Beta / 计算贝塔**
+    - 2.1 Excel Methods / Excel方法
+        - 2.1.1 Scatterplot Chart Method / 散点图方法
+            - 2.1.1.1 Generates a regression line and equation / 生成回归线和方程
+            - 2.1.1.2 Gradient of the line is beta / 线的梯度即为贝塔
+        - 2.1.2 Slope Function / 斜率函数
+            - 2.1.2.1 Directly calculates beta using stock and market return arrays / 直接使用股票和市场回报数组计算贝塔
+        - 2.1.3 Beta Standard Error / 贝塔标准误差
+            - 2.1.3.1 Measures statistical accuracy of beta estimate / 测量贝塔估计的统计准确性
+    - 2.2 Time Series Beta / 时间序列贝塔
+        - 2.2.1 Rolling beta calculations for different periods (2-year, 3-year, 5-year) / 不同期间的滚动贝塔计算（2年、3年、5年）
+        - 2.2.2 Importance of choosing appropriate time windows for relevance and accuracy / 选择适当时间窗口以获得相关性和准确性的重要性
+- **3. Beta at Portfolio Level / 投资组合层面的贝塔**
+    - 3.1 Portfolio Beta Calculation / 投资组合贝塔计算
+        - 3.1.1 Sum of weighted betas of all constituents / 所有成分股加权贝塔的总和
+        - 3.1.2 Weighted beta = Net weight of position * Beta / 加权贝塔 = 仓位净权重 * 贝塔
+    - 3.2 Understanding Portfolio Exposure / 理解投资组合敞口
+        - 3.2.1 Net long, net short, or market neutral based on beta / 基于贝塔的净多头、净空头或市场中性
+        - 3.2.2 More accurate than net dollar exposure for understanding market risk / 比净美元敞口更准确地理解市场风险
+    - 3.3 Portfolio Beta Application / 投资组合贝塔应用
+        - 3.3.1 Position sizing and adjustments based on beta / 基于贝塔的仓位规模和调整
+        - 3.3.2 Aligning portfolio beta with fundamental market views / 将投资组合贝塔与基本面市场观点对齐
+        - 3.3.3 Monitoring and adjusting portfolio beta for risk management / 监控和调整投资组合贝塔以进行风险管理
+- **4. Scenario Models for Position Sizing / 仓位规模的情景模型**
+    - 4.1 Risk Parity / 风险平价
+        - 4.1.1 Assigns equal risk based on beta to each position / 基于贝塔为每个仓位分配相等风险
+        - 4.1.2 Achieves by adjusting weightings to equalize net weighted beta / 通过调整权重来均衡净加权贝塔来实现
+    - 4.2 Beta Parity / 贝塔平价
+        - 4.2.1 Adjusts weightings on the long and short sides separately to achieve market neutrality (beta close to 0) / 分别调整多头和空头侧的权重以实现市场中性（贝塔接近0）
+        - 4.2.2 Also achieves dollar neutrality / 同时实现美元中性
+    - 4.3 Equal Weighting / 等权重
+        - 4.3.1 Simple equal dollar exposure to each position / 每个仓位的简单等美元敞口
+    - 4.4 Considerations / 考虑因素
+        - 4.4.1 Not solely based on beta but integrated with fundamental ideas and conviction levels / 不仅基于贝塔，还与基本面想法和信念水平相结合
+        - 4.4.2 Beta as a tool for understanding and adjusting portfolio structure / 贝塔作为理解和调整投资组合结构的工具
+- **5. Conclusion / 结论**
+    - 5.1 Portfolio Beta Monitoring / 投资组合贝塔监控
+        - 5.1.1 Regular updates to account for price changes and beta estimations / 定期更新以考虑价格变化和贝塔估计
+        - 5.1.2 Weekly or bi-weekly updates recommended / 建议每周或双周更新
+    - 5.2 Position Adjustments / 仓位调整
+        - 5.2.1 Modeling effects on portfolio beta before adding/subtracting positions / 在增加/减少仓位前建模对投资组合贝塔的影响
+        - 5.2.2 Balancing fundamental ideas, technical timing, and portfolio beta implications / 平衡基本面想法、技术时机和投资组合贝塔影响
+    - 5.3 Beta vs. Returns / 贝塔与回报
+        - 5.3.1 Beta predicts market exposure, not overall returns / 贝塔预测市场敞口，而非整体回报
+        - 5.3.2 Aim for outsized absolute returns beyond beta-adjusted performance / 追求超越贝塔调整表现的超额绝对回报
+        - 5.3.3 Leverage used sensibly to magnify returns in line with market movements / 明智地使用杠杆来放大与市场走势一致的回报
+
+---
+
+## Chapter 21 / 第 21 章
+
+- **1. Portfolio Modeling / 投资组合建模**
+    - 1.1 Downloading stock price data from public sources / 从公共来源下载股价数据
+    - 1.2 Comparing historical performance through indexing methods and time series calculation / 通过指数化方法和时间序列计算比较历史表现
+        - 1.2.1 Constantly Equally Weighted (CEW) method / 持续等权重（CEW）方法
+            - 1.2.1.1 Useful for monitoring outperformance versus underperformance / 用于监控超额表现与不足表现
+            - 1.2.1.2 Requires daily rebalancing / 需要每日再平衡
+        - 1.2.2 Non-rebalanced portfolio method / 非再平衡投资组合方法
+            - 1.2.2.1 Practical for back-testing portfolio performance on a dollar basis / 对于按美元基础回测投资组合表现实用
+            - 1.2.2.2 Long versus short strategy without daily rebalancing / 无需每日再平衡的多空策略
+    - 1.3 Applying both methods for analyzing genuine spread trades and portfolio performance / 应用两种方法分析真正的价差交易和投资组合表现
+    - 1.4 Focus on non-rebalanced portfolio method for real money trading and portfolio positioning / 专注于非再平衡投资组合方法进行真实资金交易和投资组合定位
+- **2. Portfolio Volatility / 投资组合波动性**
+    - 2.1 Variability in portfolio represents risk and opportunity / 投资组合的变异性代表风险和机会
+    - 2.2 Calculation methods similar to single assets (standard deviation) / 计算方法类似于单一资产（标准差）
+    - 2.3 Modeling portfolio volatility for future expectations using historical asset prices / 使用历史资产价格为未来预期建模投资组合波动性
+    - 2.4 Importance of balancing risk and opportunity as traders and portfolio managers / 作为交易者和投资组合经理平衡风险和机会的重要性
+    - 2.5 Targeting a level of risk for desired returns (efficient frontier) / 为期望回报确定风险水平目标（有效前沿）
+    - 2.6 Utilizing portfolio volatility calculator alongside portfolio modeling spreadsheet / 与投资组合建模电子表格一起使用投资组合波动性计算器
+- **3. Portfolio Correlation / 投资组合相关性**
+    - 3.1 Core factors affecting portfolio volatility: asset volatility and correlations / 影响投资组合波动性的核心因素：资产波动性和相关性
+    - 3.2 Correlation's impact on portfolio volatility depends on portfolio size / 相关性对投资组合波动性的影响取决于投资组合规模
+    - 3.3 Efficient diversification with lower correlations leads to faster risk decrease / 较低相关性的有效分散化导致风险更快降低
+    - 3.4 Avoiding over-diversification and maintaining high-quality trade ideas / 避免过度分散化并保持高质量交易想法
+    - 3.5 Targeting correlation values within positive 0.3 to negative 0.3 range / 目标相关性值在正0.3到负0.3范围内
+- **4. Calculating Beta / 计算贝塔**
+    - 4.1 Understanding exposure to market risk in portfolios / 理解投资组合中的市场风险敞口
+    - 4.2 Beta calculations help assess market risk at any given time / 贝塔计算有助于评估任何给定时间的市场风险
+    - 4.3 Accepting some level of market risk for potential outsized returns / 为潜在超额回报接受一定水平的市场风险
+    - 4.4 Beta modeling as a tool for snapshot of market risk exposure / 贝塔建模作为市场风险敞口快照的工具
+    - 4.5 Adjusting portfolios to align with market views and beta-adjusted exposures / 调整投资组合以与市场观点和贝塔调整敞口对齐
+- **5. Efficient Retail Trader Portfolios / 高效零售交易者投资组合**
+    - 5.1 Balancing risk and opportunity through portfolio volatility, correlation, and beta / 通过投资组合波动性、相关性和贝塔平衡风险和机会
+    - 5.2 Targeting 15% to 30% expected annual portfolio volatility / 目标年度投资组合波动性为15%到30%
+    - 5.3 Utilizing financial instruments (options, CFDs, stocks) with appropriate leverage / 利用适当杠杆的金融工具（期权、CFD、股票）
+    - 5.4 Focusing on high-quality trade ideas driven by fundamentals and catalysts / 专注于由基本面和催化剂驱动的高质量交易想法
+    - 5.5 Accepting some market risk for potential outsized returns in all market conditions / 在所有市场条件下为潜在超额回报接受一定市场风险
+- **6. Conclusion / 结论**
+    - 6.1 Incorporating portfolio modeling, volatility, correlation, and beta into regular processes / 将投资组合建模、波动性、相关性和贝塔纳入常规流程
+    - 6.2 Moving towards trade idea generation for consistent and efficient returns / 朝向交易想法生成以获得一致和有效的回报
+    - 6.3 Emphasizing the importance of high-quality trade ideas as the oxygen of a trader / 强调高质量交易想法作为交易者氧气的重要性
+    - 6.4 Transitioning to bottom-up fundamental trade idea generation / 转向自下而上的基本面交易想法生成
+
+---
+
+## Chapter 22 / 第 22 章
+
+- **1. Trade Idea Generation Process / 交易想法生成流程**
+    - 1.1 Overview / 概述
+        - 1.1.1 Importance of trade ideas in sustaining long-short portfolios / 交易想法在维持多空投资组合中的重要性
+        - 1.1.2 Focus on fundamentals (80-90%) and timing (10-20%) / 专注于基本面（80-90%）和时机（10-20%）
+    - 1.2 Quantitative Processing Phase / 定量处理阶段
+        - 1.2.1 Identifying fundamental longs and shorts / 识别基本面多头和空头
+        - 1.2.2 Utilizing price earnings (PE) ratio as initial metric / 利用市盈率（PE）作为初始指标
+        - 1.2.3 Understanding PE ratio interpretation / 理解市盈率解释
+            - 1.2.3.1 Misconceptions vs. professional interpretation / 误解与专业解释
+            - 1.2.3.2 Theoretical examples demonstrating PE dynamics / 展示市盈率动态的理论例子
+    - 1.3 Qualitative Processing Phase / 定性处理阶段
+        - 1.3.1 Learning stock information, key performance indicators (KPIs), and catalysts / 学习股票信息、关键绩效指标（KPIs）和催化剂
+        - 1.3.2 Ongoing process requiring attention to detail, lateral thinking, creativity, and conviction / 需要注重细节、横向思维、创造力和信念的持续过程
+- **2. Fundamental Trade Idea Generation / 基本面交易想法生成**
+    - 2.1 Importance of quality ideas over risk management / 质量想法比风险管理更重要
+        - 2.1.1 Reckless Genius vs. Firefighter analogy / 鲁莽天才与消防员类比
+        - 2.1.2 Aim for high quality ideas and competent risk management / 追求高质量想法和胜任的风险管理
+    - 2.2 Quantitative vs. Qualitative Processes / 定量与定性流程
+        - 2.2.1 Quantitative: Identifying positive and negative outliers / 定量：识别正面和负面异常值
+        - 2.2.2 Qualitative: Understanding reasons behind PE ratios, KPIs, and catalysts / 定性：理解市盈率、KPIs和催化剂背后的原因
+- **3. Risk Management vs. Ideas / 风险管理与想法**
+    - 3.1 Relevance of risk management processes / 风险管理流程的相关性
+        - 3.1.1 Fixed information once learned / 一旦学会就是固定信息
+        - 3.1.2 Importance of quality ideas for long-term success / 质量想法对长期成功的重要性
+    - 3.2 Professional vs. Retail Traders / 专业与零售交易者
+        - 3.2.1 Professional focus on fundamentals and quality ideas / 专业人士专注于基本面和质量想法
+        - 3.2.2 Retail focus on superficial risk management metrics / 零售重点关注表面风险管理指标
+- **4. Price Earnings (PE) Ratio Interpretation / 市盈率（PE）解释**
+    - 4.1 Theoretical vs. Professional understanding / 理论与专业理解
+        - 4.1.1 Misconceptions: Low PE = cheap, High PE = expensive / 误解：低市盈率 = 便宜，高市盈率 = 昂贵
+        - 4.1.2 Professional view: PE as a signal of quality and future earnings potential / 专业观点：市盈率作为质量和未来盈利潜力的信号
+    - 4.2 Examples illustrating PE dynamics / 展示市盈率动态的例子
+        - 4.2.1 Wing Stop vs. McDonald's case study / Wing Stop与麦当劳案例研究
+            - 4.2.1.1 PE differentials and stock performance / 市盈率差异和股票表现
+            - 4.2.1.2 Market's anticipation of earnings growth / 市场对盈利增长的预期
+- **5. Trade Idea Generation Steps / 交易想法生成步骤**
+    - 5.1 Start with PE ratio for sector outlier identification / 从市盈率开始识别行业异常值
+    - 5.2 Work backwards to understand reasons for premiums/discounts / 逆向分析理解溢价/折价的原因
+    - 5.3 Qualitative analysis for trade idea qualification / 定性分析进行交易想法资格审查
+    - 5.4 Timing, catalysts, and trade structuring considerations / 时机、催化剂和交易结构考虑
+- **6. Conclusion / 结论**
+    - 6.1 Trade idea generation as a continuous responsibility / 交易想法生成作为持续责任
+    - 6.2 Importance of high quality ideas for consistent profitability / 高质量想法对持续盈利的重要性
+    - 6.3 Avoiding common pitfalls (anchoring, hindsight bias) / 避免常见陷阱（锚定、后见之明偏见）
+    - 6.4 Continuous engagement in quantitative and qualitative processes / 持续参与定量和定性流程
+
+---
+
+## Chapter 23 / 第 23 章
+
+- **1. Filtering for Price Earnings Ratio & Additional Measures / 市盈率和附加指标筛选**
+    - 1.1 Identification of positive and negative outliers in a sector / 识别行业中的正面和负面异常值
+    - 1.2 Ranking P/E ratio from largest to smallest / 将市盈率从大到小排序
+    - 1.3 Understanding reasons behind high, low, or average P/E ratios / 理解高、低或平均市盈率背后的原因
+    - 1.4 Money prefers growth; high P/E often indicates superior growth / 资金青睐增长；高市盈率通常表明优异增长
+    - 1.5 Low P/E suggests inferior growth relative to sector counterparts / 低市盈率表明相对于行业同行的增长较差
+- **2. Measures of Growth / 增长指标**
+    - 2.1 Forward-looking earnings growth / 前瞻性盈利增长
+    - 2.2 Forward revenue growth / 前瞻性收入增长
+    - 2.3 Forward P/E ratio / 前瞻性市盈率
+    - 2.4 Forward PEG ratio (P/E ratio divided by earnings growth percentage) / 前瞻性PEG比率（市盈率除以盈利增长百分比）
+    - 2.5 Importance of understanding reasons for premium or discount valuations / 理解溢价或折价估值原因的重要性
+- **3. Analyzing Sector Data / 分析行业数据**
+    - 3.1 Downloadable spreadsheet: US sector data / 可下载电子表格：美国行业数据
+    - 3.2 Focus on non-store retail sector / 专注于非店铺零售行业
+    - 3.3 Consensus numbers from NASDAQ.com, sorted by P/E ratio / 来自NASDAQ.com的一致预期数据，按市盈率排序
+    - 3.4 Market cap, EPS, earnings growth, P ratio, and PEG ratio visualization / 市值、每股收益、盈利增长、市盈率和PEG比率可视化
+    - 3.5 Filtering process: identify sector outliers based on forward P/E 1 / 筛选过程：基于前瞻性市盈率1识别行业异常值
+- **4. Investigating Outliers / 调查异常值**
+    - 4.1 Highlighted stocks: Shopify, Wayfair, Overstock / 重点股票：Shopify、Wayfair、Overstock
+    - 4.2 High forward P/E ratios; investigation into earnings growth / 高前瞻性市盈率；调查盈利增长
+    - 4.3 Earnings growth F1 (current year) and F2 (next year) / 盈利增长F1（当前年度）和F2（下一年度）
+    - 4.4 Understanding the market's premium for future earnings growth / 理解市场对未来盈利增长的溢价
+    - 4.5 Continual inquiry into reasons for high P/E ratios and earnings growth dynamics / 持续询问高市盈率和盈利增长动态的原因
+- **5. Revenue Growth Focus / 收入增长焦点**
+    - 5.1 Realization of revenue growth significance / 认识到收入增长的重要性
+    - 5.2 Comparison of revenue multiples (market cap divided by revenue) / 收入倍数比较（市值除以收入）
+    - 5.3 Investigating why certain companies have higher revenue multiples / 调查某些公司为什么有更高的收入倍数
+    - 5.4 Shopify's high revenue multiple analysis / Shopify的高收入倍数分析
+- **6. Process and Interpretation / 流程和解释**
+    - 6.1 Systematic analysis of price earnings ratio, earnings growth, market capitalization, revenue growth, and revenue multiples / 系统分析市盈率、盈利增长、市值、收入增长和收入倍数
+    - 6.2 Identifying fundamental tailwinds and directional trends / 识别基本面顺风和方向性趋势
+    - 6.3 Importance of asking obvious questions and digging deeper for answers / 提出明显问题和深入挖掘答案的重要性
+    - 6.4 Focus on repeatable processes for generating high-quality trade ideas / 专注于生成高质量交易想法的可重复流程
+- **7. Earnings Growth Interpretation / 盈利增长解释**
+    - 7.1 Relative and absolute earnings growth measurement / 相对和绝对盈利增长测量
+    - 7.2 Summing up earnings growth for sector average / 汇总行业平均盈利增长
+    - 7.3 Identifying positive and negative outliers / 识别正面和负面异常值
+    - 7.4 Emphasis on absolute earnings growth significance / 强调绝对盈利增长的重要性
+    - 7.5 Traders' preference for stocks with significant growth potential within a 20-60 day horizon / 交易者偏好在20-60天期限内有显著增长潜力的股票
+- **8. Recap and Next Steps / 回顾和下一步**
+    - 8.1 Starting with P/E ratio to identify market preferences / 从市盈率开始识别市场偏好
+    - 8.2 Moving to earnings growth and revenue growth analysis / 转向盈利增长和收入增长分析
+    - 8.3 Utilizing PEG ratio in further quantitative processing / 在进一步定量处理中利用PEG比率
+    - 8.4 Building a comprehensive picture of the sector and identifying potential long and short trade ideas / 构建行业的全面图景并识别潜在的多空交易想法
+
+---
+
+## Chapter 24 / 第 24 章
+
+- **1. Quantitative & Qualitative Dashboard / 定量与定性仪表板**
+    - 1.1 Quantitative Sector Filtering Metrics / 定量板块筛选指标
+        - 1.1.1 Market Capitalization / 市值
+        - 1.1.2 Earnings Growth / 盈利增长
+        - 1.1.3 Revenue Growth / 收入增长
+        - 1.1.4 Price Earnings Ratio (PE Ratio) / 市盈率（PE比率）
+        - 1.1.5 PEG Ratio / PEG比率
+        - 1.1.6 Enterprise Value (EV)/EBIT / 企业价值（EV）/息税前利润
+        - 1.1.7 EV/EBITDA / 企业价值/息税折旧摊销前利润
+    - 1.2 Other Quantitative Metrics / 其他定量指标
+        - 1.2.1 Financial measures for further analysis / 用于进一步分析的财务指标
+    - 1.3 Qualitative Assessment / 定性评估
+        - 1.3.1 Key Performance Indicators (KPIs) / 关键绩效指标（KPIs）
+        - 1.3.2 Forward and backward-looking KPIs / 前瞻性和回顾性KPIs
+- **2. PEG Ratio Analysis / PEG比率分析**
+    - 2.1 Definition / 定义
+        - 2.1.1 Valuation metric built on PE ratio / 基于市盈率构建的估值指标
+        - 2.1.2 Calculated by dividing forward PE by forward earnings growth / 通过将预期市盈率除以预期盈利增长率计算得出
+    - 2.2 Misinterpretation / 误解
+        - 2.2.1 Commonly misunderstood like PE ratio / 像市盈率一样经常被误解
+    - 2.3 Calculation / 计算
+        - 2.3.1 Stock price / Forward EPS / Forward EPS Growth Percentage / 股价 / 预期每股收益 / 预期每股收益增长百分比
+    - 2.4 Traditional Academic Finance Theory / 传统学术金融理论
+        - 2.4.1 High PEG = Expensive (Overvalued) / 高PEG = 昂贵（高估）
+        - 2.4.2 Low PEG = Cheap (Undervalued) / 低PEG = 便宜（低估）
+    - 2.5 Professional Trading Perspective / 专业交易视角
+        - 2.5.1 PEG ratio represents the price the market is willing to pay for a company's forecasted earnings per share percentage growth / PEG比率代表市场愿意为公司预期每股收益百分比增长支付的价格
+        - 2.5.2 No such thing as "cheap" or "expensive" / 不存在"便宜"或"昂贵"之说
+    - 2.6 Example Analysis / 示例分析
+        - 2.6.1 Stock A: $10/share, Forward EPS = $1, EPS Growth = 20% / 股票A：10美元/股，预期每股收益 = 1美元，每股收益增长 = 20%
+        - 2.6.2 PEG = 10 / 20 = 0.5 / PEG = 10 / 20 = 0.5
+        - 2.6.3 Sensitivity of valuation and stock price to changes in EPS / 估值和股价对每股收益变化的敏感性
+        - 2.6.4 Stock can move independently of PEG ratio / 股票可以独立于PEG比率而变动
+- **3. Enterprise Value (EV) and Financial Measures / 企业价值（EV）和财务指标**
+    - 3.1 Enterprise Value / 企业价值
+        - 3.1.1 Measures a company's total value / 衡量公司的总价值
+        - 3.1.2 Market Cap + Total Debt - Cash / 市值 + 总债务 - 现金
+        - 3.1.3 Limitations / 局限性
+            - Debt usage / 债务使用
+            - Quality of operations / 运营质量
+            - Market knowledge of debt and cash position / 市场对债务和现金状况的了解
+            - Backwards-looking / 回顾性
+    - 3.2 EBIT & EBITDA / 息税前利润与息税折旧摊销前利润
+        - 3.2.1 Earnings Before Interest and Taxes (EBIT) / 息税前利润（EBIT）
+        - 3.2.2 Earnings Before Interest, Taxes, Depreciation, and Amortization (EBITDA) / 息税、折旧、摊销前利润（EBITDA）
+        - 3.2.3 Contextual to sectors / 与行业相关
+        - 3.2.4 Limitations and usefulness vary by sector / 局限性和有用性因行业而异
+    - 3.3 EV/EBIT & EV/EBITDA Ratios / EV/EBIT与EV/EBITDA比率
+        - 3.3.1 Valuation ratios / 估值比率
+        - 3.3.2 Interpretation caution required / 需要谨慎解释
+        - 3.3.3 Supporting or non-supporting evidence for forward-looking valuation metrics (PE, PEG) / 前瞻性估值指标（PE、PEG）的支持或非支持证据
+- **4. Trade Idea Generation Process / 交易想法生成流程**
+    - 4.1 Identification Phase / 识别阶段
+        - 4.1.1 Locate positive and negative outliers in a sector / 定位行业中的正面和负面异常值
+        - 4.1.2 Understand market preferences and justifications / 理解市场偏好和理由
+    - 4.2 Quantitative Processing / 定量处理
+        - 4.2.1 Market Cap, EPS, Forward EPS, Earnings Growth, Revenue Growth, PE Ratio, PEG Ratio / 市值、每股收益、预期每股收益、盈利增长、收入增长、市盈率、PEG比率
+        - 4.2.2 Further financial metrics for positive and negative outliers / 正面和负面异常值的进一步财务指标
+        - 4.2.3 Confirmation or discrepancy analysis / 确认或差异分析
+    - 4.3 Qualitative Analysis / 定性分析
+        - 4.3.1 Key Performance Indicators (KPIs) / 关键绩效指标（KPIs）
+        - 4.3.2 Contextual to sector and company operations / 与行业和公司运营相关
+- **5. Conclusion / 结论**
+    - 5.1 Quantitative Processing / 定量处理
+        - 5.1.1 PEG Ratio: Forward-looking valuation metric / PEG比率：前瞻性估值指标
+        - 5.1.2 Enterprise Value, EBIT, EBITDA: Backwards-looking financial measures for context and confirmation / 企业价值、EBIT、EBITDA：用于背景和确认的回顾性财务指标
+    - 5.2 Trade Idea Generation / 交易想法生成
+        - 5.2.1 Focus on forward-looking metrics / 专注于前瞻性指标
+        - 5.2.2 Use backwards-looking metrics for deeper understanding and confirmation / 使用回顾性指标进行更深入的理解和确认
+        - 5.2.3 Avoid trading on past information; focus on future expectations / 避免基于过去信息交易；专注于未来预期
+
+---
+
+## Chapter 25 / 第 25 章
+
+- **1. Quantitative Phase / 定量阶段**
+    - 1.1 Leading Indicator Dashboard / 领先指标仪表板
+        - 1.1.1 US Leading Indicators / 美国领先指标
+            - 1.1.1.1 Money Markets / 货币市场
+            - 1.1.1.2 Surveys / 调查
+            - 1.1.1.3 Cyclists / 周期性指标
+            - 1.1.1.4 Commodity Prices (USD) / 商品价格（美元）
+        - 1.1.2 International Leading Indicators / 国际领先指标
+            - 1.1.2.1 Money Markets / 货币市场
+            - 1.1.2.2 Surveys / 调查
+            - 1.1.2.3 Cyclists / 周期性指标
+            - 1.1.2.4 Commodity Prices / 商品价格
+    - 1.2 Macro Work / 宏观工作
+        - 1.2.1 Establish Portfolio Bias / 建立投资组合偏向
+        - 1.2.2 Macroeconomic Processing / 宏观经济处理
+    - 1.3 Microeconomic Filtering / 微观经济筛选
+        - 1.3.1 Quantitative & Qualitative Dashboards / 定量和定性仪表板
+        - 1.3.2 Marrying Macroeconomics & Microeconomics / 结合宏观经济学与微观经济学
+- **2. Mechanics of Long Trade Ideas / 多头交易想法机制**
+    - 2.1 Earnings Growth Profiles / 盈利增长概况
+    - 2.2 Market Capitalization Filter / 市值筛选
+        - 2.2.1 Mid-Cap Focus ($3B-$10B) / 中盘股重点（30亿-100亿美元）
+    - 2.3 Valuation Backdrop / 估值背景
+        - 2.3.1 PE Ratio & Earnings Growth / 市盈率与盈利增长
+        - 2.3.2 Sequentially Positive Earnings Growth Momentum / 连续正向盈利增长动能
+    - 2.4 10 Earnings Growth Profiles / 10种盈利增长概况
+        - 2.4.1 Case 1: Ideal Scenario / 案例1：理想情况
+        - 2.4.2 Case 2: Positive Above Sector Average Earnings Growth / 案例2：高于行业平均的正向盈利增长
+        - 2.4.3 Case 3: Positive Earnings Growth Above Sector Average / 案例3：高于行业平均的正向盈利增长
+        - 2.4.4 Case 4-6: Non-Optimal Profiles / 案例4-6：非最优概况
+        - 2.4.5 Case 7-8: Negative Earnings Growth, Positive EPS / 案例7-8：负盈利增长，正每股收益
+        - 2.4.6 Case 9-10: Negative Earnings Growth, Negative EPS / 案例9-10：负盈利增长，负每股收益
+    - 2.5 Optimization / 优化
+        - 2.5.1 Positive Outliers / 正向异常值
+        - 2.5.2 Valuation & Earnings Growth Evidence / 估值与盈利增长证据
+- **3. Short Trade Ideas / 空头交易想法**
+    - 3.1 Mechanics / 机制
+        - 3.1.1 Higher Market Cap Space ($20B+) / 更高市值空间（200亿美元以上）
+        - 3.1.2 Declining Earnings Growth Profiles / 下降的盈利增长概况
+        - 3.1.3 Potential Turnaround Stories / 潜在转机故事
+    - 3.2 Short Profiles / 空头概况
+        - 3.2.1 X-Growth Stocks / X增长股票
+        - 3.2.2 Value Traps / 价值陷阱
+- **4. Data Processing & Analysis / 数据处理与分析**
+    - 4.1 Data Download & Organization / 数据下载与组织
+        - 4.1.1 Zacks.com Stock Screener / Zacks.com股票筛选器
+        - 4.1.2 Filtering Criteria / 筛选条件
+            - 4.1.2.1 Market Cap > $3B / 市值 > 30亿美元
+        - 4.1.3 Data Columns / 数据列
+            - 4.1.3.1 Market Cap, Stock Price, EPS, etc. / 市值、股价、每股收益等
+        - 4.1.4 Download & Excel Manipulation / 下载与Excel操作
+    - 4.2 Calculations / 计算
+        - 4.2.1 Earnings Growth / 盈利增长
+        - 4.2.2 Price-Earnings Ratios (PE) / 市盈率（PE）
+        - 4.2.3 Price/Earnings to Growth Ratio (PEG) / 市盈率相对盈利增长比率（PEG）
+    - 4.3 Sector Analysis / 行业分析
+        - 4.3.1 Filtering for Industry / 行业筛选
+        - 4.3.2 Processing & Analytics / 处理与分析
+            - 4.3.2.1 Identify & Fix Spurious Data / 识别和修复虚假数据
+            - 4.3.2.2 Sector Averages / 行业平均值
+            - 4.3.2.3 Outlier Identification / 异常值识别
+                - 4.3.2.3.1 Long Ideas / 多头想法
+                - 4.3.2.3.2 Short Ideas / 空头想法
+                - 4.3.2.3.3 Turnaround Stories / 转机故事
+    - 4.4 Practical Implementation / 实际实施
+        - 4.4.1 Micro Analysis Stages / 微观分析阶段
+        - 4.4.2 Deeper Dive into Quantitative Analysis / 深入定量分析
+        - 4.4.3 Qualitative Assessment / 定性评估
+        - 4.4.4 Trade Idea Generation / 交易想法生成
+- **5. Key Principles / 关键原则**
+    - 5.1 Stick to IPM Principles / 坚持IPM原则
+    - 5.2 Logic, Due Diligence, Common Sense / 逻辑、尽职调查、常识
+    - 5.3 Deal with Real-World Problems / 处理现实世界问题
+    - 5.4 Deep Dive into Quantitative & Qualitative Metrics / 深入研究定量和定性指标
+    - 5.5 Optimization & Positive Outliers Identification / 优化和正向异常值识别
+
+---
+
+## Chapter 26 / 第 26 章
+
+- **1. Earnings Growth Profiles for Shorts / 空头的盈利增长概况**
+    - 1.1 Sequentially Negative Below Sector Average Earnings Growth Momentum / 连续负向低于行业平均的盈利增长动能
+        - 1.1.1 On paper, ideal setup but in reality, stock may already be significantly down / 理论上是理想设置，但实际上股票可能已经大幅下跌
+    - 1.2 Negative Earnings Growth and Less Negative in Second Period Below Sector Average / 负盈利增长且第二期不那么负但低于行业平均
+        - 1.2.1 Could provide better entry point if hope for slowdown in earnings growth decline is priced in / 如果盈利增长下降放缓的希望已被定价，可能提供更好的入场点
+    - 1.3 Flat Earnings Growth Then Going Negative Below Sector Average / 平坦盈利增长然后转为负向低于行业平均
+        - 1.3.1 Requires careful analysis to determine if operational or technical reasons for earnings decline / 需要仔细分析以确定盈利下降是运营还是技术原因
+    - 1.4 Positive Earnings Growth Then Going Flat or Negative Below Sector Average / 正向盈利增长然后转为平坦或负向低于行业平均
+        - 1.4.1 Must investigate reasons for expected earnings growth decline / 必须调查预期盈利增长下降的原因
+    - 1.5 Negative Earnings Growth Then Positive or Flat Below Sector Average / 负向盈利增长然后转为正向或平坦但低于行业平均
+        - 1.5.1 Potential turnaround or value trap, requires further investigation / 潜在转机或价值陷阱，需要进一步调查
+- **2. Market Cap Filters for Shorts / 空头的市值筛选**
+    - 2.1 Concentrate on $20 billion+ market cap space / 专注于200亿美元以上市值空间
+    - 2.2 Avoid shorting low market cap stocks and long mega caps / 避免做空低市值股票和做多巨型股
+    - 2.3 Exposure to potential takeover risk / 面临潜在收购风险
+    - 2.4 Ideal setup for shorts: large and mega cap stocks / 空头的理想设置：大盘股和巨型股
+- **3. Price Earnings Ratio Setup / 市盈率设置**
+    - 3.1 PE profile for stock relative to sector / 股票相对于行业的市盈率概况
+    - 3.2 PE1 and PE2 lower than sector average / PE1和PE2低于行业平均
+    - 3.3 EPS lower in period two versus period one / 第二期每股收益低于第一期
+- **4. Earnings Growth Analysis / 盈利增长分析**
+    - 4.1 Sequentially Negative Below Sector Average Earnings Growth Momentum / 连续负向低于行业平均的盈利增长动能
+    - 4.2 Negative Earnings Growth and Less Negative in Second Period Below Sector Average / 负盈利增长且第二期不那么负但低于行业平均
+    - 4.3 Flat Earnings Growth Then Going Negative Below Sector Average / 平坦盈利增长然后转为负向低于行业平均
+    - 4.4 Positive Earnings Growth Then Going Flat or Negative Below Sector Average / 正向盈利增长然后转为平坦或负向低于行业平均
+    - 4.5 Negative Earnings Growth Then Positive or Flat Below Sector Average / 负向盈利增长然后转为正向或平坦但低于行业平均
+- **5. Short Waves Template / 空头波动模板**
+    - 5.1 Phase 1: Capacity or market size issue, stock starts to put in several tops / 第一阶段：产能或市场规模问题，股票开始形成多个顶部
+    - 5.2 Phase 2: Expectations shift lower, profit taking from long-term investors / 第二阶段：预期下调，长期投资者获利了结
+    - 5.3 Phase 3: New normal growth rate expectation, company seeks new management operating plan / 第三阶段：新常态增长率预期，公司寻求新的管理运营计划
+    - 5.4 Phase 4: Stock down materially, new company management operating plan rolled out / 第四阶段：股票大幅下跌，推出新的公司管理运营计划
+    - 5.5 Phase 5: Turnaround or not, as traders, focus on catching phase 2 and phase 3 / 第五阶段：转机与否，作为交易者，专注于抓住第二和第三阶段
+- **6. Technical Factors / 技术因素**
+    - 6.1 Short Interest Percentage: Sentiment gauge on how bearish the market is on the stock / 空头利息百分比：市场对股票看跌程度的情绪指标
+    - 6.2 Days to Cover Ratio: Liquidity measure, amount of shares sold short divided by average daily volume / 回补天数比率：流动性指标，卖空股份数除以平均日成交量
+    - 6.3 Dividend Situation: Check if company is paying a dividend, how much, and likelihood of dividend cut / 股息情况：检查公司是否支付股息、金额多少以及削减股息的可能性
+- **7. Summary / 总结**
+    - 7.1 Target phase 2 and phase 3 scenarios for short ideas / 针对空头想法的第二和第三阶段情景
+    - 7.2 Add market cap filters to avoid rookie errors / 添加市值筛选以避免新手错误
+    - 7.3 Overlay fundamental work with technical factors / 将基本面工作与技术因素相结合
+    - 7.4 Focus on predicting fundamental shift lower in expectations of business operation / 专注于预测商业运营预期的基本面下行转变
+    - 7.5 Attempt to catch sharp moves down in stock during phase 2 and phase 3 periods / 试图在第二和第三阶段期间抓住股票的急剧下跌
+
+---
+
+## Chapter 27 / 第 27 章
+
+- **1. Earnings Growth Profiles / 盈利增长概况**
+    - 1.1 Not Ideal or Close to Ideal / 非理想或接近理想
+        - 1.1.1 Turnaround Stories / 转机故事
+        - 1.1.2 Value Traps / 价值陷阱
+    - 1.2 Identification Process / 识别过程
+        - 1.2.1 Long Idea Processing / 多头想法处理
+        - 1.2.2 Short Idea Processing / 空头想法处理
+    - 1.3 Cases Analysis / 案例分析
+        - 1.3.1 Cases 7, 8, 9, 10 (Longs) / 案例7、8、9、10（多头）
+        - 1.3.2 Cases 5, 8, 9 (Shorts) / 案例5、8、9（空头）
+    - 1.4 Revenue Growth Stories vs. Earnings Growth Profiles / 收入增长故事与盈利增长概况
+- **2. Quantitative Processing / 定量处理**
+    - 2.1 Earnings Growth Profiles / 盈利增长概况
+        - 2.1.1 Case 7: Positive EPS, Negative Earnings Growth / 案例7：正每股收益，负盈利增长
+        - 2.1.2 Case 8: Positive EPS, Earnings Growth Recovery / 案例8：正每股收益，盈利增长恢复
+        - 2.1.3 Case 9: Negative EPS, Massive Turnaround / 案例9：负每股收益，大规模转机
+        - 2.1.4 Case 10: Negative EPS, Declining Losses / 案例10：负每股收益，亏损减少
+    - 2.2 Price Earnings (PE) Ratio Backdrop / 市盈率（PE）背景
+        - 2.2.1 Ideal Setup for Long Ideas / 多头想法的理想设置
+        - 2.2.2 Non-Ideal Setup for Long Ideas / 多头想法的非理想设置
+    - 2.3 PEG Ratio Analysis / PEG比率分析
+        - 2.3.1 Ideal PEG Setup for Long Ideas / 多头想法的理想PEG设置
+        - 2.3.2 PEG Ratio Interpretation for Turnaround Stories / 转机故事的PEG比率解释
+- **3. Short Idea Processing / 空头想法处理**
+    - 3.1 Cases 5, 8, 9 Analysis / 案例5、8、9分析
+    - 3.2 Importance of X Growth Phase / X增长阶段的重要性
+    - 3.3 Arguing with the Market / 与市场争论
+    - 3.4 Risk and Opportunity Assessment / 风险和机会评估
+- **4. Price Earnings Ratio & PEG Profiles / 市盈率与PEG概况**
+    - 4.1 PE Ratio Analysis for Turnaround Stories / 转机故事的市盈率分析
+    - 4.2 PEG Ratio Interpretation for Turnaround and Value Traps / 转机和价值陷阱的PEG比率解释
+    - 4.3 Normalization of PEG Ratio / PEG比率的标准化
+- **5. Backwards Looking Quantitative Assessment / 回顾性定量评估**
+    - 5.1 Debt to Equity Ratio / 债务权益比
+    - 5.2 Interest Coverage Ratio / 利息保障倍数
+    - 5.3 Current Ratio & Quick Ratio / 流动比率和速动比率
+    - 5.4 Working Capital to Total Assets Ratio / 营运资本对总资产比率
+    - 5.5 Book Value Per Share / 每股账面价值
+    - 5.6 Sales to Assets Ratio / 销售资产比率
+    - 5.7 Return on Assets (ROA) Ratio / 资产回报率（ROA）
+    - 5.8 Return on Equity (ROE) Ratio / 股本回报率（ROE）
+    - 5.9 Free Cash Flow Yield & Price Over Free Cash Flow Per Share / 自由现金流收益率和每股自由现金流价格比
+- **6. Qualitative Assessment / 定性评估**
+    - 6.1 Management Operating Plan / 管理运营计划
+    - 6.2 Quality of Earnings and Free Cash Flow / 盈利和自由现金流质量
+    - 6.3 Timing Assessment / 时机评估
+    - 6.4 Trade Structuring / 交易结构
+- **7. Portfolio Composition Example / 投资组合构成示例**
+    - 7.1 10 Stock Portfolio ($100,000 Notional Risk) / 10只股票投资组合（10万美元名义风险）
+        - 7.1.1 6 Longs (Net Long Bias) / 6个多头（净多头偏向）
+            - 7.1.1.1 Classic Longs (Cyclists) / 经典多头（周期性）
+            - 7.1.1.2 Revenue Growth Story / 收入增长故事
+            - 7.1.1.3 Defensive Stocks / 防御性股票
+            - 7.1.1.4 Turnaround Story (Phase 4 or 5) / 转机故事（第4或第5阶段）
+        - 7.1.2 4 Shorts / 4个空头
+            - 7.1.2.1 Classic Shorts (Cyclists) / 经典空头（周期性）
+            - 7.1.2.2 Early X Growth Cyclist / 早期X增长周期性
+            - 7.1.2.3 Defensive Stock (Phase 2) / 防御性股票（第2阶段）
+            - 7.1.2.4 Early X Growth Cyclist (Phase 3) / 早期X增长周期性（第3阶段）
+- **8. Conclusion / 结论**
+    - 8.1 Process Flow / 流程
+        - 8.1.1 Forward Looking Quantitative Discovery (Identification) / 前瞻性定量发现（识别）
+        - 8.1.2 Backwards Looking Quantitative Assessment (Evidence) / 回顾性定量评估（证据）
+        - 8.1.3 Forward Looking Qualitative Assessment / 前瞻性定性评估
+    - 8.2 Data Processing and Mining Mistakes & Solutions (Next Video) / 数据处理和挖掘错误与解决方案（下一个视频）
+
+---
+
+## Chapter 28 / 第 28 章
+
+- **1. Quantitative Process Overview / 定量流程概述**
+    - 1.1 Trade Idea Generation / 交易想法生成
+    - 1.2 Forward Looking Metrics Identification / 前瞻性指标识别
+    - 1.3 Evidence Process (Backwards Looking Quantitative Data) / 证据流程（回顾性定量数据）
+- **2. Common Mistakes in Quantitative Processing / 定量处理中的常见错误**
+    - 2.1 Lack of Attention to Detail / 缺乏关注细节
+        - 2.1.1 Blindly trusting downloaded data without verification / 盲目信任下载的数据而不验证
+        - 2.1.2 Failing to organize and process data correctly / 未能正确组织和处理数据
+        - 2.1.3 Not checking and fixing errors in data / 不检查和修复数据中的错误
+    - 2.2 Common Sense Errors / 常识错误
+        - 2.2.1 Assuming all downloaded numbers are 100% accurate / 假设所有下载的数字都100%准确
+        - 2.2.2 Not questioning outliers or unusual data points / 不质疑异常值或不寻常的数据点
+        - 2.2.3 Ignoring financial year ends and seasonal factors / 忽略财政年度末和季节性因素
+    - 2.3 Data Cleansing Errors / 数据清理错误
+        - 2.3.1 Not making cells live in spreadsheets / 不在电子表格中使单元格实时更新
+        - 2.3.2 Overlooking rogue cells and incorrect calculations / 忽略异常单元格和错误计算
+        - 2.3.3 Failing to correct earnings growth percentages for positive/negative EPS transitions / 未能纠正正负每股收益转换的盈利增长百分比
+- **3. Solutions for Data Processing Mistakes / 数据处理错误的解决方案**
+    - 3.1 Ensuring Data Accuracy / 确保数据准确性
+        - 3.1.1 Eyeball numbers for basic correctness / 目视检查数字的基本正确性
+        - 3.1.2 Verify EPS estimates and stock prices from multiple sources / 从多个来源验证每股收益估计和股价
+        - 3.1.3 Make cells live using Excel formulas / 使用Excel公式使单元格实时更新
+    - 3.2 Handling Positive/Negative EPS Transitions / 处理正负每股收益转换
+        - 3.2.1 Overwrite cells with 100% for loss-making to profit-making transitions / 对从亏损到盈利的转换用100%覆盖单元格
+        - 3.2.2 Overwrite cells with -100% for profit-making to loss-making transitions / 对从盈利到亏损的转换用-100%覆盖单元格
+    - 3.3 Addressing Law of Small Numbers / 解决小数定律
+        - 3.3.1 Use common sense when interpreting high percentage changes from small EPS numbers / 在解释小每股收益数字的高百分比变化时使用常识
+        - 3.3.2 Investigate historical EPS trends for context / 调查历史每股收益趋势以获得背景
+    - 3.4 Contributions to the Mean / 对均值的贡献
+        - 3.4.1 Calculate individual stock contributions to sector averages / 计算个股对行业平均值的贡献
+        - 3.4.2 Adjust calculations when certain stocks skew sector metrics / 当某些股票扭曲行业指标时调整计算
+        - 3.4.3 Stress test by eliminating influential stocks to assess impact / 通过排除有影响力的股票进行压力测试以评估影响
+    - 3.5 Sector Analysis Best Practices / 行业分析最佳实践
+        - 3.5.1 Compare apples to apples (similar businesses and market caps) / 同类比较（相似业务和市值）
+        - 3.5.2 Adjust for financial year ends and seasonal factors / 调整财政年度末和季节性因素
+        - 3.5.3 Split sectors based on market cap if necessary / 如有必要，根据市值分割行业
+- **4. Importance of Attention to Detail and Common Sense / 关注细节和常识的重要性**
+    - 4.1 Develop an analytical mindset / 培养分析思维
+        - 4.1.1 Continuously improve common sense and interpretation skills / 持续提高常识和解释技能
+        - 4.1.2 Practice regularly to sharpen data processing abilities / 定期练习以锻炼数据处理能力
+- **5. Recap of Quantitative Process / 定量流程回顾**
+    - 5.1 Systematic approach to trade idea generation / 交易想法生成的系统方法
+        - 5.1.1 Focus on forward-looking metrics and evidence-based analysis / 专注于前瞻性指标和基于证据的分析
+        - 5.1.2 Proprietary process for gaining market edge through meticulous data handling / 通过细致的数据处理获得市场优势的专有流程
+
+---
+
+## Chapter 29 / 第 29 章
+
+- **1. Quantitative Processing Phase Recap / 定量处理阶段回顾**
+    - 1.1 Interpretation of valuation and growth metrics / 估值和增长指标的解释
+    - 1.2 Mechanics of long and short trade idea processing / 多空交易想法处理机制
+    - 1.3 Opportunities in non-ideal earnings growth profiles / 非理想盈利增长概况中的机会
+    - 1.4 Turnarounds and value traps / 转机和价值陷阱
+    - 1.5 Correct data processing in the quant phase / 定量阶段的正确数据处理
+    - 1.6 Avoidance of common mistakes / 避免常见错误
+- **2. Macro to Micro Analysis / 宏观到微观分析**
+    - 2.1 Macro Economic Level / 宏观经济层面：
+        - 2.1.1 Leading indicators in the U.S. and internationally / 美国和国际的领先指标
+        - 2.1.2 Forecasting GDP growth and stock market direction / 预测GDP增长和股市方向
+        - 2.1.3 Determining portfolio bias (long, short, neutral) / 确定投资组合偏向（做多、做空、中性）
+    - 2.2 Micro Level Analysis / 微观层面分析：
+        - 2.2.1 Identification process at the sector level / 行业层面的识别过程
+            - 2.2.1.1 Market capitalization / 市值
+            - 2.2.1.2 Earnings growth percentage / 盈利增长百分比
+            - 2.2.1.3 Revenue growth / 收入增长
+            - 2.2.1.4 Valuation (P/E ratio, PEG ratio) / 估值（市盈率、PEG比率）
+        - 2.2.2 Backwards looking quantitative analysis / 回顾性定量分析
+            - 2.2.2.1 Enterprise value (EV) metrics / 企业价值（EV）指标
+            - 2.2.2.2 Profit and loss statement metrics / 损益表指标
+            - 2.2.2.3 Balance sheet and cash flow statement metrics / 资产负债表和现金流量表指标
+        - 2.2.3 Forward-looking metrics for outlier identification / 用于异常值识别的前瞻性指标
+- **3. Integration into Pro Trader Systematic Framework / 整合到专业交易者系统框架**
+    - 3.1 80% to 90% of work in the fundamental area / 80%到90%的工作在基本面领域
+    - 3.2 Utilization of quantitative processes for portfolio bias / 利用定量流程确定投资组合偏向
+    - 3.3 Forward-looking metrics for identification / 用于识别的前瞻性指标
+    - 3.4 Backwards-looking quantitative metrics for evidence / 用于证据的回顾性定量指标
+- **4. Qualitative Process Overview / 定性流程概述**
+    - 4.1 Learning stock information / 学习股票信息
+    - 4.2 Identifying key performance indicators (KPIs) / 识别关键绩效指标（KPIs）
+    - 4.3 Identifying catalysts / 识别催化剂
+    - 4.4 Understanding drivers behind revenue and earnings growth / 理解收入和盈利增长背后的驱动因素
+    - 4.5 Determining what will move the stock within the 20-60 day time horizon / 确定在20-60天时间范围内将推动股票的因素
+- **5. Trade Idea vs. Investment Idea / 交易想法与投资想法**
+    - 5.1 Importance of distinguishing between trade and investment ideas / 区分交易和投资想法的重要性
+    - 5.2 Focus on the 20-60 day time horizon for long-short portfolio management / 专注于多空投资组合管理的20-60天时间范围
+    - 5.3 Catalysts and qualitative factors crucial for moving the stock within the time horizon / 在时间范围内推动股票的催化剂和定性因素至关重要
+- **6. Moving to Qualitative Processing Phase / 转向定性处理阶段**
+    - 6.1 Next steps in the PTM video series / PTM视频系列的下一步
+    - 6.2 Emphasis on qualitative assessment for complete trade idea generation / 强调定性评估以完成交易想法生成
+
+---
+
+## Chapter 30 / 第 30 章
+
+- **1. Introduction to Qualitative Processing / 定性处理介绍**
+    - 1.1 Context: Fundamental analysis evolution from quantitative to qualitative / 背景：基本面分析从定量到定性的演进
+    - 1.2 Quantitative Phase: Discovery & Evidence / 定量阶段：发现与证据
+        - 1.2.1 Discovery: Forward-looking metrics and valuation to identify outliers / 发现：前瞻性指标和估值以识别异常值
+        - 1.2.2 Evidence: Backwards-looking financial statements to support valuation / 证据：回顾性财务报表以支持估值
+    - 1.3 Qualitative Analysis: Focus on qualitative drivers of the business / 定性分析：专注于业务的定性驱动因素
+        - 1.3.1 Key Performance Indicators (KPIs) and Management Operating Plan / 关键绩效指标（KPIs）和管理运营计划
+- **2. Importance of KPIs / KPIs的重要性**
+    - 2.1 KPIs measure effectiveness of Management Operating Plan / KPIs衡量管理运营计划的有效性
+    - 2.2 Management Operating Plan drives business results / 管理运营计划推动业务结果
+    - 2.3 KPIs provide evidence supporting valuation of outliers identified in quantitative phase / KPIs提供支持在定量阶段识别的异常值估值的证据
+- **3. Qualitative Process Steps / 定性流程步骤**
+    - 3.1 Step 1: Identify Outliers / 第一步：识别异常值
+        - 3.1.1 Quantitative analysis identifies potential stocks with increasing revenue/earnings growth and premium valuation / 定量分析识别具有增长收入/盈利增长和溢价估值的潜在股票
+    - 3.2 Step 2: Gather Quantitative Evidence / 第二步：收集定量证据
+        - 3.2.1 Review financial statements for evidence supporting valuation / 审查财务报表以寻找支持估值的证据
+    - 3.3 Step 3: Qualitative Assessment / 第三步：定性评估
+        - 3.3.1 Identify KPIs and Management Operating Plan / 识别KPIs和管理运营计划
+            - 3.3.1.1 Visit Investor Relations website for qualitative information / 访问投资者关系网站获取定性信息
+            - 3.3.1.2 Events and Presentations section reveals KPIs and updates on business / 活动和演示部分揭示KPIs和业务更新
+        - 3.3.2 Continuous questioning / 持续提问：
+            - 3.3.2.1 Why is earnings growth or revenue growth good or bad? / 为什么盈利增长或收入增长好或坏？
+            - 3.3.2.2 Does the stock deserve its assigned premium or discount? / 股票是否值得其分配的溢价或折价？
+            - 3.3.2.3 Will the company continue to report good or bad numbers? / 公司会继续报告好或坏的数字吗？
+        - 3.3.3 KPIs drive quantitative results (revenue and earnings) / KPIs推动定量结果（收入和盈利）
+    - 3.4 Step 4: Infer Management Operating Plan / 第四步：推断管理运营计划
+        - 3.4.1 From identified KPIs, infer the strategy and direction of the company / 从识别的KPIs推断公司的策略和方向
+    - 3.5 Step 5: Assess Future Outlook / 第五步：评估未来前景
+        - 3.5.1 Understand how changes in KPIs could affect future revenue and earnings forecasts / 理解KPIs的变化如何影响未来收入和盈利预测
+        - 3.5.2 Determine if the qualitative assessment supports the quantitative valuation / 确定定性评估是否支持定量估值
+- **4. Example: Zendesk / 示例：Zendesk**
+    - 4.1 Customer Relationship Management (CRM) Software as a Service (SaaS) company / 客户关系管理（CRM）软件即服务（SaaS）公司
+        - 4.1.1 Key Performance Indicators identified / 识别的关键绩效指标：
+            - 4.1.1.1 Indexed new tickets and bookings / 索引新票据和预订
+            - 4.1.1.2 Dollar-based net expansion rate / 基于美元的净扩张率
+            - 4.1.1.3 Percentage of annual recurring revenue (ARR) from enterprise customers / 来自企业客户的年度重复收入（ARR）百分比
+            - 4.1.1.4 Remaining performance obligations / 剩余履约义务
+        - 4.1.2 Management Operating Plan inferred / 推断的管理运营计划：
+            - 4.1.2.1 Targeting to triple revenue within five years / 目标在五年内将收入增长三倍
+            - 4.1.2.2 Customer acquisition growth rates per quarter / 每季度客户获取增长率
+            - 4.1.2.3 Maintain dollar-based net expansion rate / 维持基于美元的净扩张率
+            - 4.1.2.4 Achieve a healthy mix in ARR from enterprise vs. small and midsize businesses / 在来自企业与中小企业的ARR中实现健康组合
+            - 4.1.2.5 Deliver on remaining performance obligations via customer retention / 通过客户保留履行剩余履约义务
+- **5. Conclusion / 结论**
+    - 5.1 Qualitative assessment complements quantitative analysis / 定性评估补充定量分析
+        - 5.1.1 Identifying KPIs and inferring Management Operating Plan provides deeper insight into company performance and valuation / 识别KPIs和推断管理运营计划为公司表现和估值提供更深入的洞察
+        - 5.1.2 Continuous questioning ensures disciplined understanding of the evidence behind revenue and earnings growth / 持续提问确保对收入和盈利增长背后证据的严谨理解
+
+---
+
+## Chapter 31 / 第 31 章
+
+- **1. Key Performance Indicators (KPIs) & Identification / 关键绩效指标（KPIs）与识别**
+    - 1.1 Definition: Measures of performance driving revenue and earnings / 定义：推动收入和盈利的绩效衡量指标
+    - 1.2 Sources / 来源
+        - 1.2.1 Financial statements / 财务报表
+        - 1.2.2 Company presentations / 公司演示
+        - 1.2.3 Earnings call transcripts / 财报电话会议记录
+    - 1.3 Process / 流程
+        - 1.3.1 Scan earnings call transcripts for numbers and KPIs not available elsewhere / 扫描财报电话会议记录以获取其他地方无法获得的数字和KPIs
+        - 1.3.2 Focus on metrics mentioned by CEO/CFO indicating importance / 专注于CEO/CFO提及的表明重要性的指标
+        - 1.3.3 Common sense and context interpretation required / 需要常识和背景解释
+    - 1.4 Example: Abercrombie & Fitch (ANF) / 示例：Abercrombie & Fitch (ANF)
+        - 1.4.1 Digital penetration (54% of revenue) / 数字化渗透率（54%的收入）
+        - 1.4.2 Gross square feet reduction (17%) / 总建筑面积减少（17%）
+        - 1.4.3 Gross profit margin expansion (110 basis points) / 毛利率扩张（110个基点）
+        - 1.4.4 Liquidity ($1.3 billion) / 流动性（13亿美元）
+- **2. Management Track Record & Board Integrity / 管理层业绩记录与董事会诚信**
+    - 2.1 Management Evaluation / 管理层评估
+        - 2.1.1 CEO background: Experience, success, stock ownership / CEO背景：经验、成功、股票持有
+        - 2.1.2 Primary beaters (lieutenants): CFO, CTO, CPO, etc. / 主要副手：CFO、CTO、CPO等
+        - 2.1.3 Secondary beaters: Less critical management positions / 次要副手：较不重要的管理职位
+    - 2.2 Board of Directors / 董事会
+        - 2.2.1 Avoid political incest among board members and management / 避免董事会成员和管理层之间的政治近亲繁殖
+        - 2.2.2 High integrity required to keep management in check / 需要高诚信度以制约管理层
+    - 2.3 Example: HubSpot / 示例：HubSpot
+        - 2.3.1 Strong management background / 强大的管理背景
+        - 2.3.2 High integrity board supporting business growth / 支持业务增长的高诚信董事会
+- **3. Insider Stock & Stock Option Ownership / 内部人员股票与股票期权持有**
+    - 3.1 Analysis / 分析
+        - 3.1.1 Identify major shareholders and their roles / 识别主要股东及其角色
+        - 3.1.2 Evaluate stock worth and recent transactions / 评估股票价值和近期交易
+        - 3.1.3 Understand reasons behind selling (retirement, financing future projects) / 理解出售背后的原因（退休、为未来项目融资）
+    - 3.2 Example: HubSpot / 示例：HubSpot
+        - 3.2.1 Co-founders (Dharmesh Shah, Brian Halligan) significant shareholders / 联合创始人（Dharmesh Shah, Brian Halligan）重要股东
+        - 3.2.2 Legacy shareholders exiting positions gradually / 原有股东逐步退出仓位
+        - 3.2.3 Current CFO leaving company, selling stock / 现任CFO离开公司，出售股票
+- **4. Research Analyst Estimates & Ratings / 研究分析师预估与评级**
+    - 4.1 Understanding Expectations / 理解预期
+        - 4.1.1 EPS and revenue estimates for future years / 未来几年的每股收益和收入预估
+        - 4.1.2 Range, mean consensus, and distribution skew / 范围、平均共识和分布偏斜
+        - 4.1.3 Recent estimate changes and trends / 近期预估变化和趋势
+    - 4.2 Ratings Distribution / 评级分布
+        - 4.2.1 Buy, hold, sell, strong buy, underperform / 买入、持有、卖出、强烈买入、跑输大盘
+        - 4.2.2 Average rating and price target / 平均评级和目标价
+        - 4.2.3 Upgrades, downgrades, and maintains / 上调、下调和维持
+    - 4.3 Example: Abercrombie & Fitch (ANF) / 示例：Abercrombie & Fitch (ANF)
+        - 4.3.1 Positive skew in EPS and revenue estimates / 每股收益和收入预估的正偏斜
+        - 4.3.2 Upgrade from neutral to buy by UBS / 瑞银将评级从中性上调至买入
+        - 4.3.3 Analysts lagging behind stock price movement / 分析师落后于股价走势
+- **5. Summary & Recap / 总结与回顾**
+    - 5.1 Qualitative Analysis Components / 定性分析组成部分
+        - 5.1.1 KPIs & Management Operating Plan / KPIs与管理运营计划
+        - 5.1.2 Management Track Record & Board Integrity / 管理层业绩记录与董事会诚信
+        - 5.1.3 Insider Stock Ownership & Transactions / 内部人员股票持有与交易
+        - 5.1.4 Research Analyst Estimates & Ratings / 研究分析师预估与评级
+    - 5.2 Integration with Quantitative Analysis / 与定量分析的整合
+        - 5.2.1 Qualitative assessment supports or denies quantitative valuation / 定性评估支持或否定定量估值
+        - 5.2.2 Positive or negative outlier status confirmation / 正向或负向异常值状态确认
+    - 5.3 Next Steps / 下一步
+        - 5.3.1 Catalyst identification for trade ideas differentiation / 催化剂识别以区分交易想法
+
+---
+
+## Chapter 32 / 第 32 章
+
+- **1. Importance of Catalysts / 催化剂的重要性**
+    - 1.1 Differentiates investment ideas from trade ideas / 区分投资想法与交易想法
+    - 1.2 Crucial for distinguishing traders from investors / 对区分交易者与投资者至关重要
+    - 1.3 Enables identification of meaningful events driving stock movement / 能够识别推动股票走势的有意义事件
+- **2. Catalyst Identification Process / 催化剂识别流程**
+    - 2.1 Essential for turning investment ideas into trade ideas / 将投资想法转化为交易想法的关键
+    - 2.2 Requires understanding of stock-specific, technical, and macroeconomic catalysts / 需要理解特定股票、技术和宏观经济催化剂
+    - 2.3 Focuses on new, unexpected news impacting KPIs, revenue, earnings, and forward valuation / 专注于影响KPIs、收入、盈利和前瞻估值的新的、意外的消息
+    - 2.4 Stock and Sector Specific Catalysts / 股票和行业特定催化剂
+        - 2.4.1 Earnings announcements / 财报公告
+        - 2.4.2 Changes in forward guidance / 前瞻指引变化
+        - 2.4.3 Product or service launches / 产品或服务发布
+        - 2.4.4 Legal and regulatory changes / 法律和监管变化
+        - 2.4.5 Supply chain disruptions / 供应链中断
+        - 2.4.6 Rapid commodity price changes / 商品价格快速变化
+    - 2.5 Technical Catalysts / 技术催化剂
+        - 2.5.1 Stock buybacks, splits, rights issues / 股票回购、拆股、权利发行
+        - 2.5.2 Dividend changes / 股息变化
+        - 2.5.3 Acquisitions, restructurings, M&A deals / 收购、重组、并购交易
+        - 2.5.4 Index or ETF inclusions/exclusions / 指数或ETF纳入/剔除
+        - 2.5.5 Short squeezes / 空头挤压
+    - 2.6 Market or Economy Catalysts / 市场或经济催化剂
+        - 2.6.1 Rapid commodity price changes / 商品价格快速变化
+        - 2.6.2 Interest rate decisions / 利率决策
+        - 2.6.3 Changes in consumer sentiment, inflation expectations / 消费者情绪、通胀预期变化
+        - 2.6.4 Currency movements / 货币走势
+- **3. Catalysts and Trade Idea Generation / 催化剂与交易想法生成**
+    - 3.1 Catalysts determine timing and structuring of trades / 催化剂决定交易的时机和结构
+        - 3.1.1 Trade idea completeness hinges on catalyst identification / 交易想法的完整性取决于催化剂识别
+        - 3.1.2 Tumbleweed stocks: Lack of frequent catalysts between earnings reports / 肿瘤股票：财报之间缺乏频繁催化剂
+    - 3.2 Assessing Management Communication / 评估管理层沟通
+        - 3.2.1 Review press releases and events/presentations / 审查新闻稿和活动/演示
+        - 3.2.2 Calculate frequency and averages / 计算频率和平均值
+        - 3.2.3 Identify price-sensitive releases and events / 识别价格敏感的发布和事件
+        - 3.2.4 Interpret impact on stock price historically / 从历史角度解释对股价的影响
+    - 3.3 Meaningful vs. Non-Meaningful Catalysts / 有意义与无意义催化剂
+        - 3.3.1 Meaningful catalysts move the needle on KPIs, revenue, earnings / 有意义的催化剂影响KPIs、收入、盈利
+        - 3.3.2 Non-meaningful catalysts include public relations, end results without new information / 无意义的催化剂包括公关、没有新信息的最终结果
+- **4. Summary / 总结**
+    - 4.1 Catalysts are essential for generating trade ideas within a 20-60 day time horizon / 催化剂对于在20-60天时间范围内生成交易想法至关重要
+        - 4.1.1 Focus on identifying meaningful, non-earnings related catalysts / 专注于识别有意义的、非财报相关的催化剂
+        - 4.1.2 Practice improves discretion in interpreting catalyst impact / 实践提高解释催化剂影响的判断力
+        - 4.1.3 Deep dive through distribution of returns analysis for historical correlation / 通过回报分布分析深入研究历史相关性
+        - 4.1.4 Consistency in trade idea generation relies on thorough catalyst analysis / 交易想法生成的一致性依赖于彻底的催化剂分析
+
+---
+
+## Chapter 33 / 第 33 章
+
+- **1. Trade Idea Template / 交易想法模板**
+    - 1.1 Download: Word document for structured trade ideas / 下载：结构化交易想法的Word文档
+    - 1.2 Components: Fundamental analysis + timing + trade structure around catalysts / 组成部分：基本面分析 + 时机 + 围绕催化剂的交易结构
+- **2. Trade Structuring / 交易结构**
+    - 2.1 Outright Positions / 直接仓位
+        - 2.1.1 Long stock: Owning the stock directly / 做多股票：直接持有股票
+        - 2.1.2 Short stock: Borrowing stock through a broker for a cash-for-stock transaction / 做空股票：通过经纪商借入股票进行现金换股票交易
+    - 2.2 Margin Positions / 保证金仓位
+        - 2.2.1 Leveraging: 50% overnight margin requirement (2:1 leverage) in the US / 杠杆：美国隔夜保证金要求50%（2:1杠杆）
+    - 2.3 Contracts for Difference (CFDs) / 差价合约（CFDs）
+        - 2.3.1 Derivative instrument allowing up to 5x leverage / 允许高达5倍杠杆的衍生工具
+        - 2.3.2 Accessible to both US and international traders / 美国和国际交易者均可使用
+    - 2.4 Directional Stock Structures / 方向性股票结构
+        - 2.4.1 Utilization of stock options for advanced trade structuring / 利用股票期权进行高级交易结构
+        - 2.4.2 Requires additional learning in Professional Options Trading Masterclass / 需要在专业期权交易大师课中进行额外学习
+- **3. Timing and Catalyst Identification / 时机与催化剂识别**
+    - 3.1 Covered later in the PTM video series / 在PTM视频系列后面涵盖
+- **4. Quantitative Phase / 定量阶段**
+- **5. Qualitative Assessment / 定性评估**
+- **6. Catalyst Identification / 催化剂识别**
+    - 6.1 Assessing management communication and potential price movers between earnings reports / 评估管理层沟通和财报之间的潜在价格推动因素
+- **7. Trade Idea Generation Template / 交易想法生成模板**
+    - 7.1 Purpose: Discipline and consistency in trade idea generation / 目的：交易想法生成的纪律性和一致性
+        - 7.1.1 Includes: Quantitative and qualitative metrics, earnings call transcripts, management track record, insider ownership, analyst estimates, and catalysts / 包括：定量和定性指标、财报电话会议记录、管理层业绩记录、内部人持股、分析师预估和催化剂
+- **8. Example: Zendesk / 示例：Zendesk**
+    - 8.1 Quantitative Analysis / 定量分析
+        - 8.1.1 Stock price, market cap, EPS estimates, earnings growth, P/E ratio, PEG ratio, sales, sales growth, net income / 股价、市值、每股收益预估、盈利增长、市盈率、PEG比率、销售额、销售增长、净收入
+        - 8.1.2 Shares outstanding / 流通股数
+        - 8.1.3 Reasonable assumptions for price target based on quantitative data / 基于定量数据的合理目标价假设
+        - 8.1.4 Forward-looking estimates denoted by 'E' / 前瞻性预估以'E'标示
+        - 8.1.5 Historical stock prices rounded to nearest dollar / 历史股价四舍五入到最近美元
+    - 8.2 Commentary / 评论
+        - 8.2.1 Type of trade (revenue growth story vs. earnings growth story) / 交易类型（收入增长故事与盈利增长故事）
+        - 8.2.2 Price targets inferred from quantitative data / 从定量数据推断的目标价
+        - 8.2.3 GAAP vs. non-GAAP profit considerations / GAAP与非GAAP利润考虑
+        - 8.2.4 Upper bound and lower bound price targets using earnings growth and sales multiples / 使用盈利增长和销售倍数的上下限目标价
+
+---
+
+## Chapter 34 / 第 34 章
+
+- **1. Catalysts in Trade Ideas / 交易想法中的催化剂**
+    - 1.1 Role of Catalysts / 催化剂的作用
+        - 1.1.1 Transform investments into trades / 将投资转化为交易
+        - 1.1.2 Drive excess volatility within 20-60 day time horizon / 在20-60天时间范围内推动超额波动性
+    - 1.2 Identification Process / 识别流程
+        - 1.2.1 Focus on non-earnings related catalysts / 专注于非财报相关的催化剂
+        - 1.2.2 Incremental to revenue and earnings expectations / 对收入和盈利预期的增量影响
+    - 1.3 Challenges / 挑战
+        - 1.3.1 Lack of manual or encyclopedia for catalysts / 缺乏催化剂的手册或百科全书
+        - 1.3.2 Requires common sense and experience / 需要常识和经验
+- **2. Trade Idea Generation Template / 交易想法生成模板**
+    - 2.1 Purpose / 目的
+        - 2.1.1 Provides discipline in generating high-quality trade ideas / 提供生成高质量交易想法的纪律性
+        - 2.1.2 Ensures all necessary areas are properly completed / 确保所有必要领域得到适当完成
+    - 2.2 Key Sections / 关键部分
+        - 2.2.1 Quantitative Analysis / 定量分析
+            - 2.2.1.1 Utilizing earnings and sales estimates / 利用盈利和销售预估
+            - 2.2.1.2 Creating upper and lower bound price targets / 创建上下限目标价
+        - 2.2.2 Qualitative Analysis / 定性分析
+            - 2.2.2.1 Documenting business drivers and KPIs / 记录业务驱动因素和KPIs
+            - 2.2.2.2 Forward-looking earnings announcements and catalysts / 前瞻性财报公告和催化剂
+        - 2.2.3 Technical Analysis & Structure / 技术分析与结构
+            - 2.2.3.1 Timing and structure of the trade / 交易的时机和结构
+            - 2.2.3.2 Proposed trade structure and timing appraisal / 拟议的交易结构和时机评估
+    - 2.3 Discipline & Improvement / 纪律性与改进
+        - 2.3.1 Realization of initial lackluster process / 认识到初期平淡的流程
+        - 2.3.2 Commitment to self-improvement / 致力于自我改进
+        - 2.3.3 Becoming proficient within approximately three months / 在大约三个月内变得熟练
+- **3. Time Management for Retail Traders / 零售交易者的时间管理**
+    - 3.1 Weekly Commitment / 每周投入
+        - 3.1.1 8-12 hours per week / 每周8-12小时
+        - 3.1.2 Efficient use of time around full-time jobs / 围绕全职工作有效利用时间
+    - 3.2 Activities / 活动
+        - 3.2.1 Reviewing market news and expected news weekly / 每周审查市场新闻和预期新闻
+        - 3.2.2 Checking live positions and news impacts / 检查实盘仓位和新闻影响
+        - 3.2.3 Generating at least one new trade idea weekly / 每周至少生成一个新的交易想法
+    - 3.3 Avoiding Valueless Activities / 避免无价值活动
+        - 3.3.1 Staying away from redundant exercises / 远离多余的练习
+        - 3.3.2 Avoiding staring at brokerage accounts without purpose / 避免无目的地盯着经纪账户
+    - 3.4 Balancing Act / 平衡行为
+        - 3.4.1 Struggle vs. consistency in committing to minimum and maximum hours / 在承诺最少和最多小时数之间的挣扎与一致性
+        - 3.4.2 Personal scheduling discipline / 个人调度纪律
+- **4. Recap & Next Steps / 回顾与下一步**
+    - 4.1 Catalysts / 催化剂
+        - 4.1.1 Turn investments into trades by identifying non-earnings related catalysts / 通过识别非财报相关催化剂将投资转化为交易
+    - 4.2 Template Discipline / 模板纪律
+        - 4.2.1 Ensures comprehensive trade idea generation / 确保全面的交易想法生成
+        - 4.2.2 Practice and experience lead to proficiency / 实践和经验导致熟练
+    - 4.3 Macro Driven Trade Ideas / 宏观驱动交易想法
+        - 4.3.1 Broadens opportunity set for trade idea generation / 拓宽交易想法生成的机会集
+        - 4.3.2 Focus on macroeconomic impacts on single stocks / 专注于宏观经济对个股的影响
+
+---
+
+## Chapter 35 / 第 35 章
+
+- **1. Macro-Economic Indicators for Trade Ideas / 宏观经济指标用于交易想法**
+    - 1.1 Utilizing macro data to drive individual stock performance / 利用宏观数据推动个股表现
+    - 1.2 Generating trade ideas from macroeconomic indicators / 从宏观经济指标生成交易想法
+    - 1.3 Linking macro data to forward-looking valuation data at the micro level / 将宏观数据与微观层面的前瞻性估值数据相关联
+    - 1.4 Establishing a trend or change in macro data / 建立宏观数据的趋势或变化
+    - 1.5 Marrying macro data with stocks displaying forward-looking valuations and growth profiles / 将宏观数据与显示前瞻性估值和增长概况的股票相结合
+- **2. Example: ISM Manufacturing Report / 示例：ISM制造业报告**
+    - 2.1 ISM Manufacturing Index as a source of trade ideas / ISM制造业指数作为交易想法来源
+    - 2.2 Analyzing ISM history visually and through tables / 通过视觉和表格分析ISM历史
+    - 2.3 Identifying inflection points and trends in US manufacturing sector / 识别美国制造业的拐点和趋势
+    - 2.4 Examining PMI and component data for changes in direction and rate of change / 检查PMI和组成部分数据的方向变化和变化率
+    - 2.5 Recognizing divergence between sectors for potential long and short ideas / 识别行业间的分歧以寻找潜在的多空想法
+- **3. Sector Analysis / 行业分析**
+    - 3.1 Ranking sectors by growth from ISM data / 根据ISM数据按增长对行业排名
+    - 3.2 Identifying sectors with extreme growth or contraction / 识别极端增长或收缩的行业
+    - 3.3 Analyzing sector trends over the last six months / 分析过去六个月的行业趋势
+    - 3.4 Recognizing divergence in sector data for potential trades / 识别行业数据的分歧以寻找潜在交易
+    - 3.5 Cross-sector spread trade creation through long and short ideas / 通过多空想法创建跨行业价差交易
+- **4. Quantitative Analysis / 定量分析**
+    - 4.1 Cleaning up data and applying market capitalization filters / 清理数据并应用市值筛选
+    - 4.2 Calculating sector averages for earnings growth, P/E ratios, and PEG ratios / 计算盈利增长、市盈率和PEG比率的行业平均值
+    - 4.3 Identifying potential short candidates based on earnings growth profiles and valuations / 基于盈利增长概况和估值识别潜在空头候选者
+    - 4.4 Focusing on pure plays within sectors for maximum potential downside / 专注于行业内的纯玩家以获得最大潜在下跌空间
+    - 4.5 Applying quantitative profiles alongside revenue and earnings mix analysis / 将定量概况与收入和盈利组合分析相结合
+- **5. Case Studies / 案例研究**
+    - 5.1 Home Group (HOME) as a long idea / Home Group (HOME)作为多头想法
+        - 5.1.1 Performance post ISM data release / ISM数据发布后的表现
+            - 5.1.1.1 Private equity takeover announcement impact / 私募股权收购公告影响
+            - 5.1.1.2 Divergence in stock price relative to short candidates / 相对于空头候选者的股价分歧
+    - 5.2 TransDigm Group (TDG) and Paccar (PCAR) as short ideas / TransDigm Group (TDG)和Paccar (PCAR)作为空头想法
+        - 5.2.1 Concentrated revenue and earnings within sectors / 行业内集中的收入和盈利
+            - 5.2.1.1 Inferior quantitative relative to sector averages / 相对于行业平均值的较差定量指标
+            - 5.2.1.2 Stock price performance post ISM data release / ISM数据发布后的股价表现
+            - 5.2.1.3 Divergence in performance compared to long idea / 与多头想法相比的表现分歧
+- **6. Process and Best Practices / 流程和最佳实践**
+    - 6.1 Monthly qualitative and quantitative analysis for trend identification / 月度定性和定量分析以识别趋势
+    - 6.2 Getting the right sectors and stocks through sector quant analysis / 通过行业定量分析获得正确的行业和股票
+    - 6.3 Thorough qualitative work and adherence to processes for generating trade ideas / 彻底的定性工作和坚持流程以生成交易想法
+    - 6.4 Using ISM data as a clue for potential sector opportunities / 使用ISM数据作为潜在行业机会的线索
+    - 6.5 Avoiding shortcuts and relying solely on ISM data for trade ideas / 避免走捷径和仅依赖ISM数据生成交易想法
+    - 6.6 Organizing quantitative data for potential opportunities via a structured process / 通过结构化流程组织定量数据以寻找潜在机会
+    - 6.7 Maintaining folders for trade ideas and utilizing trade idea templates / 维护交易想法文件夹并使用交易想法模板
+    - 6.8 Consistently generating fresh, high-quality trade ideas to support portfolio management / 持续生成新鲜、高质量的交易想法以支持投资组合管理
+
+---
+
+## Chapter 36 / 第 36 章
+
+- **1. Generating Trade Ideas / 生成交易想法**
+    - 1.1 Using ISM / 使用ISM
+        - 1.1.1 Macro Dashboard / 宏观仪表板
+        - 1.1.2 Right-hand side focus / 右侧重点
+    - 1.2 American Depository Receipts (ADRs) / 美国存托凭证（ADRs）
+        - 1.2.1 International companies listed on US exchanges / 在美国交易所上市的国际公司
+        - 1.2.2 Exposure to different geographies / 接触不同地理区域
+    - 1.3 Macro Dashboard Utilization / 宏观仪表板利用
+        - 1.3.1 Money market indicators / 货币市场指标
+        - 1.3.2 Surveys / 调查
+        - 1.3.3 International commodity prices / 国际商品价格
+- **2. ADRs Overview / ADRs概述**
+    - 2.1 Opportunity Set Expansion / 机会集扩展
+        - 2.1.1 From 2200 domestic stocks to 2600 including ADRs / 从2200只国内股票扩展到包括ADRs的2600只
+    - 2.2 IHS Market PMIs / IHS Market PMIs
+        - 2.2.1 Global coverage / 全球覆盖
+        - 2.2.2 Cost implications for data acquisition / 数据获取的成本影响
+    - 2.3 Processing ADRs / 处理ADRs
+        - 2.3.1 Template for organization / 组织模板
+        - 2.3.2 Sector-based analysis / 基于行业的分析
+        - 2.3.3 Continuous updates / 持续更新
+- **3. Sector Analysis / 行业分析**
+    - 3.1 Pharma & Biotech / 制药与生物技术
+        - 3.1.1 Largest ADR sector / 最大的ADR行业
+        - 3.1.2 Complexity and expertise required / 需要复杂性和专业知识
+        - 3.1.3 Recommendation against trading initially / 建议初期避免交易
+    - 3.2 Software & Computer Services / 软件与计算机服务
+        - 3.2.1 Majority Chinese ADRs / 主要是中国ADRs
+        - 3.2.2 Direct comparability with US stocks / 与美国股票直接可比
+    - 3.3 Banks / 银行
+        - 3.3.1 European, UK, Japan, Korea, Chile / 欧洲、英国、日本、韩国、智利
+        - 3.3.2 Interest rate cycle sensitivity / 利率周期敏感性
+    - 3.4 Tech, Hardware & Equipment / 技术、硬件与设备
+        - 3.4.1 European and Taiwanese dominance / 欧洲和台湾主导
+        - 3.4.2 Valuation comparisons / 估值比较
+    - 3.5 Financial Services / 金融服务
+        - 3.5.1 Chinese dominance / 中国主导
+        - 3.5.2 Low market caps and information accessibility / 低市值和信息可及性
+    - 3.6 Travel & Leisure / 旅游与休闲
+        - 3.6.1 Airlines, hotels, booking sites / 航空公司、酒店、预订网站
+        - 3.6.2 Opportunities in various countries' low-cost airlines / 各国低成本航空公司的机会
+    - 3.7 Marine Transportation / 海运
+        - 3.7.1 Greek shipping stocks / 希腊航运股票
+        - 3.7.2 Long-side opportunities in larger market caps / 大市值的多头机会
+    - 3.8 Industrial Metals & Mining / 工业金属与采矿
+        - 3.8.1 South African gold stocks / 南非黄金股票
+        - 3.8.2 European and Chinese commodity groupings / 欧洲和中国商品集团
+        - 3.8.3 Benchmarking against US and global mining stocks / 与美国和全球采矿股票的基准比较
+- **4. Macro Data Utilization / 宏观数据利用**
+    - 4.1 IHS Market PMIs / IHS Market PMIs
+        - 4.1.1 Access through market-economy.com / 通过market-economy.com访问
+        - 4.1.2 PMI calendar and releases / PMI日历和发布
+        - 4.1.3 Overlaying micro and macro analysis / 叠加微观和宏观分析
+- **5. Summary & Recap / 总结与回顾**
+    - 5.1 Macro Driven ADR Trade Ideas / 宏观驱动的ADR交易想法
+        - 5.1.1 Utilizing market PMIs / 利用市场PMIs
+        - 5.1.2 Sector-specific opportunities / 特定行业机会
+    - 5.2 Caution / 注意事项
+        - 5.2.1 Avoiding false conclusions / 避免错误结论
+        - 5.2.2 Pure play exposure / 纯玩家敞口
+    - 5.3 Next Steps / 下一步
+        - 5.3.1 Timing trade ideas / 时机交易想法
+        - 5.3.2 Technical analysis and price action / 技术分析和价格行为
+
+---
+
+## Chapter 37 / 第 37 章
+
+- **1. Timing in Trade Idea Generation / 交易想法生成中的时机**
+    - 1.1 Focus shift from fundamentals to timing / 从基本面转向时机的重点转变
+    - 1.2 20 to 60 day time horizon for long-short portfolio management / 多空投资组合管理的20至60天时间范围
+    - 1.3 Adhering to volatility sweet spot between trading and investing disciplines / 坚持交易和投资纪律之间的波动性甜蜜点
+    - 1.4 Intellectual honesty in extending beyond 60 days due to unoccurred catalysts / 在因未发生催化剂而延长超过60天时的智力诚实
+    - 1.5 Importance of optimizing timing in financial markets at normal volatility levels / 在正常波动性水平下优化金融市场时机的重要性
+- **2. Technical Analysis & Price Action / 技术分析与价格行为**
+    - 2.1 Technical Analysis / 技术分析
+        - 2.1.1 Study of pattern recognition and formations in price / 价格模式识别和形态的研究
+        - 2.1.2 Utilized to sense-check timing of trades against fundamental analysis / 用于对基本面分析的交易时机进行常识检查
+        - 2.1.3 Minor component (less than 10%) of overall trade idea generation process / 整体交易想法生成过程的次要组成部分（少于10%）
+        - 2.1.4 Charts and price action as tools for optimizing execution and risk management / 图表和价格行为作为优化执行和风险管理的工具
+    - 2.2 Price Action / 价格行为
+        - 2.2.1 Study of price momentum / 价格动量研究
+        - 2.2.2 To be covered in subsequent video / 将在后续视频中涵盖
+        - 2.2.3 Complements technical analysis in timing trades / 在交易时机方面补充技术分析
+- **3. Fundamental Work vs. Technical Analysis / 基本面工作与技术分析**
+    - 3.1 Fundamental work makes up around 90% of the process / 基本面工作约占流程的90%
+        - 3.1.1 Technical analysis and price action indicators make up less than 10% / 技术分析和价格行为指标占不到10%
+        - 3.1.2 Technical analysis is not a primary tool for generating trade ideas but for timing them / 技术分析不是生成交易想法的主要工具，而是用于时机把握
+        - 3.1.3 Intellectual honesty and avoiding confirmation bias in using technical analysis / 使用技术分析时的智力诚实和避免确认偏误
+- **4. Common Mistakes & Best Practices / 常见错误与最佳实践**
+    - 4.1 Mistakes / 错误
+        - 4.1.1 Generating trade ideas solely from charts / 仅从图表生成交易想法
+        - 4.1.2 Using fundamentals to justify positions post-chart analysis / 在图表分析后使用基本面来证明仓位合理性
+        - 4.1.3 Going short on a fundamentally bullish stock or long on a fundamentally bearish stock based on short-term technicals / 基于短期技术面对基本面看多的股票做空或对基本面看空的股票做多
+    - 4.2 Best Practices / 最佳实践
+        - 4.2.1 Fundamental predisposition before technical analysis / 技术分析前的基本面倾向
+        - 4.2.2 Traffic light system for timing (Red, Amber, Green) / 时机的交通灯系统（红、黄、绿）
+        - 4.2.3 Avoiding dogmatism in fundamental predisposition when technicals disagree / 当技术面不同意时避免基本面倾向的教条主义
+        - 4.2.4 Situational discretion in execution based on technical analysis / 基于技术分析的执行情境酌情处理
+- **5. Chart Patterns & Execution Strategies / 图表模式与执行策略**
+    - 5.1 Trending Stocks / 趋势股票
+        - 5.1.1 Upward trending stocks as a green light for bullish fundamental predisposition / 上升趋势股票作为看多基本面倾向的绿灯
+        - 5.1.2 Downward trending stocks as a red light for bullish fundamental predisposition / 下降趋势股票作为看多基本面倾向的红灯
+    - 5.2 Ranging Stocks / 区间股票
+        - 5.2.1 Importance of support and resistance levels / 支撑和阻力水平的重要性
+        - 5.2.2 Amber conditions for ranging stocks requiring careful execution and watching for breakout/breakdown / 区间股票的黄灯状态需要谨慎执行并观察突破/跌破
+    - 5.3 Reversal Patterns / 反转模式
+        - 5.3.1 Head and shoulders, reverse head and shoulders, cup and handle, double top, and double bottom formations / 头肩顶、倒头肩、杯柄、双顶和双底形态
+        - 5.3.2 Green light for bullish predisposition upon favorable breakouts; red light for bearish predisposition / 有利突破时看多倾向的绿灯；看空倾向的红灯
+    - 5.4 Continuation Patterns / 延续模式
+        - 5.4.1 Bullish flag, bullish pennant, bearish flag, and bearish pennant / 看多旗形、看多三角旗、看空旗形和看空三角旗
+        - 5.4.2 Execution strategies based on fundamental predisposition and chart pattern confirmation / 基于基本面倾向和图表模式确认的执行策略
+    - 5.5 Volume Analysis / 成交量分析
+        - 5.5.1 Abnormal volume as a significant indicator of fundamental moves / 异常成交量作为基本面走势的重要指标
+        - 5.5.2 Interpreting volume for better timing and execution / 解释成交量以获得更好的时机和执行
+- **6. Watch List / 观察清单**
+    - 6.1 Defined as stocks with actionable fundamentals but poor timing or catalysts / 定义为具有可操作基本面但时机或催化剂不佳的股票
+        - 6.1.1 Split actionable trade idea templates from investment horizon ideas / 将可操作的交易想法模板与投资期限想法分开
+        - 6.1.2 Use for revisiting ideas when timing or catalysts improve / 用于在时机或催化剂改善时重新审视想法
+- **7. Conclusion / 结论**
+    - 7.1 Importance of balanced and measured approach to timing / 平衡和有分寸的时机方法的重要性
+        - 7.1.1 Technical analysis as a tool for optimizing execution and risk management / 技术分析作为优化执行和风险管理的工具
+        - 7.1.2 Avoiding the cardinal sin of ignoring timing in fundamental positions / 避免在基本面仓位中忽视时机的根本错误
+        - 7.1.3 Continuous learning and adaptation in understanding technical analysis within the broader trade idea generation process / 在更广泛的交易想法生成过程中理解技术分析的持续学习和适应
+
+---
+
+## Chapter 38 / 第 38 章
+
+- **1. Overview / 概述**
+    - 1.1 Video 37: Continuing timing appraisal process / 第37集：继续时机评估流程
+    - 1.2 Focus on price action/momentum indicators for trade idea generation / 专注于价格行为/动量指标进行交易想法生成
+    - 1.3 Integration of technical analysis and price action for timing decisions / 整合技术分析和价格行为进行时机决策
+- **2. Price Action & Momentum Indicators / 价格行为与动量指标**
+    - 2.1 Relative Strength Index (RSI) / 相对强弱指数（RSI）
+        - 2.1.1 Measures speed and change of price movements (0-100 scale) / 测量价格变动的速度和变化（0-100刻度）
+        - 2.1.2 Overbought (>70) & Oversold (<30) terminology / 超买（>70）和超卖（<30）术语
+        - 2.1.3 Importance of interpreting RSI within context and time horizons / 在背景和时间范围内解释RSI的重要性
+        - 2.1.4 Calculation: 100 - (100 / (1 + Relative Strength)) / 计算公式：100 - (100 / (1 + 相对强度))
+        - 2.1.5 Preference for 20-day RSI over 14-day RSI for 20-60 day traders / 对于20-60天交易者，优先选择20天RSI而非14天RSI
+    - 2.2 Simple Moving Averages (SMA) / 简单移动平均线（SMA）
+        - 2.2.1 Confirms/denies price momentum and turning points / 确认/否定价格动量和转折点
+        - 2.2.2 Lagging indicators used for confirmation / 用于确认的滞后指标
+        - 2.2.3 Calculation: Sum of closing prices / Number of days / 计算公式：收盘价总和 / 天数
+        - 2.2.4 Preferred time horizons: 20, 60, 120, 250 days (reflecting 1, 3, 6 months, and 1 year) / 优选时间范围：20、60、120、250天（反映1、3、6个月和1年）
+        - 2.2.5 Significance of crossing points for momentum indication / 交叉点对动量指示的重要性
+    - 2.3 Exponential Moving Averages (EMA) / 指数移动平均线（EMA）
+        - 2.3.1 Reduces lag by applying more weight to recent prices / 通过对近期价格赋予更多权重来减少滞后
+        - 2.3.2 Calculation differs from SMA with a multiplier / 计算与SMA不同，使用乘数
+        - 2.3.3 Same preferred time horizons as SMA / 与SMA相同的优选时间范围
+        - 2.3.4 Understanding the difference between SMA and EMA through examples / 通过示例理解SMA和EMA之间的区别
+    - 2.4 Moving Average Convergence Divergence (MACD) / 移动平均收敛发散（MACD）
+        - 2.4.1 Momentum oscillator measuring difference between 2 EMA periods / 测量两个EMA周期之间差异的动量振荡器
+        - 2.4.2 Calculation: 12-day EMA - 26-day EMA (signal line: 9-day EMA of MACD) / 计算：12天EMA - 26天EMA（信号线：MACD的9天EMA）
+        - 2.4.3 Modified MACD for long-short portfolio managers: 20-day EMA - 60-day EMA (signal line: 10-day EMA) / 多空投资组合经理的修改版MACD：20天EMA - 60天EMA（信号线：10天EMA）
+        - 2.4.4 Interpretation of MACD line, signal line, and divergence/convergence / MACD线、信号线和背离/收敛的解释
+    - 2.5 Heikin-Ashi Candlestick Charts / 平均K线图（Heikin-Ashi）
+        - 2.5.1 Smoothed candlestick representation for trend identification / 用于趋势识别的平滑K线表示
+        - 2.5.2 Calculation differs from regular candlesticks for open, high, low, close / 开盘价、最高价、最低价、收盘价的计算与常规K线不同
+        - 2.5.3 Helps in identifying dominant trends and false signals / 有助于识别主导趋势和虚假信号
+        - 2.5.4 Utilization for better entry and exit timing / 用于更好的进场和出场时机
+- **3. Timing Appraisal Process / 时机评估流程**
+    - 3.1 Technical analysis & price action used for timing, not trade idea generation / 技术分析和价格行为用于时机把握，而非交易想法生成
+        - 3.1.1 Green, amber, red light system for timing decisions / 用于时机决策的绿灯、黄灯、红灯系统
+        - 3.1.2 Scaling into positions for preventative risk management / 分批建仓以进行预防性风险管理
+        - 3.1.3 Option structures for becoming more agnostic about timing / 期权结构使时机选择更加灵活
+- **4. Conclusion / 结论**
+    - 4.1 Timing is crucial for 20-60 day long-short portfolio managers / 时机对于20-60天多空投资组合经理至关重要
+        - 4.1.1 Price action indicators add value when used correctly / 正确使用时，价格行为指标能增加价值
+        - 4.1.2 Avoid generating trade ideas solely from technical analysis and price action / 避免仅从技术分析和价格行为生成交易想法
+
+---
+
+## Chapter 39 / 第 39 章
+
+- **1. Technical Analysis and Price Action / 技术分析和价格行为**
+    - 1.1 Photograph of fundamentals behind price / 价格背后基本面的快照
+    - 1.2 Used for timing decisions / 用于时机决策
+    - 1.3 Adds value to execution for entry and exit / 为入场和出场执行增加价值
+    - 1.4 Not for generating trade ideas / 不用于生成交易想法
+- **2. Preventative Risk Management (PRM) / 预防性风险管理（PRM）**
+    - 2.1 Importance / 重要性
+        - 2.1.1 Prevents unnecessary losses / 防止不必要的损失
+        - 2.1.2 Addresses weaknesses in human psychology / 解决人类心理学的弱点
+        - 2.1.3 Necessary due to human tendency towards risk-seeking or loss-aversion / 由于人类倾向于寻求风险或厌恶损失而必需
+    - 2.2 Components / 组成部分
+        - 2.2.1 Human Psychology vs. Trader Psychology / 人类心理学与交易者心理学
+            - 2.2.1.1 Game example: Choosing between boxes A (risk) and B (certainty) / 游戏示例：在盒子A（风险）和B（确定性）之间选择
+            - 2.2.1.2 Humans tend towards certainty when gaining and risk when losing / 人类在获利时倾向于确定性，在亏损时倾向于风险
+            - 2.2.1.3 Traders must seek risk when gaining and restrict losses when losing / 交易者必须在获利时寻求风险，在亏损时限制损失
+        - 2.2.2 Stop Losses and Targets / 止损和目标
+            - 2.2.2.1 Hard stop losses guarantee downside risk / 硬止损保证下行风险
+            - 2.2.2.2 Soft targets allow for profit maximization without limiting upside / 软目标允许在不限制上行空间的情况下最大化利润
+            - 2.2.2.3 Risk-reward ratio (R-score) targets a 1:3 ratio / 风险回报比（R分数）目标为1:3比率
+            - 2.2.2.4 Volatility assessment crucial for setting realistic targets and stops / 波动性评估对设置现实目标和止损至关重要
+        - 2.2.3 Spread Stops and Portfolio Stops / 价差止损和投资组合止损
+            - 2.2.3.1 Spread stops minimize impact of market whipsaws in long-short portfolios / 价差止损最小化多空投资组合中市场拉锯的影响
+            - 2.2.3.2 Portfolio stops limit overall portfolio loss / 投资组合止损限制整体投资组合损失
+            - 2.2.3.3 Common sense and volatility appraisal guide decision-making / 常识和波动性评估指导决策制定
+    - 2.3 Examples / 示例
+        - 2.3.1 Trex (Long) and STZ (Short) / Trex（多头）和STZ（空头）
+            - 2.3.1.1 Volatility assessment using Distribution of Returns (DOR) and Average True Range Percentage (ATRP) / 使用回报分布（DOR）和平均真实区间百分比（ATRP）进行波动性评估
+            - 2.3.1.2 Setting realistic targets and sensible stop losses / 设置现实目标和合理止损
+            - 2.3.1.3 Adjusting stops and targets based on performance and market conditions / 根据表现和市场条件调整止损和目标
+    - 2.4 Limitations of Hard Stops / 硬止损的局限性
+        - 2.4.1 In long-short portfolios, hard stops can lead to being whipsawed by the market / 在多空投资组合中，硬止损可能导致被市场拉锯
+            - 2.4.1.1 Spread stops and reactive risk management are necessary complements / 价差止损和反应性风险管理是必要的补充
+- **3. Reactive Risk Management (RRM) / 反应性风险管理（RRM）**
+    - 3.1 Not covered in detail in the video series / 在视频系列中未详细涵盖
+        - 3.1.1 Requires live experience and mentoring / 需要实际经验和指导
+            - 3.1.1.1 Situational and based on real-time market conditions / 基于实时市场条件的情境性处理
+- **4. Conclusion / 结论**
+    - 4.1 PRM is essential for countering human psychological biases / PRM对于抵消人类心理偏见至关重要
+        - 4.1.1 Successful trading requires disciplined application of PRM principles / 成功交易需要纪律性地应用PRM原则
+            - 4.1.1.1 Continuous learning and adaptation to market conditions are crucial for long-term success / 持续学习和适应市场条件对长期成功至关重要
+
+---
+
+## Chapter 40 / 第 40 章
+
+- **1. Distribution of Returns Analysis / 回报分布分析**
+    - 1.1 Objective: Build a distribution of returns analysis to estimate suitable stops and targets for assets / 目标：构建回报分布分析以估计资产的合适止损和目标
+    - 1.2 Process / 流程：
+        - 1.2.1 Obtain price data (e.g., from Yahoo Finance) / 获取价格数据（例如，来自雅虎财经）
+        - 1.2.2 Calculate close-to-close monthly returns and high-to-low monthly returns / 计算收盘价到收盘价的月度回报和最高价到最低价的月度回报
+        - 1.2.3 Create histogram tables and charts to visualize empirical probability of various return ranges / 创建直方图表和图表以可视化各种回报范围的经验概率
+        - 1.2.4 Generate summary statistics for centrality and volatility / 生成中心性和波动性的汇总统计
+        - 1.2.5 Use histogram data to determine stops and targets based on historical volatility / 使用直方图数据基于历史波动性确定止损和目标
+- **2. Average True Range Percentage (ATRP) Analysis / 平均真实区间百分比（ATRP）分析**
+    - 2.1 Purpose: Provide a quicker method to generate stops and targets without as much detail as distribution of returns / 目的：提供一种更快的方法来生成止损和目标，无需像回报分布那样详细
+    - 2.2 Methodology / 方法论：
+        - 2.2.1 Calculate True Range Percentage to account for out-of-hours price movements / 计算真实区间百分比以考虑盘后价格变动
+        - 2.2.2 Average True Range Percentage (ATRP) over different periods (e.g., weekly, quarterly) to understand volatility / 在不同期间（例如，每周、每季度）平均真实区间百分比（ATRP）以理解波动性
+        - 2.2.3 Use ATRP values to set stops and targets, considering a 3:1 risk-reward ratio / 使用ATRP值设置止损和目标，考虑3:1的风险回报比
+- **3. Stops and Targets for Individual Stocks and Spreads / 个股和价差的止损和目标**
+    - 3.1 Individual Stocks / 个股：
+        - 3.1.1 Use historical volatility to determine stops and targets, aiming for a balance between not being stopped out too easily and having attainable targets / 使用历史波动性确定止损和目标，旨在平衡不被轻易止损和拥有可达成目标
+        - 3.1.2 Consider the likelihood of achieving targets based on historical data and fundamental analysis / 基于历史数据和基本面分析考虑达成目标的可能性
+    - 3.2 Spreads / 价差：
+        - 3.2.1 Combine long and short positions to mitigate market risk effect on stops / 结合多空仓位以减轻市场风险对止损的影响
+        - 3.2.2 Calculate stops and targets for the spread based on weighted returns / 基于加权回报计算价差的止损和目标
+        - 3.2.3 Mental stops and targets are necessary as they cannot be programmed into brokerage platforms / 心理止损和目标是必要的，因为它们无法编程到经纪平台中
+- **4. Preventative Risk Management Metrics / 预防性风险管理指标**
+    - 4.1 Gross Exposure Limits / 总敞口限制：
+        - 4.1.1 US-based traders: capped at 2x margin deposit / 美国交易者：上限为2倍保证金存款
+        - 4.1.2 CFD traders: may have higher leverage but should limit to 4x for safety / CFD交易者：可能有更高杠杆但应限制在4倍以确保安全
+    - 4.2 Net Exposure and Beta Adjusted Net Exposure Limits / 净敞口和贝塔调整净敞口限制：
+        - 4.2.1 Aim for a balanced portfolio with net exposure and beta within ±30% to maintain market neutrality / 目标建立平衡投资组合，净敞口和贝塔在±30%内以保持市场中性
+    - 4.3 Cash Net Exposure Limit / 现金净敞口限制：
+        - 4.3.1 Can extend to ±50%, but prioritize beta-adjusted net exposure for accuracy / 可以扩展到±50%，但优先考虑贝塔调整净敞口以获得准确性
+    - 4.4 Portfolio Monitoring / 投资组合监控：
+        - 4.4.1 Regularly check and adjust portfolio metrics to prevent excess losses and maintain risk limits / 定期检查和调整投资组合指标以防止过度损失并维持风险限制
+- **5. Performance Metrics / 表现指标**
+    - 5.1 R Score Target: Aim for 1.5 or higher, with great scores typically around 2 or above / R分数目标：目标1.5或更高，优秀分数通常在2或以上
+    - 5.2 Win-Loss Rate Target: Achieve around 60% profitable trades and 40% loss-making trades / 胜负率目标：达到约60%盈利交易和40%亏损交易
+- **6. Discretionary Component / 酌情处理成分**
+    - 6.1 Balancing Hard Data and Discretion / 平衡硬数据和酌情处理：
+        - 6.1.1 Use volatility analysis to guide decision-making but apply discretion to fine-tune outcomes / 使用波动性分析指导决策但应用酌情处理来微调结果
+        - 6.1.2 Adjustments may be necessary due to market dynamics to prevent simultaneous stops on multiple longs or shorts / 由于市场动态可能需要调整以防止多个多头或空头同时止损
+- **7. Trading Psychology and Risk Management / 交易心理学和风险管理**
+    - 7.1 Objective Approach / 客观方法：
+        - 7.1.1 Treat trading account as a business, focusing on eliminating emotion and staying objective / 将交易账户视为业务，专注于消除情绪并保持客观
+        - 7.1.2 Regularly review and manage trading account as a business to improve performance and manage risk effectively / 定期审查和管理交易账户作为业务以提高表现并有效管理风险
+
+---
+
+## Chapter 41 / 第 41 章
+
+- **1. Eliminating Emotion and Staying Objective / 消除情绪并保持客观**
+    - 1.1 Preventative Risk Management / 预防性风险管理
+    - 1.2 Reactive Risk Management / 反应性风险管理
+    - 1.3 Treating Trading Account as a Business / 将交易账户视为业务
+- **2. Competency Hierarchy / 能力层级**
+    - 2.1 Unconscious Incompetence / 无意识无能
+        - 2.1.1 No Clue, Think They Know / 毫无头绪，自以为知道
+        - 2.1.2 Engaging in Delusion, Denial, Lies / 沉迷于妄想、否认、谎言
+    - 2.2 Conscious Incompetence / 有意识无能
+        - 2.2.1 Acknowledge Doing It Wrong / 承认做错了
+        - 2.2.2 Right Information for Learning and Application / 用于学习和应用的正确信息
+    - 2.3 Conscious Competence / 有意识有能
+        - 2.3.1 Implementing Successfully / 成功实施
+        - 2.3.2 Requires Help, Real World Practice / 需要帮助，现实世界实践
+    - 2.4 Unconscious Competence / 无意识有能
+        - 2.4.1 Professional Trader Level / 专业交易者水平
+        - 2.4.2 Processes Near Perfect, High-Quality Ideas / 流程近乎完美，高质量想法
+        - 2.4.3 Solid Preventative & Reactive Risk Management / 扎实的预防性和反应性风险管理
+- **3. Institute Traders / 学院交易者**
+    - 3.1 Year 2: Knowledge Applied Well, Minor Issues Remaining / 第二年：知识应用良好，仍有小问题
+    - 3.2 Tier 1: Consistent Profitability, High Returns, Autopilot Execution / 第一级：持续盈利，高回报，自动执行
+- **4. Professional vs. Institute Traders / 专业交易者与学院交易者**
+    - 4.1 Professional Traders: Registered, Regulated, Trade Other People's Money / 专业交易者：注册，受监管，交易他人资金
+    - 4.2 Institute Traders Tier 1: Not Registered/Regulated, Trade Own Money / 学院交易者第一级：未注册/受监管，交易自己的资金
+    - 4.3 Same Approach, Input & Output, Behaviors / 相同的方法、输入输出、行为
+- **5. Climbing the Competency Hierarchy / 攀登能力层级**
+    - 5.1 Right Information & Internalization / 正确信息与内化
+    - 5.2 Implementation with Real Money / 用真实资金实施
+    - 5.3 Consistent Successful Implementation / 持续成功实施
+    - 5.4 Real World Experience / 现实世界经验
+- **6. Reactive Risk Management / 反应性风险管理**
+    - 6.1 Staying Objective in Different Situations / 在不同情况下保持客观
+        - 6.1.1 Head Scratchers: Confusing Positions / 令人困惑的：混乱仓位
+        - 6.1.2 Stomach Churners: Catastrophic Losses / 令人不安的：灾难性损失
+    - 6.2 Psychological Meditation: Eliminating Emotion / 心理冥想：消除情绪
+    - 6.3 Probabilistic Outcomes: Avoiding Emotional Decisions / 概率结果：避免情绪化决策
+- **7. Outcomes and Results / 结果和成果**
+    - 7.1 Catastrophic Loss: Professional Traders Handle with Care / 灾难性损失：专业交易者谨慎处理
+    - 7.2 Wrong on Position: Small Loss or Flat/Small Profit / 仓位错误：小损失或持平/小利润
+    - 7.3 Right on Position: Book Decent Profit, Maintain/Increase Position / 仓位正确：记录合理利润，维持/增加仓位
+- **8. Preventative Risk Management / 预防性风险管理**
+    - 8.1 Diversification, Low Correlation / 分散化，低相关性
+    - 8.2 Eliminate Catastrophic Loss Probability / 消除灾难性损失概率
+    - 8.3 Minimize Psychological Downside / 最小化心理下行风险
+- **9. Reactive Risk Management / 反应性风险管理**
+    - 9.1 Staying in Motion: Probabilistic Approach / 保持行动：概率方法
+    - 9.2 Trading the Stock vs. Trading the Account / 交易股票与交易账户
+    - 9.3 Trading Psychology vs. Human Psychology / 交易心理学与人类心理学
+- **10. Absolute Do Not Actions / 绝对禁止行为**
+    - 10.1 Never Book Only Big Losses / 永远不要只记录大损失
+    - 10.2 Don't Only Book Losing Side of a Spread / 不要只记录价差的亏损方
+- **11. Running Trading Account as a Business / 将交易账户作为业务运营**
+    - 11.1 Unrealized vs. Realized P&L / 未实现与已实现盈亏
+    - 11.2 Banking Profits, Protecting Realized Column / 储存利润，保护已实现栏
+    - 11.3 Cash Register Ringing: Consistent Gains / 收银机响起：持续收益
+- **12. Moving Forward / 前进方向**
+    - 12.1 Trade Idea Generation Monster & Banking Beast / 交易想法生成怪兽和银行野兽
+    - 12.2 Hard Work Begins: Implementation Phase / 艰苦工作开始：实施阶段
+    - 12.3 Four Principles of the Institute / 学院的四个原则
+    - 12.4 Choices: Momentum, Stagnation, Regression / 选择：动量、停滞、回归
+- **13. Summary / 总结**
+    - 13.1 Understanding Human vs. Trading Psychology / 理解人类心理学与交易心理学
+    - 13.2 Risk Management Practices / 风险管理实践
+    - 13.3 Ego Acknowledgment & Control / 自我承认与控制
+    - 13.4 Measuring Effectiveness & Performance / 衡量有效性和表现
+    - 13.5 Treating Trading Account as a Business / 将交易账户视为业务

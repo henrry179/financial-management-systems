@@ -1,0 +1,1293 @@
+# Portfolio Management Thematic Masterclass – Complete Bilingual Course
+
+（投资组合管理主题大师课 – 完整双语课程）
+
+## Course Overview / 课程概述
+
+This document contains the complete bilingual content of the Portfolio Management Thematic Masterclass, combining all chapters into a comprehensive guide.
+
+本文档包含投资组合管理主题大师课的完整双语内容，将所有章节合并为一份综合指南。
+
+
+---
+
+## Chapter 01 / 第 01 章
+
+- **Course Overview**
+    - Video series aimed at retail traders globally
+    - Taught by ITP managing partner and senior training mentors with professional backgrounds in options trading
+    - Focuses on defining the mandate for retail traders in options trading
+- **Defining the Mandate**
+    - Importance of understanding what not to do in options trading
+    - Mandate differs significantly from perspectives of brokers, educators, and former/current options market makers
+    - Solid trading plan required for long-term value extraction from options trading
+- **What the Course Will Not Cover**
+    - Obtaining fundamental views on stocks and forex pairs (covered in Professional Trading Masterclass and Professional Forex Trading Masterclass)
+    - Systematic frameworks for obtaining fundamental views and managing risk (covered in PTM and PFM video series)
+- **Options Trading Mandate**
+    - Options are derivative products whose value depends on the underlying asset
+    - Options require a dedicated video series due to their complexity
+    - Leverage and margin requirements make options popular among US retail traders
+    - International retail traders also benefit from understanding options due to potential changes in CFD regulations
+- **Systematic Process**
+    - Four-step process: Idea generation, gatekeeping, risk management, and self-awareness statistics
+    - Idea generation (80%) generates views on stocks, commodities, currencies, and bonds
+    - Gatekeeping (20%) improves trade timing through technical analysis and price action
+    - Risk management calculates odds of being right or wrong and manages portfolio risk
+    - Self-awareness statistics measure performance and identify strengths and weaknesses
+- **Professional Trader Replication**
+    - Aim to replicate the approach of the majority of professional traders (80% hedge funds, 20% investment bank prop trading desks)
+    - Utilize systematic, fundamental processes for generating trade ideas
+    - Overlay with bespoke risk management processes and professional trader awareness metrics
+- **Course Objectives**
+    - Provide an in-depth educational program for retail traders globally on trading options in retail brokerage and retirement accounts
+    - Utilize the US listed stock options market as an example subset of data and information
+    - Pass on knowledge of how professional traders utilize options for consistent career and lifetime profits
+    - Assume a fundamental systematic process is already in place
+- **Avoiding Misinformation**
+    - Learn from former professional traders with genuine regulated history
+    - Distinguish between real professional traders and those without actual experience
+    - Replicate the strategies of hedge fund managers and investment bank prop traders, not options market makers
+- **Conclusion**
+    - The mandate of the retail trader in options trading is to replicate the approach of professional traders
+    - Utilize a one to three-month time horizon and use stock options to structure trades based on fundamental predispositions
+    - Avoid learning from options market makers or charlatans without professional trading backgrounds
+    - The course aims to provide a comprehensive understanding of options trading for consistent lifetime profits.
+
+---
+
+## Chapter 02 / 第 02 章
+
+- **Conflict of Interest in Options Education**
+    - Majority of educators are ex or current options market makers
+    - Educators' approach is market maker-centric, not retail trader-centric
+    - Overcomplication of strategies to maintain relevance and subscription models
+    - Intentional or unintentional misguidance due to conflict of interest
+    - Brokers incentivize complex information dissemination for increased trading
+- **Understanding Retail Trader Mandate**
+    - Mandate parallels professional hedge fund managers and prop traders
+    - Aim: maximize returns with minimal risk, not constant trading
+    - Overtrading is detrimental to all forms of trading
+    - Educators' stakes in brokerage platforms encourage unnecessary trading
+- **Avoiding Intellectual Snobbery**
+    - Focus on strategies beneficial for retail traders' mandates
+    - Avoidance of unnecessary complexities and theoretical teachings
+    - Practical application over theoretical knowledge
+    - Simplification of strategies for efficient implementation and confidence
+- **Options Trading Strategies' Usefulness**
+    - Identification of strategies that add value to retail traders
+    - Strategies must align with long-only or long-short portfolios
+    - Options positions must offer marginal benefits over stock positions
+- **Retail Trader vs Market Maker Mandates**
+    - Retail traders aim for desired positions, not forced hedging
+    - Avoidance of negative selection portfolios and complex hedging
+    - Stick to principles that benefit retail trader mandates
+- **Educational Approach**
+    - Rejection of university-style payoff diagrams and boring theoretical teachings
+    - Emphasis on practical, relevant strategies for retail traders
+    - Avoidance of intellectual snobbery and unnecessary complexities
+- **Options Market Maker Perspective**
+    - Market makers' view through pricing models irrelevant for retail traders
+    - Focus on simple, value-adding strategies for retail traders
+    - Course useful for aspiring market makers by providing practical knowledge and edge in job applications
+- **Conclusion**
+    - Understanding conflict of interest, mandate, and avoiding intellectual snobbery
+    - Focus on strategies that genuinely add value to retail trader mandates
+    - Continuous building of knowledge on useful vs. non-useful strategies
+
+---
+
+## Chapter 03 / 第 03 章
+
+- **Overview**
+    - Goals: Understanding options market perspective and differentiating useful from non-useful trading strategies.
+    - Focus: Options trading strategies' relevance to retail traders, considering their mandates and capital constraints.
+- **Retail Trader Mandate**
+    - Objective: Trading a pot of money to maximize returns with minimal risk.
+    - Restrictions: US retail traders cannot trade Contracts for Difference (CFDs), limiting leverage.
+    - Margin Requirements: 50% for cash positions in listed stocks, compared to 10-50% for international traders using CFDs.
+- **Options as a Derivative Instrument**
+    - Advantages for US Retail Traders: Offers leverage, requiring less capital than direct stock positions.
+    - Challenges: Majority of US retail traders lose money due to misunderstanding options' complexities and overcomplicating strategies.
+- **Filtering Strategies**
+    - Capital Constraints: Determining whether a trader is subject to 50% margin requirements (US) or has access to CFDs (international).
+    - Usefulness Rankings: Strategies categorized as low, medium, and high based on their alignment with the retail trader mandate.
+- **Useful vs. Non-Useful Strategies**
+    - Useful Strategies: Aligned with the retail trader mandate, offering specific benefits over direct asset positions.
+    - Non-Useful Strategies: Often complex, requiring significant time and understanding, with low ROI compared to simpler alternatives.
+- **Teaching Approach**
+    - Learning by Doing: Focus on practical, useful strategies to optimize profitability and engagement.
+    - Real Examples: Utilization of real-world scenarios to enhance understanding and applicability.
+    - Practical Application: Development of knowledge through practical examples, avoiding monotony and intellectual snobbery.
+- **Conclusion**
+    - Resource Utilization: The spreadsheet and PDFs provided serve as valuable tools for assessing the usefulness of potential options trading strategies.
+    - Future Focus: Video 4 onwards will delve into specific strategies, starting with call and put options, aiming to illustrate their marginal benefits and disadvantages through real examples.
+
+---
+
+## Chapter 04 / 第 04 章
+
+- **Advantages of Options Trading**
+    - Limited Dollar Downside
+        - Definition: Maximum loss is limited to the premium paid for the option.
+        - Benefits:
+            - Eliminates gap risk.
+            - Eliminates randomness of stop loss orders.
+            - Capital constraint advantage.
+            - Downside limited to premium paid.
+    - Dollar Cost Efficiency
+        - Explanation: Options have greater leveraging power than the underlying stock.
+        - Examples:
+            - International CFD traders vs. US physical stock traders.
+            - Same exposure for lower amounts of dollars.
+            - Greater cost efficiency and potential leveraging power.
+    - Higher Potential Percentage Return on Investment (ROI)
+        - Comparison:
+            - US retail trader with 50% margin requirement.
+            - International CFD trader with 10% margin requirement.
+            - ROI is significantly higher with options due to leveraging power.
+- **Real Examples & Practical Applications**
+    - Call Options Example: Schlumberger (SLB)
+        - Details:
+            - $67 strike price, 9 March 2018 expiry.
+            - At-the-money call options offered at $2.25 each.
+        - Benefits:
+            - Dollar cost efficiency.
+            - More leverage.
+            - Limited downside to premium paid.
+            - Higher ROI compared to stock position.
+    - Put Options Example: Macy's (M)
+        - Details:
+            - $24 strike price, 9 March 2018 expiry.
+            - At-the-money put options offered at $1.52 each.
+        - Benefits:
+            - Dollar cost efficiency.
+            - More leverage.
+            - Limited dollar downside.
+            - Higher ROI compared to short stock position.
+- **Marginal Benefits Overview**
+    - Capital Savings: Implementing positions with less capital tied up.
+        - Risk Management: Limited downside risk to premium paid.
+        - Enhanced Returns: Higher potential percentage return on investment due to leveraging power.
+        - Flexibility: Ability to adjust position sizes with saved margin.
+        - Risk vs. Reward: Improved risk-reward ratio in options compared to stock positions.
+
+---
+
+## Chapter 05 / 第 05 章
+
+- **Disadvantages of Directional Options Trading Strategies**
+    - Time Decay
+        - All options lose value over time
+        - Decay accelerates as expiration approaches
+        - Majority of US-listed options expire worthless due to time decay
+    - Timing Risk
+        - Options require being correct within a specific timeframe
+        - Adds risk compared to long/short stock positions
+        - Timing risk can lead to losses despite correct directional view
+    - Dollar Cost and Liquidity Constraints
+        - Bid-ask spreads wider in options than stocks
+        - Higher commissions in options trading
+        - Liquidity issues in smaller market cap stocks and their options markets
+        - Wide differences between strike intervals in less liquid options
+- **Assessing Options vs. Stock Positions**
+    - Factors to Consider
+        - Time decay
+        - Timing risk
+        - Dollar cost and liquidity
+        - Volatility expectations
+    - Volatility
+        - Crucial factor in options pricing
+        - Implied volatility reflects expected future movements
+        - Realized volatility measures historical movements
+        - Catalysts drive changes in volatility
+    - Catalysts
+        - Events expected to significantly impact stock price
+        - Must consider catalysts when assessing options vs. stock positions
+        - Expected catalysts influence implied volatility and options pricing
+    - Risk-Reward Analysis
+        - Weigh advantages (leverage, potential ROI, capital efficiency) against disadvantages
+        - Ensure marginal benefit exists for options position over stock position
+        - Consider risk-reward given expected volatility and timing constraints
+    - Best Practices
+        - No one-size-fits-all solution
+        - Apply best practices to all situations
+        - Consider usefulness to retail trader mandate, break evens, payoffs, risk-reward, and volatility
+    - Conclusion
+        - Options trading requires careful consideration of advantages and disadvantages
+        - Volatility and timing are critical factors
+        - Must have a fundamental edge and reasonable confidence in views to justify options trades
+        - Options should not be traded solely for leverage or due to margin constraints
+        - Understanding catalysts and volatility is essential for successful options trading
+
+---
+
+## Chapter 06 / 第 06 章
+
+- **Long Call Option Strategy**
+    - Definition: Right, but not obligation, to purchase a specific stock at a specified price (strike price) before a specified expiration date.
+    - Characteristics:
+        - Directional bet: Bullish
+        - Simple transaction (net debit)
+        - Limited risk (premium paid)
+        - Unlimited potential gain
+    - Usefulness: High for retail traders
+    - When to Use:
+        - Expecting a significant rise in stock price within a specified timeframe
+        - Better risk-reward compared to owning the stock
+    - Parameters:
+        - Strike price selection based on expected price movement and time horizon
+        - One-to-three risk-reward ratio recommended
+    - Calculations:
+        - Break-even point: Strike price + option price
+        - Profit: Underlying security price - strike price - option price
+        - Maximum downside: Premium paid
+    - Hedging: Can be used to hedge against a short stock position.
+- **Long Put Option Strategy**
+    - Definition: Right, but not obligation, to sell a specific stock at a specified strike price before a specified expiration date.
+    - Characteristics:
+        - Directional bet: Bearish
+        - Simple transaction (net debit)
+        - Limited risk (premium paid)
+        - Theoretically limited gain (stock can only go to zero)
+    - Usefulness: High for retail traders despite theoretical limit on gains
+    - When to Use:
+        - Expecting a significant drop in stock price within a specified timeframe
+        - Better alternative to shorting stock due to lower capital requirements
+    - Parameters:
+        - Strike price selection based on expected price movement and time horizon
+        - One-to-three risk-reward ratio recommended
+    - Calculations:
+        - Break-even point: Strike price - option price
+        - Profit: Strike price - underlying security price - option price
+        - Maximum downside: Premium paid
+    - Hedging:
+        - Protective put: Hedge against a long stock position
+        - Burn the house down hedge: Long-dated puts as insurance against unforeseen market crashes.
+- **Shorting Puts (Short Naked Puts)**
+    - Upcoming Topic: Introduction to shorting puts, marking the beginning of more complex strategies and discussions on selling options.
+    - Preview: Focuses on selling the right to buy a stock at a specified price, exploring the risks, rewards, and strategic uses of this approach.
+
+---
+
+## Chapter 07 / 第 07 章
+
+- **Definition & Basics**
+    - Opposite of long put strategy
+    - Obligation to buy stock at a specific price if contract is in-the-money
+    - Selling a put option; agreeing to buy underlying security at a fixed price in the future
+    - Counterparty buys the right to sell you the stock
+- **Risks and Rewards**
+    - Risks
+        - Potential for significant loss if underlying security price falls sharply
+        - Limited loss potential not truly unlimited; max loss is price of underlying security falling to 0
+        - Gap risk during market closures
+    - Rewards
+        - Profit potential from short term price rises in underlying stock
+        - Time decay benefits if security price doesn't move
+- **Strategic Uses**
+    - Useful Situations
+        - Bullish on a security expecting a small price increase
+        - Profit from time decay without price movement
+        - Intention to own underlying stock at a lower price
+        - Hedging against a small rise in stock price
+    - Cautionary Uses
+        - Not a good hedge for short stock positions due to limited upside
+        - Avoid selling puts for income without intention to buy the stock
+        - High risk for small reward is contrary to good trading discipline
+- **Implementation & Examples**
+    - Example: DowDuPont
+        - Fundamental predisposition bullish, aiming to buy at $68
+        - Selling puts at $68 strike price to add value to execution
+        - Risk and reward calculation based on stock price movement relative to strike price and premium received
+- **Avoiding Abuses**
+    - Warning against selling puts for income regularly
+        - Educators, former traders, and brokers may push this strategy for their benefit
+        - Focus on adding value to execution and not on generating income
+- **Formalized Strategy Breakdown**
+    - Break-even point: Strike price minus price of the option
+        - Profit calculation: Limited to price of the option sold
+        - Risk calculation: Limited by how much the underlying security can fall
+        - Maximum loss: Strike price minus price of underlying security plus price per option
+- **Conclusion**
+    - Useful in specific circumstances for adding value to retail trader's portfolio
+        - Must understand risks, rewards, and situations where it adds value
+        - Avoid selling naked puts for income; focus on strategic use for execution value
+
+---
+
+## Chapter 08 / 第 08 章
+
+- **Overview**
+    - Quick explanation followed by a warning
+    - Short naked call: Very useless and dangerous strategy for retail traders
+    - Not included in the useful PDF but discussed for understanding parameters and risks
+- **Dynamics of Short Naked Call Strategy**
+    - Position
+        - Opposite to a long call position
+        - Obligated to sell short a stock at a specified price before a specified time if the contract is in the money
+    - Risk and Reward
+        - Simple strategy involving one transaction
+        - Exposed to a lot of potential risk
+        - Upside call has much lower implied volatility than downside puts
+        - Unlimited dollar loss potential due to stock's theoretical ability to reach infinity
+- **Cautionary Notes**
+    - Former floor traders, market makers, brokers, and options educators often push selling naked calls for income
+        - Similar dynamics to short naked put strategy
+        - Small upfront payment compared to the risk taken
+        - Historical data and standard deviation analysis used to coerce into believing it's a safe strategy
+        - Potential losses are huge, especially with naked short calls
+- **Real Example: Salesforce (CRM)**
+    - Belief in shorting out-of-the-money calls on CRM as an easy way to make income
+        - Selling $120 strike call for 29 March expiry
+        - Microsoft decides to bid $170 per share for CRM in a hostile takeover
+        - Result: Loss of $9700 for the sake of a $300 credit
+        - Lesson: Shorting naked calls is a terminal strategy for retail traders
+- **Conclusion**
+    - Naked short selling calls and puts is dangerous for retail traders
+        - Will lead to blowing up the trading account and possibly more
+        - Brokers may come after for additional margin
+        - Resist the temptation to think the stock market is an ATM
+        - Move on to looking at hedging and useful strategies for retail traders
+
+---
+
+## Chapter 09 / 第 09 章
+
+- **Introduction**
+    - Focus on hedging strategies using options
+    - Covered call strategy explained in-depth
+    - Useful for retail traders
+- **Covered Call Strategy Explanation**
+    - Used when holding a long stock position
+    - Generates returns if stock price is stable or neutral
+    - Provides small protection against falling stock prices
+    - Involves writing call options on owned stock
+    - Expectation: call options expire worthless, generating income from stagnant position
+    - Can lower average price on losing stock positions
+- **Strategy Parameters**
+    - Non-directional bet, neutral strategy
+    - Simple to execute, single transaction
+    - Receives net credit upfront
+    - Limited risk due to long stock position
+    - Max gain limited to credit received for selling calls
+- **Analogy: Renting Out a House**
+    - Selling a covered call is akin to renting out a house for income while expecting it to remain stagnant in value
+- **Considerations for US and International Traders**
+    - US: Covered calls allowed in self-directed IRAs due to limited risk
+    - International: Options trading not typically allowed in pension structures; requires separate options trading account
+- **When to Use the Strategy**
+    - Neutral outlook on stock, avoiding selling long position
+    - Making income from stock not moving
+    - Medium to long-term investors waiting for catalysts
+    - Reducing losses if stock price falls (limited protection)
+- **Implementing the Strategy**
+    - Write enough call options to cover owned shares
+    - Typically at a slightly higher strike than current stock price
+    - Choose short-term expiration for quicker theta decay
+- **Uses for Retail Traders**
+    - Collect premium while stock consolidates
+        - Collect premium to offset losses
+        - Take advantage of dividend payment and collect premium
+        - Sell covered call immediately upon buying stock to improve entry price
+- **Risks**
+    - Limited protection if stock falls significantly
+    - No further profits if stock rises above option strike
+- **Example: Johnson & Johnson**
+    - Long 100 shares at $140, currently down $6.85
+    - Dividend payment of 84 cents upcoming
+    - Selling 135 strike call for 80 cents to protect against dividend adjustment
+    - Break-even at $130.22 post-dividend
+    - Maximizes P&L if stock closes at $135 post-dividend
+    - Execution price improved by dividend and call option credit
+- **Strategy Variations**
+    - Conservative: Sell well in-the-money calls for protection
+    - Aggressive: Sell out-of-the-money calls for higher returns
+    - Moderate: Mix of in-the-money and out-of-the-money calls
+- **Mistakes to Avoid**
+    - Refusal to exit when stock likely to rally through call strike
+    - Use strike price as stop loss to manage risk
+- **Conclusion**
+    - Covered call strategy reduces portfolio volatility and adds value to execution
+    - Formalized formulas provided for manual calculations
+    - Strategy examples detailed in useful PDF
+
+---
+
+## Chapter 10 / 第 10 章
+
+- **Explanation**
+    - Direct extension of the covered call strategy
+    - Used when expecting a neutral stock price movement
+    - Sacrifices some profitability for additional downside protection
+    - Involves buying put options alongside writing call options
+- **Benefits & Drawbacks**
+    - Benefits
+        - Profits from stable stock prices
+        - Offers protection against stock price declines
+        - More useful for retail traders due to downside protection
+        - Can ensure maximum loss on stock position is hedged
+    - Drawbacks
+        - Limited upside potential due to sold call options
+        - Requires efficient structuring to receive a net credit
+- **When & How to Use**
+    - Neutral outlook on stock price
+        - Long stock position
+        - Desire for protection against potential losses
+        - Structured to receive a net credit (selling calls > buying puts cost)
+- **Break-Even, Profits, & Risk Calculations**
+    - Break-Even
+        - Starting point + net premium (credit or debit)
+    - Maximum Profit
+        - When stock price equals strike of sold call options
+        - Profit calculation: stock price - starting point + price per option in leg A - price per option in leg B
+    - Maximum Loss
+        - Occurs if stock price drops to the strike of bought put options
+        - Loss calculation: starting point - strike of options in leg B - price per option in leg A - price per option in leg B
+- **Formalized Strategy Example**
+    - Non-directional bet, neutral strategy
+        - Net credit to the strategy
+        - Maximum risk and gain are limited
+        - Limited downside protection through purchased put options
+- **Comparison to Covered Call Strategy**
+    - Covered Call Collar offers additional downside protection
+        - Higher usefulness ranking for retail traders
+        - Protection against unforeseen stock price drops while receiving a net credit
+- **Practical Application**
+    - Example: Johnson & Johnson stock position
+        - Establishing a covered call collar to protect against potential losses and collect premium
+        - Outcome analysis under different stock price scenarios
+        - Demonstrates superior risk-reward profile compared to simple covered call strategy
+
+---
+
+## Chapter 11 / 第 11 章
+
+- **Black Swan Events and Portfolio Hedging**
+    - Definition of Black Swan Events
+        - Historical examples (1987 crash, UK leaving ERM, Asian debt crisis, 9/11, 2008 GFC, Fukushima disaster, algo flash crash)
+        - Misconceptions about predictable events (Brexit, European sovereign debt crisis, dot com bubble, 2016 US election)
+    - Importance of hedging against unforeseen events
+        - Reducing portfolio volatility risk
+        - Enhancing risk-adjusted returns
+- **Index Options as Portfolio Hedges**
+    - Buying out-of-the-money puts on S&P 500 index ETF (SPY)
+        - Example: $87,000 pension portfolio up 15% in 7 months
+        - Hedging against potential 10-15% market drop
+        - Buying 4 contracts of June 29, 2018, 264 strike SPY puts for $6.85
+            - Notional dollar exposure: $105,600
+            - Cost: $2,740
+            - Break-even point: 257.15
+            - Protection against >5.84% market drop
+        - Portfolio insurance and risk-adjusted returns
+            - Smoothing out returns over time
+            - Outperforming long-only portfolios during market downturns
+- **Call Overwriting Strategies as Portfolio Hedges**
+    - Selling out-of-the-money call options on Nasdaq index (QQQ ETF)
+        - Example: $100,000 portfolio heavily weighted towards tech stocks
+        - Selling 6 contracts of 174 strike QQQ calls at $3.37
+            - Notional coverage: $104,400
+            - Premium collected: $2,022
+        - Limitations and benefits
+            - Dollar upside limited to strike price of call option
+            - Softening the blow if tech stock weighting decreases
+            - Collecting higher premiums in bear markets
+- **Put Spreads as Portfolio Hedges**
+    - Example: Buying 4 contracts of 260.24 strike SPY puts for $6.8025 and selling 4 contracts of 244 strike puts for $3.50
+        - Net payment: $1,340
+        - Maximum profit: $6,660 (6.66% gain)
+        - Risk-reward ratio: 5:1
+        - Cheapening the hedge while capturing gains
+        - Full hedging by buying and selling 6 contracts each
+- **Recap and Next Steps**
+    - Review of hedging strategies using options
+        - Covered call strategy
+        - Covered call collar strategy
+        - Index hedges using SPY puts and QQQ calls
+    - Introduction to put spreads for better risk-reward
+    - Moving forward to more directional option trading strategies and options spreads
+
+---
+
+## Chapter 12 / 第 12 章
+
+- **Overview**
+    - Useful for retail traders
+    - Relatively simple strategy
+    - Limited risk to premium paid
+    - Best when expecting moderate price increase, not dramatic
+- **Strategy Explanation**
+    - Buying a call option and selling a higher strike call option
+    - Both contracts have the same expiration date
+    - Aimed at reducing upfront costs of buying calls
+    - Reduces effect of time decay on overall position
+- **Parameters**
+    - Directional bullish strategy
+    - Requires two transactions
+    - Net debit trade (premium paid)
+    - Maximum risk limited to net debit
+    - Maximum gain limited due to selling higher strike call
+- **Use Cases**
+    - When expecting underlying stock price to increase within a specific range
+    - Cheaper alternative to long call option strategy
+    - Marginal benefit over simply buying stock or calls depends on risk-reward analysis
+- **Implementation**
+    - Buying at-the-money call options
+        - Selling higher strike call options
+    - Buying out-of-the-money call options
+        - Selling higher strike call
+        - Appropriate when expecting moderate price increase
+- **Payoff and Risk**
+    - Making profit on long calls as underlying stock price rises
+        - Also profiting from short calls due to time decay
+        - Ideal scenario: underlying security price rises to strike price of written calls
+        - Losses if underlying security doesn't increase in price
+        - Limited losses, not exceeding cost of putting on the spread
+- **Advantages**
+    - Limited downside risk
+        - Reduced losses compared to long stock or long call positions
+        - Opportunity cost of capital benefit (less capital allocated)
+        - Effective hedge for short stock positions
+- **Disadvantages**
+    - Profits are limited
+        - No further gains if underlying security rises beyond strike price of short calls
+        - More commissions than simply buying calls
+- **Real Example: Foot Locker**
+    - Fundamental predisposition: takeover target
+        - Expected takeover price: no higher than $70 per share
+        - Comparison between long stock, long calls, and bull call spread
+            - Capital commitment and risk analysis
+            - Risk-reward ratio analysis
+            - Clear marginal benefits in owning bull call spread
+- **Conclusion**
+    - Bull call spread offers a balanced approach between risk and reward
+        - Useful for managing capital efficiently and limiting downside risk
+        - Ideal for moderate price increase expectations
+
+---
+
+## Chapter 13 / 第 13 章
+
+- **Overview**
+    - Strategy Explanation: Bearish directional bet using put options.
+    - Similarity: Analogous to Bull Call Spread but for bearish outlook.
+    - Advantages: Simple, limited risk to premium paid, reduces upfront cost and time decay impact.
+    - Usage: When expecting a decrease in underlying stock price to a certain range, not below a specific level.
+- **Key Characteristics**
+    - Transactions: Only two transactions involved.
+    - Debit Trade: Premium is paid for the trade.
+    - Risk & Gain: Both maximum risk and gain are limited.
+- **When to Use**
+    - Bullish vs. Bearish: Primarily used when outlook on underlying stock is bearish.
+    - Expectation: Stock price decrease to a specific range, not below a certain level by expiration.
+- **Strategy Benefits**
+    - Cost Reduction: Cheaper alternative to long put option strategy.
+    - Limited Upside: Potential dollar profits are capped.
+    - Capital Investment: Less capital required compared to buying puts outright.
+    - Time Decay: Reduced effect of time decay on position.
+- **Parameters & Execution**
+    - Debit Transaction: Net debit due to higher cost of long put vs. written put.
+    - Limited Upside: Maximum profit is limited by the lower strike price.
+    - Marginal Benefit: Over shorting stock or buying puts outright.
+- **Practical Application**
+    - Example: Sotheby's stock analysis and trade setup.
+        - Fundamental Predisposition: Bearish outlook based on market analysis.
+        - Trade Setup: Buying an at-the-money or out-of-the-money put and selling a lower strike put.
+        - Risk Reward Analysis: Comparing shorting stock, buying puts, and bear put spread in terms of risk and reward.
+- **Hedging & Portfolio Protection**
+    - Hedging Long Stock Positions: Effective and cheaper hedge against potential stock declines.
+    - Risk Management: Limits potential losses to the net premium paid for the spread.
+- **Conclusion**
+    - Optimization of Risk Reward: Writing strikes based on genuine belief that stock won't exceed (Bull Call Spread) or fall below (Bear Put Spread) a certain level.
+    - Sophisticated Strategies: Moving towards more complex options strategies.
+
+---
+
+## Chapter 14 / 第 14 章
+
+- **Understanding Options and Market Makers**
+    - Market Makers
+        - Professional traders providing liquidity
+        - Manage risk through hedging
+        - Bet on realized volatility, not stock direction
+    - Volatility
+        - Realized volatility: Historical stock movements
+        - Implied volatility: Expected future stock movements
+        - Importance in options pricing
+    - Delta Hedging
+        - Hedging options positions with underlying stock
+        - Delta: Change in option price per dollar move in stock
+        - Gamma: Rate of change of delta
+- **Retail Trader's Perspective**
+    - Common Mistakes
+        - Lack of understanding of options mechanics
+        - Trading options for leverage without analysis
+        - Ignoring catalysts and fundamental research
+    - Successful Strategies
+        - Fundamental analysis before trading
+        - Consideration of catalysts and timing
+        - Using options for structured trade benefits
+    - Volatility Calculation
+        - Essential for understanding market maker pricing
+        - Black-Scholes model inputs
+        - Implied volatility as the key variable
+- **Volatility and Market Maker Dynamics**
+    - Implied Volatility Adjustments
+        - Raised for catalysts, realized volatility increases
+        - Lowered post-catalyst, lack thereof, or realized volatility decrease
+    - Catalysts and Asymmetric Payoff
+        - Best time to own options: around catalyst-driven events
+        - Protection against being wrong due to catalysts
+    - Liquidity Gaps
+        - Open interest and average daily volume analysis
+        - Potential for market maker-induced price movements
+- **Option Greeks: Delta**
+    - Definition
+        - Probability approximation of finishing in-the-money
+        - Linear relationship between delta and probability
+    - Practical Use
+        - Calculating probabilities of option outcomes
+        - Assessing risk and reward in trades
+- **Conclusions and Trading Advice**
+    - Fundamentals Drive Trade Ideas
+        - Options used to implement views, not generate them
+        - Trade only if marginal benefit exists
+    - Market Maker Intelligence
+        - Recognize market makers' sophistication
+        - Understand their motivations and risk management
+    - Calculating Volatility
+        - Necessary for informed trading decisions
+        - Avoid being misled by market maker pricing
+    - Trading with Caution
+        - Accept potential for total loss in options trading
+        - Be prepared for market maker tactics
+    - Leveraging Market Maker Behavior
+        - Exploit liquidity gaps for profit opportunities
+        - Be proactive in identifying and capitalizing on market dynamics
+
+---
+
+## Chapter 15 / 第 15 章
+
+- **Defining the Mandate**
+    - Systematic Framework
+        - Fundamental predisposition on underlying asset (bullish/bearish)
+    - Retail Trader vs Market Maker
+        - Speculator's role and mandate
+        - Understanding market makers' mandate
+- **Categorization of Usefulness**
+    - Directional vs Non-Directional Strategies
+        - Fundamental predisposition prerequisite
+    - Filtering for Simplicity and Usefulness
+        - Elimination of complex, low-value strategies
+    - Practical Approach
+        - Elimination of intellectual snobbery (payoff diagrams, Black-Scholes model)
+        - Focus on marginal benefit and practical examples
+- **Marginal Benefits Understanding**
+    - Opportunity Cost of Capital
+        - Comparison of downside vs upside for different strategies
+    - Risk Reward Dynamics
+        - Minimum risk-reward ratio (1:3) for options trades
+    - Volatility and Timing Risk
+        - Expected vs implied volatility
+        - Catalysts and their impact on volatility
+- **Market Makers vs Retail Traders**
+    - Price Makers (Market Makers) vs Price Takers (Speculators)
+        - Market makers' role in pricing and hedging
+        - Speculators' aim to profit from fundamental predisposition
+    - Greeks (Delta, Gamma)
+        - Importance for market makers' hedging
+        - Delta's relevance for retail traders in gauging option success probability
+- **Recap and Moving Forward**
+    - Recap of learned strategies and concepts
+    - Emphasis on systematic process and fundamental research
+    - Importance of understanding volatility and delta
+    - Progression to more advanced strategies (e.g., ratio spreads)
+    - Integration of Professional Trading Masterclass (PTM) for comprehensive understanding
+
+---
+
+## Chapter 16 / 第 16 章
+
+- **Strategy Overview**
+    - Definition: Involves buying a call option and writing a call option with a lower strike price, both with the same expiration date.
+    - Objective: To profit from a security's increase in price while reducing upfront costs compared to simply buying calls.
+    - Characteristics
+        - Unlimited profit potential.
+        - Limited risk, primarily tied to the upfront cost.
+        - Requires two transactions: buying calls at a higher strike and selling calls at a lower strike.
+        - Aimed at reducing costs by selling cheaper options (lower strike) than the ones bought.
+- **Key Parameters**
+    - Directional Bet: Bullish on the underlying stock.
+    - Expected Outcome: Significant rise in stock price.
+    - Transactions: Buying long calls at a higher strike and selling in-the-money calls at a lower strike.
+    - Cost Management: Aim to minimize upfront costs, aiming for a debit or credit position, or ideally, zero cost.
+    - Risk vs. Reward: Max risk is limited; max gain is unlimited.
+- **Strategy Execution**
+    - Choosing the Ratio and Strikes
+        - Importance of selecting the correct ratio of calls bought to calls sold and choosing appropriate strike prices.
+        - Complexity lies in balancing the ratio and strikes to optimize the strategy's effectiveness.
+    - Fundamental Scenarios
+        - Best suited for securities expected to undergo a significant price increase, especially in turnaround stories or long-term momentum plays.
+        - Useful when the stock might take time to significantly increase in value or has a chance of declining further.
+- **Risk Management**
+    - Max Loss: Occurs when the underlying security's price equals the strike of the calls bought at expiration.
+        - Max Gain: Unlimited, as the stock price theoretically can rise indefinitely.
+        - Break-even Analysis: Calculating the price at which the strategy neither gains nor loses money.
+- **Practical Applications**
+    - Fundamental Turnaround Stories
+        - Ideal for stocks that have significantly declined due to poor fundamentals but are expected to recover.
+        - Provides a hedge against further declines while allowing for upside potential.
+    - Momentum Plays
+        - Useful for stocks with a bullish fundamental predisposition, allowing for participation in long-term momentum without significant upfront costs.
+    - Hedging Short Stock Positions
+        - Can act as a free hedge against potential short squeezes without changing the fundamental short position.
+- **Comparative Analysis**
+    - Versus Long Calls: Reduced upfront costs but lower profit rates.
+        - Versus Bull Call Spread: Similar in hedging downside risk but offers potentially higher returns due to selling cheaper options.
+        - Versus Stock Trading: Offers protection against price stagnation or decline while maintaining upside potential.
+- **Implementation Considerations**
+    - Timing Risk: Longer-dated options are preferable to allow for significant price movements.
+        - Open Interest and Implied Volatility: Analyzing market conditions can reveal opportunities for better risk-reward ratios.
+- **Conclusion**
+    - The short bull ratio spread is a versatile strategy, particularly advantageous in scenarios where the underlying security is expected to experience significant price movements. Its effectiveness hinges on precise ratio and strike selection, making it a strategy that requires careful planning and market analysis.
+
+---
+
+## Chapter 17 / 第 17 章
+
+- **Definition & Purpose**
+    - Buying a long put option
+    - Writing a put option with a higher strike, same expiration date
+    - Aims to generate profits from a security's price decline
+    - Reduces upfront capital investment compared to buying puts alone
+    - Opposite of the short bull ratio spread
+- **Strategy Characteristics**
+    - Advantages
+        - High return on investment if security price falls
+        - Reduces capital needed upfront
+        - Useful for expecting sharp price drops while reducing costs
+        - Provides protection against price increases
+        - Can be useful for retail traders in specific scenarios
+    - Disadvantages
+        - Maximum gain is limited (to the underlying stock reaching 0)
+        - Can be complex to determine the correct ratio of options to buy/write and strike prices
+        - Ranked as medium in usefulness due to limited upside and complexity
+- **Implementation & Dynamics**
+    - Involves buying more puts than writing, establishing a ratio
+        - Useful when expecting a significant decline in security price
+        - Potential for profits limited by how much the security can fall
+        - Can be put on for a small debit, zero cost, or even a credit
+- **Fundamental Scenarios**
+    - Best used when fundamentally bearish on a stock long-term
+        - Expecting a significant time for the stock to break an uptrend and fall substantially
+        - Belief that the stock might rise before the decline
+        - Situations where a stock has experienced fundamental trouble and is collapsing to zero or going bankrupt
+- **Risk-Reward Analysis**
+    - Profit if underlying stock price falls sufficiently by expiration
+        - Maximum loss occurs when the underlying security's price equals the strike of the bought puts
+        - Unusual for a bearish strategy, better off if the underlying security's price rises dramatically
+- **Practical Applications**
+    - Hedging against a long stock position
+        - Playing fundamental moves to the downside over the long term
+        - Utilizing in scenarios with high volatility and potential for significant price movements
+- **Example Scenario**
+    - Using PPL (utility stock) as an example, demonstrating how a short bear ratio spread can be more effective than shorting stock or buying long puts in a scenario expecting a significant interest rate impact on highly indebted companies
+- **Conclusion**
+    - Short bear ratio spread offers a balanced approach to profiting from expected declines while managing upfront costs and potential losses
+        - Useful in specific fundamental scenarios where a significant move is anticipated, either downward or upward, offering protection and potential profit
+
+---
+
+## Chapter 18 / 第 18 章
+
+- **Overview**
+    - Definition: Bull Call Ladder Spread involves buying 1 at-the-money or slightly out-of-the-money call option and selling two higher strike calls with differing strikes for the same expiration.
+    - Objective: To profit from a moderate rise in the underlying stock's price while reducing the cost compared to owning call options outright or a bull call spread.
+- **Key Components**
+    - Parameters
+        - Directional Bet: Bullish strategy aiming for an increase in the underlying stock's price.
+        - Transactions: Three transactions - buying one call option and selling two higher strike calls.
+        - Cost: Can be initiated for a small debit or even a credit.
+        - Risk: Maximum risk is theoretically unlimited due to gap risk, but practical losses are limited under normal circumstances.
+    - Comparison with Other Strategies
+        - Bull Call Spread: Requires fewer transactions (two) but has a higher cost than the ladder spread.
+        - Long Call Option: More expensive and offers unlimited profit potential.
+        - Owning Stock: Direct exposure to stock price movements without the leverage of options.
+- **Execution and Risk Management**
+    - Establishing the Spread
+        - Buy 1 at-the-money or slightly out-of-the-money call option.
+        - Sell two higher strike calls with different strikes for the same expiration.
+        - The lower strike call should represent the price level the stock is not expected to exceed.
+    - Risk Reward Analysis
+        - Profit maximized when the underlying stock settles at or close to the strike price of the lower strike call option sold.
+        - Unlimited risk in extraordinary circumstances, but practical risk is limited.
+        - Flexibility to buy back one or both of the sold calls if the stock price is expected to exceed the sold strikes.
+    - Usefulness and Flexibility
+        - High usefulness for retail traders due to flexibility and lower cost.
+        - Medium theoretical usefulness due to gap risk, but high practical usefulness because of the ability to manage positions in continuous markets.
+- **Examples and Applications**
+    - Real Example: Constellation Brands (STZ)
+        - Analyzed using a hypothetical scenario ahead of earnings.
+        - Compared long stock, long call, bull call spread, and bull call ladder spread.
+        - Bull call ladder spread offered the best risk-reward ratio and capital commitment dynamics.
+    - Flexibility and Optionality
+        - Options provide risk-reward advantages and capital efficiency.
+        - Optionality allows for adjusting positions based on changing fundamentals and stock price movements.
+        - The goal is to be massively right or massively wrong to realize the marginal benefits of options trading.
+- **Conclusion**
+    - The bull call ladder spread is a versatile strategy for retail traders seeking to capitalize on anticipated moderate price increases in underlying stocks.
+        - It offers a balance between cost, risk, and potential profit, with added flexibility in managing positions.
+
+---
+
+## Chapter 19 / 第 19 章
+
+- **Overview**
+    - Definition: Buying an at-the-money or slightly out-of-the-money put option and selling two lower strike puts with differing strikes for the same expiration.
+    - Objective: Profiting from a bearish move in the underlying stock while optimizing cost and risk.
+    - Similarity: Resembles the bear put spread but involves more transactions and can be executed for a debit or credit.
+- **Key Components**
+    - Transactions
+        - Buying 1 put option (at-the-money or slightly out-of-the-money).
+        - Selling 2 lower strike put options with differing strikes.
+    - Risk & Reward
+        - Maximum Risk: Limited but significant if the stock price falls dramatically below the lowest strike.
+        - Maximum Profit: Limited to the difference between the higher strike put sold and the cost of the strategy.
+        - Risk Management: Understanding and choosing appropriate strike prices to limit potential losses.
+    - Usefulness
+        - Ranked high despite theoretical medium usefulness due to low likelihood of significant losses under prudent trade establishment.
+- **Strategy Execution**
+    - Establishing the Trade
+        - Requires a high degree of certainty that the stock won't fall below a certain price by expiration.
+        - Focus on risk-reward analysis and selecting optimal strike prices.
+    - Risk Considerations
+        - Gap risk: Significant losses possible if the stock gaps down due to negative news.
+        - Implied volatility: Increases can make covering short puts costly.
+    - Flexibility
+        - Ability to buy back short puts in continuous markets to manage risk.
+- **Comparative Analysis**
+    - Against Other Strategies
+        - Short Stock: Unlimited risk vs. limited risk with the bear put ladder spread.
+        - Long Put: Higher cost and unlimited profit potential vs. lower cost and limited profit.
+        - Bear Put Spread: Higher cost but potentially higher profit vs. lower cost and limited profit.
+- **Real-World Application**
+    - Example: Walmart
+        - Scenario: After Q4 earnings miss due to Amazon competition, expecting further decline but not below $80 before next earnings.
+        - Strategy Execution: Buying 92.50 strike puts and selling 80 and 75 strike puts.
+        - Risk Reward: Higher than short stock, long put, and bear put spread due to optimized cost and targeted downside.
+- **Conclusion**
+    - The bear put ladder spread offers an efficient way to play the downside with controlled risk and potentially higher returns on investment compared to traditional bearish strategies.
+        - Its usefulness is amplified in scenarios where large-cap stocks are expected to decline moderately without significant fundamental shifts.
+        - Prudent selection of strike prices and understanding of risk are crucial for maximizing the strategy's benefits.
+
+---
+
+## Chapter 20 / 第 20 章
+
+- **Understanding Volatility**
+    - Definition: Fluctuations in asset prices and returns
+    - Importance: Risk and reward perspective
+    - Opportunity: Generates capital gains
+    - Analysis: Market environment, VIX volatility index
+    - Profitable time horizons: Investment decisions
+- **Risk Reward Relationship**
+    - Game example: Coin toss choices
+        - Choice A: $200 for heads, -$100 for tails
+            - Choice B: $25 every coin toss
+            - Rational choice: A (higher expected return)
+    - Volatility factor: Riskier option requires higher return
+        - Choice A: Higher volatility, same expected return as B
+            - Choice B: Lower volatility, same expected return as A
+            - Rational choice: B (lower risk)
+- **Measuring Performance**
+    - Traders comparison: Annual return vs. annualized standard deviation
+        - Trader 1: 30% return, 20% volatility
+            - Trader 2: 19% return, 13% volatility
+    - Sharpe Ratio: Risk-adjusted return
+        - Calculation: Annualized return / Annualized standard deviation
+            - Trader 1: 0.66 Sharpe Ratio
+            - Trader 2: 1.46 Sharpe Ratio
+            - Benchmark: Negative return (negative Sharpe Ratio), profitable traders (positive Sharpe Ratio), good traders (>1 Sharpe Ratio), professional traders (>1.5 Sharpe Ratio)
+- **Importance of Measuring Volatility**
+    - Underlying stock volatility: Factor in option usage
+    - Realized volatility: Historical prices
+    - Implied volatility: Derived from option prices
+    - Unknown input: Implied volatility in option pricing model
+    - Market makers: Price volatility based on historical data and upcoming catalysts
+    - Risk reward assessment: Consider catalysts and time horizon
+- **Implied Volatility Calculation**
+    - Brokerage option chain example: Tesla stock
+        - March 9 expiry: $9 mid-price
+            - April 6 maturity: $17.5 mid-price
+            - January 18, 2019 expiry: $55 mid-price
+    - Annualized volatility: Comparable across time horizons
+    - Longer expiry: Higher implied volatility
+    - Days to maturity: Influence on underlying price
+    - Reliability check: Own assessment of implied volatility
+    - Market makers: Assessment of where they're happy to trade volatility
+    - Decision-making: Measure implied volatility, ensure fair platform values, assess volatility level given catalysts
+
+---
+
+## Chapter 21 / 第 21 章
+
+- **Understanding Volatility**
+    - Industry Standard Measure: Annualized Standard Deviation
+    - Calculation Methods:
+        - Realized Volatility: Based on Historical Prices
+        - Implied Volatility: Derived from Option Prices
+- **Volatility as Risk and Opportunity**
+    - Dual Nature: Risk & Opportunity
+    - Importance in Risk-Reward Dynamics
+    - Applications in Profitable Time Horizons, Risk Limits, Performance Measurements
+- **Calculating Implied Volatility**
+    - Use of Implied Volatility Calculator Spreadsheet
+    - Input Requirements: Option Type, Exercise Style, Dividend Information
+    - Iterative Process: Matching Model Option Price with Market Option Price
+    - Solver Tool in Excel for Automated Calculation
+- **Case Study: S&P 500 ETF (SPY) Option**
+    - Selection of Calculator Based on Exercise Style and Dividend Yield
+    - Gathering Inputs: Spot Price, Interest Rate, Option Details
+    - Validation against VIX for S&P 500 Volatility
+- **Comprehensive Case Study: XPO Logistics**
+    - Bullish Predisposition and Fundamental Analysis
+    - Brokerage Platform Implied Volatility Check
+    - Catalyst Assessment: Events Affecting Stock Price
+    - Historical Returns Analysis
+    - Statistical Analysis Using Implied Volatility
+        - Translation to Daily, Weekly, Monthly Volatility
+        - Implied Volatility Over Option Time Horizon
+        - Upper and Lower Bounds for Stock Price Range
+- **Trade Viability Assessment**
+    - Probability Distributions and Normality Assumption
+    - Market Implied Probabilities for Stock Price Movements
+    - Risk-Reward Ratio Calculation
+    - Structuring Trades: Bull Call Spread for Reduced Volatility Exposure
+- **Key Takeaways**
+    - Essential Understanding of Volatility in Trading
+    - Calculation and Analysis of Implied Volatility
+    - Head Checks Against Broker Platform Prices
+    - Marginal Benefits of Different Trade Structures
+    - Optimal Risk-Reward Ratio through Implied Volatility Insights
+
+---
+
+## Chapter 22 / 第 22 章
+
+- **Long Straddle Strategy**
+    - Explanation
+        - Non-directional bet on volatility
+        - Assumes no fundamental predisposition on underlying asset
+        - Belief in increased future volatility
+    - Structure
+        - Buying at-the-money call and put options
+        - Same strike price and expiration
+    - Usefulness for Retail Traders
+        - Medium usefulness (arguably low)
+        - Not optimal for directional biases or hedging existing positions
+    - Market Maker Utility
+        - Hedging short volatility positions
+        - Buying long straddles to reduce risk
+    - Calculations
+        - Upper break-even: Strike price of call + premium paid
+        - Lower break-even: Strike price of put - premium paid
+        - Maximum risk: Limited to net debit
+        - Maximum gain: Unlimited due to call option
+- **Retail Trader Considerations**
+    - Fundamental Predisposition
+        - Long or short stock positions
+        - Bullish or bearish views on stock
+    - Optimal Strategies
+        - High reward vs. risk
+        - Marginal benefits to current positions or predispositions
+    - Long Straddle Critique
+        - Costly strategy
+        - Lower returns compared to directional strategies
+        - Time decay risk
+    - Homework Assignment
+        - Options market maker scenario
+            - Negative selection portfolio
+            - Hedging strategies during volatility spikes
+- **Directional Volatility Strategies**
+    - Upcoming Focus
+        - Strategies with directional elements
+        - More useful for retail traders
+    - Transition
+        - Understanding long straddle for better strategies
+        - Moving to directional volatility bets
+
+---
+
+## Chapter 23 / 第 23 章
+
+- **Overview**
+    - Similar to Long Straddle
+    - Buys one out-of-the-money call and one out-of-the-money put with the same expiration
+    - Costs less than Long Straddle due to out-of-the-money options
+    - Lower probability of payoff requires larger underlying stock movement
+    - Higher return on investment if underlying stock moves significantly
+- **Characteristics**
+    - Non-directional volatility bet
+    - Simple to execute with only two transactions
+    - Large debit as both call and put are purchased
+    - Maximum risk is low and defined (premium paid)
+    - Maximum gain is unlimited due to options' intrinsic value
+- **Usefulness**
+    - Low usefulness for retail traders
+    - Helps understand low usefulness strategies
+    - Prepares for understanding directional variations
+- **Parameters**
+    - Same as Long Straddle except for out-of-the-money strikes
+    - Strikes for call and put are out-of-the-money
+- **Calculations**
+    - Identical to Long Straddle calculations
+    - Remember: Long Strangle uses out-of-the-money options
+- **Strategy Example**
+    - Company X stock at $50
+    - Buy out-of-the-money call (51 strike) for $1.50 per contract ($150)
+    - Buy out-of-the-money put (48.9 strike) for $1.50 per contract ($150)
+    - Net debit: $300
+    - Scenarios
+        - Stock at $50 at expiration
+            - Both options expire worthless
+            - Loss: $300 initial investment
+        - Stock at $52 at expiration
+            - Call worth $100
+            - Put expires worthless
+            - Loss: $200
+        - Stock at $55.6 at expiration
+            - Call worth $500
+            - Put expires worthless
+            - Profit: $200
+        - Stock at $47 at expiration
+            - Call expires worthless
+            - Put worth $200
+            - Loss: $100
+        - Stock at $42 at expiration
+            - Call expires worthless
+            - Put worth $700
+            - Profit: $400
+- **Conclusion**
+    - Long Strangle vs. Long Straddle
+        - Out-of-the-money vs. At-the-money options
+            - Understanding for directional variations
+            - Move to directional variations examples in next videos
+
+---
+
+## Chapter 24 / 第 24 章
+
+- **Strap Straddle Explanation**
+    - Definition: Buying 2 at-the-money call options and 1 at-the-money put option, both with the same expiration.
+    - Flexibility: Can be done in any ratio or combination preferred.
+    - Directional Bias: Implicitly bullish due to more call options than put options.
+    - Usefulness: High, due to directional bias and minimal risk with unlimited upside.
+- **Strategy Characteristics**
+    - Directional Bet: Implies a bullish directional trait.
+    - Volatility Bet: Long volatility alongside directional bias.
+    - Transaction Complexity: Simple, involving only two transactions.
+    - Transaction Type: Debit, involving only the purchase of options.
+    - Cost: Relatively expensive strategy.
+    - Risk: Limited to the premium paid.
+    - Gain: Unlimited due to the call option element.
+- **When to Use the Strap Straddle**
+    - Bullish Position Entry: Alternative to buying stock or calls, offering uncapped upside and downside protection.
+    - Fundamental Predisposition: For traders expecting an explosive upside move but willing to pay for downside protection.
+    - Higher ROI than Stock Ownership: Provides higher return on investment than simply owning stock.
+    - Downside Protection: Offers some protection against potential declines compared to being long calls alone.
+- **Real Example: PayPal (PYPL)**
+    - Stock Price: $80.22 at the time of screenshot.
+    - Fundamental Bullishness: Expectation of breaking out above $85.50 due to credit division performance.
+    - Volatility Potential: Historical volatility suggests significant moves possible.
+    - Trade Setup: For exposure to earnings on April 25, targeting $82 strike calls and puts for April 27.
+    - Comparison with Long Stock and Long Calls:
+        - Less profit on the upside but less loss on the downside compared to long stock.
+        - Makes less on the upside than long calls but can still profit on the downside in volatile scenarios.
+    - Break-even Points:
+        - Upper break-even: $87.23 (strike of calls + total premium paid / shares in call contracts).
+        - Lower break-even: $70.22 (strike of puts - total premium paid / shares in put contracts).
+- **Strategy Dynamics**
+    - Profit Calculation: Unlimited profit potential when the underlying security's price is greater than the upper break-even or lower than the lower break-even.
+    - Losses: Losses occur if the price of the underlying security is below the upper break-even or above the lower break-even.
+    - Maximum Loss: Limited to the initial investment, occurring when the stock is equal to the strike.
+- **Key Takeaways**
+    - Simple Strategy: Easy to understand and implement.
+    - Bullish on Volatility: Implicitly bullish but also anticipates increased volatility.
+    - Downside Protection: Offers a chance to break even or make money on the downside if directional bet is wrong but volatility increases.
+    - Volatility Expectations: Implied volatility around 30% suggests significant movement potential.
+
+---
+
+## Chapter 25 / 第 25 章
+
+- **Overview**
+    - Definition: A strategy involving the purchase of 1 at-the-money call option and 2 at-the-money put options for the same expiration, expressing a bearish outlook.
+    - Purpose: To gain exposure to downside potential while maintaining some protection against upside moves.
+- **Strategy Characteristics**
+    - Components
+        - Call Option: 1 at-the-money call option.
+        - Put Options: 2 at-the-money put options.
+        - Flexibility: Can be adjusted in ratios (e.g., 3:1, 4:1) based on preference.
+    - Risk and Reward
+        - Risk: Limited to the premium paid.
+        - Reward: Unlimited upside due to the call option, but primarily geared towards downside gains.
+        - Usefulness for Retail Traders: High, due to minimal risk and potential for significant gains.
+    - Execution
+        - Transactions: Buying calls and buying twice as many puts.
+        - Cost: Large debit transaction.
+        - Directional Bias: Bearish with an implicit volatility bet.
+- **Implementation**
+    - When to Use
+        - Objective: Higher return on investment than shorting stock, with added protection against unexpected upside moves.
+        - Scenario: Expecting a dramatic collapse in the underlying stock price, with potential for high volatility.
+    - Real Example: Interactive Brokers (IBKR)
+        - Stock Price: $71.
+        - Strategy: $70 strike price for strip straddle, targeting earnings date on April 17, 2018.
+        - Comparison:
+            - Shorting Stock: Higher risk, potential for significant losses if stock rises.
+            - Long Puts: Lower risk, capped loss at premium paid, but less upside potential compared to strip straddle.
+            - Strip Straddle: Balances risk and reward, making less but losing less in significant moves.
+- **Strategy Comparison**
+    - Short Stock vs. Strip Straddle
+        - Short Stock: Higher potential gains on downside, but unlimited risk on upside.
+        - Strip Straddle: Lower potential gains, but limited risk and potential profits on both downside and upside.
+    - Long Puts vs. Strip Straddle
+        - Long Puts: Lower initial cost, capped loss, but limited upside.
+        - Strip Straddle: Higher initial cost, but potential for greater upside and protection against upside moves.
+- **Conclusion**
+    - Trade-off: Based on fundamental analysis, choose between higher risk/reward (shorting stock) or lower risk/limited reward (long puts).
+        - Strip Straddle Advantage: Offers a middle ground, balancing risk and reward, suitable for expectations of significant price movements.
+
+---
+
+## Chapter 26 / 第 26 章
+
+- **Overview**
+    - Directional volatility bet
+    - Bullish directional bet combined with long volatility
+    - Contrasts with strip strategy which plays the downside
+    - Strap strangle involves buying 2 out-of-the-money call options and 1 out-of-the-money put option for the same expiration
+- **Components**
+    - Call Options
+        - Favoring the call option side
+        - Bullish directional bet
+        - Long volatility position
+    - Put Options
+        - Buying one out-of-the-money put option
+        - Provides downside protection
+    - Strangle Element
+        - All options are out of the money
+        - Distinguishes it from a straddle where options are at the money
+- **Parameters**
+    - Directional bet: Bullish
+        - Implicitly long volatility
+        - Simple transaction: Two transactions (buying calls and puts)
+        - Debit transaction: Relatively large due to paying for both calls and puts
+        - Maximum risk: Limited to total premium paid
+        - Maximum gain: Unlimited due to long call options
+- **Practical Example: GDX ETF Index**
+    - Market Conditions
+        - Belief in returning volatility to gold price
+        - Bearish dollar view
+        - Crowded trade in long gold bullion and paper market
+    - Strategy Application
+        - Long GDX and GDX volatility
+        - Downside protection against potential US dollar stability or equity market stability
+        - Use of long-dated, out-of-the-money options for best potential return on investment
+    - Calculations
+        - Exposure: $150,000 on the upside, $50,000 on the downside
+        - Ratio: Approximately 3:1 calls to puts
+        - Strikes: 20.23 for calls, 19 for puts
+        - Contracts: 65 call contracts, 27 put contracts
+        - Initial investment: $12,873
+        - Upper break-even: $23.95
+        - Lower break-even: $14.23
+    - Outcomes
+        - Profit at $42: $112,527
+        - Profit at $14: $627
+        - Loss if GDX is between upper and lower break-even levels
+- **Conclusion**
+    - Strap strangle strategy allows for spending more on long-dated options while cheapening the trade through out-of-the-money calls and providing downside protection
+        - Maximum loss is limited to the premium paid
+        - Potential for significant gains if the underlying asset makes an explosive move
+
+---
+
+## Chapter 27 / 第 27 章
+
+- **Directional Volatility Bets**
+    - Strip Strangle
+        - Definition: Buying one out-of-the-money call option and two out-of-the-money put options for the same expiration or in any ratio preferred (3:1, 4:1)
+        - Structure: Similar to strip straddle but with a higher ratio of out-of-the-money puts to calls
+        - Key Decisions: Strikes to use and the ratio of puts to calls
+        - Risk Reward: Limited risk (premium paid) and unlimited gain due to the call option side of the trade
+        - Usefulness: High for retail traders due to directional bearish bet and bet on volatility with limited risk and unlimited gain
+- **Practical Example: Deutsche Bank**
+    - Fundamental Analysis
+        - Operational issues, potential headcount reduction, rights issue, nationalization risk
+    - Macro View: EU collapse possibility
+    - Trade Setup
+        - ADR on NYSE, trading at $15.52
+        - $13-$17 Strip Strangle, January 18, 2019 expiry
+        - $1M downside exposure, $500K upside protection
+    - Dynamics
+        - Downside exposure: 76923 shares equivalent, 770 full contracts
+        - Upside protection: 29411 shares equivalent, 294 hull options contracts
+        - Total premium spent: $90,573.90
+        - Put-Call Ratio: 2.62 times as many put contracts as call option contracts
+    - Break-Even Points
+        - Upper Break-Even: $20.30001
+        - Lower Break-Even: $11.73
+    - Outcomes
+        - Stock at $5: Profit of $518,602
+        - Stock at $21: Profit of $20,202
+        - Opportunity Cost: Shorting stock or doing nothing if break-even points not met
+    - Maximum Loss: Premium paid ($90,573.90)
+    - Flexibility: Trading options before expiry to claw back losses
+- **Recap and Next Steps**
+    - Completion of Directional Volatility Bets section
+    - End of Professional Options Trading Masterclass video series
+    - Review useful PDF, strategy examples, and Deutsche Bank case study for deeper understanding
+
+---
+
+## Chapter 28 / 第 28 章
+
+- **Completion of Video Series**
+    - Congratulations for completing the series
+    - Detailed exploration of options trading nuances
+    - Practical examples provided for real-world application
+- **Exam Details**
+    - 100 multiple-choice questions
+    - Time limit: 2 hours
+    - No revisiting previous questions
+    - Grading:
+        - Pass: 50-59%
+        - Credit: 60-69%
+        - Distinction: 70%+
+    - Purpose: Self-assessment & qualification for Institute community
+- **Implementation Phase**
+    - Transition from education to real-money trading
+    - Two parts: Education & Implementation
+    - Opening accounts with partnered brokerage companies
+    - Institute receives no monetary return; only access to data for track record management
+- **Joining the Institute**
+    - Exam pass (over 50%) grants right (not obligation) to join
+    - Potential funding as a trader later
+    - Account opening with partnered platforms required for data access
+- **Time and Opportunity Cost**
+    - Challenges for retail traders with full-time jobs, part-time work, or businesses
+    - Consideration for mentoring program for implementation support
+- **Mentoring Program**
+    - Upgrade fee for existing POTM participants
+    - Includes POTM series, other video series, and data subscription for a year
+    - Professional mentors with decades of experience
+    - 12-week program for real-money implementation and skill enhancement
+- **PTM Video Series**
+    - Systematic process and fundamental predisposition focus
+    - Subscription recommended for those missing this component
+    - Contact London office for arrangement
+- **Closing Remarks**
+    - Best wishes for the exam
+    - Invitation to join the Institute as an Institute Trader
