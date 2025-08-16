@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>离线状态 - 财务管理系统</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    .offline-container {
+      text-align: center;
+      max-width: 400px;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .offline-icon {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      opacity: 0.8;
+    }
+
+    .offline-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .offline-description {
+      font-size: 1rem;
+      opacity: 0.9;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+
+    .network-status {
+      margin-bottom: 2rem;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      font-size: 0.9rem;
+    }
+
+    .status-indicator {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 8px;
+      animation: pulse 2s infinite;
+    }
+
+    .status-offline {
+      background-color: #ff6b6b;
+    }
+
+    .status-online {
+      background-color: #51cf66;
+    }
+
+    .offline-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .btn {
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn-primary {
+      background: #1890ff;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: #40a9ff;
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: white;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.5);
+      transform: translateY(-2px);
+    }
+
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 0 0 currentColor;
+        opacity: 1;
+      }
+      70% {
+        box-shadow: 0 0 0 10px currentColor;
+        opacity: 0;
+      }
+      100% {
+        box-shadow: 0 0 0 0 currentColor;
+        opacity: 0;
+      }
+    }
+
+    .cached-info {
+      margin-top: 2rem;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      font-size: 0.85rem;
+      opacity: 0.8;
+    }
+
+    @media (max-width: 480px) {
+      .offline-container {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+      
+      .offline-icon {
+        font-size: 3rem;
+      }
+      
+      .offline-title {
+        font-size: 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="offline-container">
+    <div class="offline-icon">📱</div>
+    <h1 class="offline-title">当前处于离线状态</h1>
+    <p class="offline-description">
+      无法连接到互联网。请检查您的网络连接，然后重试。
+    </p>
+    
+    <div class="network-status">
+      <span class="status-indicator status-offline" id="statusIndicator"></span>
+      <span id="networkStatus">检查网络状态...</span>
+    </div>
+    
+    <div class="offline-actions">
+      <button class="btn btn-primary" onclick="checkConnection()">
+        重新连接
+      </button>
+      <a href="/" class="btn btn-secondary">
+        返回首页
+      </a>
+    </div>
+    
+    <div class="cached-info">
+      💡 提示：部分已访问过的页面可能在离线状态下仍可使用
+    </div>
+  </div>
+
+  <script>
+    // 检查网络状态
+    function updateNetworkStatus() {
+      const statusIndicator = document.getElementById('statusIndicator');
+      const networkStatus = document.getElementById('networkStatus');
+      
+      if (navigator.onLine) {
+        statusIndicator.className = 'status-indicator status-online';
+        networkStatus.textContent = '网络已连接 - 可以重新加载页面';
+      } else {
+        statusIndicator.className = 'status-indicator status-offline';
+        networkStatus.textContent = '网络未连接 - 请检查网络设置';
+      }
+    }
+
+    // 检查连接并重新加载
+    function checkConnection() {
+      if (navigator.onLine) {
+        window.location.reload();
+      } else {
+        // 尝试发送请求检查真实网络状态
+        fetch('/api/health', { 
+          method: 'HEAD',
+          cache: 'no-cache'
+        })
+        .then(() => {
+          window.location.reload();
+        })
+        .catch(() => {
+          alert('网络仍然不可用，请检查您的网络连接');
+        });
+      }
+    }
+
+    // 监听网络状态变化
+    window.addEventListener('online', updateNetworkStatus);
+    window.addEventListener('offline', updateNetworkStatus);
+
+    // 初始化网络状态
+    updateNetworkStatus();
+
+    // 定期检查网络状态
+    setInterval(updateNetworkStatus, 3000);
+
+    // 如果网络恢复，自动重新加载
+    window.addEventListener('online', () => {
+      setTimeout(() => {
+        if (navigator.onLine) {
+          window.location.reload();
+        }
+      }, 1000);
+    });
+
+    // 添加键盘快捷键
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'F5' || (event.ctrlKey && event.key === 'r')) {
+        event.preventDefault();
+        checkConnection();
+      }
+    });
+
+    // PWA 相关功能
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.ready.then(registration => {
+        console.log('Service Worker is ready');
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,316 @@
+/* 网络状态指示器 */
+.network-status-indicator {
+  position: fixed;
+  z-index: 9999;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  border-radius: 8px;
+  padding: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.network-status-indicator:hover {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+}
+
+/* 位置设置 */
+.network-status-indicator.top-left {
+  top: 16px;
+  left: 16px;
+}
+
+.network-status-indicator.top-right {
+  top: 16px;
+  right: 16px;
+}
+
+.network-status-indicator.bottom-left {
+  bottom: 16px;
+  left: 16px;
+}
+
+.network-status-indicator.bottom-right {
+  bottom: 16px;
+  right: 16px;
+}
+
+/* 状态指示器图标 */
+.network-status-icon {
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.network-status-icon:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+/* 网络质量状态样式 */
+.network-status-indicator.excellent {
+  border-color: rgba(82, 196, 26, 0.2);
+}
+
+.network-status-indicator.good {
+  border-color: rgba(24, 144, 255, 0.2);
+}
+
+.network-status-indicator.fair {
+  border-color: rgba(250, 173, 20, 0.2);
+}
+
+.network-status-indicator.poor {
+  border-color: rgba(255, 77, 79, 0.2);
+}
+
+.network-status-indicator.offline {
+  border-color: rgba(255, 77, 79, 0.3);
+  background: rgba(255, 77, 79, 0.1);
+}
+
+/* 状态徽章 */
+.network-status-badge .ant-badge-status-dot {
+  width: 6px;
+  height: 6px;
+  margin-top: -2px;
+  margin-right: -4px;
+}
+
+/* 抽屉样式 */
+.network-status-drawer .ant-drawer-header {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 16px 24px;
+}
+
+.network-status-drawer .ant-drawer-body {
+  padding: 16px;
+  background: #fafafa;
+}
+
+/* 当前状态卡片 */
+.network-status-current {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* 连接历史 */
+.network-history {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.network-history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.network-history-item:last-child {
+  border-bottom: none;
+}
+
+.network-history-time {
+  font-size: 12px;
+  color: #999;
+  min-width: 80px;
+}
+
+.network-history-status {
+  flex: 1;
+  text-align: right;
+}
+
+/* 操作按钮 */
+.network-action-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  background: #fff;
+  color: #1890ff;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.network-action-button:hover {
+  border-color: #40a9ff;
+  background: #f0f8ff;
+}
+
+.network-action-button.secondary {
+  color: #666;
+}
+
+.network-action-button.secondary:hover {
+  color: #1890ff;
+}
+
+/* 提示信息 */
+.network-tips {
+  background: #f6f8fa;
+  border: 1px solid #e1e8ed;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+/* 动画效果 */
+.network-status-indicator {
+  animation: networkStatusSlideIn 0.3s ease-out;
+}
+
+@keyframes networkStatusSlideIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* 状态变化动画 */
+.network-status-indicator.excellent .network-status-icon {
+  animation: networkPulse 2s ease-in-out infinite;
+}
+
+.network-status-indicator.offline .network-status-icon {
+  animation: networkAlert 1s ease-in-out infinite alternate;
+}
+
+@keyframes networkPulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes networkAlert {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .network-status-indicator {
+    padding: 3px;
+  }
+  
+  .network-status-indicator.top-left,
+  .network-status-indicator.top-right {
+    top: 12px;
+  }
+  
+  .network-status-indicator.top-left,
+  .network-status-indicator.bottom-left {
+    left: 12px;
+  }
+  
+  .network-status-indicator.top-right,
+  .network-status-indicator.bottom-right {
+    right: 12px;
+  }
+  
+  .network-status-indicator.bottom-left,
+  .network-status-indicator.bottom-right {
+    bottom: 80px; /* 避免遮挡底部导航栏 */
+  }
+  
+  .network-status-icon {
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+  }
+  
+  .network-status-drawer {
+    width: 90% !important;
+  }
+  
+  .network-action-button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+
+/* 高对比度模式 */
+@media (prefers-contrast: high) {
+  .network-status-indicator {
+    border-width: 2px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .network-status-icon {
+    font-weight: bold;
+  }
+}
+
+/* 减少动画模式 */
+@media (prefers-reduced-motion: reduce) {
+  .network-status-indicator,
+  .network-status-icon,
+  .network-action-button {
+    animation: none;
+    transition: none;
+  }
+}
+
+/* 暗色主题 */
+@media (prefers-color-scheme: dark) {
+  .network-status-indicator {
+    background: rgba(20, 20, 20, 0.9);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .network-status-indicator:hover {
+    background: rgba(20, 20, 20, 0.95);
+  }
+  
+  .network-status-icon:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .network-status-drawer .ant-drawer-body {
+    background: #1a1a1a;
+  }
+  
+  .network-history-item {
+    border-bottom-color: #333;
+  }
+  
+  .network-action-button {
+    background: #262626;
+    border-color: #434343;
+    color: #f0f0f0;
+  }
+  
+  .network-action-button:hover {
+    background: #343434;
+    border-color: #595959;
+  }
+  
+  .network-tips {
+    background: #262626;
+    border-color: #434343;
+  }
+}
