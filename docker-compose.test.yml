@@ -1,0 +1,153 @@
+version: '3.8'
+
+services:
+  # PostgreSQL 测试数据库
+  postgres-test:
+    image: postgres:15-alpine
+    container_name: financial-postgres-test
+    environment:
+      - POSTGRES_DB=test_financial_db
+      - POSTGRES_USER=test_user
+      - POSTGRES_PASSWORD=test_password
+      - POSTGRES_INITDB_ARGS=--encoding=UTF8 --lc-collate=C --lc-ctype=C
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_test_data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    networks:
+      - test-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U test_user -d test_financial_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  # Redis 测试缓存
+  redis-test:
+    image: redis:7-alpine
+    container_name: financial-redis-test
+    ports:
+      - "6380:6379"
+    volumes:
+      - redis_test_data:/data
+    command: redis-server --appendonly yes --bind 0.0.0.0
+    networks:
+      - test-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+
+  # 后端测试服务
+  backend-test:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      target: test
+    container_name: financial-backend-test
+    ports:
+      - "8001:8000"
+    environment:
+      - NODE_ENV=test
+      - DATABASE_URL=postgresql://test_user:test_password@postgres-test:5432/test_financial_db
+      - REDIS_URL=redis://redis-test:6379/0
+      - JWT_SECRET=test-super-secret-jwt-key
+      - PORT=8000
+      - CORS_ORIGIN=http://localhost:3001
+    depends_on:
+      postgres-test:
+        condition: service_healthy
+      redis-test:
+        condition: service_healthy
+    networks:
+      - test-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    command: ["npm", "run", "start:test"]
+
+  # 前端测试服务
+  frontend-test:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      target: test
+    container_name: financial-frontend-test
+    ports:
+      - "3001:3000"
+    environment:
+      - NODE_ENV=test
+      - VITE_API_URL=http://localhost:8001
+      - VITE_API_VERSION=v1
+    depends_on:
+      backend-test:
+        condition: service_healthy
+    networks:
+      - test-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+  # Nginx 测试代理
+  nginx-test:
+    image: nginx:alpine
+    container_name: financial-nginx-test
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx/test.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - frontend-test
+      - backend-test
+    networks:
+      - test-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # 测试数据种子服务
+  test-seeder:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      target: test
+    container_name: financial-test-seeder
+    environment:
+      - NODE_ENV=test
+      - DATABASE_URL=postgresql://test_user:test_password@postgres-test:5432/test_financial_db
+      - REDIS_URL=redis://redis-test:6379/0
+    depends_on:
+      postgres-test:
+        condition: service_healthy
+      redis-test:
+        condition: service_healthy
+    networks:
+      - test-network
+    command: ["npm", "run", "db:seed:test"]
+    restart: "no"
+
+volumes:
+  postgres_test_data:
+    driver: local
+  redis_test_data:
+    driver: local
+
+networks:
+  test-network:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.30.0.0/16

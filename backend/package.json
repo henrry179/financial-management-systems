@@ -16,7 +16,9 @@
     "db:migrate": "prisma migrate dev",
     "db:reset": "prisma migrate reset",
     "db:seed": "tsx prisma/seed.ts",
-    "db:studio": "prisma studio"
+    "db:studio": "prisma studio",
+    "dev:web": "tsx watch --env-file=.env.web src/index.ts",
+    "web": "tsx --env-file=.env.web src/index.web.ts"
   },
   "keywords": [
     "nodejs",

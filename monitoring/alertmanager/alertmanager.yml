@@ -1,0 +1,264 @@
+global:
+  # SMTP配置
+  smtp_smarthost: 'smtp.gmail.com:587'
+  smtp_from: 'alerts@financial-system.com'
+  smtp_auth_username: 'alerts@financial-system.com'
+  smtp_auth_password: '${SMTP_PASSWORD}'
+  smtp_require_tls: true
+  
+  # Slack配置
+  slack_api_url: '${SLACK_WEBHOOK_URL}'
+  
+  # 默认模板
+  resolve_timeout: 5m
+
+# 模板文件
+templates:
+  - '/etc/alertmanager/templates/*.tmpl'
+
+# 路由配置
+route:
+  # 默认接收者
+  receiver: 'default-team'
+  
+  # 分组配置
+  group_by: ['alertname', 'cluster', 'service']
+  group_wait: 10s        # 等待分组时间
+  group_interval: 5m     # 分组发送间隔
+  repeat_interval: 4h    # 重复发送间隔
+  
+  # 子路由
+  routes:
+    # 关键业务告警 - 立即通知
+    - match:
+        severity: critical
+      receiver: 'critical-alerts'
+      group_wait: 0s
+      group_interval: 1m
+      repeat_interval: 30m
+      
+    # 应用告警
+    - match:
+        component: application
+      receiver: 'application-team'
+      group_by: ['alertname', 'service']
+      
+    # 数据库告警
+    - match:
+        component: database
+      receiver: 'database-team'
+      group_by: ['alertname', 'instance']
+      
+    # 基础设施告警
+    - match:
+        component: infrastructure
+      receiver: 'infrastructure-team'
+      group_by: ['alertname', 'instance']
+      
+    # Kubernetes告警
+    - match:
+        component: kubernetes
+      receiver: 'kubernetes-team'
+      
+    # 业务指标告警
+    - match:
+        component: business
+      receiver: 'business-team'
+      group_by: ['alertname']
+      repeat_interval: 2h
+      
+    # 外部服务告警
+    - match:
+        component: external
+      receiver: 'external-services-team'
+      
+    # 监控系统告警
+    - match:
+        component: monitoring
+      receiver: 'monitoring-team'
+      
+    # 非工作时间告警抑制
+    - match:
+        severity: warning
+      receiver: 'low-priority-alerts'
+      active_time_intervals:
+        - business_hours
+
+# 抑制规则
+inhibit_rules:
+  # 服务下线时抑制其他告警
+  - source_matchers:
+      - alertname="ServiceDown"
+    target_matchers:
+      - component="application"
+    equal: ['instance', 'job']
+    
+  # 节点下线时抑制相关告警
+  - source_matchers:
+      - alertname="NodeNotReady"
+    target_matchers:
+      - component="infrastructure"
+    equal: ['instance']
+    
+  # 数据库下线时抑制相关告警
+  - source_matchers:
+      - alertname="PostgreSQLDown"
+    target_matchers:
+      - component="database"
+    equal: ['instance']
+
+# 时间间隔配置
+time_intervals:
+  - name: business_hours
+    time_intervals:
+      - times:
+          - start_time: '09:00'
+            end_time: '18:00'
+        weekdays: ['monday:friday']
+        location: 'Asia/Shanghai'
+
+# 接收者配置
+receivers:
+  # 默认接收者
+  - name: 'default-team'
+    email_configs:
+      - to: 'devops@financial-system.com'
+        subject: '[财务系统] {{ .GroupLabels.alertname }} - {{ .CommonLabels.severity }}'
+        body: |
+          {{ range .Alerts }}
+          告警: {{ .Annotations.summary }}
+          描述: {{ .Annotations.description }}
+          时间: {{ .StartsAt.Format "2006-01-02 15:04:05" }}
+          标签: {{ range .Labels.SortedPairs }}{{ .Name }}={{ .Value }} {{ end }}
+          {{ end }}
+        html: |
+          <h2>财务系统告警通知</h2>
+          <table border="1" style="border-collapse: collapse;">
+            <tr><th>告警</th><th>描述</th><th>时间</th><th>状态</th></tr>
+            {{ range .Alerts }}
+            <tr>
+              <td>{{ .Annotations.summary }}</td>
+              <td>{{ .Annotations.description }}</td>
+              <td>{{ .StartsAt.Format "2006-01-02 15:04:05" }}</td>
+              <td style="color: {{ if eq .Status "firing" }}red{{ else }}green{{ end }}">
+                {{ .Status }}
+              </td>
+            </tr>
+            {{ end }}
+          </table>
+
+  # 关键告警接收者
+  - name: 'critical-alerts'
+    email_configs:
+      - to: 'critical-alerts@financial-system.com'
+        subject: '🚨 [紧急] 财务系统关键告警'
+        body: |
+          ⚠️ 关键告警通知 ⚠️
+          
+          {{ range .Alerts }}
+          告警: {{ .Annotations.summary }}
+          描述: {{ .Annotations.description }}
+          时间: {{ .StartsAt.Format "2006-01-02 15:04:05" }}
+          服务: {{ .Labels.job }}
+          实例: {{ .Labels.instance }}
+          {{ end }}
+          
+          请立即处理此告警！
+    slack_configs:
+      - channel: '#critical-alerts'
+        title: '🚨 财务系统关键告警'
+        text: |
+          {{ range .Alerts }}
+          *告警:* {{ .Annotations.summary }}
+          *描述:* {{ .Annotations.description }}
+          *时间:* {{ .StartsAt.Format "2006-01-02 15:04:05" }}
+          *服务:* {{ .Labels.job }}
+          *实例:* {{ .Labels.instance }}
+          {{ end }}
+        color: 'danger'
+        send_resolved: true
+
+  # 应用团队
+  - name: 'application-team'
+    email_configs:
+      - to: 'app-team@financial-system.com'
+        subject: '[应用告警] {{ .CommonLabels.alertname }}'
+    slack_configs:
+      - channel: '#app-alerts'
+        title: '应用服务告警'
+        color: '{{ if eq .Status "firing" }}warning{{ else }}good{{ end }}'
+
+  # 数据库团队
+  - name: 'database-team'
+    email_configs:
+      - to: 'dba-team@financial-system.com'
+        subject: '[数据库告警] {{ .CommonLabels.alertname }}'
+    slack_configs:
+      - channel: '#database-alerts'
+        title: '数据库告警'
+        color: '{{ if eq .Status "firing" }}warning{{ else }}good{{ end }}'
+
+  # 基础设施团队
+  - name: 'infrastructure-team'
+    email_configs:
+      - to: 'infra-team@financial-system.com'
+        subject: '[基础设施告警] {{ .CommonLabels.alertname }}'
+    slack_configs:
+      - channel: '#infra-alerts'
+        title: '基础设施告警'
+
+  # Kubernetes团队
+  - name: 'kubernetes-team'
+    email_configs:
+      - to: 'k8s-team@financial-system.com'
+        subject: '[K8S告警] {{ .CommonLabels.alertname }}'
+    slack_configs:
+      - channel: '#k8s-alerts'
+        title: 'Kubernetes告警'
+
+  # 业务团队
+  - name: 'business-team'
+    email_configs:
+      - to: 'business-team@financial-system.com'
+        subject: '[业务告警] {{ .CommonLabels.alertname }}'
+    slack_configs:
+      - channel: '#business-alerts'
+        title: '业务指标告警'
+        text: |
+          {{ range .Alerts }}
+          *业务告警:* {{ .Annotations.summary }}
+          *描述:* {{ .Annotations.description }}
+          *影响:* 可能影响用户体验和业务运营
+          {{ end }}
+
+  # 外部服务团队
+  - name: 'external-services-team'
+    email_configs:
+      - to: 'external-team@financial-system.com'
+        subject: '[外部服务告警] {{ .CommonLabels.alertname }}'
+    slack_configs:
+      - channel: '#external-alerts'
+        title: '外部服务告警'
+
+  # 监控团队
+  - name: 'monitoring-team'
+    email_configs:
+      - to: 'monitoring-team@financial-system.com'
+        subject: '[监控系统告警] {{ .CommonLabels.alertname }}'
+
+  # 低优先级告警
+  - name: 'low-priority-alerts'
+    email_configs:
+      - to: 'low-priority@financial-system.com'
+        subject: '[低优先级] {{ .CommonLabels.alertname }}'
+        # 只在工作时间发送
+        send_resolved: false
+
+# Webhook接收者（可选）
+  - name: 'webhook-alerts'
+    webhook_configs:
+      - url: 'https://api.financial-system.com/webhooks/alerts'
+        send_resolved: true
+        http_config:
+          bearer_token: '${WEBHOOK_TOKEN}'
+        max_alerts: 10

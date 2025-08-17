@@ -1,0 +1,330 @@
+groups:
+  # 应用服务告警
+  - name: financial-system-application
+    rules:
+      # 服务可用性告警
+      - alert: ServiceDown
+        expr: up{job=~"financial-(backend|frontend)"} == 0
+        for: 1m
+        labels:
+          severity: critical
+          component: application
+        annotations:
+          summary: "财务系统服务下线"
+          description: "{{ $labels.job }} 服务在 {{ $labels.instance }} 上已下线超过1分钟"
+
+      # 高错误率告警
+      - alert: HighErrorRate
+        expr: |
+          (
+            rate(http_requests_total{job="financial-backend",status=~"5.."}[5m]) /
+            rate(http_requests_total{job="financial-backend"}[5m])
+          ) * 100 > 5
+        for: 5m
+        labels:
+          severity: critical
+          component: application
+        annotations:
+          summary: "后端服务错误率过高"
+          description: "后端服务错误率为 {{ $value | humanizePercentage }}，超过5%阈值"
+
+      # 响应时间过长告警
+      - alert: HighResponseTime
+        expr: histogram_quantile(0.95, rate(http_request_duration_seconds_bucket{job="financial-backend"}[5m])) > 2
+        for: 5m
+        labels:
+          severity: warning
+          component: application
+        annotations:
+          summary: "后端服务响应时间过长"
+          description: "95%分位的响应时间为 {{ $value | humanizeDuration }}，超过2秒阈值"
+
+      # 请求量异常告警
+      - alert: LowRequestVolume
+        expr: rate(http_requests_total{job="financial-backend"}[5m]) < 1
+        for: 10m
+        labels:
+          severity: warning
+          component: application
+        annotations:
+          summary: "后端服务请求量异常低"
+          description: "后端服务请求量为 {{ $value | humanize }} 请求/秒，可能存在问题"
+
+      # 高请求量告警
+      - alert: HighRequestVolume
+        expr: rate(http_requests_total{job="financial-backend"}[5m]) > 1000
+        for: 5m
+        labels:
+          severity: warning
+          component: application
+        annotations:
+          summary: "后端服务请求量过高"
+          description: "后端服务请求量为 {{ $value | humanize }} 请求/秒，可能需要扩容"
+
+  # 数据库告警
+  - name: financial-system-database
+    rules:
+      # PostgreSQL服务下线
+      - alert: PostgreSQLDown
+        expr: pg_up == 0
+        for: 1m
+        labels:
+          severity: critical
+          component: database
+        annotations:
+          summary: "PostgreSQL数据库下线"
+          description: "PostgreSQL数据库 {{ $labels.instance }} 已下线"
+
+      # 数据库连接数过高
+      - alert: PostgreSQLTooManyConnections
+        expr: |
+          (pg_stat_database_numbackends / pg_settings_max_connections{setting="max_connections"}) * 100 > 80
+        for: 5m
+        labels:
+          severity: warning
+          component: database
+        annotations:
+          summary: "PostgreSQL连接数过高"
+          description: "数据库连接使用率为 {{ $value | humanizePercentage }}，超过80%阈值"
+
+      # 数据库查询时间过长
+      - alert: PostgreSQLSlowQueries
+        expr: pg_stat_activity_max_tx_duration{datname="financial_db"} > 300
+        for: 2m
+        labels:
+          severity: warning
+          component: database
+        annotations:
+          summary: "PostgreSQL存在慢查询"
+          description: "数据库存在运行超过5分钟的查询"
+
+      # 数据库磁盘空间不足
+      - alert: PostgreSQLDiskSpaceLow
+        expr: (pg_database_size_bytes / (1024^3)) > 80
+        for: 5m
+        labels:
+          severity: warning
+          component: database
+        annotations:
+          summary: "PostgreSQL磁盘空间不足"
+          description: "数据库大小为 {{ $value | humanize }}GB，可能需要清理或扩容"
+
+  # Redis告警
+  - name: financial-system-redis
+    rules:
+      # Redis服务下线
+      - alert: RedisDown
+        expr: redis_up == 0
+        for: 1m
+        labels:
+          severity: critical
+          component: cache
+        annotations:
+          summary: "Redis缓存服务下线"
+          description: "Redis实例 {{ $labels.instance }} 已下线"
+
+      # Redis内存使用率过高
+      - alert: RedisHighMemoryUsage
+        expr: (redis_memory_used_bytes / redis_memory_max_bytes) * 100 > 90
+        for: 5m
+        labels:
+          severity: warning
+          component: cache
+        annotations:
+          summary: "Redis内存使用率过高"
+          description: "Redis内存使用率为 {{ $value | humanizePercentage }}，超过90%阈值"
+
+      # Redis连接数过高
+      - alert: RedisHighConnections
+        expr: redis_connected_clients > 1000
+        for: 5m
+        labels:
+          severity: warning
+          component: cache
+        annotations:
+          summary: "Redis连接数过高"
+          description: "Redis连接数为 {{ $value }}，可能存在连接泄露"
+
+  # 系统资源告警
+  - name: financial-system-infrastructure
+    rules:
+      # CPU使用率过高
+      - alert: HighCPUUsage
+        expr: (1 - rate(node_cpu_seconds_total{mode="idle"}[5m])) * 100 > 80
+        for: 5m
+        labels:
+          severity: warning
+          component: infrastructure
+        annotations:
+          summary: "服务器CPU使用率过高"
+          description: "节点 {{ $labels.instance }} CPU使用率为 {{ $value | humanizePercentage }}"
+
+      # 内存使用率过高
+      - alert: HighMemoryUsage
+        expr: ((node_memory_MemTotal_bytes - node_memory_MemAvailable_bytes) / node_memory_MemTotal_bytes) * 100 > 85
+        for: 5m
+        labels:
+          severity: warning
+          component: infrastructure
+        annotations:
+          summary: "服务器内存使用率过高"
+          description: "节点 {{ $labels.instance }} 内存使用率为 {{ $value | humanizePercentage }}"
+
+      # 磁盘空间不足
+      - alert: DiskSpaceLow
+        expr: ((node_filesystem_size_bytes - node_filesystem_free_bytes) / node_filesystem_size_bytes) * 100 > 85
+        for: 5m
+        labels:
+          severity: warning
+          component: infrastructure
+        annotations:
+          summary: "服务器磁盘空间不足"
+          description: "节点 {{ $labels.instance }} 磁盘 {{ $labels.mountpoint }} 使用率为 {{ $value | humanizePercentage }}"
+
+      # 磁盘IO过高
+      - alert: HighDiskIO
+        expr: rate(node_disk_io_time_seconds_total[5m]) * 100 > 80
+        for: 5m
+        labels:
+          severity: warning
+          component: infrastructure
+        annotations:
+          summary: "服务器磁盘IO过高"
+          description: "节点 {{ $labels.instance }} 磁盘IO使用率为 {{ $value | humanizePercentage }}"
+
+  # Kubernetes告警
+  - name: financial-system-kubernetes
+    rules:
+      # Pod重启过于频繁
+      - alert: PodCrashLooping
+        expr: rate(kube_pod_container_status_restarts_total{namespace=~"production|staging"}[15m]) > 0
+        for: 5m
+        labels:
+          severity: warning
+          component: kubernetes
+        annotations:
+          summary: "Pod重启频繁"
+          description: "Pod {{ $labels.namespace }}/{{ $labels.pod }} 在过去15分钟内重启了 {{ $value }} 次"
+
+      # Pod处于Pending状态
+      - alert: PodStuckInPending
+        expr: kube_pod_status_phase{phase="Pending",namespace=~"production|staging"} == 1
+        for: 10m
+        labels:
+          severity: warning
+          component: kubernetes
+        annotations:
+          summary: "Pod长时间处于Pending状态"
+          description: "Pod {{ $labels.namespace }}/{{ $labels.pod }} 已处于Pending状态超过10分钟"
+
+      # 节点资源不足
+      - alert: NodeNotReady
+        expr: kube_node_status_condition{condition="Ready",status="true"} == 0
+        for: 5m
+        labels:
+          severity: critical
+          component: kubernetes
+        annotations:
+          summary: "Kubernetes节点未就绪"
+          description: "节点 {{ $labels.node }} 未处于Ready状态"
+
+  # 业务指标告警
+  - name: financial-system-business
+    rules:
+      # 登录失败率过高
+      - alert: HighLoginFailureRate
+        expr: |
+          (
+            rate(login_attempts_total{status="failed"}[5m]) /
+            rate(login_attempts_total[5m])
+          ) * 100 > 20
+        for: 5m
+        labels:
+          severity: warning
+          component: business
+        annotations:
+          summary: "登录失败率过高"
+          description: "登录失败率为 {{ $value | humanizePercentage }}，可能存在安全问题"
+
+      # 交易处理异常
+      - alert: TransactionProcessingError
+        expr: rate(transaction_processing_errors_total[5m]) > 1
+        for: 2m
+        labels:
+          severity: critical
+          component: business
+        annotations:
+          summary: "交易处理出现错误"
+          description: "交易处理错误率为 {{ $value }} 错误/秒"
+
+      # 用户活跃度异常低
+      - alert: LowUserActivity
+        expr: increase(user_sessions_total[1h]) < 10
+        for: 30m
+        labels:
+          severity: warning
+          component: business
+        annotations:
+          summary: "用户活跃度异常低"
+          description: "过去1小时内仅有 {{ $value }} 个用户会话，低于正常水平"
+
+  # 外部服务告警
+  - name: financial-system-external
+    rules:
+      # 网站可访问性
+      - alert: WebsiteDown
+        expr: probe_success{job="blackbox-http"} == 0
+        for: 2m
+        labels:
+          severity: critical
+          component: external
+        annotations:
+          summary: "网站无法访问"
+          description: "网站 {{ $labels.instance }} 无法访问，已持续2分钟"
+
+      # SSL证书即将过期
+      - alert: SSLCertificateExpiringSoon
+        expr: (probe_ssl_earliest_cert_expiry - time()) / 3600 / 24 < 30
+        for: 1h
+        labels:
+          severity: warning
+          component: external
+        annotations:
+          summary: "SSL证书即将过期"
+          description: "网站 {{ $labels.instance }} 的SSL证书将在 {{ $value | humanize }} 天后过期"
+
+      # DNS解析失败
+      - alert: DNSResolutionFailure
+        expr: probe_success{job="blackbox-dns"} == 0
+        for: 5m
+        labels:
+          severity: warning
+          component: external
+        annotations:
+          summary: "DNS解析失败"
+          description: "域名 {{ $labels.instance }} DNS解析失败"
+
+  # 监控系统自身告警
+  - name: monitoring-system
+    rules:
+      # Prometheus目标下线
+      - alert: PrometheusTargetDown
+        expr: up == 0
+        for: 5m
+        labels:
+          severity: warning
+          component: monitoring
+        annotations:
+          summary: "Prometheus监控目标下线"
+          description: "监控目标 {{ $labels.job }}/{{ $labels.instance }} 已下线"
+
+      # Prometheus配置重载失败
+      - alert: PrometheusConfigReloadFailed
+        expr: prometheus_config_last_reload_successful != 1
+        for: 5m
+        labels:
+          severity: warning
+          component: monitoring
+        annotations:
+          summary: "Prometheus配置重载失败"
+          description: "Prometheus配置重载失败，请检查配置文件"
