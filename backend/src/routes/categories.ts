@@ -127,4 +127,71 @@ router.get(
   asyncHandler(categoryController.getCategoryStatistics.bind(categoryController))
 );
 
+// 高级分类功能路由
+router.get(
+  '/stats/user',
+  asyncHandler(categoryController.getUserCategoryStats.bind(categoryController))
+);
+
+router.get(
+  '/:id/trends',
+  uuidParamValidation,
+  validateRequest,
+  asyncHandler(categoryController.getCategoryTrends.bind(categoryController))
+);
+
+router.post(
+  '/suggestions',
+  [
+    body('description')
+      .isLength({ min: 1, max: 500 })
+      .withMessage('Description must be 1-500 characters long'),
+    body('amount')
+      .isDecimal({ decimal_digits: '0,2' })
+      .withMessage('Amount must be a valid decimal number'),
+    body('type')
+      .isIn(['INCOME', 'EXPENSE'])
+      .withMessage('Type must be INCOME or EXPENSE'),
+  ],
+  validateRequest,
+  asyncHandler(categoryController.getSuggestedCategories.bind(categoryController))
+);
+
+router.get(
+  '/analysis/usage',
+  asyncHandler(categoryController.getCategoryUsageAnalysis.bind(categoryController))
+);
+
+router.post(
+  '/batch-operations',
+  [
+    body('operations')
+      .isArray({ min: 1, max: 50 })
+      .withMessage('operations must be an array with 1-50 items'),
+    body('operations.*.categoryId')
+      .isUUID()
+      .withMessage('Each categoryId must be a valid UUID'),
+    body('operations.*.operation')
+      .isIn(['activate', 'deactivate', 'delete', 'merge'])
+      .withMessage('Each operation must be one of: activate, deactivate, delete, merge'),
+    body('operations.*.targetCategoryId')
+      .optional()
+      .isUUID()
+      .withMessage('targetCategoryId must be a valid UUID when provided'),
+  ],
+  validateRequest,
+  asyncHandler(categoryController.batchUpdateCategories.bind(categoryController))
+);
+
+router.post(
+  '/import-template',
+  [
+    body('templateType')
+      .isIn(['basic', 'detailed', 'business'])
+      .withMessage('templateType must be one of: basic, detailed, business'),
+  ],
+  validateRequest,
+  asyncHandler(categoryController.importCategoryTemplate.bind(categoryController))
+);
+
 export default router; 

@@ -132,4 +132,164 @@ router.get(
   asyncHandler(accountController.getAccountStatistics.bind(accountController))
 );
 
+// 实时余额管理路由
+router.post(
+  '/:id/sync-balance',
+  uuidParamValidation,
+  validateRequest,
+  asyncHandler(accountController.syncAccountBalance.bind(accountController))
+);
+
+router.post(
+  '/sync-all-balances',
+  asyncHandler(accountController.syncAllAccountBalances.bind(accountController))
+);
+
+router.get(
+  '/:id/validate-balance',
+  uuidParamValidation,
+  validateRequest,
+  asyncHandler(accountController.validateAccountBalance.bind(accountController))
+);
+
+// 多币种统计路由
+router.get(
+  '/:id/multi-currency-stats',
+  uuidParamValidation,
+  validateRequest,
+  asyncHandler(accountController.getAccountMultiCurrencyStats.bind(accountController))
+);
+
+// 账户状态管理路由
+router.put(
+  '/:id/status',
+  [
+    ...uuidParamValidation,
+    body('isActive')
+      .isBoolean()
+      .withMessage('isActive must be a boolean'),
+    body('reason')
+      .optional()
+      .isLength({ max: 500 })
+      .withMessage('reason must not exceed 500 characters'),
+  ],
+  validateRequest,
+  asyncHandler(accountController.updateAccountStatus.bind(accountController))
+);
+
+router.post(
+  '/batch-status-update',
+  [
+    body('accountIds')
+      .isArray({ min: 1, max: 50 })
+      .withMessage('accountIds must be an array with 1-50 items'),
+    body('accountIds.*')
+      .isUUID()
+      .withMessage('Each accountId must be a valid UUID'),
+    body('isActive')
+      .isBoolean()
+      .withMessage('isActive must be a boolean'),
+    body('reason')
+      .optional()
+      .isLength({ max: 500 })
+      .withMessage('reason must not exceed 500 characters'),
+  ],
+  validateRequest,
+  asyncHandler(accountController.batchUpdateAccountStatus.bind(accountController))
+);
+
+router.get(
+  '/:id/status-history',
+  uuidParamValidation,
+  validateRequest,
+  asyncHandler(accountController.getAccountStatusHistory.bind(accountController))
+);
+
+router.get(
+  '/status-stats',
+  asyncHandler(accountController.getUserAccountStatusStats.bind(accountController))
+);
+
+router.post(
+  '/auto-deactivate-inactive',
+  [
+    body('inactiveDays')
+      .optional()
+      .isInt({ min: 30, max: 3650 })
+      .withMessage('inactiveDays must be an integer between 30 and 3650'),
+    body('dryRun')
+      .optional()
+      .isBoolean()
+      .withMessage('dryRun must be a boolean'),
+  ],
+  validateRequest,
+  asyncHandler(accountController.autoDeactivateInactiveAccounts.bind(accountController))
+);
+
+router.get(
+  '/status-validation-report',
+  asyncHandler(accountController.getAccountStatusValidationReport.bind(accountController))
+);
+
+// 账户删除保护相关路由
+router.get(
+  '/:id/deletion-protection',
+  uuidParamValidation,
+  validateRequest,
+  asyncHandler(accountController.checkAccountDeletionProtection.bind(accountController))
+);
+
+router.post(
+  '/batch-delete',
+  [
+    body('accountIds')
+      .isArray({ min: 1, max: 50 })
+      .withMessage('accountIds must be an array with 1-50 items'),
+    body('accountIds.*')
+      .isUUID()
+      .withMessage('Each accountId must be a valid UUID'),
+    body('forceDelete')
+      .optional()
+      .isBoolean()
+      .withMessage('forceDelete must be a boolean'),
+  ],
+  validateRequest,
+  asyncHandler(accountController.batchSafeDeleteAccounts.bind(accountController))
+);
+
+router.post(
+  '/:id/restore',
+  [
+    ...uuidParamValidation,
+    body('reason')
+      .optional()
+      .isLength({ max: 500 })
+      .withMessage('reason must not exceed 500 characters'),
+  ],
+  validateRequest,
+  asyncHandler(accountController.restoreDeletedAccount.bind(accountController))
+);
+
+router.get(
+  '/deleted',
+  asyncHandler(accountController.getDeletedAccounts.bind(accountController))
+);
+
+router.delete(
+  '/:id/permanent',
+  uuidParamValidation,
+  validateRequest,
+  asyncHandler(accountController.permanentDeleteAccount.bind(accountController))
+);
+
+router.get(
+  '/deletion-history',
+  asyncHandler(accountController.getAccountDeletionHistory.bind(accountController))
+);
+
+router.get(
+  '/deletion-protection-report',
+  asyncHandler(accountController.getAccountDeletionProtectionReport.bind(accountController))
+);
+
 export default router; 

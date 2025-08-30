@@ -14,6 +14,7 @@ import transactionRoutes from './routes/transactions';
 import categoryRoutes from './routes/categories';
 import budgetRoutes from './routes/budgets';
 import reportRoutes from './routes/reports';
+import currencyRoutes from './routes/currencies';
 
 // Import middleware
 import { errorHandler } from './middleware/errorHandler';
@@ -78,6 +79,7 @@ app.use(`${API_PREFIX}/transactions`, validateAuth, transactionRoutes);
 app.use(`${API_PREFIX}/categories`, validateAuth, categoryRoutes);
 app.use(`${API_PREFIX}/budgets`, validateAuth, budgetRoutes);
 app.use(`${API_PREFIX}/reports`, validateAuth, reportRoutes);
+app.use(`${API_PREFIX}/currencies`, currencyRoutes);
 
 // API documentation endpoint
 app.get(`${API_PREFIX}/docs`, (req, res) => {
@@ -93,6 +95,7 @@ app.get(`${API_PREFIX}/docs`, (req, res) => {
       categories: `${API_PREFIX}/categories`,
       budgets: `${API_PREFIX}/budgets`,
       reports: `${API_PREFIX}/reports`,
+      currencies: `${API_PREFIX}/currencies`,
     },
   });
 });
