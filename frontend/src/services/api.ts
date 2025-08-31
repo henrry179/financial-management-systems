@@ -1,13 +1,13 @@
 import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
 
-// API配置
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+// API配置 - 使用相对路径，由Vite代理处理
+const API_BASE_URL = ''; // 使用相对路径，由代理处理
 const API_VERSION = import.meta.env.VITE_API_VERSION || 'v1';
 const API_PREFIX = `/api/${API_VERSION}`;
 
 // 创建axios实例
 const apiClient: AxiosInstance = axios.create({
-  baseURL: `${API_BASE_URL}${API_PREFIX}`,
+  baseURL: API_BASE_URL + API_PREFIX,
   timeout: 30000,
   headers: {
     'Content-Type': 'application/json',
