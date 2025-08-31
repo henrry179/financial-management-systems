@@ -15,6 +15,7 @@ import categoryRoutes from './routes/categories';
 import budgetRoutes from './routes/budgets';
 import reportRoutes from './routes/reports';
 import currencyRoutes from './routes/currencies';
+import claudeMemoryRoutes from './routes/claudeMemory';
 
 // Import middleware
 import { errorHandler } from './middleware/errorHandler';
@@ -80,6 +81,7 @@ app.use(`${API_PREFIX}/categories`, validateAuth, categoryRoutes);
 app.use(`${API_PREFIX}/budgets`, validateAuth, budgetRoutes);
 app.use(`${API_PREFIX}/reports`, validateAuth, reportRoutes);
 app.use(`${API_PREFIX}/currencies`, currencyRoutes);
+app.use(`${API_PREFIX}/claude`, claudeMemoryRoutes);
 
 // API documentation endpoint
 app.get(`${API_PREFIX}/docs`, (req, res) => {
@@ -96,6 +98,7 @@ app.get(`${API_PREFIX}/docs`, (req, res) => {
       budgets: `${API_PREFIX}/budgets`,
       reports: `${API_PREFIX}/reports`,
       currencies: `${API_PREFIX}/currencies`,
+      claude: `${API_PREFIX}/claude`,
     },
   });
 });

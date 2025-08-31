@@ -150,8 +150,8 @@ python tools/launchers/quick-launch.py
 | 📊 **交易记录** | ![完成](https://img.shields.io/badge/状态-✅_完成-28a745?style=flat-square) | ![100%](https://img.shields.io/badge/完成度-100%25-28a745?style=flat-square) | 交易CRUD、统计分析、批量操作 |
 | 🚀 **API服务** | ![完成](https://img.shields.io/badge/状态-✅_完成-28a745?style=flat-square) | ![100%](https://img.shields.io/badge/完成度-100%25-28a745?style=flat-square) | RESTful API、业务逻辑完整实现 |
 | 🗂️ **项目结构** | ![完成](https://img.shields.io/badge/状态-✅_完成-28a745?style=flat-square) | ![100%](https://img.shields.io/badge/完成度-100%25-28a745?style=flat-square) | 模块化组织、工具整合、资源管理 |
-| 🎨 **前端框架** | ![计划中](https://img.shields.io/badge/状态-📋_计划中-blue?style=flat-square) | ![0%](https://img.shields.io/badge/完成度-0%25-red?style=flat-square) | React组件、路由、状态管理 |
-| 📊 **数据可视化** | ![计划中](https://img.shields.io/badge/状态-📋_计划中-blue?style=flat-square) | ![0%](https://img.shields.io/badge/完成度-0%25-red?style=flat-square) | ECharts图表、多BI风格看板 |
+| 🎨 **前端框架** | ![开发中](https://img.shields.io/badge/状态-🚧_开发中-orange?style=flat-square) | ![60%](https://img.shields.io/badge/完成度-60%25-orange?style=flat-square) | React组件、路由、状态管理 |
+| 📊 **数据可视化** | ![已完成](https://img.shields.io/badge/状态-✅_完成-28a745?style=flat-square) | ![100%](https://img.shields.io/badge/完成度-100%25-28a745?style=flat-square) | ECharts图表、多BI风格看板 |
 | 📱 **移动适配** | ![计划中](https://img.shields.io/badge/状态-📋_计划中-blue?style=flat-square) | ![0%](https://img.shields.io/badge/完成度-0%25-red?style=flat-square) | 响应式设计、PWA支持 |
 | 🧪 **测试覆盖** | ![计划中](https://img.shields.io/badge/状态-📋_计划中-blue?style=flat-square) | ![0%](https://img.shields.io/badge/完成度-0%25-red?style=flat-square) | 单元测试、集成测试 |
 
@@ -256,7 +256,18 @@ python tools/launchers/quick-launch.py
 
 ### 3.3 🔄 **最新开发进度记录**
 
-**最后更新**: 2025-08-30 10:51:00
+**最后更新**: 2025-08-31 [当前时间]
+
+- **2025-08-31** - 🎨 **前端BI可视化模块开发完成！四大BI风格看板全面实现**
+  - ✅ **Tableau风格看板**: 完成经典蓝白配色设计，支持交互式数据探索和智能筛选
+  - ✅ **Power BI风格看板**: 实现Microsoft设计语言，AI驱动的洞察分析和现代化KPI展示
+  - ✅ **帆软BI风格看板**: 完成企业级中文界面，标签页式数据导航和专业报表导出
+  - ✅ **观远BI风格看板**: 实现AI智能分析引擎，智能预警系统和雷达图洞察分析
+  - 🔧 **技术实现**: 基于React + ECharts构建，支持实时数据刷新和响应式设计
+  - 📊 **功能特性**: 一键切换BI风格、智能数据筛选、多维度分析、专业报告导出
+  - 🚀 **部署状态**: 前端开发服务器已启动 (http://localhost:3004)，支持实时预览
+  - ⚠️ **当前问题**: 后端TypeScript编译错误导致API服务无法启动，登录功能暂时不可用
+  - 🔄 **下一步计划**: 修复后端编译错误，连接真实API数据，完善用户认证流程
 
 - **2025-08-30 10:51:00** - 🗂️ **项目结构优化完成！完成模块化文件组织和工具整合**
   - ✅ **文件结构整理**：将分散的脚本、工具、资源文件整合到统一的目录结构中
@@ -1349,38 +1360,11 @@ git push origin feature/awesome-feature
 
 ---
 
-<div align="center">
-
-## 🌟 **支持项目发展**
-
-**如果这个项目对您有帮助，请给我们一个⭐**
-
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/financial-management-system.svg?style=social&label=Star&maxAge=2592000)](https://github.com/yourusername/financial-management-system/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/financial-management-system.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/yourusername/financial-management-system/network)
-[![GitHub watchers](https://img.shields.io/github/watchers/yourusername/financial-management-system.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/yourusername/financial-management-system/watchers)
-
-### 🚀 **让我们一起构建更好的财务管理解决方案！**
-
----
-
-*最后更新: 2025-07-03 20:49:33
-
-- **2025-07-03 22:45:00** - 📚 **POTM 全章节双语合并文档生成完成！成功合并 potm-details 目录内全部章节，生成《Principles of Trading Mastery》完整双语合并文档。**
-  - ✅ **核心改进**：生成并输出 tradingimages/potm/Principles_of_Trading_Mastery_Combined_Bilingual.md，确保章节顺序与双语格式一致。
-  - 🔧 **技术优化**：新建 merge_potm_details.py 脚本，自动扫描目录、跳过冗余标题、为每章添加分隔符，输出综合文档。
-  - 🔄 **下一步计划**：提取经济数据指标并创建指标汇总表格，更新至文档末尾。
-
-- **2025-07-03 21:30:00**
-```
-</div>
-
----
-
 ## 15. 📚 参考资料
 
 <div align="center">
 
-### 15.1 **📚 参考资料**
+### 📖 **技术文档与学习资源**
 
 </div>
 
@@ -1388,7 +1372,7 @@ git push origin feature/awesome-feature
 <tr>
 <td width="50%">
 
-### 15.2 📚 **技术文档**
+### 🔧 **技术文档**
 
 - [React 官方文档](https://reactjs.org/docs/getting-started.html)
 - [Ant Design 官方文档](https://ant.design/docs/react/introduce)
@@ -1399,7 +1383,7 @@ git push origin feature/awesome-feature
 </td>
 <td width="50%">
 
-### 15.3 📚 **学习资源**
+### 📚 **学习资源**
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/)
 - [FreeCodeCamp](https://www.freecodecamp.org/)
@@ -1413,11 +1397,11 @@ git push origin feature/awesome-feature
 
 ---
 
-## 16. 📝 常见问题解答
+## 16. ❓ 常见问题解答
 
 <div align="center">
 
-### 16.1 **📝 常见问题解答**
+### 💬 **FAQ - 快速解答常见问题**
 
 </div>
 
@@ -1425,24 +1409,30 @@ git push origin feature/awesome-feature
 <tr>
 <td width="50%">
 
-### 16.2 📝 **使用问题**
+### 🔧 **使用问题**
 
-- **Q:** 如何导入已有的账户数据？
-  - **A:** 您可以使用我们提供的数据导入工具，按照指引操作即可。
+**Q: 如何导入已有的账户数据？**
+- A: 使用 `resources/import-templates/` 中的Excel模板，支持微信支付和支付宝账单导入
 
-- **Q:** 如何备份我的数据？
-  - **A:** 您可以使用我们提供的数据备份工具，按照指引操作即可。
+**Q: 如何备份我的数据？**
+- A: 系统提供自动备份功能，也可手动导出数据为JSON或Excel格式
+
+**Q: 支持哪些货币？**
+- A: 支持14种主流货币，包括人民币、美元、欧元等，支持实时汇率转换
 
 </td>
 <td width="50%">
 
-### 16.3 📝 **技术问题**
+### ⚙️ **技术问题**
 
-- **Q:** 如何解决Docker镜像拉取失败的问题？
-  - **A:** 您可以尝试使用我们提供的智能镜像拉取脚本，它会自动诊断并修复网络问题。
+**Q: 如何解决Docker镜像拉取失败？**
+- A: 使用 `python tools/system-scripts/fix_docker_system.py` 自动诊断修复
 
-- **Q:** 如何优化系统性能？
-  - **A:** 您可以参考我们的性能优化指南，按照建议进行优化。
+**Q: 系统启动失败怎么办？**
+- A: 使用 `python tools/launchers/quick-launch.py` 选择合适的启动模式
+
+**Q: 如何优化系统性能？**
+- A: 参考项目结构文档，使用推荐的开发环境配置
 
 </td>
 </tr>
@@ -1450,11 +1440,11 @@ git push origin feature/awesome-feature
 
 ---
 
-## 17. 📝 更新日志
+## 17. 🤝 贡献指南
 
 <div align="center">
 
-### 17.1 **📝 更新日志**
+### 👥 **欢迎加入我们的开发者社区**
 
 </div>
 
@@ -1462,91 +1452,11 @@ git push origin feature/awesome-feature
 <tr>
 <td width="50%">
 
-### 17.2 📝 **最新更新**
+### 🎯 **如何贡献**
 
-- **2025-07-03** - 📚 **POTM 全章节双语合并文档生成完成！成功合并 potm-details 目录内全部章节，生成《Principles of Trading Mastery》完整双语合并文档。**
-  - ✅ **核心改进**：生成并输出 tradingimages/potm/Principles_of_Trading_Mastery_Combined_Bilingual.md，确保章节顺序与双语格式一致。
-  - 🔧 **技术优化**：新建 merge_potm_details.py 脚本，自动扫描目录、跳过冗余标题、为每章添加分隔符，输出综合文档。
-  - 🔄 **下一步计划**：提取经济数据指标并创建指标汇总表格，更新至文档末尾。
-
-</td>
-<td width="50%">
-
-### 17.3 📝 **历史更新**
-
-- **2025-07-03** - 📚 **PFTM 章节双语格式化与合并脚本更新完成！已修正 merge_bilingual_outline.py 路径，支持自动合并 pftm-details 所有 28 章，并生成完整《Professional Forex Trading Masterclass》双语合并文档。**
-  - ✅ **核心改进**：脚本现在扫描 tradingimages/pftm/pftm-details/ 目录，输出到 tradingimages/pftm/Professional_Forex_Trading_Masterclass_Combined_Bilingual.md。
-  - 🔧 **技术优化**：增强文件路径兼容性，确保输出目录存在，便于后续文档管理。
-  - 🔄 **下一步计划**：运行脚本生成最新合并文档，检查章节顺序及经济数据指标表格。
-
-- **2025-06-29** - 📚 **公网部署路线图文档创建完成！详细记录了从开发到公网部署的完整执行计划：创建了docs/DEPLOYMENT_ROADMAP.md文档，包含开发/测试/部署三阶段的详细任务拆解、技术选型、时间规划、成本预估等内容。文档已在README主页添加快速访问链接，方便用户查阅完整的部署指南**
-  - ✅ **核心改进**：创建了独立的部署路线图文档（DEPLOYMENT_ROADMAP.md）、整理了三阶段任务的详细表格、提供了具体的执行计划和时间线、添加了Docker vs 传统部署的对比分析、在README主页多处添加了文档链接
-  - 🔧 **文档结构**：开发与测试阶段对比表、开发阶段任务拆解（15个任务）、测试阶段任务拆解（6类测试）、部署阶段任务拆解（5个步骤）、关键检查点、注意事项、成本预估
-  - 📊 **量化指标**：文档完整性100%、覆盖4周开发周期、包含20+个具体任务、3种部署方式对比、预估成本600-1000元/月
-
-</td>
-</tr>
-</table>
-
----
-
-## 18. 📝 版本历史
-
-<div align="center">
-
-### 18.1 **📝 版本历史**
-
-</div>
-
-<table>
-<tr>
-<td width="50%">
-
-### 18.2 📝 **最新版本**
-
-- **v1.0.0** - 📚 **POTM 全章节双语合并文档生成完成！成功合并 potm-details 目录内全部章节，生成《Principles of Trading Mastery》完整双语合并文档。**
-  - ✅ **核心改进**：生成并输出 tradingimages/potm/Principles_of_Trading_Mastery_Combined_Bilingual.md，确保章节顺序与双语格式一致。
-  - 🔧 **技术优化**：新建 merge_potm_details.py 脚本，自动扫描目录、跳过冗余标题、为每章添加分隔符，输出综合文档。
-  - 🔄 **下一步计划**：提取经济数据指标并创建指标汇总表格，更新至文档末尾。
-
-</td>
-<td width="50%">
-
-### 18.3 📝 **历史版本**
-
-- **v0.9.0** - 📚 **PFTM 章节双语格式化与合并脚本更新完成！已修正 merge_bilingual_outline.py 路径，支持自动合并 pftm-details 所有 28 章，并生成完整《Professional Forex Trading Masterclass》双语合并文档。**
-  - ✅ **核心改进**：脚本现在扫描 tradingimages/pftm/pftm-details/ 目录，输出到 tradingimages/pftm/Professional_Forex_Trading_Masterclass_Combined_Bilingual.md。
-  - 🔧 **技术优化**：增强文件路径兼容性，确保输出目录存在，便于后续文档管理。
-  - 🔄 **下一步计划**：运行脚本生成最新合并文档，检查章节顺序及经济数据指标表格。
-
-- **v0.8.0** - 📚 **公网部署路线图文档创建完成！详细记录了从开发到公网部署的完整执行计划：创建了docs/DEPLOYMENT_ROADMAP.md文档，包含开发/测试/部署三阶段的详细任务拆解、技术选型、时间规划、成本预估等内容。文档已在README主页添加快速访问链接，方便用户查阅完整的部署指南**
-  - ✅ **核心改进**：创建了独立的部署路线图文档（DEPLOYMENT_ROADMAP.md）、整理了三阶段任务的详细表格、提供了具体的执行计划和时间线、添加了Docker vs 传统部署的对比分析、在README主页多处添加了文档链接
-  - 🔧 **文档结构**：开发与测试阶段对比表、开发阶段任务拆解（15个任务）、测试阶段任务拆解（6类测试）、部署阶段任务拆解（5个步骤）、关键检查点、注意事项、成本预估
-  - 📊 **量化指标**：文档完整性100%、覆盖4周开发周期、包含20+个具体任务、3种部署方式对比、预估成本600-1000元/月
-
-</td>
-</tr>
-</table>
-
----
-
-## 19. 📝 贡献指南
-
-<div align="center">
-
-### 19.1 **📝 贡献指南**
-
-</div>
-
-<table>
-<tr>
-<td width="50%">
-
-### 19.2 📝 **如何贡献**
-
-- 🐛 **发现Bug** - [提交Issue](https://github.com/yourusername/financial-management-system/issues/new?template=bug_report.md)
-- 💡 **功能建议** - [功能请求](https://github.com/yourusername/financial-management-system/issues/new?template=feature_request.md)
-- 📝 **改进文档** - 帮助完善项目文档
+- 🐛 **Bug报告** - [提交Issue](https://github.com/henrry179/financial-management-systems/issues/new)
+- 💡 **功能建议** - 分享您的创意想法
+- 📝 **文档改进** - 帮助完善项目文档
 - 💻 **代码贡献** - 提交Pull Request
 - 🌍 **本地化** - 多语言翻译支持
 - 🎨 **UI/UX** - 界面设计优化
@@ -1554,12 +1464,18 @@ git push origin feature/awesome-feature
 </td>
 <td width="50%">
 
-### 19.3 📝 **贡献规范**
+### 📋 **贡献规范**
 
 - ✅ 遵循代码规范 (ESLint + Prettier)
-- ✅ 编写单元测试
-- ✅ 更新相关文档
-- ✅ 提交信息规范 (Conventional Commits)
+- ✅ 编写单元测试和文档
+- ✅ 使用规范的提交信息 (Conventional Commits)
+- ✅ 参与代码审查和讨论
+
+**贡献流程:**
+1. Fork项目到个人仓库
+2. 创建功能分支
+3. 开发并测试
+4. 提交Pull Request
 
 </td>
 </tr>
@@ -1567,20 +1483,19 @@ git push origin feature/awesome-feature
 
 ---
 
-## 20. 📝 联系我们
+## 18. 📞 联系我们
 
 <div align="center">
 
-### 20.1 **📝 联系我们**
+### 💬 **多种方式与我们取得联系**
 
 </div>
 
 <table>
 <tr>
-<td width="50%">
+<td align="center" width="25%">
 
-### 20.2 📝 **邮件支持**
-
+### 📧 **邮件支持**
 ![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)
 
 [support@financial-system.com](mailto:support@financial-system.com)
@@ -1588,37 +1503,32 @@ git push origin feature/awesome-feature
 *工作日24小时内回复*
 
 </td>
-<td width="50%">
+<td align="center" width="25%">
 
-### 20.3 📝 **社区讨论**
-
+### 💭 **社区讨论**
 ![Discussions](https://img.shields.io/badge/Discussions-181717?style=for-the-badge&logo=github&logoColor=white)
 
-[GitHub Discussions](https://github.com/yourusername/financial-management-system/discussions)
+[GitHub Discussions](https://github.com/henrry179/financial-management-systems/discussions)
 
 *技术交流与问题讨论*
 
 </td>
-</tr>
-<tr>
-<td width="50%">
+<td align="center" width="25%">
 
-### 20.4 📝 **问题反馈**
-
+### 🐛 **问题反馈**
 ![Issues](https://img.shields.io/badge/Issues-181717?style=for-the-badge&logo=github&logoColor=white)
 
-[GitHub Issues](https://github.com/yourusername/financial-management-system/issues)
+[GitHub Issues](https://github.com/henrry179/financial-management-systems/issues)
 
 *Bug报告与功能请求*
 
 </td>
-<td width="50%">
+<td align="center" width="25%">
 
-### 20.5 📝 **项目看板**
-
+### 📋 **项目看板**
 ![Projects](https://img.shields.io/badge/Projects-181717?style=for-the-badge&logo=github&logoColor=white)
 
-[项目路线图](https://github.com/yourusername/financial-management-system/projects)
+[项目路线图](https://github.com/henrry179/financial-management-systems/projects)
 
 *开发进度与规划*
 
@@ -1628,11 +1538,9 @@ git push origin feature/awesome-feature
 
 ---
 
-## 21. 📝 许可证
+## 19. 📄 许可证
 
 <div align="center">
-
-### 21.1 **📝 许可证**
 
 本项目采用 **MIT 许可证** - 详情请查看 [LICENSE](LICENSE) 文件
 
@@ -1644,17 +1552,15 @@ git push origin feature/awesome-feature
 
 ---
 
-## 22. 📝 致谢
+## 20. 🙏 致谢
 
 <div align="center">
 
-### 22.1 **📝 致谢**
-
-</div>
+### 感谢以下优秀的开源项目为我们提供强大支持
 
 <table>
 <tr>
-<td width="20%">
+<td align="center" width="20%">
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 
@@ -1662,7 +1568,7 @@ git push origin feature/awesome-feature
 *用户界面构建库*
 
 </td>
-<td width="20%">
+<td align="center" width="20%">
 
 [![Ant Design](https://img.shields.io/badge/Ant%20Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white)](https://ant.design/)
 
@@ -1670,7 +1576,7 @@ git push origin feature/awesome-feature
 *企业级UI组件库*
 
 </td>
-<td width="20%">
+<td align="center" width="20%">
 
 [![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)](https://prisma.io/)
 
@@ -1678,7 +1584,7 @@ git push origin feature/awesome-feature
 *现代化数据库工具*
 
 </td>
-<td width="20%">
+<td align="center" width="20%">
 
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 
@@ -1686,7 +1592,7 @@ git push origin feature/awesome-feature
 *JavaScript运行环境*
 
 </td>
-<td width="20%">
+<td align="center" width="20%">
 
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com/)
 
@@ -1697,29 +1603,24 @@ git push origin feature/awesome-feature
 </tr>
 </table>
 
+</div>
+
 ---
 
 <div align="center">
 
-## 🌟 **支持项目发展**
+## 🌟 支持项目发展
 
 **如果这个项目对您有帮助，请给我们一个⭐**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/financial-management-system.svg?style=social&label=Star&maxAge=2592000)](https://github.com/yourusername/financial-management-system/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/financial-management-system.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/yourusername/financial-management-system/network)
-[![GitHub watchers](https://img.shields.io/github/watchers/yourusername/financial-management-system.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/yourusername/financial-management-system/watchers)
+[![GitHub stars](https://img.shields.io/github/stars/henrry179/financial-management-systems.svg?style=social&label=Star&maxAge=2592000)](https://github.com/henrry179/financial-management-systems/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/henrry179/financial-management-systems.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/henrry179/financial-management-systems/network)
+[![GitHub watchers](https://img.shields.io/github/watchers/henrry179/financial-management-systems.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/henrry179/financial-management-systems/watchers)
 
-### 🚀 **让我们一起构建更好的财务管理解决方案！**
+### 🚀 让我们一起构建更好的财务管理解决方案！
 
 ---
 
-*最后更新: 2025-07-03 20:49:33
+*最后更新时间：2025-08-30 10:52:00*
 
-- **2025-07-03 22:45:00** - 📚 **POTM 全章节双语合并文档生成完成！成功合并 potm-details 目录内全部章节，生成《Principles of Trading Mastery》完整双语合并文档。**
-  - ✅ **核心改进**：生成并输出 tradingimages/potm/Principles_of_Trading_Mastery_Combined_Bilingual.md，确保章节顺序与双语格式一致。
-  - 🔧 **技术优化**：新建 merge_potm_details.py 脚本，自动扫描目录、跳过冗余标题、为每章添加分隔符，输出综合文档。
-  - 🔄 **下一步计划**：提取经济数据指标并创建指标汇总表格，更新至文档末尾。
-
-- **2025-07-03 21:30:00**
-```
 </div>

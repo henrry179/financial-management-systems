@@ -33,6 +33,10 @@ model User {
   budgets      Budget[]
   reports      Report[]
   settings     UserSetting[]
+  claudeMemories ClaudeMemory[]
+  claudeSessions ClaudeSession[]
+  claudeMessages ClaudeMessage[]
+  claudePreferences ClaudePreference[]
 
   @@map("users")
 }
@@ -196,4 +200,95 @@ model SystemConfig {
   updatedAt   DateTime @updatedAt
 
   @@map("system_configs")
+}
+
+// Claude记忆配置表
+model ClaudeMemory {
+  id           String   @id @default(uuid())
+  userId       String
+  sessionId    String?
+  memoryType   String   // conversation, preference, context, task, personal
+  key          String   // 记忆标识符
+  title        String?  // 记忆标题
+  content      String   // 记忆内容 (JSON格式)
+  summary      String?  // 记忆摘要
+  tags         String?  // 标签 (JSON数组)
+  priority     Int      @default(1) // 优先级 1-5
+  confidence   Float    @default(1.0) // 可信度 0.0-1.0
+  accessCount  Int      @default(0) // 访问次数
+  lastAccessed DateTime?
+  isActive     Boolean  @default(true)
+  expiresAt    DateTime?
+  metadata     String?  // 元数据 (JSON格式)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  // 关联关系
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, key])
+  @@index([userId, memoryType])
+  @@index([userId, sessionId])
+  @@map("claude_memories")
+}
+
+// Claude对话会话表
+model ClaudeSession {
+  id          String   @id @default(uuid())
+  userId      String
+  title       String?
+  context     String?  // 会话上下文 (JSON格式)
+  summary     String?  // 会话摘要
+  messageCount Int     @default(0)
+  isActive    Boolean  @default(true)
+  lastMessageAt DateTime?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // 关联关系
+  user     User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  messages ClaudeMessage[]
+
+  @@index([userId, isActive])
+  @@map("claude_sessions")
+}
+
+// Claude对话消息表
+model ClaudeMessage {
+  id        String   @id @default(uuid())
+  sessionId String
+  userId    String
+  role      String   // user, assistant, system
+  content   String   // 消息内容
+  tokens    Int?     // 令牌数量
+  model     String?  // 使用的模型
+  metadata  String?  // 元数据 (JSON格式)
+  createdAt DateTime @default(now())
+
+  // 关联关系
+  session ClaudeSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  user    User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([sessionId, createdAt])
+  @@index([userId, createdAt])
+  @@map("claude_messages")
+}
+
+// Claude用户偏好设置表
+model ClaudePreference {
+  id            String   @id @default(uuid())
+  userId        String
+  category      String   // model, behavior, output, interaction
+  key           String   // 偏好键
+  value         String   // 偏好值 (JSON格式)
+  description   String?  // 描述
+  isSystemLevel Boolean  @default(false)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  // 关联关系
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, category, key])
+  @@map("claude_preferences")
 } 

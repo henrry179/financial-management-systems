@@ -262,4 +262,14 @@ export const reportApi = {
     ApiService.post(`/reports/${encodeURIComponent(id)}/export`, { format }),
 };
 
-export default ApiService; 
+export default ApiService;
+
+// 导出api对象以兼容现有代码
+export const api = {
+  ...authApi,
+  ...userApi,
+  ...accountApi,
+  ...transactionApi,
+  ...budgetApi,
+  ...reportApi,
+}; 

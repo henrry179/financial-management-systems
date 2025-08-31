@@ -5,9 +5,26 @@ import { accountService } from '../services/accountService';
 import { Decimal } from '@prisma/client/runtime/library';
 
 export class AccountController {
+  private getAuthenticatedUserId(req: AuthRequest, res: Response): string | null {
+    const userId = req.user?.id;
+    if (!userId) {
+      res.status(401).json({
+        success: false,
+        error: {
+          code: 'UNAUTHORIZED',
+          message: 'User not authenticated',
+        },
+      });
+      return null;
+    }
+    return userId;
+  }
+
   async getAccounts(req: AuthRequest, res: Response) {
     try {
-      const userId = req.user?.id;
+      const userId = this.getAuthenticatedUserId(req, res);
+      if (!userId) return;
+      
       const { baseCurrency = 'CNY' } = req.query;
       
       // 获取账户列表及实时余额汇总（支持多币种）
@@ -24,7 +41,7 @@ export class AccountController {
         success: false,
         error: {
           code: 'FETCH_ACCOUNTS_ERROR',
-          message: 'Failed to fetch accounts',
+          message: error instanceof Error ? error.message : 'Failed to fetch accounts',
         },
       });
     }
@@ -32,7 +49,8 @@ export class AccountController {
 
   async createAccount(req: AuthRequest, res: Response) {
     try {
-      const userId = req.user?.id;
+      const userId = this.getAuthenticatedUserId(req, res);
+      if (!userId) return;
       const { name, type, balance, currency, description, bankName, accountNumber } = req.body;
 
       // 使用新的货币验证服务创建账户
