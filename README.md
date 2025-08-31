@@ -30,7 +30,7 @@
 
 <br>
 
-🌟 [**立即体验**](https://demo.financial-system.com) • 📖 [**开发文档**](docs/README.md) • 🎯 [**功能演示**](https://demo.financial-system.com/demo) • 🛠️ [**部署指南**](#-部署指南) • 🤝 [**参与贡献**](#-贡献指南) • 🚀 [**公网部署路线图**](docs/DEPLOYMENT_ROADMAP.md)
+🌟 [**本地运行指南**](#-快速开始) • 📖 [**开发文档**](docs/README.md) • 🛠️ [**部署指南**](#-部署指南) • 🤝 [**参与贡献**](#-贡献指南)
 
 </div>
 
@@ -77,6 +77,16 @@ python tools/launchers/quick-launch.py
 - ✅ **创建本地启动器**: `tools/system-scripts/start_local_system.py` - 完全无Docker依赖的本地开发方案
 - ✅ **Docker系统修复器**: `tools/system-scripts/fix_docker_system.py` - 自动诊断和修复Docker问题
 - ✅ **快速启动选择器**: `tools/launchers/quick-launch.py` - 提供多种启动模式选择
+
+### 🔐 **登录说明**
+系统启动后，请使用以下演示账户登录：
+- **邮箱**: `admin@financial.com`  
+- **密码**: `admin123456`
+
+> ⚠️ **注意**: GitHub上的README文档无法提供实时演示，因为：
+> 1. GitHub Pages只支持静态内容，无法运行后端API
+> 2. 登录功能需要前后端同时运行
+> 3. 请按照上述指南在本地运行完整系统
 - ✅ **30秒轻音乐提醒系统**: 集成系统启动音乐、服务就绪提醒、深夜模式支持
 - ✅ **智能环境检测**: 自动检测Node.js、Python、Docker等环境依赖
 - ✅ **跨平台兼容**: 支持macOS、Windows、Linux多操作系统
