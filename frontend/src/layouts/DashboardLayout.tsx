@@ -67,6 +67,11 @@ const DashboardLayout: React.FC = () => {
       label: '报告分析',
     },
     {
+      key: '/notifications',
+      icon: <BellOutlined />,
+      label: '通知提醒',
+    },
+    {
       key: '/settings',
       icon: <SettingOutlined />,
       label: '系统设置',
@@ -155,6 +160,7 @@ const DashboardLayout: React.FC = () => {
               type="text"
               icon={<BellOutlined />}
               style={{ color: 'white' }}
+              onClick={() => navigate('/notifications')}
             />
 
             <Dropdown

@@ -19,6 +19,7 @@ import CategoriesPage from './pages/categories/CategoriesPage';
 import ReportsPage from './pages/reports/ReportsPage';
 import BIAnalyticsPage from './pages/bi-analytics/BIAnalyticsPage';
 import SettingsPage from './pages/settings/SettingsPage';
+import NotificationsPage from './pages/notifications/NotificationsPage';
 
 // Components
 import ProtectedRoute from './components/auth/ProtectedRoute';
@@ -91,6 +92,7 @@ function App() {
           <Route path="categories" element={<CategoriesPage />} />
           <Route path="reports" element={<ReportsPage />} />
           <Route path="bi-analytics" element={<BIAnalyticsPage />} />
+          <Route path="notifications" element={<NotificationsPage />} />
           <Route path="settings" element={<SettingsPage />} />
         </Route>
 
