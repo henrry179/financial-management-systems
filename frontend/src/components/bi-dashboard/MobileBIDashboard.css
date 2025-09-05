@@ -1,0 +1,303 @@
+/* 移动端BI看板样式 */
+
+.mobile-bi-dashboard {
+  padding: 12px;
+  background: #f5f5f5;
+  min-height: 100vh;
+}
+
+/* 加载状态 */
+.mobile-bi-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: #666;
+}
+
+/* 头部操作栏 */
+.mobile-bi-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 8px 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.last-update {
+  font-size: 12px;
+  color: #999;
+}
+
+/* 关键指标区域 */
+.mobile-bi-metrics {
+  margin-bottom: 20px;
+}
+
+.mobile-bi-metrics .ant-typography {
+  margin-bottom: 12px;
+  color: #262626;
+}
+
+.metric-card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.metric-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.metric-content {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.metric-icon {
+  font-size: 24px;
+  margin-right: 12px;
+  opacity: 0.8;
+}
+
+.metric-info {
+  flex: 1;
+}
+
+.metric-title {
+  display: block;
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.metric-value {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* 图表区域 */
+.mobile-bi-charts {
+  margin-bottom: 20px;
+}
+
+.mobile-bi-charts .ant-typography {
+  margin-bottom: 12px;
+  color: #262626;
+}
+
+.chart-card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.chart-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.chart-card .ant-card-head {
+  padding: 12px 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.chart-card .ant-card-head-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.chart-card .ant-card-body {
+  padding: 16px;
+}
+
+/* 图表详情抽屉 */
+.mobile-chart-drawer .ant-drawer-header {
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.mobile-chart-drawer .ant-drawer-body {
+  padding: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 576px) {
+  .mobile-bi-dashboard {
+    padding: 8px;
+  }
+  
+  .metric-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 12px 8px;
+  }
+  
+  .metric-icon {
+    margin-right: 0;
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+  
+  .metric-value {
+    font-size: 14px;
+  }
+  
+  .chart-card .ant-card-body {
+    padding: 12px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .metric-content {
+    padding: 10px;
+  }
+  
+  .metric-icon {
+    font-size: 22px;
+  }
+  
+  .metric-value {
+    font-size: 15px;
+  }
+}
+
+/* 横屏模式优化 */
+@media (orientation: landscape) and (max-height: 500px) {
+  .mobile-bi-dashboard {
+    padding: 8px;
+  }
+  
+  .mobile-bi-metrics {
+    margin-bottom: 12px;
+  }
+  
+  .mobile-bi-charts {
+    margin-bottom: 12px;
+  }
+  
+  .metric-content {
+    padding: 6px;
+  }
+  
+  .metric-icon {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+  
+  .metric-value {
+    font-size: 13px;
+  }
+}
+
+/* 触摸优化 */
+.mobile-touch-button {
+  min-height: 44px;
+  min-width: 44px;
+  touch-action: manipulation;
+}
+
+.mobile-card {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 动画效果 */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.metric-card,
+.chart-card {
+  animation: fadeInUp 0.3s ease-out;
+}
+
+/* 深色模式支持 */
+@media (prefers-color-scheme: dark) {
+  .mobile-bi-dashboard {
+    background: #141414;
+    color: #fff;
+  }
+  
+  .mobile-bi-header {
+    border-bottom-color: #303030;
+  }
+  
+  .last-update {
+    color: #999;
+  }
+  
+  .metric-card,
+  .chart-card {
+    background: #1f1f1f;
+    border-color: #303030;
+  }
+  
+  .chart-card .ant-card-head {
+    border-bottom-color: #303030;
+  }
+  
+  .mobile-chart-drawer .ant-drawer-header {
+    border-bottom-color: #303030;
+  }
+}
+
+/* 高对比度模式 */
+@media (prefers-contrast: high) {
+  .metric-card,
+  .chart-card {
+    border-width: 2px;
+  }
+  
+  .metric-value {
+    font-weight: 700;
+  }
+}
+
+/* 减少动画模式 */
+@media (prefers-reduced-motion: reduce) {
+  .metric-card,
+  .chart-card {
+    transition: none;
+    animation: none;
+  }
+  
+  .metric-card:hover,
+  .chart-card:hover {
+    transform: none;
+  }
+}
+
+/* 打印样式 */
+@media print {
+  .mobile-bi-dashboard {
+    background: white;
+    padding: 0;
+  }
+  
+  .mobile-bi-header,
+  .mobile-touch-button {
+    display: none;
+  }
+  
+  .metric-card,
+  .chart-card {
+    box-shadow: none;
+    border: 1px solid #000;
+    break-inside: avoid;
+  }
+}

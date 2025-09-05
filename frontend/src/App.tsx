@@ -23,6 +23,7 @@ import SettingsPage from './pages/settings/SettingsPage';
 // Components
 import ProtectedRoute from './components/auth/ProtectedRoute';
 import LoadingSpinner from './components/common/LoadingSpinner';
+import { AuthProvider } from './components/auth/AuthProvider';
 
 function App() {
   const { isAuthenticated, isLoading, checkAuth } = useAuthStore();
@@ -69,36 +70,38 @@ function App() {
   }
 
   return (
-    <Routes>
-      {/* Public Routes - Auth */}
-      <Route path="/auth" element={<AuthLayout />}>
-        <Route path="login" element={<LoginPage />} />
-        <Route path="register" element={<RegisterPage />} />
-      </Route>
+    <AuthProvider>
+      <Routes>
+        {/* Public Routes - Auth */}
+        <Route path="/auth" element={<AuthLayout />}>
+          <Route path="login" element={<LoginPage />} />
+          <Route path="register" element={<RegisterPage />} />
+        </Route>
 
-      {/* Protected Routes - Dashboard */}
-      <Route path="/" element={
-        <ProtectedRoute>
-          <DashboardLayout />
-        </ProtectedRoute>
-      }>
-        <Route index element={<DashboardPage />} />
-        <Route path="transactions" element={<TransactionsPage />} />
-        <Route path="accounts" element={<AccountsPage />} />
-        <Route path="budgets" element={<BudgetsPage />} />
-        <Route path="categories" element={<CategoriesPage />} />
-        <Route path="reports" element={<ReportsPage />} />
-        <Route path="bi-analytics" element={<BIAnalyticsPage />} />
-        <Route path="settings" element={<SettingsPage />} />
-      </Route>
+        {/* Protected Routes - Dashboard */}
+        <Route path="/" element={
+          <ProtectedRoute>
+            <DashboardLayout />
+          </ProtectedRoute>
+        }>
+          <Route index element={<DashboardPage />} />
+          <Route path="transactions" element={<TransactionsPage />} />
+          <Route path="accounts" element={<AccountsPage />} />
+          <Route path="budgets" element={<BudgetsPage />} />
+          <Route path="categories" element={<CategoriesPage />} />
+          <Route path="reports" element={<ReportsPage />} />
+          <Route path="bi-analytics" element={<BIAnalyticsPage />} />
+          <Route path="settings" element={<SettingsPage />} />
+        </Route>
 
-      {/* Root redirect */}
-      <Route path="*" element={
-        isAuthenticated ? 
-          <Navigate to="/" replace /> : 
-          <Navigate to="/auth/login" replace />
-      } />
-    </Routes>
+        {/* Root redirect */}
+        <Route path="*" element={
+          isAuthenticated ? 
+            <Navigate to="/" replace /> : 
+            <Navigate to="/auth/login" replace />
+        } />
+      </Routes>
+    </AuthProvider>
   );
 }
 
