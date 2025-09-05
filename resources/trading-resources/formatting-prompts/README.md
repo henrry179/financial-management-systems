@@ -52,4 +52,4 @@ This folder contains prompts and guides for bilingual document formatting.
 
 ---
 
-最后更新 / Last Updated: 2025-01-07 
+最后更新 / Last Updated: 2025-09-05 10:49:44 
