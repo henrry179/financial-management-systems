@@ -3,7 +3,7 @@
 # Docker环境设置脚本 - 彻底解决镜像拉取问题
 # 作者: Financial Management System Team
 # 版本: v1.0
-# 最后更新: 2025-09-05 10:49:44
+# 最后更新: 2025-09-05 11:37:47
 
 set -e
 
