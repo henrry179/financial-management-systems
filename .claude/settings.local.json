@@ -22,7 +22,10 @@
       "Bash(taskkill:*)",
       "Bash(find:*)",
       "Bash(sed:*)",
-      "Bash(npx kill-port:*)"
+      "Bash(npx kill-port:*)",
+      "Bash(auto-start-system.bat)",
+      "Bash(cmd /c:*)",
+      "Bash(start:*)"
     ],
     "deny": [],
     "ask": []
