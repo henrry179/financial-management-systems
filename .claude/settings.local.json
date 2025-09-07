@@ -15,7 +15,8 @@
       "Bash(npm run typecheck)",
       "Bash(npx tsc:*)",
       "Bash(npm run lint)",
-      "Bash(node test-login.js:*)"
+      "Bash(node test-login.js:*)",
+      "Bash(claude model:*)"
     ],
     "deny": [],
     "ask": []

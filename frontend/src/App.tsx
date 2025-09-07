@@ -24,9 +24,17 @@ import SettingsPage from './pages/settings/SettingsPage';
 import ProtectedRoute from './components/auth/ProtectedRoute';
 import LoadingSpinner from './components/common/LoadingSpinner';
 import { AuthProvider } from './components/auth/AuthProvider';
+import StartupScreen from './components/startup/StartupScreen';
 
 function App() {
   const { isAuthenticated, isLoading, checkAuth } = useAuthStore();
+  const {
+    isStarting,
+    progress,
+    status: startupStatus,
+    error: startupError,
+    retryStartup,
+  } = useSystemStartup();
 
   // 防止无限加载的安全机制
   const [maxLoadingReached, setMaxLoadingReached] = React.useState(false);
@@ -35,37 +43,31 @@ function App() {
   useEffect(() => {
     checkAuth();
     
-    // 设置最大加载时间（10秒）
+    // 设置最大加载时间（15秒）
     const loadingTimer = setTimeout(() => {
       console.warn('Maximum loading time reached, forcing app to load');
       setMaxLoadingReached(true);
-    }, 10000);
+    }, 15000);
 
     return () => clearTimeout(loadingTimer);
   }, [checkAuth]);
 
-  // 如果正在加载认证状态且未超时，显示加载器
-  if (isLoading && !maxLoadingReached) {
+  // 如果系统正在启动或认证加载中，显示增强的启动界面
+  if (isStarting || (isLoading && !maxLoadingReached)) {
     return (
-      <div style={{ 
-        display: 'flex', 
-        flexDirection: 'column',
-        justifyContent: 'center', 
-        alignItems: 'center', 
-        height: '100vh',
-        backgroundColor: '#f0f2f5'
-      }}>
-        <LoadingSpinner />
-        <div style={{ 
-          marginTop: 16, 
-          fontSize: 14, 
-          color: '#666',
-          textAlign: 'center'
-        }}>
-          正在启动财务管理系统...<br/>
-          <small>如果长时间无响应，请检查网络连接</small>
-        </div>
-      </div>
+      <StartupScreen
+        progress={progress}
+        status={
+          startupStatus === 'error' ? 'error' : 
+          startupStatus === 'ready' ? 'success' : 'loading'
+        }
+        message={
+          startupError || 
+          (isStarting ? '正在启动财务管理系统...' : '正在检查认证状态...')
+        }
+        onRetry={startupStatus === 'error' ? retryStartup : undefined}
+        theme="light"
+      />
     );
   }
 

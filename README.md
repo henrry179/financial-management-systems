@@ -1181,7 +1181,7 @@ npm run build
 
 ### 9.1 **🔌 RESTful API 接口文档**
 
-**📖 在线文档**: [localhost:8000/docs](http://localhost:8000/docs) | **🔗 Postman集合**: [下载](docs/api/postman_collection.json)
+**📖 在线文档**: [localhost:8000/docs](http://localhost:8000/docs) | **📚 完整API文档**: [查看完整文档](docs/api/COMPREHENSIVE_API_DOCUMENTATION.md) | **🔗 Postman集合**: [下载](docs/api/postman_collection.json)
 
 </div>
 

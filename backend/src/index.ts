@@ -23,6 +23,9 @@ import { logger } from './middleware/logger';
 import { validateAuth } from './middleware/auth';
 import { urlSanitizer, validateRequestPath } from './middleware/urlSanitizer';
 
+// Import startup utilities
+import StartupLogger from './utils/startupLogger';
+
 // Load environment variables
 dotenv.config();
 
@@ -31,6 +34,17 @@ const PORT = process.env.PORT || 8000;
 
 // Initialize Prisma Client
 export const prisma = new PrismaClient();
+
+// Initialize startup logger
+const startupLogger = new StartupLogger(prisma);
+
+// Add startup steps
+startupLogger.addStep('environment', 'Loading environment variables');
+startupLogger.addStep('database_connection', 'Connecting to database');
+startupLogger.addStep('redis_connection', 'Connecting to Redis cache');
+startupLogger.addStep('middleware_setup', 'Setting up middleware');
+startupLogger.addStep('route_registration', 'Registering API routes');
+startupLogger.addStep('server_start', 'Starting HTTP server');
 
 // Rate limiting
 const limiter = rateLimit({
@@ -127,11 +141,62 @@ process.on('SIGINT', async () => {
   process.exit(0);
 });
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
-  console.log(`📖 API documentation: http://localhost:${PORT}${API_PREFIX}/docs`);
-  console.log(`💊 Health check: http://localhost:${PORT}/health`);
+// Start server with enhanced startup logging
+const startServer = async () => {
+  try {
+    startupLogger.startStep('environment');
+    startupLogger.completeStep('environment');
+
+    startupLogger.startStep('database_connection');
+    const dbConnected = await startupLogger.checkDatabaseConnection();
+    if (!dbConnected) {
+      throw new Error('Database connection failed');
+    }
+
+    startupLogger.startStep('redis_connection');
+    await startupLogger.checkRedisConnection();
+
+    startupLogger.startStep('middleware_setup');
+    // Middleware setup is already done above
+    startupLogger.completeStep('middleware_setup');
+
+    startupLogger.startStep('route_registration');
+    // Routes are already registered above
+    startupLogger.completeStep('route_registration');
+
+    startupLogger.startStep('server_start');
+    
+    app.listen(PORT, () => {
+      startupLogger.completeStep('server_start');
+      
+      startupLogger.printSummary();
+      
+      console.log(`\n🎉 SYSTEM STARTUP COMPLETE`);
+      console.log(`🚀 Server running on port ${PORT}`);
+      console.log(`📖 API documentation: http://localhost:${PORT}${API_PREFIX}/docs`);
+      console.log(`💊 Health check: http://localhost:${PORT}/health`);
+      console.log(`📊 Startup status: http://localhost:${PORT}${API_PREFIX}/startup`);
+      console.log('='.repeat(50));
+    });
+
+  } catch (error) {
+    startupLogger.failStep('server_start', `Server startup failed: ${error}`);
+    startupLogger.printSummary();
+    console.error('\n❌ SYSTEM STARTUP FAILED');
+    process.exit(1);
+  }
+};
+
+// Add startup status endpoint
+app.get(`${API_PREFIX}/startup`, (req, res) => {
+  res.json({
+    status: 'success',
+    data: startupLogger.getDetailedStatus(),
+    timestamp: new Date().toISOString(),
+  });
 });
+
+// Start the server
+startServer();
 
 export default app; 
