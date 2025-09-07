@@ -676,12 +676,56 @@ export class AccountController {
 
       if (dryRun) {
         // 仅模拟运行，不实际禁用账户
-        // TODO: 实现模拟运行逻辑
+        // 实现模拟运行逻辑
+        const cutoffDate = new Date();
+        cutoffDate.setDate(cutoffDate.getDate() - inactiveDays);
+
+        // 查找将要被禁用的账户（模拟）
+        const inactiveAccounts = await prisma.account.findMany({
+          where: {
+            userId,
+            isActive: true,
+            updatedAt: {
+              lt: cutoffDate
+            }
+          },
+          include: {
+            fromTransactions: {
+              where: {
+                date: {
+                  gte: cutoffDate
+                }
+              },
+              take: 1
+            },
+            toTransactions: {
+              where: {
+                date: {
+                  gte: cutoffDate
+                }
+              },
+              take: 1
+            }
+          }
+        });
+
+        // 过滤出真正没有交易的账户
+        const accountsToDeactivate = inactiveAccounts.filter(account => 
+          account.fromTransactions.length === 0 && account.toTransactions.length === 0
+        );
+
         return res.json({
           success: true,
           data: {
             dryRun: true,
-            message: 'Dry run completed - no accounts were actually deactivated'
+            inactiveAccountCount: inactiveAccounts.length,
+            accountsToDeactivateCount: accountsToDeactivate.length,
+            accountsToDeactivate: accountsToDeactivate.map(account => ({
+              id: account.id,
+              name: account.name,
+              lastUpdated: account.updatedAt
+            })),
+            message: `Dry run completed - ${accountsToDeactivate.length} accounts would be deactivated`
           },
           message: 'Auto-deactivation dry run completed'
         });
