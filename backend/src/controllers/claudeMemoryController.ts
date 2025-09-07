@@ -1,13 +1,21 @@
-import { Request, Response } from 'express';
+import { Response } from 'express';
+import { AuthRequest } from '../middleware/auth';
 import { ClaudeMemoryService } from '../services/claudeMemoryService';
-import { prisma } from '../index';
+import prisma from '../lib/prisma';
 
-const claudeMemoryService = new ClaudeMemoryService(prisma);
+let claudeMemoryService: ClaudeMemoryService;
 
-export const createMemory = async (req: Request, res: Response) => {
+const getClaudeMemoryService = () => {
+  if (!claudeMemoryService) {
+    claudeMemoryService = new ClaudeMemoryService(prisma);
+  }
+  return claudeMemoryService;
+};
+
+export const createMemory = async (req: AuthRequest, res: Response) => {
   try {
-    const userId = req.userId!;
-    const memory = await claudeMemoryService.createMemory({
+    const userId = req.user!.id;
+    const memory = await getClaudeMemoryService().createMemory({
       userId,
       ...req.body,
     });
@@ -33,12 +41,12 @@ export const createMemory = async (req: Request, res: Response) => {
   }
 };
 
-export const updateMemory = async (req: Request, res: Response) => {
+export const updateMemory = async (req: AuthRequest, res: Response) => {
   try {
-    const userId = req.userId!;
+    const userId = req.user!.id;
     const { key } = req.params;
     
-    const memory = await claudeMemoryService.updateMemory(userId, key, req.body);
+    const memory = await getClaudeMemoryService().updateMemory(userId, key, req.body);
 
     res.json({
       success: true,
@@ -61,12 +69,12 @@ export const updateMemory = async (req: Request, res: Response) => {
   }
 };
 
-export const getMemory = async (req: Request, res: Response) => {
+export const getMemory = async (req: AuthRequest, res: Response) => {
   try {
-    const userId = req.userId!;
+    const userId = req.user!.id;
     const { key } = req.params;
     
-    const memory = await claudeMemoryService.getMemory(userId, key);
+    const memory = await getClaudeMemoryService().getMemory(userId, key);
 
     if (!memory) {
       return res.status(404).json({
@@ -88,12 +96,12 @@ export const getMemory = async (req: Request, res: Response) => {
   }
 };
 
-export const deleteMemory = async (req: Request, res: Response) => {
+export const deleteMemory = async (req: AuthRequest, res: Response) => {
   try {
-    const userId = req.userId!;
+    const userId = req.user!.id;
     const { key } = req.params;
     
-    await claudeMemoryService.deleteMemory(userId, key);
+    await getClaudeMemoryService().deleteMemory(userId, key);
 
     res.json({
       success: true,
@@ -115,9 +123,9 @@ export const deleteMemory = async (req: Request, res: Response) => {
   }
 };
 
-export const searchMemories = async (req: Request, res: Response) => {
+export const searchMemories = async (req: AuthRequest, res: Response) => {
   try {
-    const userId = req.userId!;
+    const userId = req.user!.id;
     const options = {
       userId,
       ...req.query,
@@ -129,7 +137,7 @@ export const searchMemories = async (req: Request, res: Response) => {
       tags: req.query.tags ? (req.query.tags as string).split(',') : undefined,
     };
 
-    const memories = await claudeMemoryService.searchMemories(options);
+    const memories = await getClaudeMemoryService().searchMemories(options);
 
     res.json({
       success: true,
@@ -149,12 +157,12 @@ export const searchMemories = async (req: Request, res: Response) => {
   }
 };
 
-export const getRecentMemories = async (req: Request, res: Response) => {
+export const getRecentMemories = async (req: AuthRequest, res: Response) => {
   try {
-    const userId = req.userId!;
+    const userId = req.user!.id;
     const limit = req.query.limit ? parseInt(req.query.limit as string) : 10;
     
-    const memories = await claudeMemoryService.getRecentMemories(userId, limit);
+    const memories = await getClaudeMemoryService().getRecentMemories(userId, limit);
 
     res.json({
       success: true,
@@ -169,12 +177,12 @@ export const getRecentMemories = async (req: Request, res: Response) => {
   }
 };
 
-export const getImportantMemories = async (req: Request, res: Response) => {
+export const getImportantMemories = async (req: AuthRequest, res: Response) => {
   try {
-    const userId = req.userId!;
+    const userId = req.user!.id;
     const minPriority = req.query.minPriority ? parseInt(req.query.minPriority as string) : 3;
     
-    const memories = await claudeMemoryService.getImportantMemories(userId, minPriority);
+    const memories = await getClaudeMemoryService().getImportantMemories(userId, minPriority);
 
     res.json({
       success: true,
@@ -189,12 +197,12 @@ export const getImportantMemories = async (req: Request, res: Response) => {
   }
 };
 
-export const createSession = async (req: Request, res: Response) => {
+export const createSession = async (req: AuthRequest, res: Response) => {
   try {
-    const userId = req.userId!;
+    const userId = req.user!.id;
     const { title, context } = req.body;
     
-    const session = await claudeMemoryService.createSession(userId, title, context);
+    const session = await getClaudeMemoryService().createSession(userId, title, context);
 
     res.status(201).json({
       success: true,
@@ -214,7 +222,7 @@ export const updateSession = async (req: Request, res: Response) => {
   try {
     const { sessionId } = req.params;
     
-    const session = await claudeMemoryService.updateSession(sessionId, req.body);
+    const session = await getClaudeMemoryService().updateSession(sessionId, req.body);
 
     res.json({
       success: true,
@@ -241,7 +249,7 @@ export const getSession = async (req: Request, res: Response) => {
   try {
     const { sessionId } = req.params;
     
-    const session = await claudeMemoryService.getSession(sessionId);
+    const session = await getClaudeMemoryService().getSession(sessionId);
 
     if (!session) {
       return res.status(404).json({
@@ -269,7 +277,7 @@ export const addMessage = async (req: Request, res: Response) => {
     const { sessionId } = req.params;
     const { role, content, metadata } = req.body;
     
-    const message = await claudeMemoryService.addMessage(sessionId, userId, role, content, metadata);
+    const message = await getClaudeMemoryService().addMessage(sessionId, userId, role, content, metadata);
 
     res.status(201).json({
       success: true,
@@ -285,13 +293,13 @@ export const addMessage = async (req: Request, res: Response) => {
   }
 };
 
-export const setPreference = async (req: Request, res: Response) => {
+export const setPreference = async (req: AuthRequest, res: Response) => {
   try {
-    const userId = req.userId!;
+    const userId = req.user!.id;
     const { category, key } = req.params;
     const { value, description } = req.body;
     
-    const preference = await claudeMemoryService.setPreference(userId, category, key, value, description);
+    const preference = await getClaudeMemoryService().setPreference(userId, category, key, value, description);
 
     res.json({
       success: true,
@@ -307,12 +315,12 @@ export const setPreference = async (req: Request, res: Response) => {
   }
 };
 
-export const getPreference = async (req: Request, res: Response) => {
+export const getPreference = async (req: AuthRequest, res: Response) => {
   try {
-    const userId = req.userId!;
+    const userId = req.user!.id;
     const { category, key } = req.params;
     
-    const preference = await claudeMemoryService.getPreference(userId, category, key);
+    const preference = await getClaudeMemoryService().getPreference(userId, category, key);
 
     if (!preference) {
       return res.status(404).json({
@@ -334,12 +342,12 @@ export const getPreference = async (req: Request, res: Response) => {
   }
 };
 
-export const getUserPreferences = async (req: Request, res: Response) => {
+export const getUserPreferences = async (req: AuthRequest, res: Response) => {
   try {
-    const userId = req.userId!;
+    const userId = req.user!.id;
     const { category } = req.query;
     
-    const preferences = await claudeMemoryService.getUserPreferences(userId, category as string);
+    const preferences = await getClaudeMemoryService().getUserPreferences(userId, category as string);
 
     res.json({
       success: true,
@@ -354,11 +362,11 @@ export const getUserPreferences = async (req: Request, res: Response) => {
   }
 };
 
-export const getMemoryStats = async (req: Request, res: Response) => {
+export const getMemoryStats = async (req: AuthRequest, res: Response) => {
   try {
-    const userId = req.userId!;
+    const userId = req.user!.id;
     
-    const stats = await claudeMemoryService.getMemoryStats(userId);
+    const stats = await getClaudeMemoryService().getMemoryStats(userId);
 
     res.json({
       success: true,
@@ -375,7 +383,7 @@ export const getMemoryStats = async (req: Request, res: Response) => {
 
 export const cleanupExpiredMemories = async (req: Request, res: Response) => {
   try {
-    const count = await claudeMemoryService.cleanupExpiredMemories();
+    const count = await getClaudeMemoryService().cleanupExpiredMemories();
 
     res.json({
       success: true,

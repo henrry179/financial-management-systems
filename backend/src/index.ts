@@ -25,6 +25,7 @@ import { urlSanitizer, validateRequestPath } from './middleware/urlSanitizer';
 
 // Import startup utilities
 import StartupLogger from './utils/startupLogger';
+import prisma from './lib/prisma';
 
 // Load environment variables
 dotenv.config();
@@ -32,19 +33,10 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 8000;
 
-// Initialize Prisma Client
-export const prisma = new PrismaClient();
+// Initialize startup logger (pass null initially, will be set later)
+let startupLogger: StartupLogger;
 
-// Initialize startup logger
-const startupLogger = new StartupLogger(prisma);
-
-// Add startup steps
-startupLogger.addStep('environment', 'Loading environment variables');
-startupLogger.addStep('database_connection', 'Connecting to database');
-startupLogger.addStep('redis_connection', 'Connecting to Redis cache');
-startupLogger.addStep('middleware_setup', 'Setting up middleware');
-startupLogger.addStep('route_registration', 'Registering API routes');
-startupLogger.addStep('server_start', 'Starting HTTP server');
+// Add startup steps (will be added after startupLogger initialization)
 
 // Rate limiting
 const limiter = rateLimit({
@@ -144,6 +136,17 @@ process.on('SIGINT', async () => {
 // Start server with enhanced startup logging
 const startServer = async () => {
   try {
+    // Initialize startup logger
+    startupLogger = new StartupLogger(prisma);
+    
+    // Add startup steps
+    startupLogger.addStep('environment', 'Loading environment variables');
+    startupLogger.addStep('database_connection', 'Connecting to database');
+    startupLogger.addStep('redis_connection', 'Connecting to Redis cache');
+    startupLogger.addStep('middleware_setup', 'Setting up middleware');
+    startupLogger.addStep('route_registration', 'Registering API routes');
+    startupLogger.addStep('server_start', 'Starting HTTP server');
+    
     startupLogger.startStep('environment');
     startupLogger.completeStep('environment');
 

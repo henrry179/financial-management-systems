@@ -81,29 +81,29 @@ class StartupLogger {
     completed: number;
     failed: number;
     progress: number;
-    uptime: number;
+    uptimeMs: number;
   } {
     const total = this.steps.length;
     const completed = this.steps.filter(s => s.status === 'completed').length;
     const failed = this.steps.filter(s => s.status === 'failed').length;
     const progress = total > 0 ? Math.round((completed / total) * 100) : 0;
-    const uptime = Date.now() - this.startTime.getTime();
+    const uptimeMs = Date.now() - this.startTime.getTime();
 
     return {
       total,
       completed,
       failed,
       progress,
-      uptime,
+      uptimeMs,
     };
   }
 
   getDetailedStatus() {
+    const status = this.getStatus();
     return {
       startTime: this.startTime,
-      uptime: Date.now() - this.startTime.getTime(),
       steps: this.steps,
-      ...this.getStatus(),
+      ...status,
     };
   }
 
@@ -114,7 +114,7 @@ class StartupLogger {
 
   printSummary(): void {
     const status = this.getStatus();
-    const uptimeSeconds = Math.floor(status.uptime / 1000);
+    const uptimeSeconds = Math.floor(status.uptimeMs / 1000);
     
     this.log('='.repeat(50));
     this.log('🚀 SYSTEM STARTUP SUMMARY');

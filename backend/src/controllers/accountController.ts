@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { prisma } from '../index';
+import prisma from '../lib/prisma';
 import { AuthRequest } from '../middleware/auth';
 import { accountService } from '../services/accountService';
 import { Decimal } from '@prisma/client/runtime/library';

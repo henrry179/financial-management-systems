@@ -16,7 +16,12 @@
       "Bash(npx tsc:*)",
       "Bash(npm run lint)",
       "Bash(node test-login.js:*)",
-      "Bash(claude model:*)"
+      "Bash(claude model:*)",
+      "Bash(tasklist:*)",
+      "Bash(killbash:*)",
+      "Bash(taskkill:*)",
+      "Bash(find:*)",
+      "Bash(sed:*)"
     ],
     "deny": [],
     "ask": []

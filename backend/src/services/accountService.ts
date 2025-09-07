@@ -1,4 +1,4 @@
-import { prisma } from '../index';
+import prisma from '../lib/prisma';
 import { Decimal } from '@prisma/client/runtime/library';
 import { currencyService } from './currencyService';
 
