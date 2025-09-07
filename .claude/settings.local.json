@@ -25,7 +25,10 @@
       "Bash(npx kill-port:*)",
       "Bash(auto-start-system.bat)",
       "Bash(cmd /c:*)",
-      "Bash(start:*)"
+      "Bash(start:*)",
+      "Read(//c/Users/Lenovo/.claude/**)",
+      "Bash(cat:*)",
+      "Read(//d/tmp/**)"
     ],
     "deny": [],
     "ask": []
