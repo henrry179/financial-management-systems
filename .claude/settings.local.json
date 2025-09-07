@@ -21,7 +21,8 @@
       "Bash(killbash:*)",
       "Bash(taskkill:*)",
       "Bash(find:*)",
-      "Bash(sed:*)"
+      "Bash(sed:*)",
+      "Bash(npx kill-port:*)"
     ],
     "deny": [],
     "ask": []

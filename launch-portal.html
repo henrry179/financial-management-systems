@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 智能财务管理系统 - 启动门户</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .portal-container {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .title {
+            font-size: 2em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .status-panel {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .status-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .status-item:last-child {
+            border-bottom: none;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .status-online {
+            background: #28a745;
+        }
+
+        .status-offline {
+            background: #dc3545;
+        }
+
+        .launch-buttons {
+            display: grid;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .launch-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: white;
+        }
+
+        .launch-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-frontend {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+        }
+
+        .btn-backend {
+            background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+        }
+
+        .btn-docs {
+            background: linear-gradient(135deg, #45b7d1 0%, #96c93d 100%);
+        }
+
+        .btn-auto {
+            background: linear-gradient(135deg, #a166ab 0%, #5073b8 100%);
+        }
+
+        .demo-info {
+            background: #e7f5ff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .demo-title {
+            font-weight: bold;
+            color: #0056b3;
+            margin-bottom: 10px;
+        }
+
+        .demo-account {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .copy-btn {
+            background: #0056b3;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+
+        .copy-btn:hover {
+            background: #003d82;
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="portal-container">
+        <div class="logo">💰</div>
+        <h1 class="title">智能财务管理系统</h1>
+        <p class="subtitle">一站式财务管理和数据分析解决方案</p>
+
+        <div class="status-panel">
+            <h3>系统状态监控</h3>
+            <div class="status-item">
+                <span>
+                    <span class="status-indicator status-online"></span>
+                    后端服务器
+                </span>
+                <span class="status-online">🟢 在线</span>
+            </div>
+            <div class="status-item">
+                <span>
+                    <span class="status-indicator status-online"></span>
+                    前端界面
+                </span>
+                <span class="status-online">🟢 在线</span>
+            </div>
+            <div class="status-item">
+                <span>
+                    <span class="status-indicator status-online"></span>
+                    数据库服务
+                </span>
+                <span class="status-online">🟢 在线</span>
+            </div>
+        </div>
+
+        <div class="launch-buttons">
+            <a href="http://localhost:3001" class="launch-btn btn-frontend" target="_blank">
+                🎨 打开前端界面 (端口 3001)
+            </a>
+            
+            <a href="http://localhost:8000" class="launch-btn btn-backend" target="_blank">
+                ⚡ 打开后端API (端口 8000)
+            </a>
+            
+            <a href="http://localhost:8000/api/v1/docs" class="launch-btn btn-docs" target="_blank">
+                📖 查看API文档
+            </a>
+            
+            <button class="launch-btn btn-auto" onclick="autoLogin()">
+                🔐 自动登录演示账户
+            </button>
+        </div>
+
+        <div class="demo-info">
+            <div class="demo-title">演示账户信息</div>
+            <div class="demo-account">
+                <span>📧 邮箱:</span>
+                <span>
+                    <code id="demo-email">admin@financial.com</code>
+                    <button class="copy-btn" onclick="copyText('demo-email')">复制</button>
+                </span>
+            </div>
+            <div class="demo-account">
+                <span>🔑 密码:</span>
+                <span>
+                    <code id="demo-password">admin123456</code>
+                    <button class="copy-btn" onclick="copyText('demo-password')">复制</button>
+                </span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>💡 提示: 所有服务已自动启动，点击上方按钮即可访问</p>
+            <p>🔄 最后更新: 2025-09-07 13:26:37</p>
+        </div>
+    </div>
+
+    <script>
+        // 自动登录功能
+        function autoLogin() {
+            // 打开前端界面
+            window.open('http://localhost:3001', '_blank');
+            
+            // 显示提示信息
+            alert('🚀 正在打开前端界面...\n\n📧 邮箱: admin@financial.com\n🔑 密码: admin123456\n\n请使用演示账户登录系统');
+        }
+
+        // 复制文本功能
+        function copyText(elementId) {
+            const element = document.getElementById(elementId);
+            const text = element.textContent;
+            
+            navigator.clipboard.writeText(text).then(() => {
+                alert('✅ 已复制到剪贴板: ' + text);
+            }).catch(err => {
+                console.error('复制失败:', err);
+                alert('❌ 复制失败，请手动复制');
+            });
+        }
+
+        // 页面加载时检查服务状态
+        window.addEventListener('load', function() {
+            console.log('🚀 智能财务管理系统启动门户已加载');
+            console.log('🔗 前端: http://localhost:3001');
+            console.log('🔗 后端: http://localhost:8000');
+            console.log('📖 文档: http://localhost:8000/api/v1/docs');
+        });
+    </script>
+</body>
+</html>

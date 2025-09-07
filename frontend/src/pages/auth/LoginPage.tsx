@@ -40,6 +40,15 @@ const LoginPage: React.FC = () => {
     }
   };
 
+  // 自动填充演示账户
+  const fillDemoAccount = () => {
+    form.setFieldsValue({
+      email: 'admin@financial.com',
+      password: 'admin123456',
+      remember: true
+    });
+  };
+
   return (
     <>
       {error && (
@@ -110,6 +119,18 @@ const LoginPage: React.FC = () => {
             size="large"
           >
             登录
+          </Button>
+        </Form.Item>
+
+        <Form.Item>
+          <Button
+            type="dashed"
+            onClick={fillDemoAccount}
+            block
+            size="large"
+            style={{ marginTop: 8 }}
+          >
+            🚀 快速使用演示账户
           </Button>
         </Form.Item>
       </Form>
